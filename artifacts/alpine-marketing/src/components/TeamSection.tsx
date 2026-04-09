@@ -1,21 +1,78 @@
 import { motion } from "framer-motion";
-import teamPhotoPath from "../../../../attached_assets/Screenshot_2026-03-23_at_01.32.28_1775773255892.png";
+import romanPic from "@assets/roman-pic_1775775400184.png";
+import alexSkylarPic from "@assets/alex-sklyar-pic_1775775400184.png";
+import zhenyaPic from "@assets/zhenya-pic_1775775400184.png";
+import katyaPic from "@assets/katya-pic_1775775400184.png";
+import alexHalaPic from "@assets/alex-hala-pic_1775775400184.png";
+import illyaPic from "@assets/illya-pic_1775775400184.png";
+
+const members = [
+  {
+    name: "Roman Siladii",
+    role: "Founder",
+    specialty: "CRM Funnels & Automation Strategy",
+    photo: romanPic,
+  },
+  {
+    name: "Alex Skylar",
+    role: "Performance Marketing",
+    specialty: "Google & Meta Ads",
+    photo: alexSkylarPic,
+  },
+  {
+    name: "Eugen Kokayko",
+    role: "Engineering",
+    specialty: "Web Development & Automation",
+    photo: zhenyaPic,
+  },
+  {
+    name: "Kate Dudnik",
+    role: "Content",
+    specialty: "SEO & Conversion Copywriting",
+    photo: katyaPic,
+  },
+  {
+    name: "Alex Haladzhi",
+    role: "Creative",
+    specialty: "Photo & Video Production",
+    photo: alexHalaPic,
+  },
+  {
+    name: "Illya Mikulin",
+    role: "Motion",
+    specialty: "Video Editing & Motion Design",
+    photo: illyaPic,
+  },
+];
+
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 24 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.55, ease: "easeOut" },
+  },
+};
 
 export default function TeamSection() {
-  const members = [
-    { name: "Roman Siladii", role: "Founder · CRM Funnels & Automation Strategy" },
-    { name: "Alex Skylar", role: "Performance Marketing · Google & Meta Ads" },
-    { name: "Eugen Kokayko", role: "Web Development & Automation Engineering" },
-    { name: "Kate Dudnik", role: "SEO & Conversion Copywriting" },
-    { name: "Alex Haladzhi", role: "Photo & Video Production" },
-    { name: "Illya Mikulin", role: "Video Editing & Motion Design" },
-  ];
-
   return (
-    <section id="team" className="py-24 bg-[#0A0A0F] border-t border-white/5 relative">
-      <div className="container mx-auto px-4 md:px-6">
+    <section id="team" className="py-24 bg-[#0A0A0F] border-t border-white/5 relative overflow-hidden">
+      {/* Background glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
+
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
+        {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -23,7 +80,7 @@ export default function TeamSection() {
           >
             The Team
           </motion.span>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -32,7 +89,7 @@ export default function TeamSection() {
           >
             Operators, Not Theorists.
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -43,34 +100,47 @@ export default function TeamSection() {
           </motion.p>
         </div>
 
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          className="mb-16 rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
+        {/* Team grid */}
+        <motion.div
+          className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
         >
-          <img 
-            src={teamPhotoPath} 
-            alt="Alpine Marketing Team" 
-            className="w-full object-cover"
-          />
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-12 max-w-5xl mx-auto">
-          {members.map((member, i) => (
-            <motion.div 
+          {members.map((member) => (
+            <motion.div
               key={member.name}
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="flex flex-col"
+              variants={cardVariants}
+              className="group relative flex flex-col items-center text-center p-6 rounded-2xl bg-card border border-white/8 hover:border-primary/30 transition-colors duration-300"
+              data-testid={`card-team-${member.name.replace(/\s+/g, "-").toLowerCase()}`}
             >
-              <h4 className="text-lg font-bold text-white mb-1">{member.name}</h4>
-              <p className="text-sm text-muted-foreground">{member.role}</p>
+              {/* Hover glow */}
+              <div className="absolute inset-0 rounded-2xl bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+              {/* Photo */}
+              <div className="relative mb-4">
+                <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-white/10 group-hover:ring-primary/40 transition-all duration-300 shadow-lg">
+                  <img
+                    src={member.photo}
+                    alt={member.name}
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
+                {/* Role badge */}
+                <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase bg-primary/20 text-primary border border-primary/30 rounded-full whitespace-nowrap">
+                  {member.role}
+                </span>
+              </div>
+
+              {/* Info */}
+              <div className="mt-4">
+                <h4 className="text-base font-bold text-white mb-1">{member.name}</h4>
+                <p className="text-xs text-muted-foreground leading-relaxed">{member.specialty}</p>
+              </div>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
