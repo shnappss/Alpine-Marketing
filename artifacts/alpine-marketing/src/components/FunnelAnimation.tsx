@@ -1,44 +1,37 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const BRAND_BLUE  = "#3d80cc";
-const BRAND_GREEN = "#00c18c";
-const BRAND_RED   = "#e83235";
-const MUTED       = "#6b7280";
+/* ─── Brand tokens ─────────────────────────────────── */
+const RED    = "#e84040";
+const BLUE   = "#3d80cc";
+const GREEN  = "#00c18c";
+const MUTED  = "rgba(255,255,255,0.32)";
+const FONT   = "Inter, Plus Jakarta Sans, sans-serif";
 
-const HOLES = [
-  { yFrac: 0.22, label: "Slow Reply",      side: "left"  as const },
-  { yFrac: 0.40, label: "No Nurture",      side: "right" as const },
-  { yFrac: 0.57, label: "No Reactivation", side: "left"  as const },
-  { yFrac: 0.73, label: "No Tracking",     side: "right" as const },
-];
+/* ─── SVG geometry ─────────────────────────────────── */
+const W     = 260;
+const H     = 360;
+const CX    = W / 2;
+const TOP_W = 180;
+const BOT_W = 44;
+const F_TOP = 28;
+const F_BOT = H - 70;
 
-type Phase = "before" | "transitioning" | "after";
-
-type Dot = {
-  id: number;
-  startX: number;
-  phase: Phase;
-  holeIndex: number | null;
-};
-
-const W        = 280;
-const H        = 400;
-const TOP_W    = 200;
-const BOT_W    = 50;
-const F_TOP    = 30;
-const F_BOT    = H - 55;
-const CX       = W / 2;
-
-function lerp(a: number, b: number, t: number) { return a + (b - a) * t; }
-
-function edgeX(yFrac: number) {
-  const halfW = lerp(TOP_W / 2, BOT_W / 2, yFrac);
-  return { left: CX - halfW, right: CX + halfW };
+function lerpX(yFrac: number) {
+  const half = TOP_W / 2 + (BOT_W / 2 - TOP_W / 2) * yFrac;
+  return { left: CX - half, right: CX + half };
 }
-
 function dotY(yFrac: number) { return F_TOP + yFrac * (F_BOT - F_TOP); }
 
+/* ─── Leak points ──────────────────────────────────── */
+const HOLES: { yFrac: number; label: string; fix: string; side: "left" | "right" }[] = [
+  { yFrac: 0.18, label: "Slow Reply",     fix: "AI Instant Reply",   side: "left"  },
+  { yFrac: 0.38, label: "No Nurture",     fix: "Smart Sequences",    side: "right" },
+  { yFrac: 0.58, label: "No Follow-up",   fix: "Auto Re-engagement", side: "left"  },
+  { yFrac: 0.76, label: "No Attribution", fix: "Full Tracking",      side: "right" },
+];
+
+/* ─── Funnel path ──────────────────────────────────── */
 const funnelPath = [
   `M ${CX - TOP_W / 2} ${F_TOP}`,
   `L ${CX + TOP_W / 2} ${F_TOP}`,
@@ -47,169 +40,180 @@ const funnelPath = [
   "Z",
 ].join(" ");
 
-let _id = 0;
-function newId() { return ++_id; }
+/* ─── Revenue simulation ───────────────────────────── */
+const REV_STEP = 340; // CHF added per dot that converts
+
+type Phase = "before" | "transition" | "after";
+type Dot   = { id: number; startX: number; holeIdx: number | null };
+
+let _uid = 0;
+const uid = () => ++_uid;
+const sleep = (ms: number) => new Promise<void>(r => setTimeout(r, ms));
 
 export default function FunnelAnimation() {
-  const [phase, setPhase] = useState<Phase>("before");
-  const [dots, setDots] = useState<Dot[]>([]);
-  const [leaked, setLeaked] = useState(0);
-  const [captured, setCaptured] = useState(0);
+  const [phase,    setPhase]    = useState<Phase>("before");
+  const [dots,     setDots]     = useState<Dot[]>([]);
+  const [lost,     setLost]     = useState(0);
+  const [revenue,  setRevenue]  = useState(0);
   const phaseRef = useRef<Phase>("before");
 
-  /* Dot spawner */
+  /* ── Dot spawner ─── */
   useEffect(() => {
     const id = setInterval(() => {
       const p = phaseRef.current;
-      if (p === "transitioning") return;
-
-      setDots(prev => {
-        const holeIndex =
-          p === "before" ? Math.floor(Math.random() * HOLES.length) : null;
-        const dot: Dot = {
-          id: newId(),
-          startX: CX + (Math.random() - 0.5) * TOP_W * 0.7,
-          phase: p,
-          holeIndex,
-        };
-        return [...prev.slice(-20), dot];
-      });
-
-      if (p === "before") setLeaked(n => n + 1);
-      if (p === "after")  setCaptured(n => n + 1);
-    }, 700);
+      if (p === "transition") return;
+      const holeIdx = p === "before" ? Math.floor(Math.random() * HOLES.length) : null;
+      setDots(prev => [
+        ...prev.slice(-18),
+        { id: uid(), startX: CX + (Math.random() - 0.5) * TOP_W * 0.65, holeIdx },
+      ]);
+      if (p === "before") setLost(n => n + 1);
+      if (p === "after")  setRevenue(n => n + REV_STEP);
+    }, 650);
     return () => clearInterval(id);
   }, []);
 
-  /* Phase sequencer: before(7s) → transitioning(1.8s) → after(7s) → loop */
+  /* ── Phase sequencer ─── */
   useEffect(() => {
-    let mounted = true;
-    async function run() {
-      while (mounted) {
-        phaseRef.current = "before";
-        setPhase("before");
-        setLeaked(0);
-        await sleep(7000);
-        if (!mounted) break;
+    let alive = true;
+    (async () => {
+      while (alive) {
+        phaseRef.current = "before";  setPhase("before");  setLost(0);
+        await sleep(7500);
 
-        phaseRef.current = "transitioning";
-        setPhase("transitioning");
-        setDots([]);
-        await sleep(1800);
-        if (!mounted) break;
+        phaseRef.current = "transition"; setPhase("transition"); setDots([]);
+        await sleep(2000);
 
-        phaseRef.current = "after";
-        setPhase("after");
-        setCaptured(0);
-        await sleep(7000);
-        if (!mounted) break;
+        phaseRef.current = "after"; setPhase("after"); setRevenue(0);
+        await sleep(8000);
       }
-    }
-    run();
-    return () => { mounted = false; };
+    })();
+    return () => { alive = false; };
   }, []);
 
-  const isBefore       = phase === "before";
-  const isTransition   = phase === "transitioning";
-  const isAfter        = phase === "after";
+  const isBefore = phase === "before";
+  const isAfter  = phase === "after";
+
+  /* ── Funnels fill/stroke color ─── */
+  const fillCol   = isBefore ? RED  : GREEN;
+  const strokeCol = isBefore ? RED  : BLUE;
 
   return (
-    <div className="relative w-full h-full flex flex-col items-center justify-center select-none gap-1">
-      {/* Phase label */}
-      <AnimatePresence mode="wait">
-        {isBefore && (
-          <motion.div
-            key="label-before"
-            initial={{ opacity: 0, y: -6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
-            transition={{ duration: 0.4 }}
-            className="text-center mb-1"
-          >
-            <span className="text-[10px] font-bold tracking-[0.18em] uppercase"
-                  style={{ color: BRAND_RED }}>
-              BEFORE
-            </span>
-            <p className="text-[9px] text-white/40 mt-0.5">Your funnel today</p>
-          </motion.div>
-        )}
-        {isTransition && (
-          <motion.div
-            key="label-trans"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="text-center mb-1"
-          >
-            <span className="text-[10px] font-bold tracking-[0.18em] uppercase"
-                  style={{ color: BRAND_BLUE }}>
-              PLUGGING THE LEAKS…
-            </span>
-          </motion.div>
-        )}
-        {isAfter && (
-          <motion.div
-            key="label-after"
-            initial={{ opacity: 0, y: -6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
-            transition={{ duration: 0.4 }}
-            className="text-center mb-1"
-          >
-            <span className="text-[10px] font-bold tracking-[0.18em] uppercase"
-                  style={{ color: BRAND_GREEN }}>
-              AFTER — WITH ALPINE
-            </span>
-            <p className="text-[9px] text-white/40 mt-0.5">Every lead tracked &amp; nurtured</p>
-          </motion.div>
-        )}
-      </AnimatePresence>
+    <div className="relative w-full h-full flex flex-col items-center justify-start select-none pt-2 gap-0">
 
-      {/* SVG */}
+      {/* ─── Phase badge ─── */}
+      <div className="h-10 flex items-center justify-center w-full mb-0.5">
+        <AnimatePresence mode="wait">
+          {isBefore && (
+            <motion.div key="b"
+              initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -4 }} transition={{ duration: 0.3 }}
+              className="text-center">
+              <span className="block text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: RED }}>
+                WITHOUT ALPINE
+              </span>
+              <span className="block text-[9px] mt-0.5" style={{ color: "rgba(255,255,255,0.3)" }}>
+                Leads enter — most disappear
+              </span>
+            </motion.div>
+          )}
+          {phase === "transition" && (
+            <motion.div key="t"
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }} transition={{ duration: 0.3 }}
+              className="text-center">
+              <span className="block text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: BLUE }}>
+                ALPINE IS PLUGGING THE LEAKS…
+              </span>
+            </motion.div>
+          )}
+          {isAfter && (
+            <motion.div key="a"
+              initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -4 }} transition={{ duration: 0.3 }}
+              className="text-center">
+              <span className="block text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: GREEN }}>
+                WITH ALPINE MARKETING
+              </span>
+              <span className="block text-[9px] mt-0.5" style={{ color: "rgba(255,255,255,0.3)" }}>
+                Every lead flows to revenue
+              </span>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── SVG funnel ─── */}
       <svg
         viewBox={`0 0 ${W} ${H}`}
-        width="100%"
-        height="100%"
+        width="100%" height="100%"
         className="overflow-visible"
-        style={{ maxWidth: 280, maxHeight: 380 }}
+        style={{ maxWidth: 260, flex: "1 1 auto", maxHeight: 320 }}
       >
         <defs>
-          <linearGradient id="fGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%"   stopColor={isBefore ? BRAND_RED  : BRAND_BLUE}  stopOpacity="0.2" />
-            <stop offset="100%" stopColor={isBefore ? BRAND_RED  : BRAND_GREEN} stopOpacity="0.06" />
+          {/* Funnel fill gradient */}
+          <linearGradient id="fFill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%"   stopColor={fillCol}   stopOpacity="0.18" />
+            <stop offset="100%" stopColor={fillCol}   stopOpacity="0.06" />
           </linearGradient>
-          <linearGradient id="strokeGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%"   stopColor={isBefore ? BRAND_RED  : BRAND_BLUE}  stopOpacity="0.5" />
-            <stop offset="100%" stopColor={isBefore ? BRAND_GREEN : BRAND_GREEN} stopOpacity="0.4" />
-          </linearGradient>
-          <filter id="glow">
-            <feGaussianBlur stdDeviation="2" result="blur" />
+          {/* Glow filter */}
+          <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="2.5" result="blur" />
             <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
           </filter>
+          {/* Green strong glow */}
+          <filter id="greenGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          {/* Clip path for funnel */}
+          <clipPath id="funnelClip">
+            <path d={funnelPath} />
+          </clipPath>
         </defs>
 
         {/* Funnel body */}
         <motion.path
           d={funnelPath}
-          fill="url(#fGrad)"
-          stroke="url(#strokeGrad)"
+          fill="url(#fFill)"
+          animate={{ opacity: phase === "transition" ? 0.4 : 1 }}
+          transition={{ duration: 0.5 }}
+        />
+        {/* Funnel left edge */}
+        <motion.line
+          x1={CX - TOP_W / 2} y1={F_TOP} x2={CX - BOT_W / 2} y2={F_BOT}
           strokeWidth="1.5"
-          animate={{ opacity: isTransition ? 0.4 : 1 }}
+          animate={{ stroke: strokeCol, opacity: phase === "transition" ? 0.3 : 0.6 }}
+          transition={{ duration: 0.5 }}
+        />
+        {/* Funnel right edge */}
+        <motion.line
+          x1={CX + TOP_W / 2} y1={F_TOP} x2={CX + BOT_W / 2} y2={F_BOT}
+          strokeWidth="1.5"
+          animate={{ stroke: strokeCol, opacity: phase === "transition" ? 0.3 : 0.6 }}
+          transition={{ duration: 0.5 }}
+        />
+        {/* Funnel top bar */}
+        <motion.line
+          x1={CX - TOP_W / 2} y1={F_TOP} x2={CX + TOP_W / 2} y2={F_TOP}
+          strokeWidth="1.5"
+          animate={{ stroke: strokeCol, opacity: phase === "transition" ? 0.3 : 0.6 }}
+          transition={{ duration: 0.5 }}
         />
 
-        {/* "LEADS IN" label */}
-        <text x={CX} y={F_TOP - 12} fill={MUTED} fontSize="9"
-              textAnchor="middle" fontFamily="DM Sans, sans-serif">
+        {/* LEADS IN label */}
+        <text x={CX} y={F_TOP - 11} fill={MUTED} fontSize="8.5"
+              textAnchor="middle" fontFamily={FONT} letterSpacing="1.5">
           LEADS IN
         </text>
 
-        {/* Hole markers (before) or plugs (after) */}
+        {/* ─── Hole labels / plug labels ─── */}
         {HOLES.map((hole, i) => {
-          const edges = edgeX(hole.yFrac);
-          const px    = hole.side === "left" ? edges.left : edges.right;
-          const py    = dotY(hole.yFrac);
-          const labelX = hole.side === "left" ? px - 8 : px + 8;
-          const anchor  = hole.side === "left" ? "end" : "start";
+          const { left, right } = lerpX(hole.yFrac);
+          const px = hole.side === "left" ? left : right;
+          const py = dotY(hole.yFrac);
+          const lx = hole.side === "left" ? px - 10 : px + 10;
+          const anchor = hole.side === "left" ? "end" : "start";
 
           return (
             <g key={i}>
@@ -218,33 +222,33 @@ export default function FunnelAnimation() {
                   /* Leaking hole */
                   <motion.g key={`hole-${i}`}
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: isTransition ? 0 : 1 }}
-                    exit={{ opacity: 0 }}
-                  >
-                    <motion.circle cx={px} cy={py} r={5} fill={BRAND_RED}
-                      filter="url(#glow)"
-                      animate={{ opacity: [0.5, 1, 0.5], scale: [0.9, 1.1, 0.9] }}
-                      transition={{ duration: 1.4, repeat: Infinity }}
+                    animate={{ opacity: phase === "transition" ? 0 : 1 }}
+                    exit={{ opacity: 0 }}>
+                    <motion.circle cx={px} cy={py} r={5} fill={RED} filter="url(#glow)"
+                      style={{ transformOrigin: `${px}px ${py}px` }}
+                      animate={{ opacity: [0.6, 1, 0.6], scale: [0.9, 1.2, 0.9] }}
+                      transition={{ duration: 1.2, repeat: Infinity }}
                     />
-                    <text x={labelX} y={py + 4} fill={BRAND_RED} fontSize="8.5"
-                          textAnchor={anchor} fontFamily="DM Sans, sans-serif" fontWeight="600">
+                    <text x={lx} y={py + 3.5} fill={RED} fontSize="8" fontWeight="600"
+                          textAnchor={anchor} fontFamily={FONT} opacity="0.85">
                       {hole.label}
                     </text>
                   </motion.g>
                 ) : (
-                  /* Sealed plug */
+                  /* Sealed plug + fix label */
                   <motion.g key={`plug-${i}`}
                     initial={{ scale: 0, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     exit={{ scale: 0, opacity: 0 }}
-                    transition={{ duration: 0.4, delay: i * 0.12 }}
-                    style={{ transformOrigin: `${px}px ${py}px` }}
-                  >
-                    <circle cx={px} cy={py} r={6} fill={BRAND_GREEN}
-                            filter="url(#glow)" opacity={0.9} />
-                    <text x={labelX} y={py + 4} fill={BRAND_GREEN} fontSize="8.5"
-                          textAnchor={anchor} fontFamily="DM Sans, sans-serif" fontWeight="600">
-                      ✓ Fixed
+                    transition={{ duration: 0.35, delay: i * 0.1 }}
+                    style={{ transformOrigin: `${px}px ${py}px` }}>
+                    <circle cx={px} cy={py} r={5.5} fill={GREEN} filter="url(#glow)" opacity={0.9} />
+                    {/* Checkmark */}
+                    <text x={px} y={py + 3.5} fill="white" fontSize="6.5"
+                          textAnchor="middle" fontFamily={FONT}>✓</text>
+                    <text x={lx} y={py + 3.5} fill={GREEN} fontSize="8" fontWeight="600"
+                          textAnchor={anchor} fontFamily={FONT} opacity="0.9">
+                      {hole.fix}
                     </text>
                   </motion.g>
                 )}
@@ -253,50 +257,31 @@ export default function FunnelAnimation() {
           );
         })}
 
-        {/* Animated dots */}
+        {/* ─── Dots ─── */}
         <AnimatePresence>
           {dots.map(dot => {
-            const leaksAt = dot.holeIndex !== null ? HOLES[dot.holeIndex] : null;
-            const leakYFrac = leaksAt ? leaksAt.yFrac : null;
-            const leakSide  = leaksAt ? leaksAt.side  : null;
-
-            if (leakYFrac !== null && leakSide !== null) {
-              /* Leaking dot: travels to hole then exits sideways */
-              const edges = edgeX(leakYFrac);
-              const holeX = leakSide === "left" ? edges.left : edges.right;
-              const holeY = dotY(leakYFrac);
-              const exitX = leakSide === "left" ? holeX - 55 : holeX + 55;
-
+            if (dot.holeIdx !== null) {
+              /* Leaking dot */
+              const hole = HOLES[dot.holeIdx];
+              const { left, right } = lerpX(hole.yFrac);
+              const hx = hole.side === "left" ? left : right;
+              const hy = dotY(hole.yFrac);
+              const ex = hole.side === "left" ? hx - 60 : hx + 60;
               return (
-                <motion.circle
-                  key={dot.id}
-                  r={3.5}
-                  fill={BRAND_RED}
-                  filter="url(#glow)"
+                <motion.circle key={dot.id} r={3.5} fill={RED} filter="url(#glow)"
                   initial={{ cx: dot.startX, cy: F_TOP, opacity: 0 }}
-                  animate={{
-                    cx: [dot.startX, holeX, exitX],
-                    cy: [F_TOP, holeY, holeY + 15],
-                    opacity: [0, 1, 1, 0],
-                  }}
-                  transition={{ duration: 2.8, ease: "easeIn", times: [0, 0.45, 1] }}
+                  animate={{ cx: [dot.startX, hx, ex], cy: [F_TOP, hy, hy + 18], opacity: [0, 1, 1, 0] }}
+                  transition={{ duration: 2.6, ease: "easeIn", times: [0, 0.42, 1] }}
                   exit={{ opacity: 0 }}
                 />
               );
             } else {
-              /* Flowing dot: exits at bottom */
+              /* Converting dot flows to bottom */
               return (
-                <motion.circle
-                  key={dot.id}
-                  r={3.5}
-                  fill={BRAND_GREEN}
-                  filter="url(#glow)"
+                <motion.circle key={dot.id} r={3.5} fill={GREEN} filter="url(#greenGlow)"
                   initial={{ cx: dot.startX, cy: F_TOP, opacity: 0 }}
-                  animate={{
-                    cy: [F_TOP, F_BOT + 28],
-                    opacity: [0, 1, 1, 1],
-                  }}
-                  transition={{ duration: 3.2, ease: "easeIn" }}
+                  animate={{ cy: [F_TOP, F_BOT + 20], opacity: [0, 1, 1, 0.6] }}
+                  transition={{ duration: 3.0, ease: "easeIn" }}
                   exit={{ opacity: 0 }}
                 />
               );
@@ -304,58 +289,115 @@ export default function FunnelAnimation() {
           })}
         </AnimatePresence>
 
-        {/* Bottom label */}
+        {/* ─── Bottom output label ─── */}
         <motion.text
-          x={CX} y={F_BOT + 18}
-          fontSize="9" textAnchor="middle"
-          fontFamily="DM Sans, sans-serif" fontWeight="600"
-          animate={{ fill: isAfter ? BRAND_GREEN : MUTED }}
+          x={CX} y={F_BOT + 16} fontSize="8.5" textAnchor="middle"
+          fontFamily={FONT} fontWeight="700" letterSpacing="1.5"
+          animate={{ fill: isAfter ? GREEN : "rgba(255,255,255,0.2)" }}
+          transition={{ duration: 0.5 }}
         >
-          {isAfter ? "REVENUE OUT" : "LOST"}
+          {isAfter ? "REVENUE" : "LOST"}
         </motion.text>
+
+        {/* ─── Bottom revenue bar (after phase) ─── */}
+        <AnimatePresence>
+          {isAfter && (
+            <motion.g key="rev-bar"
+              initial={{ opacity: 0, scaleY: 0 }}
+              animate={{ opacity: 1, scaleY: 1 }}
+              exit={{ opacity: 0 }}
+              style={{ transformOrigin: `${CX}px ${F_BOT + 24}px` }}>
+              {/* glow beam flowing out bottom */}
+              <motion.rect
+                x={CX - 18} y={F_BOT + 1} width={36} height={20} rx={4}
+                fill={GREEN} opacity={0.12}
+                animate={{ opacity: [0.08, 0.18, 0.08] }}
+                transition={{ duration: 1.4, repeat: Infinity }}
+              />
+            </motion.g>
+          )}
+        </AnimatePresence>
       </svg>
 
-      {/* Counter strip */}
-      <AnimatePresence mode="wait">
-        {isBefore && (
-          <motion.div
-            key="counter-before"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="flex gap-6 text-center mt-1"
-          >
-            <div>
-              <div className="text-lg font-extrabold" style={{ color: BRAND_RED }}>{leaked}</div>
-              <div className="text-[9px] text-white/40 uppercase tracking-wider">Leads Lost</div>
-            </div>
-            <div>
-              <div className="text-lg font-extrabold text-white/30">—</div>
-              <div className="text-[9px] text-white/20 uppercase tracking-wider">Revenue</div>
-            </div>
-          </motion.div>
-        )}
-        {isAfter && (
-          <motion.div
-            key="counter-after"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="flex gap-6 text-center mt-1"
-          >
-            <div>
-              <div className="text-lg font-extrabold text-white/30">0</div>
-              <div className="text-[9px] text-white/40 uppercase tracking-wider">Leads Lost</div>
-            </div>
-            <div>
-              <div className="text-lg font-extrabold" style={{ color: BRAND_GREEN }}>{captured}</div>
-              <div className="text-[9px] text-white/40 uppercase tracking-wider">Captured</div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* ─── Bottom KPI strip ─── */}
+      <div className="w-full flex-shrink-0 px-4 pb-2">
+        <AnimatePresence mode="wait">
+
+          {/* BEFORE strip */}
+          {isBefore && (
+            <motion.div key="kpi-before"
+              initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 6 }} transition={{ duration: 0.35 }}
+              className="flex items-stretch gap-2">
+              <div className="flex-1 rounded-xl border py-2.5 px-3 text-center"
+                   style={{ borderColor: "rgba(232,64,64,0.25)", background: "rgba(232,64,64,0.07)" }}>
+                <div className="text-xl font-extrabold tabular-nums" style={{ color: RED }}>
+                  {lost}
+                </div>
+                <div className="text-[9px] uppercase tracking-wider mt-0.5" style={{ color: "rgba(255,255,255,0.35)" }}>
+                  Leads Lost
+                </div>
+              </div>
+              <div className="flex-1 rounded-xl border py-2.5 px-3 text-center"
+                   style={{ borderColor: "rgba(255,255,255,0.06)", background: "rgba(255,255,255,0.03)" }}>
+                <div className="text-xl font-extrabold" style={{ color: "rgba(255,255,255,0.18)" }}>
+                  CHF 0
+                </div>
+                <div className="text-[9px] uppercase tracking-wider mt-0.5" style={{ color: "rgba(255,255,255,0.2)" }}>
+                  Revenue
+                </div>
+              </div>
+            </motion.div>
+          )}
+
+          {/* TRANSITION strip */}
+          {phase === "transition" && (
+            <motion.div key="kpi-trans"
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }} transition={{ duration: 0.3 }}
+              className="flex items-center justify-center gap-2 py-3">
+              {[0, 1, 2].map(i => (
+                <motion.div key={i} className="w-1.5 h-1.5 rounded-full"
+                  style={{ background: BLUE }}
+                  animate={{ opacity: [0.3, 1, 0.3], scale: [0.8, 1.2, 0.8] }}
+                  transition={{ duration: 0.9, repeat: Infinity, delay: i * 0.25 }}
+                />
+              ))}
+            </motion.div>
+          )}
+
+          {/* AFTER strip */}
+          {isAfter && (
+            <motion.div key="kpi-after"
+              initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 6 }} transition={{ duration: 0.35 }}
+              className="flex items-stretch gap-2">
+              <div className="flex-1 rounded-xl border py-2.5 px-3 text-center"
+                   style={{ borderColor: "rgba(255,255,255,0.06)", background: "rgba(255,255,255,0.03)" }}>
+                <div className="text-xl font-extrabold" style={{ color: "rgba(255,255,255,0.22)" }}>
+                  0
+                </div>
+                <div className="text-[9px] uppercase tracking-wider mt-0.5" style={{ color: "rgba(255,255,255,0.3)" }}>
+                  Leads Lost
+                </div>
+              </div>
+              <div className="flex-1 rounded-xl border py-2.5 px-3 text-center"
+                   style={{ borderColor: "rgba(0,193,140,0.3)", background: "rgba(0,193,140,0.08)" }}>
+                <motion.div
+                  className="text-xl font-extrabold tabular-nums"
+                  style={{ color: GREEN }}
+                >
+                  CHF {revenue.toLocaleString("de-CH")}
+                </motion.div>
+                <div className="text-[9px] uppercase tracking-wider mt-0.5" style={{ color: "rgba(0,193,140,0.6)" }}>
+                  Revenue
+                </div>
+              </div>
+            </motion.div>
+          )}
+
+        </AnimatePresence>
+      </div>
     </div>
   );
 }
-
-function sleep(ms: number) { return new Promise(r => setTimeout(r, ms)); }
