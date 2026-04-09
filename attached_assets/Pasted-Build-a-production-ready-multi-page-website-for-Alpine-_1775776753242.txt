@@ -1,0 +1,645 @@
+Build a production-ready, multi-page website for Alpine Marketing, a Swiss-based digital marketing agency focused on performance marketing, CRM automation, lead management, reporting, and full-funnel client acquisition systems for SMBs and service businesses.
+
+IMPORTANT CONTEXT
+This website must be built for cross-border use in:
+1. European Union / EEA markets
+2. Switzerland
+3. United States
+
+This is NOT an ecommerce store. It is a lead-generation and authority website for a B2B/B2SMB digital marketing agency.
+However, the site must still be built with strong privacy, cookie, disclosure, accessibility, and contact-information architecture so it is safe, credible, and ready for legal review.
+
+CRITICAL GOAL
+The site should feel premium, sharp, trustworthy, and commercially intelligent.
+It must sell business outcomes first:
+- lower CAC
+- better lead handling
+- stronger funnel conversion
+- cleaner attribution
+- clearer reporting
+- better CRM operations
+- more booked calls / appointments / clients
+
+It must NOT feel like:
+- a generic “growth agency”
+- a crypto-bro AI landing page
+- a template with random trust badges
+- a website that forgot legal pages until the night before launch
+
+BRAND POSITIONING
+Alpine Marketing helps businesses fix the entire client-acquisition system:
+- paid traffic
+- landing pages
+- CRM setup
+- lead routing
+- speed-to-lead
+- nurture
+- reactivation
+- reporting
+- automation
+
+The message is:
+We do not just generate leads.
+We fix the leaking bucket.
+
+TONE
+- direct
+- premium
+- practical
+- sharp
+- slightly sarcastic, but not clownish
+- business-first
+- plain English
+- no corporate sludge
+- no fake hype
+- no “10x overnight”
+- no unsubstantiated guarantees
+
+VISUAL STYLE
+- dark premium design
+- Swiss-inspired layout discipline
+- high contrast
+- spacious
+- elegant typography
+- subtle motion
+- clean icons and custom diagrams
+- dashboard-style visuals
+- premium funnel / systems visuals
+- no cheesy robots
+- no handshake stock photos
+- no generic smiling support people
+
+TECH STACK
+- React + Tailwind
+- reusable components
+- route-based multi-page site
+- SEO-ready
+- responsive
+- accessible
+- editable content stored in structured config files
+- all legal text sections editable from one content/config area
+- forms built with validation and success/error states
+- use semantic HTML and accessible components
+
+SITE ARCHITECTURE
+Create the following routes and page logic:
+
+PUBLIC MARKETING PAGES
+- /
+- /services
+- /services/performance-marketing
+- /services/crm-automation
+- /services/reporting-analytics
+- /services/content-funnels
+- /industries
+- /industries/dental-clinics
+- /industries/local-service-businesses
+- /case-studies
+- /about
+- /contact
+- /book-audit
+
+LEGAL / COMPLIANCE PAGES
+- /legal
+- /legal/privacy
+- /legal/cookies
+- /legal/terms
+- /legal/disclaimer
+- /legal/accessibility
+- /legal/privacy-choices
+- /legal/data-requests
+- /legal/security-data-processing
+- /legal/legal-notice
+
+UTILITY PAGES
+- /404
+- /thank-you
+- /privacy-settings-modal (component/modal, not necessarily standalone public route)
+
+GLOBAL NAVIGATION RULES
+Header nav:
+- Home
+- Services
+- Industries
+- Case Studies
+- About
+- Contact
+- Book Audit
+
+Footer nav:
+- Privacy Notice
+- Cookie Notice
+- Terms
+- Disclaimer
+- Accessibility
+- Privacy Choices
+- Data Requests
+- Security & Data Processing
+- Legal Notice
+- Contact
+- Social placeholders
+
+Persistent footer utility link:
+- “Privacy Choices”
+
+HEADER / FOOTER LEGAL RULES
+- Every page must include footer access to all legal pages.
+- The footer must include company identity placeholders:
+  legal company name
+  trading name
+  business address
+  email
+  phone
+  company registration number placeholder
+  VAT number placeholder
+  jurisdiction placeholder
+- Add a “Last updated” field on every legal page.
+- Add a reusable legal-page template component.
+
+REGIONAL COMPLIANCE LOGIC
+Create a configurable compliance system with 3 modes:
+1. EU_EEA_MODE
+2. SWISS_MODE
+3. US_MODE
+
+The site should support region-based behavior via configuration.
+Do not hardcode one law only.
+Use a conservative default if region cannot be detected.
+
+REGION DETECTION LOGIC
+- Use server-side country detection if available from hosting headers or deployment environment.
+- If region cannot be reliably detected, default to stricter privacy behavior.
+- Do not load marketing/analytics scripts before consent in strict mode.
+- All scripts must be managed through a consent layer.
+
+COOKIE / TRACKING LOGIC
+Build a consent management UI with:
+- Accept all
+- Reject non-essential
+- Customize settings
+
+Cookie categories:
+- Strictly necessary
+- Preferences
+- Analytics
+- Marketing
+
+Rules:
+- Essential cookies can load by default.
+- Non-essential scripts must be blocked until consent in strict mode.
+- The user must be able to reopen settings anytime through “Privacy Choices” in the footer.
+- Store consent preferences with timestamp and region mode.
+- Build consent-aware wrappers for analytics pixels/scripts.
+
+For safety, configure the site so EU and Switzerland both behave in strict mode by default.
+US mode should still support opt-out and privacy controls, and should be easy to switch to stricter behavior if desired.
+
+IMPORTANT:
+Do NOT include an obsolete EU ODR platform link.
+Do NOT auto-load Meta Pixel, Google Analytics, LinkedIn Insight Tag, Hotjar, or any similar scripts before consent in strict mode.
+
+FORMS AND CONSENT LOGIC
+Forms to create:
+- contact form
+- book audit form
+- case study inquiry form (optional reusable pattern)
+
+Form fields:
+- name
+- email
+- company
+- website
+- service interest
+- message
+- optional phone
+- optional country/market
+
+Form compliance rules:
+- minimize required fields
+- never use pre-checked consent boxes
+- separate privacy acknowledgment from marketing consent
+- if SMS/call marketing consent is offered, make it a separate unchecked checkbox
+- include concise consent text with link to privacy notice
+- support double opt-in-ready messaging for email workflows
+- support storing consent metadata fields:
+  consent version
+  page URL
+  timestamp
+  region mode
+  IP capture toggle placeholder
+  source/UTM placeholders
+- include hidden fields for attribution data where appropriate
+
+Suggested default checkbox structure:
+1. Required:
+   “I have read the Privacy Notice and agree that Alpine Marketing may process my information to respond to my request.”
+2. Optional:
+   “I would like to receive marketing updates, insights, and offers by email.”
+3. Optional separate checkbox if phone/SMS is used:
+   “I agree to receive promotional calls and/or text messages at the number provided.”
+
+If the user does not opt into marketing, the lead submission must still work for service inquiry purposes.
+
+PRIVACY / DATA RIGHTS INFRASTRUCTURE
+Create the following legal/compliance pages with real structure and placeholders:
+
+1. PRIVACY NOTICE
+Must include editable sections for:
+- controller identity and contact details
+- contact for privacy questions
+- DPO / representative placeholders if applicable
+- categories of personal data collected
+- purposes of processing
+- legal bases by purpose
+- recipients / service providers / processors
+- international data transfers
+- DPF / SCC / other transfer mechanism placeholders
+- retention periods or criteria
+- rights by region
+- complaint authority placeholders
+- how to withdraw consent
+- how to object to marketing
+- whether providing data is contractual / necessary / optional
+- automated decision-making statement
+- updates to the notice
+
+2. COOKIE NOTICE
+Must include:
+- what cookies / similar technologies are
+- category descriptions
+- script/vendor table placeholders
+- legal basis / consent explanation by mode
+- how to change settings
+- browser-level controls explanation
+- last updated date
+
+3. TERMS OF USE / TERMS OF SERVICE
+Must include:
+- who the site is for
+- website use terms
+- intellectual property
+- no unlawful use
+- no scraping / misuse clause placeholder
+- informational nature of website content
+- booking / inquiry process language
+- no guaranteed outcomes
+- limitation of liability placeholder
+- third-party links
+- governing law / venue placeholder
+- contact information
+
+4. DISCLAIMER
+Must include:
+- no legal, tax, medical, or financial advice
+- marketing examples are illustrative
+- results depend on multiple factors
+- testimonials and case studies are not promises of future results
+- no earnings guarantees
+- no guaranteed leads, revenue, or ranking positions unless a reviewed contract explicitly says so
+
+5. ACCESSIBILITY STATEMENT
+Must include:
+- commitment to accessibility
+- design target: WCAG-minded implementation
+- known limitations placeholder
+- contact method for accessibility issues
+- response timeframe placeholder
+
+6. PRIVACY CHOICES
+Must include UI and text blocks for:
+- cookie settings
+- marketing opt-out
+- “Do Not Sell or Share My Personal Information” toggle placeholder
+- Global Privacy Control / state privacy placeholder
+- region-specific display blocks
+
+7. DATA REQUESTS PAGE
+Must include a structured request center for:
+- access request
+- deletion request
+- correction request
+- objection request
+- portability request
+- opt-out request
+- sensitive data limitation placeholder
+- identity verification notice
+- response time placeholder
+- confirmation screen
+
+8. SECURITY & DATA PROCESSING PAGE
+Very important for an agency handling CRM and automation.
+Must explain:
+- when Alpine acts as controller vs processor
+- high-level data security practices placeholder
+- subprocessor / vendor categories
+- hosting / analytics / CRM / automation placeholders
+- DPA available on request
+- security contact email placeholder
+- incident reporting placeholder
+
+9. LEGAL NOTICE
+Create a practical legal-notice page with:
+- company name
+- trading name
+- registered address
+- business contact details
+- register details placeholder
+- VAT placeholder
+- authorized representative placeholder
+- content responsibility placeholder
+- copyright notice
+
+US PRIVACY MODULARITY
+Build the legal pages and UI so the following can be turned on or off by config:
+- California notice-at-collection module
+- Do Not Sell / Share link
+- sensitive personal information limitation module
+- data rights request workflow
+- GPC support placeholder
+
+Do NOT assume all US laws apply universally.
+Instead, build configurable privacy modules.
+
+CONTENT COMPLIANCE RULES
+Do not use claims that cannot be substantiated.
+Do not write:
+- guaranteed ROI
+- guaranteed revenue
+- guaranteed lead volume
+- instant growth
+- risk-free scale
+- “we are the best” without proof
+
+If testimonials or case studies are shown:
+- add editable source/approval fields in content config
+- include ability to add disclosure if incentivized or otherwise material
+- add a small “results vary by market, offer, budget, and sales process” note component
+
+If AI is mentioned:
+- do not make magical or unverifiable claims
+- frame AI as an operational tool, not sorcery
+- no fake automation promises
+- no fabricated numbers
+
+COMPETITOR-INSPIRED STRUCTURE TO ADAPT
+Combine these strategic traits:
+- workflow-first clarity
+- strong service pages
+- easy free-audit CTA
+- real proof structure
+- clear FAQ
+- visible terms/privacy/disclaimer pages
+But do it in a more premium, full-funnel, legally mature way.
+
+HOMEPAGE STRUCTURE
+1. HERO
+Eyebrow:
+Performance Marketing + CRM Automation for Service Businesses
+
+Headline:
+Lower CAC. Improve Conversion. Fix the Whole Funnel.
+
+Subheadline:
+Alpine Marketing helps service businesses connect paid acquisition, CRM logic, follow-up, automation, and reporting so more leads become real appointments, real customers, and measurable profit.
+
+CTAs:
+- Book a Free Funnel Audit
+- See How It Works
+
+Supporting microcopy:
+More leads will not save a broken system.
+
+Hero visual:
+A premium funnel/system visual with metric cards, CRM stages, and dashboard fragments.
+
+2. PROBLEM SECTION
+Headline:
+Most agencies optimize a channel. We optimize the system.
+
+Body:
+Show the typical leaks:
+- slow lead response
+- disconnected CRM
+- dead leads with no nurture
+- reporting that says everything except what matters
+- ad spend blamed for sales-process failures
+
+3. METRICS SECTION
+Headline:
+Metrics normal business owners can actually understand.
+
+Cards:
+- CAC
+- LTGP
+- LTGP:CAC
+- speed-to-lead
+- lead-to-appointment rate
+- show-up rate
+- reactivation rate
+
+Use plain English explanations.
+
+4. HOW IT WORKS
+6-step system:
+- attract
+- capture
+- route
+- engage
+- nurture
+- report and improve
+
+5. SERVICES SECTION
+Cards:
+- Performance Marketing
+- CRM + Automation
+- Funnel Strategy
+- Reporting + Analytics
+- Content Funnels
+- Landing Pages
+
+6. COMPLIANCE / TRUST SECTION
+Headline:
+Built to perform. Built to hold up.
+
+Use trust cards for:
+- privacy-aware architecture
+- clear reporting
+- consent-aware lead capture
+- secure operational thinking
+- Swiss-based professionalism
+
+Do NOT invent certifications.
+Only use real badges if verified later.
+
+7. CASE STUDIES PREVIEW
+Create placeholders with editable data structure:
+- client type
+- challenge
+- what changed
+- results
+- date range
+- approval status
+- disclosure note
+
+8. ABOUT SECTION
+Position Alpine as:
+commercially minded, systems-oriented, practical, anti-vanity-metric.
+
+9. FAQ
+Include:
+- Do you only run ads?
+- Can you work with our CRM?
+- Do you help with automation and lead follow-up?
+- What markets do you work in?
+- How do you handle privacy and tracking?
+- What happens in a free funnel audit?
+
+10. FINAL CTA
+Headline:
+Stop paying to fill a broken funnel.
+
+Subheadline:
+Book a free audit and see where your acquisition system leaks, what to fix first, and which numbers actually matter.
+
+SERVICES PAGE LOGIC
+Build a services hub page that links to 4 main detailed pages:
+- performance marketing
+- CRM automation
+- reporting & analytics
+- content funnels
+
+Each service page needs:
+- outcome-driven hero
+- who it is for
+- common problems
+- what is included
+- implementation approach
+- FAQ
+- CTA
+- related services links
+
+INDUSTRY PAGE LOGIC
+Create a general industries page plus 2 example niche pages:
+- dental clinics
+- local service businesses
+
+Each niche page should:
+- speak the niche’s language
+- highlight typical funnel leaks
+- show relevant service stack
+- avoid niche-specific legal promises
+- keep copy practical and sharp
+
+CASE STUDIES PAGE LOGIC
+Must support:
+- filtered case studies by industry / service
+- proof cards
+- results callouts
+- approval status in config
+- option to hide unapproved metrics
+- results disclaimer component
+
+ABOUT PAGE LOGIC
+Must include:
+- agency philosophy
+- why Alpine exists
+- why full-funnel thinking matters
+- team placeholders
+- operating principles
+- CTA
+
+CONTACT PAGE LOGIC
+Must include:
+- primary contact form
+- contact details block
+- response expectation copy
+- privacy note near form
+- map placeholder optional
+- calendar embed placeholder that is consent-aware if needed
+
+BOOK AUDIT PAGE LOGIC
+Must feel higher intent than regular contact.
+Include:
+- short qualifying form
+- who the audit is for
+- what they get
+- what they should prepare
+- privacy acknowledgment
+- post-submit redirect to /thank-you
+
+THANK-YOU PAGE
+Must:
+- confirm submission
+- set expectations
+- optionally offer a helpful resource
+- not auto-subscribe user to marketing
+
+SEO REQUIREMENTS
+Create:
+- title tags
+- meta descriptions
+- OG tags
+- schema placeholders where appropriate
+- indexable marketing pages
+- noindex for request center if needed
+- canonical support
+- clean URL slugs
+
+ACCESSIBILITY REQUIREMENTS
+Build with:
+- visible focus states
+- keyboard navigation
+- semantic landmarks
+- alt text support
+- form labels and error messaging
+- sufficient contrast
+- reduced-motion respect
+- accessible modal behavior for cookie settings
+
+COPY RULES
+- clarity over cleverness
+- premium without fluff
+- outcomes over tool worship
+- no fake scarcity
+- no legal buzzword soup
+- no “we are fully compliant” claims
+- never claim legal compliance as a guarantee
+- use placeholders where lawyer review is required
+
+CONTENT MANAGEMENT
+Store all editable content in structured objects/files:
+- brand copy
+- nav labels
+- service data
+- case study data
+- legal text data
+- contact data
+- regional config
+- consent config
+- vendor list placeholders
+
+ADMIN / FUTURE-READY NOTES
+Build components so I can later:
+- swap copy easily
+- turn regional legal modules on/off
+- add approved case studies
+- connect form submissions to CRM
+- add Meta Pixel / GA only through consent-aware wrappers
+- add multilingual pages later
+
+FINAL DESIGN STANDARD
+The site should feel like:
+“A serious Swiss agency that understands performance marketing, CRM operations, reporting, and cross-border business.”
+
+It must not feel like:
+“A landing page made by someone who discovered AI yesterday.”
+
+Before finishing, audit the build for:
+- missing footer legal links
+- non-consent-gated scripts
+- pre-checked boxes
+- inaccessible forms
+- fake trust claims
+- weak mobile experience
+- vague or legally risky copy
+- outdated ODR references

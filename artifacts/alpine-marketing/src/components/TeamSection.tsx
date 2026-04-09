@@ -119,22 +119,23 @@ export default function TeamSection() {
               <div className="absolute inset-0 rounded-2xl bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
 
               {/* Photo */}
-              <div className="relative mb-4">
-                <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-white/10 group-hover:ring-primary/40 transition-all duration-300 shadow-lg">
+              <div className="mb-3">
+                <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-white/10 group-hover:ring-primary/40 transition-all duration-300 shadow-lg mx-auto">
                   <img
                     src={member.photo}
                     alt={member.name}
                     className="w-full h-full object-cover object-top"
                   />
                 </div>
-                {/* Role badge */}
-                <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase bg-primary/20 text-primary border border-primary/30 rounded-full whitespace-nowrap">
-                  {member.role}
-                </span>
               </div>
 
+              {/* Role badge — clearly below the photo */}
+              <span className="px-2.5 py-0.5 mb-3 text-[10px] font-bold tracking-wider uppercase bg-primary/20 text-primary border border-primary/30 rounded-full whitespace-nowrap">
+                {member.role}
+              </span>
+
               {/* Info */}
-              <div className="mt-4">
+              <div>
                 <h4 className="text-base font-bold text-white mb-1">{member.name}</h4>
                 <p className="text-xs text-muted-foreground leading-relaxed">{member.specialty}</p>
               </div>

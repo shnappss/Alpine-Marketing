@@ -24,7 +24,7 @@ export default function WhyAlpineSection() {
     },
     {
       title: "Proven, Not Promised",
-      desc: "3.4:1 to 4.2:1 LTV/CAC ratios across dental, ICT, and professional services. We show you the dashboard, not a pitch deck.",
+      desc: "3.4:1 to 4.2:1 LTGP/CAC ratios across dental, ICT, and professional services. We show you the dashboard, not a pitch deck.",
     },
   ];
 

@@ -64,7 +64,7 @@ export default function MetricsSection() {
       glow: "group-hover:shadow-[0_0_30px_rgba(0,193,140,0.15)]",
     },
     {
-      title: "LTV/CAC Ratio",
+      title: "LTGP/CAC Ratio",
       value: "3.4–4.2:1", // Static since it's a range, or we could animate parts. Keeping static for clarity.
       desc: "Proven across dental, ICT, and professional services",
       glow: "group-hover:shadow-[0_0_30px_rgba(61,128,204,0.15)]",

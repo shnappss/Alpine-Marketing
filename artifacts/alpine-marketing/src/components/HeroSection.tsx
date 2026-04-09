@@ -69,7 +69,7 @@ export default function HeroSection() {
           >
             <p className="text-sm font-medium text-muted-foreground">
               <span className="text-white">Trusted by 20+ Swiss SMBs</span> ·
-              Average LTV/CAC improvement:{" "}
+              Average LTGP/CAC improvement:{" "}
               <span className="text-secondary">2.1×</span> · Avg. CAC reduction:{" "}
               <span className="text-secondary">32%</span>
             </p>

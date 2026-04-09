@@ -1,14 +1,16 @@
 import Nav from "../components/Nav";
 import HeroSection from "../components/HeroSection";
 import ProblemSection from "../components/ProblemSection";
+import HowItWorksSection from "../components/HowItWorksSection";
 import SolutionSection from "../components/SolutionSection";
 import TechStackSection from "../components/TechStackSection";
 import MetricsSection from "../components/MetricsSection";
 import CaseStudiesSection from "../components/CaseStudiesSection";
+import FAQSection from "../components/FAQSection";
 import ComparisonSection from "../components/ComparisonSection";
 import WhyAlpineSection from "../components/WhyAlpineSection";
 import TeamSection from "../components/TeamSection";
-import ContactSection from "../components/ContactSection";
+import FinalCTASection from "../components/FinalCTASection";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -18,14 +20,16 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <ProblemSection />
+        <HowItWorksSection />
         <SolutionSection />
         <TechStackSection />
         <MetricsSection />
         <CaseStudiesSection />
+        <FAQSection />
         <ComparisonSection />
         <WhyAlpineSection />
         <TeamSection />
-        <ContactSection />
+        <FinalCTASection />
       </main>
       <Footer />
     </div>

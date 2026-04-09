@@ -13,7 +13,7 @@ export default function CaseStudiesSection() {
         "166 Leads",
         "41 Patients (24.7% conversion)",
         "CAC ↓29% (CHF 241 → CHF 171)",
-        "LTV/CAC 3.4:1 (from 1.9:1)"
+        "LTGP/CAC 3.4:1 (from 1.9:1)"
       ],
       insight: "51% from Meta Ads · 49% from AI Reactivation — nearly half the patients came from leads the clinic had already given up on."
     },
@@ -28,7 +28,7 @@ export default function CaseStudiesSection() {
         "67 Sales Meetings (21.5% rate)",
         "Sales Cycle ↓38% (45→28 days)",
         "CAC ↓35% (CHF 580→CHF 377)",
-        "LTV/CAC 4.2:1 (from 2.1:1)",
+        "LTGP/CAC 4.2:1 (from 2.1:1)",
         "CHF 487K revenue impact"
       ],
       insight: "Automated qualification eliminated 80 hours of manual sales follow-up per month, letting reps focus only on ready-to-buy prospects." // Expanded slightly for symmetry
