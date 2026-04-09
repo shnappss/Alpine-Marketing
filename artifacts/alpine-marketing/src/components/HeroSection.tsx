@@ -46,7 +46,7 @@ export default function HeroSection() {
           >
             <a
               href="#contact"
-              className="group flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg font-bold text-lg hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(139,92,246,0.4)] hover:shadow-[0_0_30px_rgba(139,92,246,0.6)]"
+              className="group flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg font-bold text-lg hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(61,128,204,0.4)] hover:shadow-[0_0_30px_rgba(61,128,204,0.6)]"
               data-testid="button-hero-primary"
             >
               Book Your Free Pipeline Audit

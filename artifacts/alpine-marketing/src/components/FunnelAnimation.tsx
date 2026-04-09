@@ -1,11 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+/* Brand colours */
+const BRAND_BLUE  = "#3d80cc";  /* primary — #306aae brightened for dark bg */
+const BRAND_GREEN = "#00c18c";  /* secondary — #009771 brightened */
+const BRAND_RED   = "#e83235";  /* destructive — #dd2225 brightened */
+const MUTED       = "#6b7280";
+
 const HOLES = [
-  { y: 0.25, label: "Slow Reply", side: "left" },
-  { y: 0.42, label: "No Nurture", side: "right" },
+  { y: 0.25, label: "Slow Reply",      side: "left" },
+  { y: 0.42, label: "No Nurture",      side: "right" },
   { y: 0.60, label: "No Reactivation", side: "left" },
-  { y: 0.76, label: "No Tracking", side: "right" },
+  { y: 0.76, label: "No Tracking",     side: "right" },
 ];
 
 type Dot = {
@@ -104,12 +110,12 @@ export default function FunnelAnimation() {
       >
         <defs>
           <linearGradient id="funnelGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#7C3AED" stopOpacity="0.25" />
-            <stop offset="100%" stopColor="#06D6A0" stopOpacity="0.1" />
+            <stop offset="0%" stopColor={BRAND_BLUE}  stopOpacity="0.25" />
+            <stop offset="100%" stopColor={BRAND_GREEN} stopOpacity="0.1" />
           </linearGradient>
           <linearGradient id="glowGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#7C3AED" stopOpacity="0.6" />
-            <stop offset="100%" stopColor="#06D6A0" stopOpacity="0.6" />
+            <stop offset="0%" stopColor={BRAND_BLUE}  stopOpacity="0.6" />
+            <stop offset="100%" stopColor={BRAND_GREEN} stopOpacity="0.6" />
           </linearGradient>
           <filter id="glow">
             <feGaussianBlur stdDeviation="2.5" result="coloredBlur" />
@@ -130,37 +136,34 @@ export default function FunnelAnimation() {
           const point = hole.side === "left" ? le : re;
           return (
             <g key={i}>
-              {/* Hole opening */}
               {!plugged && (
                 <motion.circle
                   cx={point.x}
                   cy={point.y}
                   r={5}
-                  fill="#F59E0B"
+                  fill={BRAND_RED}
                   opacity={0.9}
                   filter="url(#glow)"
                   animate={{ opacity: [0.6, 1, 0.6] }}
                   transition={{ duration: 1.5, repeat: Infinity }}
                 />
               )}
-              {/* Plug animation */}
               {plugged && (
                 <motion.circle
                   cx={point.x}
                   cy={point.y}
                   r={5}
-                  fill="#06D6A0"
+                  fill={BRAND_GREEN}
                   initial={{ scale: 0, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.4, delay: i * 0.15 }}
                   filter="url(#glow)"
                 />
               )}
-              {/* Label */}
               <text
                 x={hole.side === "left" ? point.x - 10 : point.x + 10}
                 y={point.y + 4}
-                fill={plugged ? "#06D6A0" : "#F59E0B"}
+                fill={plugged ? BRAND_GREEN : BRAND_RED}
                 fontSize="9"
                 textAnchor={hole.side === "left" ? "end" : "start"}
                 fontFamily="DM Sans, sans-serif"
@@ -191,7 +194,7 @@ export default function FunnelAnimation() {
                 cx={dotX}
                 cy={startY}
                 r={3.5}
-                fill={dot.leakAt !== null ? "#F59E0B" : "#06D6A0"}
+                fill={dot.leakAt !== null ? BRAND_RED : BRAND_GREEN}
                 filter="url(#glow)"
                 opacity={0.85}
                 initial={{ cy: startY, opacity: 0 }}
@@ -218,11 +221,11 @@ export default function FunnelAnimation() {
           })}
         </AnimatePresence>
 
-        {/* Output labels */}
+        {/* Labels */}
         <text
           x={W / 2}
           y={funnelTop - 12}
-          fill="#8B8BA7"
+          fill={MUTED}
           fontSize="10"
           textAnchor="middle"
           fontFamily="DM Sans, sans-serif"
@@ -232,24 +235,22 @@ export default function FunnelAnimation() {
         <motion.text
           x={W / 2}
           y={funnelBot + 30}
-          fill={plugged ? "#06D6A0" : "#8B8BA7"}
+          fill={plugged ? BRAND_GREEN : MUTED}
           fontSize={plugged ? "11" : "10"}
           textAnchor="middle"
           fontFamily="DM Sans, sans-serif"
           fontWeight={plugged ? "700" : "400"}
-          animate={{ fill: plugged ? "#06D6A0" : "#8B8BA7" }}
+          animate={{ fill: plugged ? BRAND_GREEN : MUTED }}
         >
           {plugged ? "REVENUE OUT" : "LOST"}
         </motion.text>
-
-        {/* Status label */}
         <motion.text
           x={W / 2}
           y={H - 10}
           fontSize="9"
           textAnchor="middle"
           fontFamily="DM Sans, sans-serif"
-          animate={{ fill: plugged ? "#06D6A0" : "#F59E0B" }}
+          animate={{ fill: plugged ? BRAND_GREEN : BRAND_RED }}
         >
           {plugged ? "System Plugged — All Leads Converting" : "4 Holes Leaking Revenue"}
         </motion.text>

@@ -70,7 +70,7 @@ export default function SolutionSection() {
                transition={{ delay: i * 0.15 }}
                className="flex-1 flex flex-col items-center text-center relative z-10 group"
              >
-               <div className="w-24 h-24 rounded-2xl bg-card border border-secondary/30 flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(6,214,160,0.15)] group-hover:shadow-[0_0_25px_rgba(6,214,160,0.3)] transition-all">
+               <div className="w-24 h-24 rounded-2xl bg-card border border-secondary/30 flex items-center justify-center mb-6 shadow-[0_0_15px_rgba(0,193,140,0.15)] group-hover:shadow-[0_0_25px_rgba(0,193,140,0.3)] transition-all">
                  <stage.icon className="w-10 h-10 text-secondary" />
                </div>
                

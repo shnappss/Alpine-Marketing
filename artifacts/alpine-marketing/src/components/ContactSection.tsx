@@ -149,7 +149,7 @@ export default function ContactSection() {
 
               <Button 
                 type="submit" 
-                className="w-full h-14 text-lg font-bold bg-primary hover:bg-primary/90 text-white shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] transition-all"
+                className="w-full h-14 text-lg font-bold bg-primary hover:bg-primary/90 text-white shadow-[0_0_20px_rgba(61,128,204,0.3)] hover:shadow-[0_0_30px_rgba(61,128,204,0.5)] transition-all"
                 data-testid="button-submit-audit"
               >
                 Book Your Free Audit <ArrowRight className="ml-2 w-5 h-5" />

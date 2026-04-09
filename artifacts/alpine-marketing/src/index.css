@@ -1,5 +1,5 @@
-/* MUST be first line */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600&display=swap');
+/* MUST be first line — Google Fonts import before all other CSS */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Barlow+Condensed:wght@600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -24,69 +24,98 @@
 
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
-  
+
   --color-secondary: hsl(var(--secondary));
   --color-secondary-foreground: hsl(var(--secondary-foreground));
-  
+
   --color-muted: hsl(var(--muted));
   --color-muted-foreground: hsl(var(--muted-foreground));
-  
+
   --color-accent: hsl(var(--accent));
   --color-accent-foreground: hsl(var(--accent-foreground));
-  
+
   --color-destructive: hsl(var(--destructive));
   --color-destructive-foreground: hsl(var(--destructive-foreground));
 
+  /* Brand font — Barlow is the closest open-source match to EuropeExtendedC Bold */
   --font-sans: 'DM Sans', sans-serif;
-  --font-display: 'Syne', sans-serif;
-  
+  --font-display: 'Barlow', sans-serif;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+/* ─── Brand Palette (converted from brand book) ──────────────────────────
+   Red   #dd2225  →  H 359  S 73%  L 50%
+   Blue  #306aae  →  H 211  S 57%  L 43%
+   Green #009771  →  H 163  S 100% L 30%
+
+   For dark backgrounds we lighten each slightly so they remain visible
+   and high-contrast against near-black (#0A0A0F).
+   ───────────────────────────────────────────────────────────────────────── */
+
 :root {
-  --background: 240 15% 4%;       /* #0A0A0F */
-  --foreground: 240 20% 95%;      /* near-white */
-  --card: 240 15% 7%;             /* #13131F */
-  --card-foreground: 240 20% 95%;
-  --card-border: 240 15% 14%;
-  --primary: 262 80% 58%;         /* electric violet */
+  /* Background scale */
+  --background:    220 18% 5%;    /* near-black, cooler undertone */
+  --foreground:    210 20% 96%;   /* off-white */
+  --card:          220 18% 8%;    /* slightly lighter surface */
+  --card-foreground: 210 20% 96%;
+  --card-border:   220 18% 15%;
+
+  /* PRIMARY — Brand Blue #306aae, brightened for dark bg */
+  --primary:           211 57% 55%;   /* ≈ #3d80cc */
   --primary-foreground: 0 0% 100%;
-  --secondary: 160 94% 42%;       /* cool mint/teal #06D6A0 */
-  --secondary-foreground: 240 20% 4%;
-  --muted: 240 15% 12%;
-  --muted-foreground: 240 10% 65%; /* #8B8BA7 approx */
-  --accent: 262 80% 58%;
+
+  /* SECONDARY — Brand Green #009771, brightened for dark bg */
+  --secondary:           163 100% 38%;  /* ≈ #00c18c */
+  --secondary-foreground: 220 18% 5%;
+
+  /* MUTED */
+  --muted:            220 18% 13%;
+  --muted-foreground: 220 10% 58%;
+
+  /* ACCENT — same as primary for hover/focus states */
+  --accent:            211 57% 55%;
   --accent-foreground: 0 0% 100%;
-  --destructive: 39 94% 50%;      /* amber #F59E0B */
+
+  /* DESTRUCTIVE — Brand Red #dd2225 */
+  --destructive:           359 73% 54%;  /* ≈ #e83235, slightly brighter */
   --destructive-foreground: 0 0% 100%;
-  --border: 240 15% 14%;
-  --input: 240 15% 14%;
-  --ring: 262 80% 58%;
+
+  /* Utility */
+  --border: 220 18% 15%;
+  --input:  220 18% 15%;
+  --ring:   211 57% 55%;
   --radius: 0.5rem;
+
+  /* Brand raw hex values exposed as custom props for inline SVG/gradients */
+  --brand-red:   #dd2225;
+  --brand-blue:  #306aae;
+  --brand-green: #009771;
 }
 
+/* Dark section overrides — identical values since site is dark-only */
 .dark {
-  --background: 240 15% 4%;
-  --foreground: 240 20% 95%;
-  --card: 240 15% 7%;
-  --card-foreground: 240 20% 95%;
-  --card-border: 240 15% 14%;
-  --primary: 262 80% 58%;
+  --background:    220 18% 5%;
+  --foreground:    210 20% 96%;
+  --card:          220 18% 8%;
+  --card-foreground: 210 20% 96%;
+  --card-border:   220 18% 15%;
+  --primary:           211 57% 55%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 160 94% 42%;
-  --secondary-foreground: 240 20% 4%;
-  --muted: 240 15% 12%;
-  --muted-foreground: 240 10% 65%;
-  --accent: 262 80% 58%;
+  --secondary:           163 100% 38%;
+  --secondary-foreground: 220 18% 5%;
+  --muted:            220 18% 13%;
+  --muted-foreground: 220 10% 58%;
+  --accent:            211 57% 55%;
   --accent-foreground: 0 0% 100%;
-  --destructive: 39 94% 50%;
+  --destructive:           359 73% 54%;
   --destructive-foreground: 0 0% 100%;
-  --border: 240 15% 14%;
-  --input: 240 15% 14%;
-  --ring: 262 80% 58%;
+  --border: 220 18% 15%;
+  --input:  220 18% 15%;
+  --ring:   211 57% 55%;
 }
 
 @layer base {
@@ -97,17 +126,21 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
-  
+
+  /* All headings use the brand display font */
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.01em;
   }
 }
 
+/* Dot-grid background utility */
 .bg-dot-pattern {
-  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
   background-size: 24px 24px;
 }

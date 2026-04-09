@@ -22,7 +22,7 @@ export default function MetricsSection() {
         </>
       ),
       desc: "Average reduction across clients in the first 90 days",
-      glow: "group-hover:shadow-[0_0_30px_rgba(6,214,160,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(0,193,140,0.15)]",
     },
     {
       title: "LTGP Improvement",
@@ -33,7 +33,7 @@ export default function MetricsSection() {
         </>
       ),
       desc: "Average improvement with full-funnel optimization",
-      glow: "group-hover:shadow-[0_0_30px_rgba(6,214,160,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(0,193,140,0.15)]",
     },
     {
       title: "Speed-to-Lead",
@@ -44,13 +44,13 @@ export default function MetricsSection() {
         </>
       ),
       desc: "Average first response time with our AI system active",
-      glow: "group-hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(61,128,204,0.15)]",
     },
     {
       title: "Pipeline Recovery",
       value: <>{recoveryStat}%+</>,
       desc: "Dormant leads reactivated through automated campaigns",
-      glow: "group-hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(61,128,204,0.15)]",
     },
     {
       title: "Sales Cycle",
@@ -61,13 +61,13 @@ export default function MetricsSection() {
         </>
       ),
       desc: "Faster from first touch to closed deal",
-      glow: "group-hover:shadow-[0_0_30px_rgba(6,214,160,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(0,193,140,0.15)]",
     },
     {
       title: "LTV/CAC Ratio",
       value: "3.4–4.2:1", // Static since it's a range, or we could animate parts. Keeping static for clarity.
       desc: "Proven across dental, ICT, and professional services",
-      glow: "group-hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(61,128,204,0.15)]",
     },
   ];
 

@@ -55,7 +55,7 @@ export default function Nav() {
           ))}
           <a
             href="#contact"
-            className="px-5 py-2.5 rounded-md bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 transition-all shadow-[0_0_15px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)] active:scale-95"
+            className="px-5 py-2.5 rounded-md bg-primary text-primary-foreground font-semibold text-sm hover:bg-primary/90 transition-all shadow-[0_0_15px_rgba(61,128,204,0.3)] hover:shadow-[0_0_25px_rgba(61,128,204,0.5)] active:scale-95"
             data-testid="link-cta-nav"
           >
             Get Your Free Audit
