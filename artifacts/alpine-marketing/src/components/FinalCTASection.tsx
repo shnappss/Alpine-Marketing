@@ -66,7 +66,7 @@ export default function FinalCTASection() {
           transition={{ delay: 0.5 }}
           className="text-xs text-muted-foreground mt-8"
         >
-          No obligation. No pitch deck. Results vary by market, offer, budget, and sales process.
+          No obligation. Results vary by market, offer, budget, and sales process.
         </motion.p>
       </div>
     </section>

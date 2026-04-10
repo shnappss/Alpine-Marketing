@@ -160,7 +160,7 @@ export default function ContactSection() {
 
         <div className="text-center mt-8">
           <p className="text-sm text-muted-foreground">
-            No commitment. No pitch deck. Just a 30-minute conversation about your numbers.
+            No commitment. Just a 30-minute conversation about your numbers.
           </p>
         </div>
       </div>

@@ -25,7 +25,7 @@ const FAQS = [
   },
   {
     q: "What happens in a free funnel audit?",
-    a: "We review your current acquisition setup — traffic sources, landing pages, CRM structure, follow-up sequences, reporting. We identify where leads are dropping out and what fixing each leak would be worth in revenue terms. You get a clear picture of the system gaps before we discuss working together. No pitch deck, no vague slides.",
+    a: "We review your current acquisition setup — traffic sources, landing pages, CRM structure, follow-up sequences, reporting. We identify where leads are dropping out and what fixing each leak would be worth in revenue terms. You get a clear picture of the system gaps before we discuss working together.",
   },
 ];
 

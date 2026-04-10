@@ -26,7 +26,6 @@ const WHAT_YOU_GET = [
   "A map of where your current funnel loses leads and revenue",
   "An honest assessment of which gaps are worth fixing first",
   "A sense of what a systematized engine would look like for your business",
-  "No pitch deck. No fabricated projections.",
 ];
 
 export default function BookAuditPage() {
