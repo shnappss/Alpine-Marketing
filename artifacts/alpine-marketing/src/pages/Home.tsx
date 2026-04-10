@@ -23,10 +23,10 @@ export default function Home() {
         <TechStackSection />
         <MetricsSection />
         <CaseStudiesSection />
-        <FAQSection />
         <ComparisonSection />
         <WhyAlpineSection />
         <TeamSection />
+        <FAQSection />
         <FinalCTASection />
       </main>
       <Footer />
