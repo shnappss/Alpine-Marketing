@@ -99,7 +99,7 @@ export default function SolutionSection() {
           <div className="absolute left-0 top-0 bottom-0 w-2 bg-secondary" />
           <h4 className="text-xl font-bold mb-3">Why LTGP, not just LTV?</h4>
           <p className="text-muted-foreground leading-relaxed">
-            LTV counts revenue before your delivery costs. <strong className="text-white font-semibold">Lifetime Gross Profit (LTGP)</strong> is what's left after fulfillment — the true ceiling on a viable CAC. We build campaigns around that number because it's the only one that determines whether growth is actually profitable.
+            LTV is revenue. Revenue isn't profit. <strong className="text-white font-semibold">LTGP (Lifetime Gross Profit)</strong> strips out your delivery costs and shows you the actual margin per customer — which means it's the only number that can tell you whether your ad spend is making you richer or just busier. We build every campaign around that number.
           </p>
         </motion.div>
       </div>
