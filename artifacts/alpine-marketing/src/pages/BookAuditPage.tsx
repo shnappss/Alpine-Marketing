@@ -225,7 +225,7 @@ export default function BookAuditPage() {
 
                   <Button
                     type="submit"
-                    className="w-full h-12 text-base font-bold bg-primary hover:bg-primary/90 text-white shadow-[0_0_20px_rgba(61,128,204,0.3)] transition-all"
+                    className="w-full h-12 text-base font-bold bg-primary hover:bg-primary/90 text-white shadow-[0_0_20px_rgba(8,145,178,0.3)] transition-all"
                     data-testid="button-submit-audit"
                   >
                     Request My Free Audit <ArrowRight className="ml-2 w-4 h-4" />

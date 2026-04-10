@@ -47,9 +47,9 @@ const STEPS = [
 ];
 
 const ACCENT_MAP: Record<string, { text: string; border: string; bg: string; glow: string }> = {
-  blue:    { text: "text-primary",   border: "border-primary/20",   bg: "bg-primary/8",   glow: "rgba(37,99,235,0.18)" },
+  blue:    { text: "text-primary",   border: "border-primary/20",   bg: "bg-primary/8",   glow: "rgba(8,145,178,0.18)" },
   emerald: { text: "text-secondary", border: "border-secondary/20", bg: "bg-secondary/8", glow: "rgba(16,185,129,0.14)" },
-  amber:   { text: "text-amber-400", border: "border-amber-400/20", bg: "bg-amber-400/8", glow: "rgba(245,158,11,0.12)" },
+  amber:   { text: "text-sky-400",   border: "border-sky-400/20",   bg: "bg-sky-400/8",   glow: "rgba(56,189,248,0.12)" },
 };
 
 export default function SystemSection() {

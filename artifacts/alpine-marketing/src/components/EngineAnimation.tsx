@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 /* ─── colour tokens ─────────────────────────────── */
-const VIOLET = "#7c3aed";
-const MINT   = "#06d6a0";
-const AMBER  = "#f59e0b";
+const VIOLET = "#0891b2";
+const MINT   = "#10b981";
+const AMBER  = "#06b6d4";
 const META   = "#1877f2";
 const GOOGLE = "#ea4335";
 const LI     = "#0a66c2";

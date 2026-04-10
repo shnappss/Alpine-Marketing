@@ -89,7 +89,7 @@ export default function Nav() {
             <Link
               href="/book-audit"
               data-testid="link-cta-nav"
-              className="inline-flex items-center gap-2 px-5 py-2.5 text-[13.5px] font-semibold bg-primary text-white rounded-lg hover:bg-primary/90 active:scale-[0.98] transition-all duration-150 shadow-[0_0_18px_rgba(61,128,204,0.35)] hover:shadow-[0_0_28px_rgba(61,128,204,0.55)]"
+              className="inline-flex items-center gap-2 px-5 py-2.5 text-[13.5px] font-semibold bg-primary text-white rounded-lg hover:bg-primary/90 active:scale-[0.98] transition-all duration-150 shadow-[0_0_18px_rgba(8,145,178,0.35)] hover:shadow-[0_0_28px_rgba(8,145,178,0.55)]"
             >
               Book Free Audit
             </Link>

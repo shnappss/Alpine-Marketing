@@ -45,7 +45,7 @@ export default function FinalCTASection() {
         >
           <Link
             href="/book-audit"
-            className="group inline-flex items-center justify-center gap-2 px-10 py-4 bg-primary text-white rounded-lg font-bold text-lg hover:bg-primary/90 transition-all shadow-[0_0_24px_rgba(61,128,204,0.4)] hover:shadow-[0_0_36px_rgba(61,128,204,0.6)]"
+            className="group inline-flex items-center justify-center gap-2 px-10 py-4 bg-primary text-white rounded-lg font-bold text-lg hover:bg-primary/90 transition-all shadow-[0_0_24px_rgba(8,145,178,0.4)] hover:shadow-[0_0_36px_rgba(8,145,178,0.6)]"
             data-testid="button-final-cta"
           >
             Book Your Free Audit

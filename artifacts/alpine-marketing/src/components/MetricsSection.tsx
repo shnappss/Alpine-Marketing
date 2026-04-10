@@ -29,13 +29,13 @@ export default function MetricsSection() {
       title: "Speed-to-Lead",
       value: (<><span className="text-primary text-2xl mr-1">&lt;</span>{speedStat}s</>),
       desc: "Average first response time with our AI system active",
-      glow: "group-hover:shadow-[0_0_30px_rgba(37,99,235,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(8,145,178,0.15)]",
     },
     {
       title: "Pipeline Recovery",
       value: <>{recoveryStat}%+</>,
       desc: "Dormant leads reactivated through automated campaigns",
-      glow: "group-hover:shadow-[0_0_30px_rgba(37,99,235,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(8,145,178,0.15)]",
     },
     {
       title: "Sales Cycle",
@@ -47,7 +47,7 @@ export default function MetricsSection() {
       title: "LTGP/CAC Ratio",
       value: "3.4–4.2:1",
       desc: "Proven across dental, ICT, and professional services",
-      glow: "group-hover:shadow-[0_0_30px_rgba(37,99,235,0.15)]",
+      glow: "group-hover:shadow-[0_0_30px_rgba(8,145,178,0.15)]",
     },
   ];
 
@@ -103,7 +103,7 @@ export default function MetricsSection() {
           viewport={{ once: true }}
           className="relative bg-card rounded-2xl border border-primary/20 max-w-3xl mx-auto p-6 overflow-hidden mb-8">
           <div className="absolute left-0 top-0 bottom-0 w-1 rounded-l-2xl"
-               style={{ background: "linear-gradient(to bottom, #2563eb, #10b981, transparent)" }} />
+               style={{ background: "linear-gradient(to bottom, #0891b2, #10b981, transparent)" }} />
           <div className="pl-3">
             <p className="text-xs font-bold tracking-widest uppercase text-primary mb-2"
                style={{ letterSpacing: "0.18em" }}>Why LTGP and not just LTV?</p>

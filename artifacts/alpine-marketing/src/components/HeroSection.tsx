@@ -3,9 +3,9 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "wouter";
 import FunnelAnimation from "./FunnelAnimation";
 
-const CYAN   = "#f59e0b";
+const CYAN   = "#0891b2";
 const EMERALD= "#10b981";
-const AMBER  = "#f97316";
+const AMBER  = "#06b6d4";
 
 const PROOF_STATS = [
   { value: "32%",       label: "Avg. CAC Reduction",   color: EMERALD },
@@ -58,7 +58,7 @@ export default function HeroSection() {
             style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
             We Build the Machine That Turns Your Ad Spend Into{" "}
             <span className="text-transparent bg-clip-text"
-              style={{ backgroundImage: `linear-gradient(120deg, ${CYAN} 0%, #fbbf24 45%, ${EMERALD} 100%)` }}>
+              style={{ backgroundImage: `linear-gradient(120deg, ${CYAN} 0%, #22d3ee 45%, ${EMERALD} 100%)` }}>
               Predictable Profit.
             </span>
           </motion.h1>
@@ -79,8 +79,8 @@ export default function HeroSection() {
           <motion.div {...fadeUp(0.24)} className="flex flex-col sm:flex-row gap-3 pt-1">
             <Link href="/book-audit"
               className="group inline-flex items-center justify-center gap-2.5 px-7 py-3.5 font-semibold text-[15px] rounded-xl transition-all duration-200 active:scale-[0.98]"
-              style={{ background: `linear-gradient(135deg, ${CYAN} 0%, #fbbf24 100%)`,
-                       color: "#1a0e00", boxShadow: `0 0 28px ${CYAN}66, 0 4px 24px rgba(0,0,0,0.35)`,
+              style={{ background: `linear-gradient(135deg, ${CYAN} 0%, #22d3ee 100%)`,
+                       color: "#ffffff", boxShadow: `0 0 28px ${CYAN}66, 0 4px 24px rgba(0,0,0,0.35)`,
                        fontFamily: "'Space Grotesk', sans-serif" }}
               data-testid="button-hero-primary">
               Get Your Free Pipeline Audit
@@ -131,7 +131,7 @@ export default function HeroSection() {
               style={{ borderColor: "rgba(255,255,255,0.05)" }}>
               <div className="flex gap-1">
                 <span className="w-2.5 h-2.5 rounded-full bg-red-500/50" />
-                <span className="w-2.5 h-2.5 rounded-full bg-amber-400/50" />
+                <span className="w-2.5 h-2.5 rounded-full bg-primary/50" />
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400/50" />
               </div>
               <span className="text-[10px] font-medium ml-1 tracking-wider"

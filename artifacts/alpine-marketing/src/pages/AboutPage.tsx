@@ -119,7 +119,7 @@ export default function AboutPage() {
             </p>
             <Link
               href="/book-audit"
-              className="inline-flex items-center gap-2 px-10 py-4 bg-primary text-white rounded-lg font-bold text-lg hover:bg-primary/90 transition-all shadow-[0_0_24px_rgba(61,128,204,0.3)]"
+              className="inline-flex items-center gap-2 px-10 py-4 bg-primary text-white rounded-lg font-bold text-lg hover:bg-primary/90 transition-all shadow-[0_0_24px_rgba(8,145,178,0.3)]"
             >
               Book Your Free Audit <ArrowRight className="w-5 h-5" />
             </Link>

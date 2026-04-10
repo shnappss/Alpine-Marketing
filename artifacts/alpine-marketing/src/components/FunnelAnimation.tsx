@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 /* ─── Brand tokens ─────────────────────────────────── */
 const RED    = "#e84040";
-const CYAN   = "#f59e0b";
+const CYAN   = "#0891b2";
 const GREEN  = "#10b981";
 const MUTED  = "rgba(255,255,255,0.28)";
 const FONT   = "'Space Grotesk', Inter, sans-serif";
