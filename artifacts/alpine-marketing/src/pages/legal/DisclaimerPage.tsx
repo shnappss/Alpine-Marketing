@@ -42,7 +42,7 @@ export default function DisclaimerPage() {
 
       <h2>7. Contact</h2>
       <p>
-        Questions about this Disclaimer: <a href="mailto:info@alpinemarketing.ch">info@alpinemarketing.ch</a>
+        Questions about this Disclaimer: <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>
       </p>
     </LegalPageTemplate>
   );

@@ -44,12 +44,12 @@ export default function TermsPage() {
 
       <h2>8. Limitation of Liability</h2>
       <p>
-        To the maximum extent permitted by law, Alpine Marketing excludes liability for any loss or damage arising from your use of this website, including indirect or consequential losses, loss of data, or business interruption. [This section to be reviewed by legal counsel for jurisdiction-specific compliance.]
+        To the maximum extent permitted by Swiss law, Alpine Marketing excludes liability for any indirect, incidental, or consequential loss or damage arising from your use of this website, including loss of data, loss of revenue, or business interruption. This exclusion does not apply to death or personal injury caused by our negligence, nor to liability that cannot be excluded under mandatory Swiss law (OR Art. 100).
       </p>
 
       <h2>9. Governing Law</h2>
       <p>
-        These terms are governed by the laws of Switzerland. Any disputes shall be subject to the exclusive jurisdiction of the courts of Zurich, Switzerland. [Governing law clause to be reviewed by legal counsel.]
+        These Terms of Use are governed exclusively by the laws of Switzerland, excluding any conflict-of-law provisions. Any dispute arising in connection with these terms shall be subject to the exclusive jurisdiction of the courts of Zurich, Switzerland.
       </p>
 
       <h2>10. Changes to These Terms</h2>
@@ -59,7 +59,7 @@ export default function TermsPage() {
 
       <h2>11. Contact</h2>
       <p>
-        Questions: <a href="mailto:info@alpinemarketing.ch">info@alpinemarketing.ch</a>
+        Questions: <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>
       </p>
     </LegalPageTemplate>
   );

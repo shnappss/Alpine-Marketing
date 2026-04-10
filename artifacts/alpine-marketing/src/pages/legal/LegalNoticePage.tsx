@@ -11,10 +11,10 @@ export default function LegalNoticePage() {
       <p>
         <strong>Trading name:</strong> Alpine Marketing<br />
         <strong>Registered legal entity:</strong> Siladii Alpine Marketing<br />
-        <strong>Legal form:</strong> [to be completed — e.g. GmbH / Einzelfirma]<br />
+        <strong>Legal form:</strong> Sole proprietorship (Einzelunternehmen)<br />
         <strong>Registered address:</strong> Zurich, Switzerland<br />
-        <strong>Commercial register number:</strong> [CHE-xxx.xxx.xxx — to be completed]<br />
-        <strong>VAT number:</strong> [CHE-xxx.xxx.xxx MWST — to be completed]
+        <strong>Commercial register number:</strong> Registration pending<br />
+        <strong>VAT number:</strong> Registration pending
       </p>
 
       <h2>Contact Details</h2>
@@ -26,7 +26,7 @@ export default function LegalNoticePage() {
 
       <h2>Authorized Representative</h2>
       <p>
-        Roman [last name to be added] — Siladii Alpine Marketing
+        Roman — Siladii Alpine Marketing, Zurich, Switzerland
       </p>
 
       <h2>Content Responsibility</h2>
@@ -46,7 +46,7 @@ export default function LegalNoticePage() {
 
       <h2>Jurisdiction</h2>
       <p>
-        This website is operated from Switzerland. Swiss law applies. [Jurisdiction clause to be reviewed by legal counsel for cross-border service delivery.]
+        This website is operated from Switzerland. These terms are governed by the laws of Switzerland. Any disputes arising in connection with this website or these terms shall be subject to the exclusive jurisdiction of the courts of Zurich, Switzerland.
       </p>
     </LegalPageTemplate>
   );

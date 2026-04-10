@@ -76,7 +76,7 @@ export default function PrivacyChoicesPage() {
       </div>
 
       <div className="not-prose flex flex-wrap gap-3 mb-8">
-        <button onClick={save} className="px-5 py-2 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary/90 transition-colors">
+        <button onClick={save} className="px-5 py-2 bg-primary text-primary-foreground text-sm font-semibold rounded-lg hover:bg-primary/90 transition-colors">
           Save my preferences
         </button>
         <button onClick={acceptAll} className="px-5 py-2 bg-white/5 border border-white/10 text-white text-sm font-semibold rounded-lg hover:bg-white/10 transition-colors">
@@ -96,21 +96,18 @@ export default function PrivacyChoicesPage() {
       <h2>Marketing Opt-Out</h2>
       <p>
         If you previously opted into marketing emails, you can withdraw your consent at any time by emailing{" "}
-        <a href="mailto:privacy@alpinemarketing.ch">privacy@alpinemarketing.ch</a> or by clicking the unsubscribe link in any marketing email we have sent you. Withdrawal of consent does not affect the lawfulness of processing before the withdrawal.
+        <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a> or by clicking the unsubscribe link in any marketing email we have sent you. Withdrawal of consent does not affect the lawfulness of processing before the withdrawal.
       </p>
 
       <h2>Do Not Sell or Share My Personal Information</h2>
       <p>
-        Alpine Marketing does not sell personal data. We do not share personal data with third parties for their own marketing or advertising purposes without your explicit consent.
-      </p>
-      <p>
-        [If you are a California resident or reside in a jurisdiction with similar rights, this section will be updated to reflect applicable state-level requirements. Additional state privacy law compliance modules are under review.]
+        Alpine Marketing does not sell personal data. We do not share personal data with third parties for their own marketing or advertising purposes without your explicit consent. This applies to all visitors regardless of location.
       </p>
 
       <h2>Data Rights</h2>
       <p>
         To exercise any of your privacy rights (access, deletion, correction, portability, objection), visit our{" "}
-        <a href="/legal/data-requests">Data Requests</a> page.
+        <a href="/legal/data-requests">Data Requests</a> page or email <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>.
       </p>
     </LegalPageTemplate>
   );

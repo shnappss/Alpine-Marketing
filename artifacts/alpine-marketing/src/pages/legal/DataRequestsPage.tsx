@@ -45,7 +45,7 @@ export default function DataRequestsPage() {
 
       <h2>Response Time</h2>
       <p>
-        We aim to respond to all verified requests within 30 days. In complex or high-volume circumstances, this may be extended by a further 60 days, in which case we will notify you. [Response timeframe subject to applicable law.]
+        We aim to respond to all verified requests within 30 calendar days, as required by GDPR Art. 12 and the Swiss revDSG. In complex or high-volume circumstances, this period may be extended by a further 60 days — in such cases, we will notify you within the first 30 days and explain the reason for the delay.
       </p>
 
       {!submitted ? (

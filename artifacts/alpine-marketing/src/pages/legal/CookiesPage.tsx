@@ -38,8 +38,59 @@ export default function CookiesPage() {
       </p>
       <p><strong>Legal basis:</strong> Your consent</p>
 
-      <h2>3. Script and Vendor Details</h2>
-      <p>[Vendor table — to be completed with specific scripts, vendors, cookie names, durations, and data destination. This list will be maintained and updated whenever a new tracking vendor is added.]</p>
+      <h2>3. Cookies and Scripts We Use</h2>
+      <p>The following table lists the cookies and tracking technologies currently deployed on this site:</p>
+
+      <div className="not-prose overflow-x-auto my-4">
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="border-b border-white/10 text-left">
+              <th className="py-2 pr-4 text-white font-semibold">Name / Vendor</th>
+              <th className="py-2 pr-4 text-white font-semibold">Category</th>
+              <th className="py-2 pr-4 text-white font-semibold">Purpose</th>
+              <th className="py-2 pr-4 text-white font-semibold">Duration</th>
+              <th className="py-2 text-white font-semibold">Data Destination</th>
+            </tr>
+          </thead>
+          <tbody className="text-muted-foreground">
+            <tr className="border-b border-white/5">
+              <td className="py-2 pr-4">am_cookie_consent</td>
+              <td className="py-2 pr-4">Strictly Necessary</td>
+              <td className="py-2 pr-4">Stores your cookie preference choices</td>
+              <td className="py-2 pr-4">1 year</td>
+              <td className="py-2">Local (browser only)</td>
+            </tr>
+            <tr className="border-b border-white/5">
+              <td className="py-2 pr-4">Plausible Analytics</td>
+              <td className="py-2 pr-4">Analytics</td>
+              <td className="py-2 pr-4">Privacy-first, cookieless page view analytics. No personal data stored or shared.</td>
+              <td className="py-2 pr-4">Session only</td>
+              <td className="py-2">EU (Ireland)</td>
+            </tr>
+            <tr className="border-b border-white/5">
+              <td className="py-2 pr-4">Meta Pixel</td>
+              <td className="py-2 pr-4">Marketing</td>
+              <td className="py-2 pr-4">Conversion tracking for Meta (Facebook/Instagram) ad campaigns. Loaded only with consent.</td>
+              <td className="py-2 pr-4">180 days</td>
+              <td className="py-2">USA (Meta Platforms)</td>
+            </tr>
+            <tr className="border-b border-white/5">
+              <td className="py-2 pr-4">LinkedIn Insight Tag</td>
+              <td className="py-2 pr-4">Marketing</td>
+              <td className="py-2 pr-4">B2B conversion tracking for LinkedIn ad campaigns. Loaded only with consent.</td>
+              <td className="py-2 pr-4">90 days</td>
+              <td className="py-2">USA (LinkedIn/Microsoft)</td>
+            </tr>
+            <tr>
+              <td className="py-2 pr-4">Google Ads Tag</td>
+              <td className="py-2 pr-4">Marketing</td>
+              <td className="py-2 pr-4">Conversion tracking for Google Search and Display campaigns. Loaded only with consent.</td>
+              <td className="py-2 pr-4">90 days</td>
+              <td className="py-2">USA (Google LLC)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <h2>4. How to Manage Your Preferences</h2>
       <p>
@@ -57,7 +108,7 @@ export default function CookiesPage() {
 
       <h2>6. Contact</h2>
       <p>
-        Questions about our cookie practices: <a href="mailto:privacy@alpinemarketing.ch">privacy@alpinemarketing.ch</a>
+        Questions about our cookie practices: <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>
       </p>
     </LegalPageTemplate>
   );

@@ -19,19 +19,24 @@ export default function AccessibilityPage() {
 
       <h2>3. Known Limitations</h2>
       <p>
-        [Placeholder: List any known accessibility gaps here once a formal review is completed. Examples might include: complex SVG animations that may not convey full information to screen reader users; video content without captions.]
+        The following known limitations are present at the time of this statement:
       </p>
+      <ul>
+        <li><strong>Animated SVG visualizations</strong> (funnel animation in the hero section): the animation communicates information visually that may not be fully conveyed to screen reader users. A text equivalent is provided alongside the animation.</li>
+        <li><strong>Complex data visualizations</strong>: animated counters and real-time metric displays may not announce updated values to assistive technologies on all platforms.</li>
+        <li><strong>Motion:</strong> Several sections use entrance animations and transitions. Users who have enabled "Reduce Motion" at the OS level may not have all animations suppressed in the current version. We aim to address this in a future update.</li>
+      </ul>
 
       <h2>4. Contact for Accessibility Issues</h2>
       <p>
         If you experience any difficulty accessing content on this site, or if you have suggestions for improvement, please contact us:
       </p>
       <p>
-        Email: <a href="mailto:info@alpinemarketing.ch">info@alpinemarketing.ch</a><br />
+        Email: <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a><br />
         Subject line: Accessibility Issue
       </p>
       <p>
-        We aim to respond to accessibility enquiries within [X business days — to be determined].
+        We aim to respond to accessibility enquiries within 5 business days.
       </p>
 
       <h2>5. Third-Party Content</h2>

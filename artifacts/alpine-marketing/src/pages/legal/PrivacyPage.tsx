@@ -38,7 +38,7 @@ export default function PrivacyPage() {
 
       <h2>4. Recipients and Service Providers</h2>
       <p>
-        We may share your personal data with trusted service providers acting as data processors on our behalf, including: CRM platform providers (GoHighLevel), email and communication tools, analytics platforms (consent-gated), and hosting/infrastructure providers. A full list of sub-processors is available on request.
+        We may share your personal data with trusted service providers acting as data processors on our behalf, including: CRM platform providers (GoHighLevel), email and communication tools (Mailgun), analytics platforms (consent-gated, Plausible Analytics), and hosting/infrastructure providers (Cloudflare). A full list of sub-processors is available on request.
       </p>
       <p>
         We do not sell personal data to third parties for their own marketing purposes.
@@ -46,20 +46,26 @@ export default function PrivacyPage() {
 
       <h2>5. International Data Transfers</h2>
       <p>
-        Some of our service providers are located outside Switzerland and the EEA. Where we transfer data internationally, we rely on appropriate safeguards including Standard Contractual Clauses (SCCs) and/or the Swiss-US Data Privacy Framework equivalents. [Transfer mechanism details to be reviewed by legal counsel.]
+        Some of our service providers are located outside Switzerland and the EEA. Where we transfer data internationally, we rely on appropriate safeguards including Standard Contractual Clauses (SCCs) approved by the European Commission, and equivalent mechanisms under Swiss law (revDSG Art. 16). GoHighLevel, Anthropic, and n8n each operate under their own DPAs which include SCCs or equivalent transfer mechanisms.
       </p>
 
       <h2>6. Retention</h2>
       <p>
-        We retain personal data only as long as necessary for the purpose it was collected, or as required by law. Enquiry and contact data is generally retained for [X months/years — to be determined]. Marketing consent records are retained for the duration of the relationship plus [X years] for compliance purposes.
+        We retain personal data only as long as necessary for the purpose it was collected, or as required by law:
       </p>
+      <ul>
+        <li><strong>Enquiry and contact data:</strong> up to 24 months from last contact, unless a contract is entered into</li>
+        <li><strong>Contractual and billing records:</strong> 10 years in accordance with Swiss commercial law (OR Art. 958f)</li>
+        <li><strong>Marketing consent records:</strong> duration of the marketing relationship plus 3 years for compliance documentation</li>
+        <li><strong>Analytics data:</strong> aggregated data retained up to 13 months; session-level data anonymized or deleted within 26 months</li>
+      </ul>
 
       <h2>7. Your Rights</h2>
       <p>
         Depending on your jurisdiction, you may have the right to: access your personal data; correct inaccurate data; request deletion ("right to be forgotten"); object to processing; restrict processing; data portability; and withdraw consent at any time without affecting the lawfulness of prior processing.
       </p>
       <p>
-        To exercise your rights, visit our <a href="/legal/data-requests">Data Requests</a> page or email <a href="mailto:privacy@alpinemarketing.ch">privacy@alpinemarketing.ch</a>.
+        To exercise your rights, visit our <a href="/legal/data-requests">Data Requests</a> page or email <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>. We will respond within 30 days.
       </p>
 
       <h2>8. Complaints</h2>
