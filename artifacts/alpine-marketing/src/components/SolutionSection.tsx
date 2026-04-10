@@ -99,7 +99,7 @@ export default function SolutionSection() {
           <div className="absolute left-0 top-0 bottom-0 w-2 bg-secondary" />
           <h4 className="text-xl font-bold mb-3">Why LTGP, not just LTV?</h4>
           <p className="text-muted-foreground leading-relaxed">
-            Most agencies throw around "Lifetime Value" — but LTV ignores your cost of delivery. <strong className="text-white font-semibold">Lifetime Gross Profit (LTGP)</strong> is what's left after fulfillment costs. It's the number that tells you whether a client segment is actually worth acquiring. We optimize for profit, not revenue theater.
+            LTV counts revenue before your delivery costs. <strong className="text-white font-semibold">Lifetime Gross Profit (LTGP)</strong> is what's left after fulfillment — the true ceiling on a viable CAC. We build campaigns around that number because it's the only one that determines whether growth is actually profitable.
           </p>
         </motion.div>
       </div>

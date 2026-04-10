@@ -108,9 +108,9 @@ export default function MetricsSection() {
             <p className="text-xs font-bold tracking-widest uppercase text-primary mb-2"
                style={{ letterSpacing: "0.18em" }}>Why LTGP and not just LTV?</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              LTV tells you what a customer spends. <strong className="text-white">LTGP (Lifetime Gross Profit)</strong> tells
-              you what's left after your delivery costs — which is the real number that decides how much you can afford to
-              spend acquiring them. We optimize for that number, not revenue theater.
+              LTV counts what a customer pays. <strong className="text-white">LTGP (Lifetime Gross Profit)</strong> is what
+              remains after delivery costs — the actual ceiling on how much you can profitably spend to acquire them.
+              That's the number we build every campaign around.
             </p>
           </div>
         </motion.div>
