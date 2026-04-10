@@ -113,8 +113,6 @@ export default function Footer() {
               </Link>
               <span className="text-white/20">|</span>
               <Link href="/legal/notice" className="hover:text-white transition-colors">Legal Notice</Link>
-              <span className="text-white/20">|</span>
-              <span>VAT: [CHE-placeholder]</span>
             </div>
           </div>
           <p className="text-[11px] text-white/20 mt-4 max-w-2xl leading-relaxed">

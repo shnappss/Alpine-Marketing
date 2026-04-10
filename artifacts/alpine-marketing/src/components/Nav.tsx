@@ -48,7 +48,7 @@ export default function Nav() {
             <img
               src={logoPath}
               alt="Alpine Marketing"
-              className="h-7 w-auto invert brightness-[2.5]"
+              className="h-10 w-auto invert brightness-[2.5]"
             />
           </Link>
 

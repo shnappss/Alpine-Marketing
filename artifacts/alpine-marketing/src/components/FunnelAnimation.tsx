@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 /* ─── Brand tokens ─────────────────────────────────── */
 const RED    = "#e84040";
-const CYAN   = "#22d3ee";
+const CYAN   = "#2563eb";
 const GREEN  = "#10b981";
 const MUTED  = "rgba(255,255,255,0.28)";
 const FONT   = "'Space Grotesk', Inter, sans-serif";
@@ -361,7 +361,7 @@ export default function FunnelAnimation() {
               <div className="flex-1 rounded-xl border py-2.5 px-3 text-center"
                    style={{ borderColor: "rgba(255,255,255,0.06)", background: "rgba(255,255,255,0.03)" }}>
                 <div className="text-2xl font-extrabold"
-                     style={{ color: "rgba(255,255,255,0.15)", fontFamily: FONT }}>CHF 0</div>
+                     style={{ color: "rgba(255,255,255,0.15)", fontFamily: FONT }}>CHF ?</div>
                 <div className="text-[9px] uppercase tracking-wider mt-0.5"
                      style={{ color: "rgba(255,255,255,0.2)" }}>Revenue</div>
               </div>

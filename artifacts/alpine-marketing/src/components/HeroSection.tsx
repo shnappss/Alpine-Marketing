@@ -3,7 +3,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "wouter";
 import FunnelAnimation from "./FunnelAnimation";
 
-const CYAN   = "#22d3ee";
+const CYAN   = "#2563eb";
 const EMERALD= "#10b981";
 const AMBER  = "#f59e0b";
 
@@ -58,7 +58,7 @@ export default function HeroSection() {
             style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
             We Build the Machine That Turns Your Ad Spend Into{" "}
             <span className="text-transparent bg-clip-text"
-              style={{ backgroundImage: `linear-gradient(120deg, ${CYAN} 0%, #67e8f9 40%, ${EMERALD} 100%)` }}>
+              style={{ backgroundImage: `linear-gradient(120deg, ${CYAN} 0%, #60a5fa 40%, ${EMERALD} 100%)` }}>
               Predictable Profit.
             </span>
           </motion.h1>
@@ -79,8 +79,8 @@ export default function HeroSection() {
           <motion.div {...fadeUp(0.24)} className="flex flex-col sm:flex-row gap-3 pt-1">
             <Link href="/book-audit"
               className="group inline-flex items-center justify-center gap-2.5 px-7 py-3.5 font-semibold text-[15px] rounded-xl transition-all duration-200 active:scale-[0.98]"
-              style={{ background: `linear-gradient(135deg, ${CYAN} 0%, #06b6d4 100%)`,
-                       color: "#040c14", boxShadow: `0 0 28px ${CYAN}45, 0 4px 24px rgba(0,0,0,0.35)`,
+              style={{ background: `linear-gradient(135deg, ${CYAN} 0%, #3b82f6 100%)`,
+                       color: "#ffffff", boxShadow: `0 0 28px ${CYAN}55, 0 4px 24px rgba(0,0,0,0.35)`,
                        fontFamily: "'Space Grotesk', sans-serif" }}
               data-testid="button-hero-primary">
               Get Your Free Pipeline Audit
