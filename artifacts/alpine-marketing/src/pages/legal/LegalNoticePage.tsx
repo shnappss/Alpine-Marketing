@@ -10,23 +10,23 @@ export default function LegalNoticePage() {
       <h2>Website Operator</h2>
       <p>
         <strong>Trading name:</strong> Alpine Marketing<br />
-        <strong>Registered legal entity:</strong> [Legal entity name — placeholder]<br />
-        <strong>Legal form:</strong> [e.g. GmbH, Einzelfirma — placeholder]<br />
-        <strong>Registered address:</strong> [Full address — Zurich, Switzerland — placeholder]<br />
-        <strong>Commercial register number:</strong> [CHE-xxx.xxx.xxx — placeholder]<br />
-        <strong>VAT number:</strong> [CHE-xxx.xxx.xxx MWST — placeholder]
+        <strong>Registered legal entity:</strong> Siladii Alpine Marketing<br />
+        <strong>Legal form:</strong> [to be completed — e.g. GmbH / Einzelfirma]<br />
+        <strong>Registered address:</strong> Zurich, Switzerland<br />
+        <strong>Commercial register number:</strong> [CHE-xxx.xxx.xxx — to be completed]<br />
+        <strong>VAT number:</strong> [CHE-xxx.xxx.xxx MWST — to be completed]
       </p>
 
       <h2>Contact Details</h2>
       <p>
-        <strong>Email:</strong> <a href="mailto:info@alpinemarketing.ch">info@alpinemarketing.ch</a><br />
-        <strong>Phone:</strong> [placeholder]<br />
+        <strong>Phone:</strong> <a href="tel:+41795255504">+41 79 525 55 04</a><br />
+        <strong>Email:</strong> <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a><br />
         <strong>Website:</strong> alpinemarketing.ch
       </p>
 
       <h2>Authorized Representative</h2>
       <p>
-        [Name of authorized representative — placeholder]
+        Roman [last name to be added] — Siladii Alpine Marketing
       </p>
 
       <h2>Content Responsibility</h2>

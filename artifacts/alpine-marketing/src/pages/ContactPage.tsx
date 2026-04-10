@@ -67,8 +67,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="font-semibold text-white text-sm mb-1">Email</p>
-                  <a href="mailto:info@alpinemarketing.ch" className="text-muted-foreground hover:text-white transition-colors text-sm">
-                    info@alpinemarketing.ch
+                  <a href="mailto:roman@alpinemarketing.ch" className="text-muted-foreground hover:text-white transition-colors text-sm">
+                    roman@alpinemarketing.ch
                   </a>
                 </div>
               </div>
@@ -77,7 +77,10 @@ export default function ContactPage() {
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="font-semibold text-white text-sm mb-1">Location</p>
+                  <p className="font-semibold text-white text-sm mb-1">Phone &amp; Location</p>
+                  <a href="tel:+41795255504" className="text-muted-foreground hover:text-white transition-colors text-sm block">
+                    +41 79 525 55 04
+                  </a>
                   <p className="text-muted-foreground text-sm">Zurich, Switzerland</p>
                 </div>
               </div>
@@ -88,6 +91,7 @@ export default function ContactPage() {
                 <div>
                   <p className="font-semibold text-white text-sm mb-1">Response time</p>
                   <p className="text-muted-foreground text-sm">Within 1 business day</p>
+                  <p className="text-muted-foreground text-xs mt-1">Siladii Alpine Marketing</p>
                 </div>
               </div>
             </div>

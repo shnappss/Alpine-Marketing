@@ -48,77 +48,77 @@
 }
 
 /* ─── Palette ─────────────────────────────────────────────────────────────
-   PRIMARY  — Electric Violet  #7c3aed  → H 263  S 70%  L 57%
-   SUCCESS  — Mint/Teal        #06d6a0  → H 162  S 95%  L 43%
+   PRIMARY  — Electric Cyan    #22d3ee  → H 190  S 92%  L 53%
+   SUCCESS  — Emerald          #10b981  → H 160  S 84%  L 39%
    WARNING  — Amber            #f59e0b  → H  38  S 92%  L 50%
    DANGER   — Crimson          #e84040  → H   0  S 77%  L 57%
    ─────────────────────────────────────────────────────────────────────── */
 
 :root {
-  /* Backgrounds */
-  --background:        240 20% 4%;    /* near-black, indigo-tinted */
-  --foreground:        220 15% 95%;   /* off-white */
-  --card:              240 18% 7%;
-  --card-foreground:   220 15% 95%;
-  --card-border:       240 15% 13%;
-  --popover:           240 18% 7%;
-  --popover-foreground: 220 15% 95%;
-  --popover-border:    240 15% 13%;
+  /* Backgrounds — deep navy/slate */
+  --background:        222 30% 4%;
+  --foreground:        210 20% 96%;
+  --card:              222 28% 7%;
+  --card-foreground:   210 20% 96%;
+  --card-border:       222 22% 13%;
+  --popover:           222 28% 7%;
+  --popover-foreground: 210 20% 96%;
+  --popover-border:    222 22% 13%;
 
-  /* PRIMARY — Electric Violet */
-  --primary:           263 70% 57%;
-  --primary-foreground: 0 0% 100%;
+  /* PRIMARY — Electric Cyan #22d3ee */
+  --primary:           190 92% 53%;
+  --primary-foreground: 222 30% 4%;
 
-  /* SECONDARY — Mint */
-  --secondary:          162 95% 43%;
-  --secondary-foreground: 240 20% 4%;
+  /* SECONDARY — Emerald #10b981 */
+  --secondary:         160 84% 39%;
+  --secondary-foreground: 222 30% 4%;
 
   /* MUTED */
-  --muted:             240 18% 12%;
-  --muted-foreground:  240 8% 55%;
+  --muted:             222 24% 12%;
+  --muted-foreground:  220 12% 52%;
 
-  /* ACCENT = Violet */
-  --accent:            263 70% 57%;
-  --accent-foreground: 0 0% 100%;
+  /* ACCENT = Cyan */
+  --accent:            190 92% 53%;
+  --accent-foreground: 222 30% 4%;
 
   /* DESTRUCTIVE — Crimson */
   --destructive:       0 77% 57%;
   --destructive-foreground: 0 0% 100%;
 
   /* Utility */
-  --border: 240 15% 13%;
-  --input:  240 15% 13%;
-  --ring:   263 70% 57%;
+  --border: 222 22% 13%;
+  --input:  222 22% 13%;
+  --ring:   190 92% 53%;
   --radius: 0.625rem;
 
   /* Raw hex custom props */
-  --color-violet: #7c3aed;
-  --color-mint:   #06d6a0;
+  --color-cyan:   #22d3ee;
+  --color-emerald:#10b981;
   --color-amber:  #f59e0b;
 }
 
 .dark {
-  --background:        240 20% 4%;
-  --foreground:        220 15% 95%;
-  --card:              240 18% 7%;
-  --card-foreground:   220 15% 95%;
-  --card-border:       240 15% 13%;
-  --popover:           240 18% 7%;
-  --popover-foreground: 220 15% 95%;
-  --popover-border:    240 15% 13%;
-  --primary:           263 70% 57%;
-  --primary-foreground: 0 0% 100%;
-  --secondary:          162 95% 43%;
-  --secondary-foreground: 240 20% 4%;
-  --muted:             240 18% 12%;
-  --muted-foreground:  240 8% 55%;
-  --accent:            263 70% 57%;
-  --accent-foreground: 0 0% 100%;
+  --background:        222 30% 4%;
+  --foreground:        210 20% 96%;
+  --card:              222 28% 7%;
+  --card-foreground:   210 20% 96%;
+  --card-border:       222 22% 13%;
+  --popover:           222 28% 7%;
+  --popover-foreground: 210 20% 96%;
+  --popover-border:    222 22% 13%;
+  --primary:           190 92% 53%;
+  --primary-foreground: 222 30% 4%;
+  --secondary:         160 84% 39%;
+  --secondary-foreground: 222 30% 4%;
+  --muted:             222 24% 12%;
+  --muted-foreground:  220 12% 52%;
+  --accent:            190 92% 53%;
+  --accent-foreground: 222 30% 4%;
   --destructive:       0 77% 57%;
   --destructive-foreground: 0 0% 100%;
-  --border: 240 15% 13%;
-  --input:  240 15% 13%;
-  --ring:   263 70% 57%;
+  --border: 222 22% 13%;
+  --input:  222 22% 13%;
+  --ring:   190 92% 53%;
 }
 
 @layer base {

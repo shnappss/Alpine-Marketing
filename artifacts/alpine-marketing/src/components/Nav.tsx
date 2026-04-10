@@ -79,10 +79,10 @@ export default function Nav() {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3 flex-shrink-0">
             <a
-              href="tel:+41000000000"
+              href="tel:+41795255504"
               className="text-[13px] text-white/50 hover:text-white/80 transition-colors font-medium tracking-tight"
             >
-              +41 (0) __ ___ __ __
+              +41 79 525 55 04
             </a>
             <div className="w-px h-5 bg-white/10" />
             <Link

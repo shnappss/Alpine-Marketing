@@ -10,10 +10,11 @@ export default function PrivacyPage() {
       <h2>1. Controller Identity</h2>
       <p>
         <strong>Trading name:</strong> Alpine Marketing<br />
-        <strong>Registered legal entity:</strong> [Placeholder — legal entity name]<br />
-        <strong>Address:</strong> Zurich, Switzerland [Full address to be completed]<br />
-        <strong>Email:</strong> <a href="mailto:info@alpinemarketing.ch">info@alpinemarketing.ch</a><br />
-        <strong>Data Protection contact:</strong> privacy@alpinemarketing.ch [placeholder]
+        <strong>Registered legal entity:</strong> Siladii Alpine Marketing<br />
+        <strong>Address:</strong> Zurich, Switzerland<br />
+        <strong>Phone:</strong> <a href="tel:+41795255504">+41 79 525 55 04</a><br />
+        <strong>Email:</strong> <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a><br />
+        <strong>Data Protection contact:</strong> <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>
       </p>
 
       <h2>2. Personal Data We Collect</h2>

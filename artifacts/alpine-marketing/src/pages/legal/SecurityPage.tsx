@@ -61,7 +61,10 @@ export default function SecurityPage() {
 
       <h2>7. Contact</h2>
       <p>
-        Security and data processing enquiries: <a href="mailto:privacy@alpinemarketing.ch">privacy@alpinemarketing.ch</a>
+        Security and data processing enquiries:<br />
+        <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a><br />
+        <a href="tel:+41795255504">+41 79 525 55 04</a><br />
+        Siladii Alpine Marketing, Zurich, Switzerland
       </p>
     </LegalPageTemplate>
   );
