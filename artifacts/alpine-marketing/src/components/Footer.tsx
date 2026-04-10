@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import logoPath from "../../../../attached_assets/Screenshot_2026-03-22_at_21.14.04_1775773255892.png";
+import logoPath from "../../../../attached_assets/Logo_White_Vers_1775782653069.jpg";
 
 const LEGAL_LINKS = [
   { label: "Privacy Notice",              href: "/legal/privacy" },
@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/">
-              <img src={logoPath} alt="Alpine Marketing" className="h-8 w-auto invert brightness-200 opacity-80 mb-4" />
+              <img src={logoPath} alt="Alpine Marketing" className="h-14 w-auto mb-4" style={{ mixBlendMode: "screen" }} />
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed mb-5">
               Systematized client acquisition for Swiss &amp; European SMBs. Lower CAC, stronger pipelines, cleaner reporting.

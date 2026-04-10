@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link, useLocation } from "wouter";
-import logoPath from "../../../../attached_assets/Screenshot_2026-03-22_at_21.14.04_1775773255892.png";
+import logoPath from "../../../../attached_assets/Logo_White_Vers_1775782653069.jpg";
 
 const PRIMARY_LINKS = [
   { name: "Services",      href: "/services" },
@@ -48,7 +48,8 @@ export default function Nav() {
             <img
               src={logoPath}
               alt="Alpine Marketing"
-              className="h-10 w-auto invert brightness-[2.5]"
+              className="h-14 w-auto"
+              style={{ mixBlendMode: "screen" }}
             />
           </Link>
 

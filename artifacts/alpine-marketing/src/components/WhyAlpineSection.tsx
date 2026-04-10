@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logoPath from "../../../../attached_assets/Screenshot_2026-03-22_at_21.14.04_1775773255892.png";
+import logoPath from "../../../../attached_assets/Logo_White_Vers_1775782653069.jpg";
 
 const CARDS = [
   {
@@ -41,7 +41,8 @@ export default function WhyAlpineSection() {
             <img
               src={logoPath}
               alt="Alpine Marketing"
-              className="h-12 w-auto invert brightness-[2.5] opacity-90"
+              className="h-20 w-auto"
+              style={{ mixBlendMode: "screen" }}
             />
           </motion.div>
           <motion.span
