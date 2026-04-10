@@ -1,0 +1,95 @@
+I need you to audit and fix a mobile first-load rendering/performance issue on my current website.
+
+PROBLEM
+On mobile devices, when the site first loads, some animations behave weirdly and the content twitches / shifts / appears unstable during initial render.
+
+GOAL
+Fix the loading behavior and first-render stability so the site loads cleanly and smoothly on mobile.
+
+VERY IMPORTANT CONSTRAINTS
+- Do NOT redesign the site.
+- Do NOT change any copy/content.
+- Do NOT change fonts, font families, font sizes, colors, spacing, branding, or visual identity.
+- Do NOT remove animations entirely.
+- Do NOT noticeably change animation style, timing, easing, or the overall visual feel, unless a tiny technical adjustment is strictly required to stop the first-load glitch.
+- Keep the website looking the same after load — only fix the broken first-load behavior and performance issues.
+
+TASK
+1. First audit the current codebase and identify the actual cause(s) of the mobile first-load twitching.
+2. Then implement the smallest possible set of changes needed to fix the issue.
+3. Preserve the exact visual design and behavior after the page has fully loaded.
+
+WHAT TO LOOK FOR
+Please check for these likely causes:
+
+- Layout shift / CLS issues on first paint
+- Elements rendering before their final size is known
+- Images, videos, containers, cards, sections, or hero blocks without stable reserved dimensions
+- Animation libraries triggering “enter” animations too early on first load
+- Framer Motion / Motion components using problematic initial mount behavior
+- SSR / hydration mismatch between server-rendered markup and client-rendered state
+- Components reading window size, viewport height, local storage, scroll position, or device-specific values before mount
+- Mobile viewport units causing unstable height on first render
+- Animations using layout-affecting properties such as top / left / width / height / margin instead of transform / opacity where possible
+- Font loading or asset loading causing layout jump
+- Excessive re-renders on mount
+- Scroll-triggered animation observers firing too early before layout is stable
+- Any JS that forces synchronous layout or measures DOM too aggressively during initial mount
+
+IMPLEMENTATION RULES
+Apply these principles carefully, only where needed:
+
+- Preserve layout stability on first paint
+- Reserve space for late-loading elements
+- Prevent content from jumping after initial render
+- If Motion / Framer Motion is used, disable problematic initial enter animation only where it causes the glitch (for example by using initial={false} selectively, not blindly everywhere)
+- If AnimatePresence is used and causes first-load issues, prevent initial child enter animation where appropriate
+- Defer client-only calculations until after mount if they cause hydration mismatch or layout instability
+- Avoid animating layout-triggering properties when a transform-based equivalent can preserve the exact same visual outcome
+- Keep animations GPU-friendly where possible
+- If viewport-based calculations are unstable on mobile, make them robust without changing the design
+- If fonts are involved, improve loading stability without changing the font itself or the visible typography
+- Minimize JavaScript work during first render
+- Do not introduce hacks that make the site feel delayed, blank, or broken
+
+DELIVERABLES
+After making changes, provide:
+
+1. A short root-cause summary of what was actually causing the issue
+2. The exact files changed
+3. A short explanation of each fix
+4. Confirmation that visual design/content/branding were preserved
+5. A quick verification checklist for mobile testing
+
+SUCCESS CRITERIA
+The final result should meet all of these:
+
+- No visible twitching or jumping of content on first mobile load
+- No weird first-render animation behavior
+- No obvious flash of misplaced elements before settling
+- Same design, same copy, same branding, same general animation style
+- Better first-load stability and perceived smoothness
+- No new console errors or hydration warnings
+- No regression on desktop
+
+TESTING REQUIREMENTS
+Please test at minimum:
+- iPhone-sized viewport
+- Android-sized viewport
+- Slow 4G / throttled mobile conditions
+- Refresh / cold load
+- First page visit and repeated visit
+- Safari-like mobile behavior if relevant
+- Chrome DevTools mobile emulation
+
+WORKFLOW
+Follow this exact workflow:
+1. Inspect the current implementation
+2. Identify likely root causes
+3. Fix only what is necessary
+4. Keep the visual output unchanged
+5. Summarize the fixes clearly
+
+IMPORTANT
+This is a stability/performance fix, not a redesign task.
+I want the website to look the same — just load properly.

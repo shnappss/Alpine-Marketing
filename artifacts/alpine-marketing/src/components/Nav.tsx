@@ -49,6 +49,9 @@ export default function Nav() {
               src={logoPath}
               alt="Alpine Marketing"
               className="h-14 w-auto"
+              width="56"
+              height="56"
+              decoding="async"
               style={{ mixBlendMode: "screen" }}
             />
           </Link>

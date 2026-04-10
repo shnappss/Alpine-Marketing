@@ -342,7 +342,7 @@ export default function FunnelAnimation() {
 
       {/* ─── Bottom KPI strip ─── */}
       <div className="w-full flex-shrink-0 px-4 pb-3">
-        <AnimatePresence mode="wait">
+        <AnimatePresence mode="wait" initial={false}>
 
           {/* BEFORE */}
           {isBefore && (

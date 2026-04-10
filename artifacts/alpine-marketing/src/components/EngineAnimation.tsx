@@ -32,13 +32,13 @@ function useCount(target: number, duration = 1600) {
 }
 
 /* ─── pulsing flow dot along a vertical path ───── */
-function FlowDot({ color, delay, duration = 1.6 }: { color: string; delay: number; duration?: number }) {
+function FlowDot({ color, delay, duration = 1.6, travelPx = 30 }: { color: string; delay: number; duration?: number; travelPx?: number }) {
   return (
     <motion.div
       className="w-1.5 h-1.5 rounded-full absolute left-1/2 -translate-x-1/2"
-      style={{ background: color, boxShadow: `0 0 6px ${color}` }}
-      initial={{ top: "0%", opacity: 0 }}
-      animate={{ top: "100%", opacity: [0, 1, 1, 0] }}
+      style={{ background: color, boxShadow: `0 0 6px ${color}`, top: 0 }}
+      initial={{ y: 0, opacity: 0 }}
+      animate={{ y: travelPx, opacity: [0, 1, 1, 0] }}
       transition={{ duration, delay, repeat: Infinity, ease: "linear" }}
     />
   );
@@ -50,7 +50,7 @@ function Connector({ color = VIOLET, height = 36, dots = 2 }: { color?: string; 
     <div className="relative flex justify-center" style={{ height }}>
       <div className="w-px h-full opacity-20" style={{ background: color }} />
       {Array.from({ length: dots }).map((_, i) => (
-        <FlowDot key={i} color={color} delay={i * (1.2 / dots)} duration={1.2} />
+        <FlowDot key={i} color={color} delay={i * (1.2 / dots)} duration={1.2} travelPx={height - 6} />
       ))}
     </div>
   );
