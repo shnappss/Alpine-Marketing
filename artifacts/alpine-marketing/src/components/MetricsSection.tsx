@@ -1,8 +1,10 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { useTranslation, Trans } from "react-i18next";
 import { useCountUp } from "../hooks/useCountUp";
 
 export default function MetricsSection() {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -14,39 +16,33 @@ export default function MetricsSection() {
 
   const metrics = [
     {
-      title: "CAC Reduction",
+      key: "cac",
       value: (<><span className="text-secondary text-2xl mr-1">↓</span>{cacStat}%</>),
-      desc: "Average reduction across clients in the first 90 days",
       glow: "group-hover:shadow-[0_0_30px_rgba(16,185,129,0.15)]",
     },
     {
-      title: "LTGP Improvement",
+      key: "ltgp",
       value: (<><span className="text-secondary text-2xl mr-1">↑</span>{(ltgpStat / 10).toFixed(1)}×</>),
-      desc: "Average improvement with full-funnel optimization",
       glow: "group-hover:shadow-[0_0_30px_rgba(16,185,129,0.15)]",
     },
     {
-      title: "Speed-to-Lead",
+      key: "speed",
       value: (<><span className="text-primary text-2xl mr-1">&lt;</span>{speedStat}s</>),
-      desc: "Average first response time with our AI system active",
       glow: "group-hover:shadow-[0_0_30px_rgba(8,145,178,0.15)]",
     },
     {
-      title: "Pipeline Recovery",
+      key: "recovery",
       value: <>{recoveryStat}%+</>,
-      desc: "Dormant leads reactivated through automated campaigns",
       glow: "group-hover:shadow-[0_0_30px_rgba(8,145,178,0.15)]",
     },
     {
-      title: "Sales Cycle",
+      key: "cycle",
       value: (<><span className="text-secondary text-2xl mr-1">−</span>{cycleStat}%</>),
-      desc: "Faster from first touch to closed deal",
       glow: "group-hover:shadow-[0_0_30px_rgba(16,185,129,0.15)]",
     },
     {
-      title: "LTGP/CAC Ratio",
+      key: "ratio",
       value: "3.4–4.2:1",
-      desc: "Proven across dental, ICT, and professional services",
       glow: "group-hover:shadow-[0_0_30px_rgba(8,145,178,0.15)]",
     },
   ];
@@ -55,48 +51,45 @@ export default function MetricsSection() {
     <section className="py-24 bg-background border-t border-white/5 relative" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 md:px-8">
 
-        {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <motion.span
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
             className="text-secondary font-bold tracking-widest text-xs uppercase mb-4 block"
             style={{ letterSpacing: "0.2em" }}>
-            What We Actually Measure
+            {t("metrics.eyebrow")}
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }} transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold mb-4">
-            Forget Vanity Metrics. Here's What Drives Growth.
+            {t("metrics.title")}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }} transition={{ delay: 0.2 }}
             className="text-base text-muted-foreground">
-            Every Alpine client gets a real-time dashboard tracking the numbers that actually determine profitable growth.
+            {t("metrics.subtitle")}
           </motion.p>
         </div>
 
-        {/* Metrics grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
           {metrics.map((m, i) => (
             <motion.div
-              key={m.title}
+              key={m.key}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.09 }}
               className={`bg-card p-6 rounded-xl border border-white/5 transition-all group ${m.glow}`}>
               <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-2">
-                {m.title}
+                {t(`metrics.items.${m.key}.title`)}
               </h3>
               <div className="text-5xl font-bold text-white mb-3 tabular-nums">{m.value}</div>
-              <p className="text-sm text-muted-foreground leading-relaxed">{m.desc}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">{t(`metrics.items.${m.key}.desc`)}</p>
             </motion.div>
           ))}
         </div>
 
-        {/* ── LTGP explainer callout ── */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -106,20 +99,19 @@ export default function MetricsSection() {
                style={{ background: "linear-gradient(to bottom, #0891b2, #10b981, transparent)" }} />
           <div className="pl-3">
             <p className="text-xs font-bold tracking-widest uppercase text-primary mb-2"
-               style={{ letterSpacing: "0.18em" }}>Why LTGP and not just LTV?</p>
+               style={{ letterSpacing: "0.18em" }}>{t("metrics.callout.label")}</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              LTV is revenue. Revenue isn't profit. <strong className="text-white">LTGP (Lifetime Gross Profit)</strong> strips
-              out your delivery costs and shows you the actual margin per customer — which means it's the only number that
-              can tell you whether your ad spend is making you richer or just busier. We build every campaign around that number.
+              {t("metrics.callout.lead")}{" "}
+              <strong className="text-white">{t("metrics.callout.ltgpName")}</strong>{" "}
+              {t("metrics.callout.body")}
             </p>
           </div>
         </motion.div>
 
-        {/* Disclaimer */}
         <motion.p
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
           className="text-center text-xs text-muted-foreground">
-          These are measured results from live client dashboards, not projections.
+          {t("metrics.disclaimer")}
         </motion.p>
 
       </div>

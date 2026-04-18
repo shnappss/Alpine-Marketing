@@ -1,39 +1,17 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import logoPath from "../../../../attached_assets/Logo_White_Vers_1775782653069.jpg";
 
-const CARDS = [
-  {
-    title: "Full-Funnel, Not Fragment",
-    desc: "Most agencies optimize one channel. We systematize your entire acquisition engine — from first impression to lifetime profit.",
-  },
-  {
-    title: "Metrics That Mean Something",
-    desc: "We track CAC and LTGP, not clicks. You'll always know what a customer costs to acquire and what they're worth in profit.",
-  },
-  {
-    title: "AI-First, Human-Guided",
-    desc: "Claude AI handles triage, qualification, and response. Your team handles relationships and closing.",
-  },
-  {
-    title: "Swiss Precision, Startup Speed",
-    desc: "GDPR-compliant infrastructure, transparent reporting, real-time tracking — delivered with urgency.",
-  },
-  {
-    title: "Automation That Compounds",
-    desc: "Every lead makes the system smarter. A/B-tested sequences and continuous optimization lower your CAC over time.",
-  },
-  {
-    title: "Proven, Not Promised",
-    desc: "3.4:1 to 4.2:1 LTGP/CAC ratios across dental, ICT, and professional services. Dashboard, not a pitch deck.",
-  },
-];
+interface Card { title: string; desc: string; }
 
 export default function WhyAlpineSection() {
+  const { t } = useTranslation();
+  const cards = t("whyAlpine.cards", { returnObjects: true }) as Card[];
+
   return (
     <section className="py-24 bg-background border-t border-white/5 relative">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
 
-        {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
           <motion.div
             initial={{ opacity: 0, y: -8 }} whileInView={{ opacity: 1, y: 0 }}
@@ -49,21 +27,20 @@ export default function WhyAlpineSection() {
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
             className="text-primary font-bold tracking-widest text-xs uppercase mb-4 block"
             style={{ letterSpacing: "0.2em" }}>
-            Why Alpine
+            {t("whyAlpine.eyebrow")}
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }} transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold">
-            Why Choose Alpine Marketing?
+            {t("whyAlpine.title")}
           </motion.h2>
         </div>
 
-        {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {CARDS.map((card, i) => (
+          {cards.map((card, i) => (
             <motion.div
-              key={card.title}
+              key={i}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

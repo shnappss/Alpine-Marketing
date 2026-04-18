@@ -1,11 +1,14 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { useCountUp } from "../hooks/useCountUp";
 import { Zap, Link as LinkIcon, HelpCircle } from "lucide-react";
 
 export default function ProblemSection() {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const leakPoints = t("problem.leakPoints", { returnObjects: true }) as string[];
 
   const speedStat = useCountUp(isInView ? 21 : 0, 2);
   const followUpStat = useCountUp(isInView ? 78 : 0, 2);
@@ -35,7 +38,7 @@ export default function ProblemSection() {
             viewport={{ once: true }}
             className="text-destructive font-bold tracking-widest text-sm uppercase mb-4 block"
           >
-            The Core Problem
+            {t("problem.eyebrow")}
           </motion.span>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -44,7 +47,7 @@ export default function ProblemSection() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            Your Marketing Isn't Broken. Your System Is.
+            {t("problem.title")}
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -53,7 +56,7 @@ export default function ProblemSection() {
             transition={{ delay: 0.2 }}
             className="text-lg text-muted-foreground"
           >
-            Most agencies sell you clicks and impressions. But if your pipeline leaks at every stage — slow replies, no follow-up, zero reactivation — more traffic just means more waste.
+            {t("problem.subtitle")}
           </motion.p>
         </div>
 
@@ -69,12 +72,12 @@ export default function ProblemSection() {
             <div className="w-12 h-12 rounded-lg bg-destructive/10 text-destructive flex items-center justify-center mb-6">
               <Zap className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold mb-2">The Speed Gap</h3>
+            <h3 className="text-xl font-bold mb-2">{t("problem.cards.speed.title")}</h3>
             <div className="text-5xl font-bold text-white mb-4 tabular-nums">
               {speedStat}<span className="text-destructive">×</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Leads contacted after 5 minutes are 21× less likely to convert. The average SMB response time? Over 2 hours. Every minute of delay is money evaporating.
+              {t("problem.cards.speed.desc")}
             </p>
           </motion.div>
 
@@ -84,12 +87,12 @@ export default function ProblemSection() {
             <div className="w-12 h-12 rounded-lg bg-destructive/10 text-destructive flex items-center justify-center mb-6">
               <LinkIcon className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold mb-2">The Follow-Up Black Hole</h3>
+            <h3 className="text-xl font-bold mb-2">{t("problem.cards.followup.title")}</h3>
             <div className="text-5xl font-bold text-white mb-4 tabular-nums">
               {followUpStat}<span className="text-destructive">%</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              of leads never receive a second touchpoint. No nurture sequence, no SMS, no reactivation. They expressed interest — and heard nothing back.
+              {t("problem.cards.followup.desc")}
             </p>
           </motion.div>
 
@@ -99,12 +102,12 @@ export default function ProblemSection() {
             <div className="w-12 h-12 rounded-lg bg-destructive/10 text-destructive flex items-center justify-center mb-6">
               <HelpCircle className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold mb-2">The Metrics Mirage</h3>
+            <h3 className="text-xl font-bold mb-2">{t("problem.cards.metrics.title")}</h3>
             <div className="text-5xl font-bold text-destructive mb-4">
-              0<span className="text-2xl text-white ml-2">Visibility</span>
+              0<span className="text-2xl text-white ml-2">{t("problem.cards.metrics.valueLabel")}</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Most SMBs track clicks or "leads generated" — but can't answer: what does each customer actually cost me, and what's their lifetime gross profit? Without CAC and LTGP, you're flying blind.
+              {t("problem.cards.metrics.desc")}
             </p>
           </motion.div>
         </motion.div>
@@ -117,7 +120,7 @@ export default function ProblemSection() {
           className="flex flex-wrap md:flex-nowrap items-center justify-between bg-card/50 p-6 rounded-xl border border-white/5 text-sm font-medium text-destructive overflow-hidden relative"
         >
            <div className="absolute inset-x-0 top-1/2 h-px border-t border-dashed border-destructive/30 -z-10 hidden md:block" />
-           {["Slow Reply", "No Nurture", "No Reactivation", "No Tracking", "Lost Revenue"].map((point, i, arr) => (
+           {leakPoints.map((point, i, arr) => (
              <div key={point} className="flex items-center gap-4 bg-background px-4 py-2 rounded-full border border-destructive/20 shadow-sm whitespace-nowrap mb-2 md:mb-0">
                {point}
                {i < arr.length - 1 && <span className="md:hidden">→</span>}

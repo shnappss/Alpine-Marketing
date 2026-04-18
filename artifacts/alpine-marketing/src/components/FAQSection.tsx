@@ -1,36 +1,14 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { ChevronDown } from "lucide-react";
 
-const FAQS = [
-  {
-    q: "Do you only run ads?",
-    a: "No. Ads are one input to a system. We build the full acquisition engine — paid traffic, landing pages, CRM setup, lead routing, AI follow-up, nurture sequences, reactivation campaigns, and reporting. If your funnel is leaking at the follow-up stage, throwing more ad spend at it just makes the leak bigger.",
-  },
-  {
-    q: "Can you work with our existing CRM?",
-    a: "It depends on the platform. We operate natively in GoHighLevel and can connect to most CRMs via API or n8n automation. If your CRM supports webhooks or has an API, we can integrate it. If it doesn't — we'll tell you honestly and explain the options.",
-  },
-  {
-    q: "Do you help with automation and lead follow-up?",
-    a: "That is the core of what we do. Speed-to-lead is one of the highest-ROI fixes available. Our Claude AI Agents respond within 60 seconds, qualify the lead, and route it correctly — 24/7, including weekends. Your team only touches leads that are actually ready.",
-  },
-  {
-    q: "What markets do you work in?",
-    a: "Our primary experience is in Switzerland, the EU, and cross-border European markets. We have worked with dental clinics, ICT companies, professional service firms, and local service businesses. We do not take on every business — we will tell you on the audit call if we are not the right fit.",
-  },
-  {
-    q: "How do you handle privacy and tracking in post-cookie markets?",
-    a: "We build consent-aware infrastructure from the start. That means proper cookie consent management, first-party data strategies, GDPR-compliant form flows, and CRM tracking that does not depend on third-party cookies. We do not load tracking scripts before consent. We do not use dark patterns.",
-  },
-  {
-    q: "What happens in a free funnel audit?",
-    a: "We review your current acquisition setup — traffic sources, landing pages, CRM structure, follow-up sequences, reporting. We identify where leads are dropping out and what fixing each leak would be worth in revenue terms. You get a clear picture of the system gaps before we discuss working together.",
-  },
-];
+interface FaqItem { q: string; a: string; }
 
 export default function FAQSection() {
+  const { t } = useTranslation();
   const [open, setOpen] = useState<number | null>(null);
+  const items = t("faq.items", { returnObjects: true }) as FaqItem[];
 
   return (
     <section id="faq" className="py-24 bg-[#05050A] border-t border-white/5 relative">
@@ -42,7 +20,7 @@ export default function FAQSection() {
             viewport={{ once: true }}
             className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block"
           >
-            FAQ
+            {t("faq.eyebrow")}
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -51,12 +29,12 @@ export default function FAQSection() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            Common Questions, Straight Answers.
+            {t("faq.title")}
           </motion.h2>
         </div>
 
         <div className="max-w-3xl mx-auto space-y-3">
-          {FAQS.map((faq, i) => (
+          {items.map((faq, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 16 }}

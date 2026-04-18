@@ -30,6 +30,175 @@
       "clients": "Schweizer Kunden"
     }
   },
+  "problem": {
+    "eyebrow": "Das Kernproblem",
+    "title": "Ihr Marketing ist nicht kaputt. Ihr System schon.",
+    "subtitle": "Die meisten Agenturen verkaufen Ihnen Klicks und Impressionen. Doch wenn Ihre Pipeline an jeder Stelle leckt — späte Antworten, kein Follow-up, keine Reaktivierung — bedeutet mehr Traffic einfach mehr Verschwendung.",
+    "cards": {
+      "speed": {
+        "title": "Die Geschwindigkeitslücke",
+        "desc": "Leads, die erst nach 5 Minuten kontaktiert werden, konvertieren 21× seltener. Durchschnittliche Antwortzeit bei KMU? Über 2 Stunden. Jede Minute Verzögerung ist verbranntes Geld."
+      },
+      "followup": {
+        "title": "Das Follow-up-Schwarzloch",
+        "desc": "der Leads erhalten nie einen zweiten Touchpoint. Keine Nurture-Sequenz, kein SMS, keine Reaktivierung. Sie haben Interesse gezeigt — und nichts mehr gehört."
+      },
+      "metrics": {
+        "title": "Die Kennzahlen-Illusion",
+        "valueLabel": "Sichtbarkeit",
+        "desc": "Die meisten KMU messen Klicks oder „generierte Leads“ — können aber nicht sagen, was jeder Kunde wirklich kostet und welchen Lifetime-Profit er bringt. Ohne CAC und LTGP fliegen Sie blind."
+      }
+    },
+    "leakPoints": ["Späte Antwort", "Kein Nurturing", "Keine Reaktivierung", "Kein Tracking", "Verlorener Umsatz"]
+  },
+  "system": {
+    "eyebrow": "Der Alpine-Ansatz",
+    "title": "Wir reparieren nicht eine Sache. Wir systematisieren alles.",
+    "subtitle": "Sechs Schritte. Ein Motor. Jeder Lead vom ersten Klick bis zum geschlossenen Deal nachverfolgt.",
+    "disclaimer": "Ergebnisse variieren je nach Markt, Angebot, Budget und Verkaufsprozess. Zahlen basieren auf gelieferter Kundenarbeit.",
+    "steps": {
+      "attract":  { "title": "Anziehen",                  "desc": "Gezielte Anzeigen auf Meta, Google & LinkedIn. Landing Pages, die konvertieren — nicht beeindrucken." },
+      "capture":  { "title": "Erfassen",                  "desc": "Jeder Lead, jede Quelle — ein CRM. Keine verlorenen Kontakte, volle Attribution ab dem ersten Klick." },
+      "route":    { "title": "Routing & Scoring",         "desc": "Leads werden automatisch bewertet und in Sekunden — nicht Stunden — zum richtigen Workflow geleitet." },
+      "engage":   { "title": "Antwort in <60s",           "desc": "Claude AI antwortet rund um die Uhr, qualifiziert den Lead und übergibt erst, wenn er bereit ist." },
+      "nurture":  { "title": "Nurturing & Reaktivierung", "desc": "Automatisierte Sequenzen via E-Mail, SMS & WhatsApp. Ruhende Leads gehen nicht verloren." },
+      "measure":  { "title": "Messen & Verbessern",       "desc": "Live-Dashboards. CAC, LTGP, Pipeline-Velocity — nur die Zahlen, die Gewinn bringen." }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Der Motor unter der Haube",
+    "title": "Drei Tools. Null manuelle Übergaben. Ein einheitliches System.",
+    "footer": "Das Ergebnis? Ein System, das arbeitet, während Sie schlafen, ohne Neueinstellungen skaliert und mit jedem Lead schlauer wird.",
+    "tools": {
+      "claude": { "name": "Claude AI Agents",          "role": "DAS GEHIRN",            "desc": "Intelligente Lead-Qualifizierung und Echtzeit-Intent-Analyse. Claude liest jeden eingehenden Lead, bewertet die Dringlichkeit, ermittelt die beste Antwort und generiert personalisierte, menschlich wirkende Nachrichten — bevor Ihr Team den Morgenkaffee aufgetrunken hat." },
+      "n8n":    { "name": "n8n Workflow-Automation",   "role": "DAS NERVENSYSTEM",      "desc": "Das Bindegewebe, das Anzeigen, CRM, Kalender und Reporting in eine einzige automatisierte Pipeline verbindet. Custom-Workflows reagieren sofort auf Lead-Verhalten — kein Zapier-Aufpreis, kein Notbehelf." },
+      "ghl":    { "name": "GoHighLevel CRM",           "role": "DIE KOMMANDOZENTRALE",  "desc": "Pipeline-Management, automatisierte Sequenzen, Terminbuchung und Omnichannel-Kommunikation (SMS / E-Mail / WhatsApp) — alles in einer Plattform, die Ihr Team tatsächlich nutzt." }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Was wir wirklich messen",
+    "title": "Vergessen Sie Vanity Metrics. Das sind die Zahlen, die Wachstum bringen.",
+    "subtitle": "Jeder Alpine-Kunde erhält ein Echtzeit-Dashboard mit den Zahlen, die wirklich über profitables Wachstum entscheiden.",
+    "items": {
+      "cac":       { "title": "CAC-Senkung",            "desc": "Durchschnittliche Senkung über alle Kunden in den ersten 90 Tagen" },
+      "ltgp":      { "title": "LTGP-Verbesserung",      "desc": "Durchschnittliche Verbesserung mit Full-Funnel-Optimierung" },
+      "speed":     { "title": "Speed-to-Lead",          "desc": "Durchschnittliche Erstantwortzeit mit aktivem KI-System" },
+      "recovery":  { "title": "Pipeline-Reaktivierung", "desc": "Ruhende Leads, durch automatisierte Kampagnen reaktiviert" },
+      "cycle":     { "title": "Sales-Zyklus",           "desc": "Schneller vom ersten Touch bis zum Abschluss" },
+      "ratio":     { "title": "LTGP/CAC-Verhältnis",    "desc": "Bewährt in Dental, ICT und professionellen Dienstleistungen" }
+    },
+    "callout": {
+      "label": "Warum LTGP und nicht nur LTV?",
+      "lead": "LTV ist Umsatz. Umsatz ist nicht Gewinn.",
+      "ltgpName": "LTGP (Lifetime Gross Profit)",
+      "body": "rechnet Ihre Lieferkosten heraus und zeigt die echte Marge pro Kunde — die einzige Zahl, die wirklich aussagt, ob Ihre Werbung Sie reicher oder nur beschäftigter macht. Wir bauen jede Kampagne um diese Zahl herum."
+    },
+    "disclaimer": "Dies sind gemessene Ergebnisse aus Live-Kunden-Dashboards, keine Prognosen."
+  },
+  "cases": {
+    "eyebrow": "Bewährte Ergebnisse",
+    "title": "Echte Zahlen. Echte Kunden. Echter Gewinn.",
+    "challenge": "Herausforderung",
+    "approach": "Vorgehen",
+    "timeline": "Zeitraum",
+    "results": "Ergebnisse",
+    "dental": {
+      "badge": "Healthcare / Dental",
+      "title": "Dentalklinik Zürich",
+      "challenge": "Patienten-Pipeline ausbauen, ohne dass die Akquisitionskosten aus dem Ruder laufen.",
+      "approach": "Meta-Ads-Lead-Capture → Claude-AI-Triage → GHL-Nurturing-Sequenzen + Reaktivierung ruhender Patienten.",
+      "timeline": "3 Monate",
+      "results": [
+        "166 Leads",
+        "41 Patienten (24,7 % Conversion)",
+        "CAC ↓29 % (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (von 1,9:1)"
+      ],
+      "insight": "51 % aus Meta Ads · 49 % aus KI-Reaktivierung — fast die Hälfte der Patienten kam aus Leads, die die Klinik bereits abgeschrieben hatte."
+    },
+    "ict": {
+      "badge": "B2B-Technologie",
+      "title": "Schweizer ICT-Unternehmen",
+      "challenge": "Verkauf von Enterprise-Software beschleunigen und lange Sales-Zyklen verkürzen.",
+      "approach": "LinkedIn- & E-Mail-Kampagnen → Claude-AI-Qualifizierung → n8n-Automation → GHL-Pipeline-Management.",
+      "timeline": "12 Monate",
+      "results": [
+        "312 qualifizierte Leads",
+        "67 Verkaufstermine (21,5 %)",
+        "Sales-Zyklus ↓38 % (45→28 Tage)",
+        "CAC ↓35 % (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (von 2,1:1)",
+        "CHF 487’000 Umsatzwirkung"
+      ],
+      "insight": "Automatisierte Qualifizierung ersparte 80 Stunden manuelles Sales-Follow-up pro Monat — Reps konzentrieren sich nur noch auf abschlussreife Interessenten."
+    }
+  },
+  "comparison": {
+    "title": "Was sich ändert, wenn Sie systematisieren",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Manueller Verkaufsprozess",
+    "rows": [
+      { "label": "Antwortzeit",         "ai": "Unter 60 Sekunden, rund um die Uhr",           "manual": "Wenn Zeit ist — oft Stunden" },
+      { "label": "Lead-Qualifizierung", "ai": "KI-bewertet, konsistent, jeder Lead",          "manual": "Subjektiv, hängt vom Mitarbeiter ab" },
+      { "label": "Skalierung",          "ai": "Mehr Volumen ohne Neueinstellungen",           "manual": "Jeder neue Lead = noch ein Mitarbeiter" },
+      { "label": "Reporting",           "ai": "Echtzeit-CAC, LTGP, Pipeline-Velocity",        "manual": "Excel-Tabellen, wenn jemand daran denkt" },
+      { "label": "Ruhende Leads",       "ai": "Automatisch via Kampagnen reaktiviert",        "manual": "Vergessen im CRM-Friedhof" },
+      { "label": "Sales-Zyklus",        "ai": "30–40 % kürzer durch Automation",              "manual": "Hängt davon ab, wer diese Woche verkauft" }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Warum Alpine",
+    "title": "Warum Alpine Marketing wählen?",
+    "cards": [
+      { "title": "Full-Funnel statt Fragment",         "desc": "Die meisten Agenturen optimieren einen Kanal. Wir systematisieren Ihre gesamte Akquise — vom ersten Eindruck bis zum Lifetime-Profit." },
+      { "title": "Kennzahlen, die etwas bedeuten",     "desc": "Wir messen CAC und LTGP, keine Klicks. Sie wissen jederzeit, was ein Kunde kostet und was er an Gewinn bringt." },
+      { "title": "AI-First, menschlich gesteuert",     "desc": "Claude AI übernimmt Triage, Qualifizierung und Antwort. Ihr Team kümmert sich um Beziehungen und Abschlüsse." },
+      { "title": "Schweizer Präzision, Startup-Tempo", "desc": "DSGVO-konforme Infrastruktur, transparentes Reporting, Echtzeit-Tracking — mit Tempo geliefert." },
+      { "title": "Automation mit Zinseszins",          "desc": "Jeder Lead macht das System schlauer. A/B-getestete Sequenzen und laufende Optimierung senken Ihren CAC mit der Zeit." },
+      { "title": "Bewiesen, nicht versprochen",        "desc": "LTGP/CAC-Verhältnisse von 3,4:1 bis 4,2:1 in Dental, ICT und professionellen Dienstleistungen. Dashboard, kein Pitch-Deck." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Das Team",
+    "title": "Operatoren, keine Theoretiker.",
+    "subtitle": "Jede Person in unserem Team baut und betreibt die Systeme, die wir verkaufen. Keine Account Manager mit Skripts — nur Spezialisten, die Automation für Dutzende KMU geliefert haben.",
+    "roles": {
+      "founder":     "Gründer",
+      "performance": "Performance Marketing",
+      "engineering": "Engineering",
+      "content":     "Content",
+      "creative":    "Creative",
+      "motion":      "Motion"
+    },
+    "specialties": {
+      "founder":     "CRM-Funnels & Automatisierungsstrategie",
+      "performance": "Google & Meta Ads",
+      "engineering": "Webentwicklung & Automation",
+      "content":     "SEO & Conversion-Copywriting",
+      "creative":    "Foto- & Videoproduktion",
+      "motion":      "Videoschnitt & Motion Design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufige Fragen, klare Antworten.",
+    "items": [
+      { "q": "Macht ihr nur Anzeigen?",                                                       "a": "Nein. Anzeigen sind nur ein Input ins System. Wir bauen den vollständigen Akquise-Motor — Paid Traffic, Landing Pages, CRM-Setup, Lead-Routing, KI-Follow-up, Nurture-Sequenzen, Reaktivierungskampagnen und Reporting. Wenn Ihr Funnel beim Follow-up leckt, macht mehr Werbebudget das Leck nur grösser." },
+      { "q": "Funktioniert ihr mit unserem bestehenden CRM?",                                 "a": "Kommt auf die Plattform an. Wir arbeiten nativ in GoHighLevel und können die meisten CRMs via API oder n8n-Automation anbinden. Wenn Ihr CRM Webhooks oder eine API hat, integrieren wir es. Wenn nicht — sagen wir es Ihnen ehrlich und erklären die Optionen." },
+      { "q": "Helft ihr bei Automation und Lead-Follow-up?",                                  "a": "Das ist unser Kern. Speed-to-Lead ist eine der wirkungsvollsten Verbesserungen überhaupt. Unsere Claude-AI-Agents antworten innerhalb von 60 Sekunden, qualifizieren den Lead und routen ihn richtig — rund um die Uhr, auch am Wochenende. Ihr Team berührt nur abschlussreife Leads." },
+      { "q": "In welchen Märkten arbeitet ihr?",                                              "a": "Unsere Hauptpraxis liegt in der Schweiz, der EU und im grenzüberschreitenden europäischen Markt. Wir haben mit Dentalkliniken, ICT-Firmen, Beratungsunternehmen und lokalen Dienstleistern gearbeitet. Wir nehmen nicht jedes Mandat an — wir sagen es Ihnen im Audit-Call, wenn wir nicht passen." },
+      { "q": "Wie geht ihr mit Datenschutz und Tracking nach Cookies um?",                    "a": "Wir bauen von Anfang an eine Consent-bewusste Infrastruktur. Das heisst: sauberes Cookie-Consent-Management, First-Party-Datenstrategie, DSGVO-konforme Formulare und CRM-Tracking, das nicht von Drittanbieter-Cookies abhängt. Wir laden keine Tracking-Skripte vor Einwilligung. Wir nutzen keine Dark Patterns." },
+      { "q": "Was passiert in einem kostenlosen Funnel-Audit?",                               "a": "Wir analysieren Ihr aktuelles Akquise-Setup — Traffic-Quellen, Landing Pages, CRM-Struktur, Follow-up-Sequenzen, Reporting. Wir identifizieren, wo Leads abspringen und was die Behebung jeder Stelle in Umsatz wert wäre. Sie erhalten ein klares Bild der Systemlücken, bevor wir über Zusammenarbeit sprechen." }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Bereit, das System zu reparieren?",
+    "title": "Hören Sie auf, einen kaputten Funnel zu füllen.",
+    "subtitle": "Buchen Sie ein kostenloses Audit und sehen Sie, wo Ihr Akquise-System leckt, was zuerst zu beheben ist und welche Zahlen wirklich zählen.",
+    "primary": "Kostenloses Audit buchen",
+    "secondary": "Unsere Leistungen ansehen",
+    "disclaimer": "Unverbindlich. Ergebnisse variieren je nach Markt, Angebot, Budget und Verkaufsprozess."
+  },
   "footer": {
     "tagline": "Systematisierte Kundengewinnung für KMU in der Schweiz und Europa. Tieferer CAC, stärkere Pipelines, sauberes Reporting.",
     "company": "Siladii Alpine Marketing",
