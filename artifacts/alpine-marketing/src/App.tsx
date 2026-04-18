@@ -10,6 +10,8 @@ import AboutPage from "@/pages/AboutPage";
 import ContactPage from "@/pages/ContactPage";
 import BookAuditPage from "@/pages/BookAuditPage";
 import ThankYouPage from "@/pages/ThankYouPage";
+import BlogIndexPage from "@/pages/BlogIndexPage";
+import BlogPostPage from "@/pages/BlogPostPage";
 
 import PrivacyPage from "@/pages/legal/PrivacyPage";
 import CookiesPage from "@/pages/legal/CookiesPage";
@@ -34,6 +36,10 @@ function Router() {
       <Route path="/contact" component={ContactPage} />
       <Route path="/book-audit" component={BookAuditPage} />
       <Route path="/thank-you" component={ThankYouPage} />
+
+      {/* Blog */}
+      <Route path="/blog" component={BlogIndexPage} />
+      <Route path="/blog/:slug" component={BlogPostPage} />
 
       {/* Legal pages */}
       <Route path="/legal/privacy" component={PrivacyPage} />

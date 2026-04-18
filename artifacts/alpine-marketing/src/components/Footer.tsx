@@ -23,6 +23,7 @@ const SERVICE_LINKS = [
 const NAV_LINKS = [
   { label: "Services",     href: "/services" },
   { label: "Case Studies", href: "/#results" },
+  { label: "Blog",         href: "/blog" },
   { label: "About",        href: "/about" },
   { label: "Contact",      href: "/contact" },
   { label: "Book Audit",   href: "/book-audit" },

@@ -7,6 +7,7 @@ import logoPath from "../../../../attached_assets/Logo_White_Vers_1775782653069.
 const PRIMARY_LINKS = [
   { name: "Services",      href: "/services" },
   { name: "Case Studies",  href: "/#results" },
+  { name: "Blog",          href: "/blog" },
   { name: "About",         href: "/about" },
   { name: "Contact",       href: "/contact" },
 ];
