@@ -1,7 +1,7 @@
 import type { BlogPost, BlogPostMeta } from "./types";
-import SalesforceTrueCost, {
-  meta as salesforceTrueCostMeta,
-} from "./posts/salesforce-true-cost";
+import DentalPatients2026, {
+  meta as dentalPatients2026Meta,
+} from "./posts/dental-patients-2026";
 
 /**
  * Registry of all blog posts.
@@ -14,7 +14,7 @@ import SalesforceTrueCost, {
  * The post will automatically appear on /blog and at /blog/<slug>.
  */
 export const POSTS: BlogPost[] = [
-  { meta: salesforceTrueCostMeta, Content: SalesforceTrueCost },
+  { meta: dentalPatients2026Meta, Content: DentalPatients2026 },
 ];
 
 export const POSTS_META: BlogPostMeta[] = POSTS.map((p) => p.meta);
