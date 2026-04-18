@@ -7,10 +7,10 @@ const VARIANTS: Record<
   CalloutVariant,
   { color: string; bg: string; border: string; Icon: typeof Info }
 > = {
-  info:      { color: "#0891b2", bg: "rgba(8,145,178,0.06)",  border: "rgba(8,145,178,0.25)",  Icon: Info },
-  warning:   { color: "#f59e0b", bg: "rgba(245,158,11,0.06)", border: "rgba(245,158,11,0.28)", Icon: AlertTriangle },
-  highlight: { color: "#10b981", bg: "rgba(16,185,129,0.06)", border: "rgba(16,185,129,0.28)", Icon: Sparkles },
-  quote:     { color: "#0891b2", bg: "rgba(255,255,255,0.02)",border: "rgba(255,255,255,0.08)",Icon: Quote },
+  info:      { color: "#0891b2", bg: "#ecfeff", border: "#a5f3fc", Icon: Info },
+  warning:   { color: "#b45309", bg: "#fffbeb", border: "#fde68a", Icon: AlertTriangle },
+  highlight: { color: "#047857", bg: "#ecfdf5", border: "#a7f3d0", Icon: Sparkles },
+  quote:     { color: "#0e7490", bg: "#f8fafc", border: "#e2e8f0", Icon: Quote },
 };
 
 export function Callout({
@@ -25,13 +25,13 @@ export function Callout({
   const v = VARIANTS[variant];
   return (
     <div
-      className="my-8 rounded-xl p-5 md:p-6 border"
+      className="my-8 rounded-xl p-5 md:p-6 border not-prose"
       style={{ background: v.bg, borderColor: v.border }}
     >
       <div className="flex items-start gap-3.5">
         <div
           className="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center mt-0.5"
-          style={{ background: `${v.color}1a`, border: `1px solid ${v.color}40` }}
+          style={{ background: "#ffffff", border: `1px solid ${v.border}` }}
         >
           <v.Icon className="w-4 h-4" style={{ color: v.color }} />
         </div>
@@ -44,7 +44,7 @@ export function Callout({
               {title}
             </div>
           )}
-          <div className="text-[15px] text-white/75 leading-relaxed [&>*:last-child]:mb-0 [&>p]:mb-2">
+          <div className="text-[15px] text-zinc-700 leading-relaxed [&>*:last-child]:mb-0 [&>p]:mb-2">
             {children}
           </div>
         </div>
@@ -58,29 +58,29 @@ export function StatRow({
 }: {
   stats: { value: string; label: string; accent?: "teal" | "emerald" | "amber" | "red" }[];
 }) {
-  const COLOR: Record<NonNullable<typeof stats[number]["accent"]>, string> = {
-    teal:    "#0891b2",
-    emerald: "#10b981",
-    amber:   "#f59e0b",
-    red:     "#ef4444",
+  const COLOR: Record<NonNullable<typeof stats[number]["accent"]>, { fg: string; bg: string; border: string }> = {
+    teal:    { fg: "#0891b2", bg: "#ecfeff", border: "#a5f3fc" },
+    emerald: { fg: "#047857", bg: "#ecfdf5", border: "#a7f3d0" },
+    amber:   { fg: "#b45309", bg: "#fffbeb", border: "#fde68a" },
+    red:     { fg: "#b91c1c", bg: "#fef2f2", border: "#fecaca" },
   };
   return (
-    <div className="my-8 grid grid-cols-1 sm:grid-cols-3 gap-3">
+    <div className="my-8 grid grid-cols-1 sm:grid-cols-3 gap-3 not-prose">
       {stats.map((s, i) => {
         const c = COLOR[s.accent ?? "teal"];
         return (
           <div
             key={i}
             className="rounded-xl p-5 border text-center"
-            style={{ background: `${c}0d`, borderColor: `${c}30` }}
+            style={{ background: c.bg, borderColor: c.border }}
           >
             <div
               className="text-3xl md:text-[2rem] font-extrabold tabular-nums leading-none"
-              style={{ color: c, fontFamily: "'Space Grotesk', sans-serif" }}
+              style={{ color: c.fg, fontFamily: "'Space Grotesk', sans-serif" }}
             >
               {s.value}
             </div>
-            <div className="mt-2 text-[11px] uppercase tracking-wider text-white/45">
+            <div className="mt-2 text-[11px] uppercase tracking-wider text-zinc-500">
               {s.label}
             </div>
           </div>

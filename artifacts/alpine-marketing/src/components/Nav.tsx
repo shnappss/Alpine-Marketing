@@ -30,6 +30,10 @@ export default function Nav() {
     return location.startsWith(href.replace("/#", "")) && !href.startsWith("/#");
   };
 
+  // Light theme on blog pages (until scrolled — then nav goes dark/blurred as usual)
+  const isLightPage = location.startsWith("/blog");
+  const useLight = isLightPage && !scrolled;
+
   return (
     <>
       {/* Thin accent bar — top of page */}
@@ -39,6 +43,8 @@ export default function Nav() {
         className={`fixed top-[2px] left-0 right-0 z-40 transition-all duration-500 ${
           scrolled
             ? "bg-[#070810]/85 backdrop-blur-xl border-b border-white/[0.06] shadow-[0_1px_40px_rgba(0,0,0,0.4)]"
+            : useLight
+            ? "bg-white/70 backdrop-blur-md border-b border-zinc-100"
             : "bg-transparent"
         }`}
       >
@@ -53,43 +59,56 @@ export default function Nav() {
               width="56"
               height="56"
               decoding="async"
-              style={{ mixBlendMode: "screen" }}
+              style={
+                useLight
+                  ? { filter: "invert(1) hue-rotate(180deg)" }
+                  : { mixBlendMode: "screen" }
+              }
             />
           </Link>
 
           {/* Desktop nav — centered links */}
           <nav className="hidden md:flex items-center gap-1 flex-1 justify-center" aria-label="Main navigation">
-            {PRIMARY_LINKS.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                data-testid={`link-${link.name.toLowerCase().replace(/\s+/g, "-")}`}
-                className={`relative px-4 py-2 text-[13.5px] font-medium rounded-md transition-all duration-150 group ${
-                  isActive(link.href)
-                    ? "text-white"
-                    : "text-white/55 hover:text-white/90"
-                }`}
-              >
-                {/* Active underline */}
-                {isActive(link.href) && (
-                  <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4 h-[2px] rounded-full bg-primary" />
-                )}
-                {/* Hover bg */}
-                <span className="absolute inset-0 rounded-md bg-white/0 group-hover:bg-white/[0.05] transition-colors duration-150" />
-                <span className="relative">{link.name}</span>
-              </a>
-            ))}
+            {PRIMARY_LINKS.map((link) => {
+              const active = isActive(link.href);
+              const inactiveCls = useLight
+                ? "text-zinc-500 hover:text-zinc-900"
+                : "text-white/55 hover:text-white/90";
+              const activeCls = useLight ? "text-zinc-900" : "text-white";
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  data-testid={`link-${link.name.toLowerCase().replace(/\s+/g, "-")}`}
+                  className={`relative px-4 py-2 text-[13.5px] font-medium rounded-md transition-all duration-150 group ${
+                    active ? activeCls : inactiveCls
+                  }`}
+                >
+                  {active && (
+                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4 h-[2px] rounded-full bg-primary" />
+                  )}
+                  <span
+                    className={`absolute inset-0 rounded-md transition-colors duration-150 ${
+                      useLight ? "bg-zinc-900/0 group-hover:bg-zinc-900/[0.04]" : "bg-white/0 group-hover:bg-white/[0.05]"
+                    }`}
+                  />
+                  <span className="relative">{link.name}</span>
+                </a>
+              );
+            })}
           </nav>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3 flex-shrink-0">
             <a
               href="tel:+41795255504"
-              className="text-[13px] text-white/50 hover:text-white/80 transition-colors font-medium tracking-tight"
+              className={`text-[13px] transition-colors font-medium tracking-tight ${
+                useLight ? "text-zinc-500 hover:text-zinc-800" : "text-white/50 hover:text-white/80"
+              }`}
             >
               +41 79 525 55 04
             </a>
-            <div className="w-px h-5 bg-white/10" />
+            <div className={`w-px h-5 ${useLight ? "bg-zinc-200" : "bg-white/10"}`} />
             <Link
               href="/book-audit"
               data-testid="link-cta-nav"
@@ -101,7 +120,11 @@ export default function Nav() {
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden flex items-center justify-center w-9 h-9 rounded-md text-white/70 hover:text-white hover:bg-white/5 transition-colors"
+            className={`md:hidden flex items-center justify-center w-9 h-9 rounded-md transition-colors ${
+              useLight
+                ? "text-zinc-700 hover:text-zinc-900 hover:bg-zinc-900/5"
+                : "text-white/70 hover:text-white hover:bg-white/5"
+            }`}
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle navigation"
             data-testid="button-mobile-menu"
