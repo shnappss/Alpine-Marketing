@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import CookieConsent from "@/components/CookieConsent";
+import { usePageTracking } from "@/hooks/usePageTracking";
 
 import Home from "@/pages/Home";
 import ServicesPage from "@/pages/ServicesPage";
@@ -28,6 +29,7 @@ import NotFound from "@/pages/not-found";
 const queryClient = new QueryClient();
 
 function Router() {
+  usePageTracking();
   return (
     <Switch>
       <Route path="/" component={Home} />
