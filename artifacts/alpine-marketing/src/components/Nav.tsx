@@ -2,20 +2,23 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link, useLocation } from "wouter";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 import logoPath from "../../../../attached_assets/Logo_White_Vers_1775782653069.jpg";
 
-const PRIMARY_LINKS = [
-  { name: "Services",      href: "/services" },
-  { name: "Case Studies",  href: "/#results" },
-  { name: "Blog",          href: "/blog" },
-  { name: "About",         href: "/about" },
-  { name: "Contact",       href: "/contact" },
-];
-
 export default function Nav() {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [location] = useLocation();
+
+  const PRIMARY_LINKS = [
+    { name: t("nav.services"),     href: "/services" },
+    { name: t("nav.caseStudies"),  href: "/#results" },
+    { name: t("nav.blog"),         href: "/blog" },
+    { name: t("nav.about"),        href: "/about" },
+    { name: t("nav.contact"),      href: "/contact" },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -100,21 +103,23 @@ export default function Nav() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3 flex-shrink-0">
+            <LanguageSwitcher variant={useLight ? "light" : "dark"} />
+            <div className={`w-px h-5 ${useLight ? "bg-zinc-200" : "bg-white/10"}`} />
             <a
               href="tel:+41795255504"
-              className={`text-[13px] transition-colors font-medium tracking-tight ${
+              className={`hidden lg:inline text-[13px] transition-colors font-medium tracking-tight ${
                 useLight ? "text-zinc-500 hover:text-zinc-800" : "text-white/50 hover:text-white/80"
               }`}
             >
-              +41 79 525 55 04
+              {t("common.phone")}
             </a>
-            <div className={`w-px h-5 ${useLight ? "bg-zinc-200" : "bg-white/10"}`} />
+            <div className={`hidden lg:block w-px h-5 ${useLight ? "bg-zinc-200" : "bg-white/10"}`} />
             <Link
               href="/book-audit"
               data-testid="link-cta-nav"
               className="inline-flex items-center gap-2 px-5 py-2.5 text-[13.5px] font-semibold bg-primary text-white rounded-lg hover:bg-primary/90 active:scale-[0.98] transition-all duration-150 shadow-[0_0_18px_rgba(8,145,178,0.35)] hover:shadow-[0_0_28px_rgba(8,145,178,0.55)]"
             >
-              Book Free Audit
+              {t("common.bookAudit")}
             </Link>
           </div>
 
@@ -155,13 +160,14 @@ export default function Nav() {
                     {link.name}
                   </a>
                 ))}
-                <div className="mt-3 pt-3 border-t border-white/[0.07]">
+                <div className="mt-3 pt-3 border-t border-white/[0.07] flex items-center justify-between gap-3">
+                  <LanguageSwitcher variant="dark" />
                   <Link
                     href="/book-audit"
-                    className="flex items-center justify-center w-full py-3 px-5 bg-primary text-white text-[15px] font-semibold rounded-lg hover:bg-primary/90 transition-all"
+                    className="flex-1 flex items-center justify-center py-3 px-5 bg-primary text-white text-[15px] font-semibold rounded-lg hover:bg-primary/90 transition-all"
                     onClick={() => setMobileOpen(false)}
                   >
-                    Book Free Audit
+                    {t("common.bookAudit")}
                   </Link>
                 </div>
               </div>

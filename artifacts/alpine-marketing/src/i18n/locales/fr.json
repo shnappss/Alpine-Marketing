@@ -1,0 +1,67 @@
+{
+  "common": {
+    "bookAudit": "Réserver un audit gratuit",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "nav": {
+    "services": "Services",
+    "caseStudies": "Études de cas",
+    "blog": "Blog",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Pour les PME et entreprises tech en Suisse",
+    "headlineLead": "Nous construisons la machine qui transforme votre budget pub en ",
+    "headlineHighlight": "profit prévisible.",
+    "subheadline": "Alpine Marketing construit un moteur d'acquisition full-funnel — de Meta & Google Ads au suivi propulsé par l'IA jusqu'à la signature — et vous livre un tableau de bord montrant votre vrai CAC et votre Lifetime Gross Profit.",
+    "subheadlineEmphasis": "Pas des clics. Pas des impressions. Du profit.",
+    "primaryCta": "Obtenir mon audit pipeline gratuit",
+    "secondaryCta": "Voir les résultats clients",
+    "cardTitle": "Visualiseur de pipeline — En direct",
+    "stats": {
+      "cac": "Réduction moy. du CAC",
+      "ratio": "Ratio LTGP/CAC",
+      "responseTime": "Temps de réponse lead",
+      "clients": "Clients suisses"
+    }
+  },
+  "footer": {
+    "tagline": "Acquisition client systématisée pour les PME suisses et européennes. CAC plus bas, pipelines plus solides, reporting plus clair.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Suisse",
+    "headings": {
+      "services": "Services",
+      "company": "Entreprise",
+      "legal": "Mentions légales & vie privée"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatisation",
+      "reporting": "Reporting & Analytics",
+      "audit": "Audit Full-Funnel"
+    },
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "cookies": "Politique cookies",
+      "terms": "Conditions d'utilisation",
+      "disclaimer": "Avertissement",
+      "accessibility": "Accessibilité",
+      "privacyChoices": "Préférences de confidentialité",
+      "dataRequests": "Demandes de données",
+      "security": "Sécurité & traitement des données",
+      "notice": "Mentions légales"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Tous droits réservés. Zurich, Suisse.",
+    "performanceDisclaimer": "Les résultats présentés sur ce site proviennent de mandats clients réels et ne constituent aucune garantie de résultats futurs. La performance varie selon le marché, l'offre, le budget, le processus de vente et d'autres facteurs hors du contrôle d'Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "priority": "Langues principales",
+    "other": "Autres langues de l'UE"
+  }
+}

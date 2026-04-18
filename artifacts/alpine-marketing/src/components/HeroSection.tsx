@@ -1,18 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "wouter";
+import { useTranslation } from "react-i18next";
 import FunnelAnimation from "./FunnelAnimation";
 
 const CYAN   = "#0891b2";
 const EMERALD= "#10b981";
 const AMBER  = "#06b6d4";
-
-const PROOF_STATS = [
-  { value: "32%",       label: "Avg. CAC Reduction",   color: EMERALD },
-  { value: "3.4–4.2×",  label: "LTGP/CAC Ratio",       color: EMERALD },
-  { value: "<60s",      label: "Lead Response Time",    color: AMBER   },
-  { value: "20+",       label: "Swiss Clients",         color: "rgba(255,255,255,0.75)" },
-];
 
 const fadeUp = (delay = 0) => ({
   initial:  { opacity: 0, y: 22 },
@@ -21,6 +15,13 @@ const fadeUp = (delay = 0) => ({
 });
 
 export default function HeroSection() {
+  const { t } = useTranslation();
+  const PROOF_STATS = [
+    { value: "32%",       label: t("hero.stats.cac"),          color: EMERALD },
+    { value: "3.4–4.2×",  label: t("hero.stats.ratio"),        color: EMERALD },
+    { value: "<60s",      label: t("hero.stats.responseTime"), color: AMBER   },
+    { value: "20+",       label: t("hero.stats.clients"),      color: "rgba(255,255,255,0.75)" },
+  ];
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden">
 
@@ -48,7 +49,7 @@ export default function HeroSection() {
               style={{ color: CYAN, borderColor: `${CYAN}30`, background: `${CYAN}0f`,
                        fontFamily: "'Space Grotesk', sans-serif" }}>
               <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: CYAN }} />
-              For SMBs &amp; Tech Companies in Switzerland
+              {t("hero.eyebrow")}
             </span>
           </motion.div>
 
@@ -56,10 +57,10 @@ export default function HeroSection() {
           <motion.h1 {...fadeUp(0.08)}
             className="text-[2.5rem] md:text-[3.1rem] lg:text-[3.5rem] font-bold text-white leading-[1.06] tracking-tight"
             style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            We Build the Machine That Turns Your Ad Spend Into{" "}
+            {t("hero.headlineLead")}
             <span className="text-transparent bg-clip-text"
               style={{ backgroundImage: `linear-gradient(120deg, ${CYAN} 0%, #22d3ee 45%, ${EMERALD} 100%)` }}>
-              Predictable Profit.
+              {t("hero.headlineHighlight")}
             </span>
           </motion.h1>
 
@@ -67,11 +68,9 @@ export default function HeroSection() {
           <motion.p {...fadeUp(0.16)}
             className="text-[1rem] md:text-[1.08rem] leading-[1.8] max-w-[520px]"
             style={{ color: "rgba(255,255,255,0.48)", fontFamily: "'Inter', sans-serif", fontWeight: 400 }}>
-            Alpine Marketing builds a full-funnel acquisition engine — from Meta &amp; Google Ads to
-            AI-powered follow-up to closed deal — and gives you a dashboard showing your real CAC and
-            Lifetime Gross Profit.{" "}
+            {t("hero.subheadline")}{" "}
             <span style={{ color: "rgba(255,255,255,0.8)", fontWeight: 500 }}>
-              Not clicks. Not impressions. Profit.
+              {t("hero.subheadlineEmphasis")}
             </span>
           </motion.p>
 
@@ -83,7 +82,7 @@ export default function HeroSection() {
                        color: "#ffffff", boxShadow: `0 0 28px ${CYAN}66, 0 4px 24px rgba(0,0,0,0.35)`,
                        fontFamily: "'Space Grotesk', sans-serif" }}
               data-testid="button-hero-primary">
-              Get Your Free Pipeline Audit
+              {t("hero.primaryCta")}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
             <a href="/#results"
@@ -91,7 +90,7 @@ export default function HeroSection() {
               style={{ color: "rgba(255,255,255,0.55)", border: "1px solid rgba(255,255,255,0.1)",
                        fontFamily: "'Space Grotesk', sans-serif" }}
               data-testid="button-hero-secondary">
-              See Client Results
+              {t("hero.secondaryCta")}
               <ChevronDown className="w-4 h-4" />
             </a>
           </motion.div>
@@ -136,7 +135,7 @@ export default function HeroSection() {
               </div>
               <span className="text-[10px] font-medium ml-1 tracking-wider"
                 style={{ color: "rgba(255,255,255,0.28)", fontFamily: "'Space Grotesk', sans-serif" }}>
-                Pipeline Visualizer — Live
+                {t("hero.cardTitle")}
               </span>
             </div>
 
