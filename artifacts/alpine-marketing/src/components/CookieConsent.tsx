@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "wouter";
+import { useTranslation } from "react-i18next";
 import { X, Settings } from "lucide-react";
 
 type ConsentState = {
@@ -12,8 +13,8 @@ type ConsentState = {
   version: string;
 };
 
-const CONSENT_KEY  = "am_cookie_consent";
-const CONSENT_VER  = "1.0";
+const CONSENT_KEY = "am_cookie_consent";
+const CONSENT_VER = "1.0";
 
 function getStoredConsent(): ConsentState | null {
   try {
@@ -38,6 +39,7 @@ function saveConsent(state: Omit<ConsentState, "timestamp" | "version">) {
 }
 
 export default function CookieConsent() {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [showCustomize, setShowCustomize] = useState(false);
   const [prefs, setPrefs] = useState({ preferences: false, analytics: false, marketing: false });
@@ -48,6 +50,7 @@ export default function CookieConsent() {
       const timer = setTimeout(() => setVisible(true), 1200);
       return () => clearTimeout(timer);
     }
+    return;
   }, []);
 
   const acceptAll = () => {
@@ -67,6 +70,13 @@ export default function CookieConsent() {
 
   if (!visible) return null;
 
+  const items = [
+    { key: "necessary", always: true },
+    { key: "preferences", always: false },
+    { key: "analytics", always: false },
+    { key: "marketing", always: false },
+  ] as const;
+
   return (
     <AnimatePresence>
       <motion.div
@@ -83,12 +93,12 @@ export default function CookieConsent() {
         <div className="bg-[#13131F] border border-white/10 rounded-2xl shadow-2xl p-6">
           <div className="flex items-start justify-between gap-4 mb-4">
             <p className="text-sm font-bold text-white leading-snug">
-              We use cookies to improve your experience.
+              {t("cookieConsent.heading")}
             </p>
             <button
               onClick={rejectNonEssential}
               className="text-muted-foreground hover:text-white transition-colors flex-shrink-0 mt-0.5"
-              aria-label="Close and reject non-essential cookies"
+              aria-label={t("cookieConsent.closeAria")}
             >
               <X className="w-4 h-4" />
             </button>
@@ -97,55 +107,50 @@ export default function CookieConsent() {
           {!showCustomize ? (
             <>
               <p className="text-xs text-muted-foreground mb-5 leading-relaxed">
-                Some are strictly necessary to run the site. Others — analytics and marketing cookies — are only loaded with your consent. You can change your preferences at any time via{" "}
+                {t("cookieConsent.bodyPrefix")}
                 <Link href="/legal/privacy-choices" className="text-primary underline underline-offset-2">
-                  Privacy Choices
+                  {t("cookieConsent.privacyChoices")}
                 </Link>
-                . See our{" "}
+                {t("cookieConsent.between")}
                 <Link href="/legal/cookies" className="text-primary underline underline-offset-2">
-                  Cookie Notice
-                </Link>{" "}
-                for details.
+                  {t("cookieConsent.cookieNotice")}
+                </Link>
+                {t("cookieConsent.bodySuffix")}
               </p>
               <div className="flex flex-col sm:flex-row gap-2">
                 <button
                   onClick={acceptAll}
                   className="flex-1 py-2 px-4 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary/90 transition-colors"
                 >
-                  Accept all
+                  {t("cookieConsent.acceptAll")}
                 </button>
                 <button
                   onClick={rejectNonEssential}
                   className="flex-1 py-2 px-4 bg-white/5 border border-white/10 text-white text-sm font-semibold rounded-lg hover:bg-white/10 transition-colors"
                 >
-                  Necessary only
+                  {t("cookieConsent.necessaryOnly")}
                 </button>
                 <button
                   onClick={() => setShowCustomize(true)}
                   className="flex-shrink-0 py-2 px-3 text-muted-foreground text-sm hover:text-white transition-colors flex items-center gap-1.5"
-                  aria-label="Customise cookie settings"
+                  aria-label={t("cookieConsent.customizeAria")}
                 >
                   <Settings className="w-3.5 h-3.5" />
-                  Customise
+                  {t("cookieConsent.customize")}
                 </button>
               </div>
             </>
           ) : (
             <>
               <p className="text-xs text-muted-foreground mb-4">
-                Strictly necessary cookies are always active. Toggle the rest below.
+                {t("cookieConsent.customizeIntro")}
               </p>
               <div className="space-y-3 mb-5">
-                {[
-                  { key: "necessary", label: "Strictly Necessary", always: true, desc: "Required for the site to function." },
-                  { key: "preferences", label: "Preferences", always: false, desc: "Remembers your settings and choices." },
-                  { key: "analytics", label: "Analytics", always: false, desc: "Helps us understand how visitors use the site. No data shared before consent." },
-                  { key: "marketing", label: "Marketing", always: false, desc: "Used for targeted advertising. Never loaded without your explicit consent." },
-                ].map(item => (
+                {items.map(item => (
                   <div key={item.key} className="flex items-start justify-between gap-3">
                     <div>
-                      <p className="text-xs font-semibold text-white">{item.label}</p>
-                      <p className="text-[11px] text-muted-foreground mt-0.5">{item.desc}</p>
+                      <p className="text-xs font-semibold text-white">{t(`cookieConsent.items.${item.key}.label`)}</p>
+                      <p className="text-[11px] text-muted-foreground mt-0.5">{t(`cookieConsent.items.${item.key}.desc`)}</p>
                     </div>
                     <button
                       role="switch"
@@ -175,13 +180,13 @@ export default function CookieConsent() {
                   onClick={saveCustom}
                   className="flex-1 py-2 px-4 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary/90 transition-colors"
                 >
-                  Save preferences
+                  {t("cookieConsent.save")}
                 </button>
                 <button
                   onClick={() => setShowCustomize(false)}
                   className="py-2 px-4 bg-white/5 border border-white/10 text-white text-sm rounded-lg hover:bg-white/10 transition-colors"
                 >
-                  Back
+                  {t("cookieConsent.back")}
                 </button>
               </div>
             </>

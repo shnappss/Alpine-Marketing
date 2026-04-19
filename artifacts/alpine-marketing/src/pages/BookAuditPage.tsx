@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useLocation } from "wouter";
+import { useTranslation } from "react-i18next";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -11,25 +12,20 @@ import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
 import { Button } from "../components/ui/button";
 
-const formSchema = z.object({
-  name: z.string().min(2, "Name is required"),
-  email: z.string().email("Valid work email is required"),
-  company: z.string().min(2, "Company name is required"),
-  website: z.string().url("Enter a valid URL (include https://)").optional().or(z.literal("")),
-  monthlyLeads: z.string().min(1, "Please select an option"),
-  challenge: z.string().min(20, "Please describe your challenge — at least a sentence"),
-  privacyConsent: z.boolean().refine(v => v === true, "You must agree to continue"),
-  marketingConsent: z.boolean().optional(),
-});
-
-const WHAT_YOU_GET = [
-  "A map of where your current funnel loses leads and revenue",
-  "An honest assessment of which gaps are worth fixing first",
-  "A sense of what a systematized engine would look like for your business",
-];
-
 export default function BookAuditPage() {
+  const { t } = useTranslation();
   const [, navigate] = useLocation();
+
+  const formSchema = z.object({
+    name: z.string().min(2, t("bookAuditPage.form.validation.name")),
+    email: z.string().email(t("bookAuditPage.form.validation.email")),
+    company: z.string().min(2, t("bookAuditPage.form.validation.company")),
+    website: z.string().url(t("bookAuditPage.form.validation.website")).optional().or(z.literal("")),
+    monthlyLeads: z.string().min(1, t("bookAuditPage.form.validation.monthlyLeads")),
+    challenge: z.string().min(20, t("bookAuditPage.form.validation.challenge")),
+    privacyConsent: z.boolean().refine(v => v === true, t("bookAuditPage.form.validation.consent")),
+    marketingConsent: z.boolean().optional(),
+  });
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -44,6 +40,8 @@ export default function BookAuditPage() {
     navigate("/thank-you");
   }
 
+  const whatYouGet = t("bookAuditPage.whatYouGet", { returnObjects: true }) as string[];
+
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col font-sans">
       <Nav />
@@ -51,40 +49,28 @@ export default function BookAuditPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-5xl mx-auto">
 
-            {/* Left — context */}
             <div>
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
+              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }}
                 className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block"
               >
-                Free Funnel Audit
+                {t("bookAuditPage.eyebrow")}
               </motion.p>
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
+              <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
                 className="text-4xl md:text-5xl font-bold mb-6"
               >
-                See exactly where your system leaks.
+                {t("bookAuditPage.title")}
               </motion.h1>
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
+              <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
                 className="text-muted-foreground text-lg mb-8 leading-relaxed"
               >
-                In a 30-minute audit call, we review your acquisition setup and show you the gaps — before asking for anything in return.
+                {t("bookAuditPage.subtitle")}
               </motion.p>
 
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
+              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
                 className="space-y-4 mb-10"
               >
-                <p className="text-sm font-bold uppercase tracking-wider text-muted-foreground">What you get:</p>
-                {WHAT_YOU_GET.map((item, i) => (
+                <p className="text-sm font-bold uppercase tracking-wider text-muted-foreground">{t("bookAuditPage.whatYouGetLabel")}</p>
+                {whatYouGet.map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
                     <p className="text-white/80 text-sm">{item}</p>
@@ -92,24 +78,15 @@ export default function BookAuditPage() {
                 ))}
               </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.4 }}
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}
                 className="bg-card border border-white/8 rounded-xl p-6"
               >
-                <p className="text-sm font-semibold text-white mb-2">Who this is for:</p>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Service businesses generating leads but converting too few. Companies spending on ads but unsure what's actually working. SMBs ready to build a system, not buy another tactic.
-                </p>
+                <p className="text-sm font-semibold text-white mb-2">{t("bookAuditPage.whoForLabel")}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed">{t("bookAuditPage.whoForBody")}</p>
               </motion.div>
             </div>
 
-            {/* Right — form */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2 }}
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }}
               className="bg-card border border-white/10 rounded-2xl p-8 md:p-10"
             >
               <Form {...form}>
@@ -117,15 +94,15 @@ export default function BookAuditPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <FormField control={form.control} name="name" render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Full Name *</FormLabel>
-                        <FormControl><Input placeholder="Jane Smith" {...field} className="bg-background border-white/10" /></FormControl>
+                        <FormLabel>{t("bookAuditPage.form.fullName")} *</FormLabel>
+                        <FormControl><Input placeholder={t("bookAuditPage.form.fullNamePh")} {...field} className="bg-background border-white/10" /></FormControl>
                         <FormMessage />
                       </FormItem>
                     )} />
                     <FormField control={form.control} name="email" render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Work Email *</FormLabel>
-                        <FormControl><Input placeholder="jane@company.com" {...field} className="bg-background border-white/10" /></FormControl>
+                        <FormLabel>{t("bookAuditPage.form.workEmail")} *</FormLabel>
+                        <FormControl><Input placeholder={t("bookAuditPage.form.workEmailPh")} {...field} className="bg-background border-white/10" /></FormControl>
                         <FormMessage />
                       </FormItem>
                     )} />
@@ -134,15 +111,15 @@ export default function BookAuditPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <FormField control={form.control} name="company" render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Company *</FormLabel>
-                        <FormControl><Input placeholder="Acme GmbH" {...field} className="bg-background border-white/10" /></FormControl>
+                        <FormLabel>{t("bookAuditPage.form.company")} *</FormLabel>
+                        <FormControl><Input placeholder={t("bookAuditPage.form.companyPh")} {...field} className="bg-background border-white/10" /></FormControl>
                         <FormMessage />
                       </FormItem>
                     )} />
                     <FormField control={form.control} name="website" render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Website</FormLabel>
-                        <FormControl><Input placeholder="https://acme.com" {...field} className="bg-background border-white/10" /></FormControl>
+                        <FormLabel>{t("bookAuditPage.form.website")}</FormLabel>
+                        <FormControl><Input placeholder={t("bookAuditPage.form.websitePh")} {...field} className="bg-background border-white/10" /></FormControl>
                         <FormMessage />
                       </FormItem>
                     )} />
@@ -150,17 +127,17 @@ export default function BookAuditPage() {
 
                   <FormField control={form.control} name="monthlyLeads" render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Monthly leads (approx.) *</FormLabel>
+                      <FormLabel>{t("bookAuditPage.form.monthlyLeads")} *</FormLabel>
                       <FormControl>
                         <select
                           {...field}
                           className="w-full h-10 px-3 rounded-md bg-background border border-white/10 text-sm text-white focus:outline-none focus:ring-1 focus:ring-primary"
                         >
-                          <option value="">Select...</option>
-                          <option value="<20">Fewer than 20</option>
-                          <option value="20-100">20–100</option>
-                          <option value="100-500">100–500</option>
-                          <option value="500+">500+</option>
+                          <option value="">{t("bookAuditPage.form.leadsDefault")}</option>
+                          <option value="<20">{t("bookAuditPage.form.leadsOptions.lt20")}</option>
+                          <option value="20-100">{t("bookAuditPage.form.leadsOptions.20to100")}</option>
+                          <option value="100-500">{t("bookAuditPage.form.leadsOptions.100to500")}</option>
+                          <option value="500+">{t("bookAuditPage.form.leadsOptions.500plus")}</option>
                         </select>
                       </FormControl>
                       <FormMessage />
@@ -169,10 +146,10 @@ export default function BookAuditPage() {
 
                   <FormField control={form.control} name="challenge" render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Biggest acquisition challenge *</FormLabel>
+                      <FormLabel>{t("bookAuditPage.form.challenge")} *</FormLabel>
                       <FormControl>
                         <Textarea
-                          placeholder="E.g. We generate leads but conversion is low and we don't know where they drop off..."
+                          placeholder={t("bookAuditPage.form.challengePh")}
                           className="min-h-[90px] bg-background border-white/10"
                           {...field}
                         />
@@ -181,7 +158,6 @@ export default function BookAuditPage() {
                     </FormItem>
                   )} />
 
-                  {/* Consent — required */}
                   <FormField control={form.control} name="privacyConsent" render={({ field }) => (
                     <FormItem>
                       <div className="flex items-start gap-3">
@@ -193,17 +169,16 @@ export default function BookAuditPage() {
                           className="mt-1 accent-primary flex-shrink-0"
                         />
                         <label htmlFor="privacy-consent" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
-                          <span className="text-white font-medium">Required: </span>
-                          I have read the{" "}
-                          <a href="/legal/privacy" target="_blank" rel="noopener" className="text-primary underline">Privacy Notice</a>
-                          {" "}and agree that Alpine Marketing may process my information to respond to my request.
+                          <span className="text-white font-medium">{t("bookAuditPage.form.requiredLabel")} </span>
+                          {t("bookAuditPage.form.privacyPrefix")}
+                          <a href="/legal/privacy" target="_blank" rel="noopener" className="text-primary underline">{t("bookAuditPage.form.privacyLink")}</a>
+                          {t("bookAuditPage.form.privacySuffix")}
                         </label>
                       </div>
                       <FormMessage />
                     </FormItem>
                   )} />
 
-                  {/* Consent — optional marketing */}
                   <FormField control={form.control} name="marketingConsent" render={({ field }) => (
                     <FormItem>
                       <div className="flex items-start gap-3">
@@ -215,8 +190,8 @@ export default function BookAuditPage() {
                           className="mt-1 accent-primary flex-shrink-0"
                         />
                         <label htmlFor="marketing-consent" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
-                          <span className="text-white/60">Optional: </span>
-                          I would like to receive marketing updates, insights, and offers by email.
+                          <span className="text-white/60">{t("bookAuditPage.form.optionalLabel")} </span>
+                          {t("bookAuditPage.form.marketingText")}
                         </label>
                       </div>
                     </FormItem>
@@ -227,11 +202,11 @@ export default function BookAuditPage() {
                     className="w-full h-12 text-base font-bold bg-primary hover:bg-primary/90 text-white shadow-[0_0_20px_rgba(8,145,178,0.3)] transition-all"
                     data-testid="button-submit-audit"
                   >
-                    Request My Free Audit <ArrowRight className="ml-2 w-4 h-4" />
+                    {t("bookAuditPage.form.submit")} <ArrowRight className="ml-2 w-4 h-4" />
                   </Button>
 
                   <p className="text-[11px] text-muted-foreground text-center">
-                    Submitting this form does not commit you to any purchase. You will hear from us within 1 business day.
+                    {t("bookAuditPage.form.footer")}
                   </p>
                 </form>
               </Form>

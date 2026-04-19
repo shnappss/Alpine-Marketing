@@ -49,7 +49,13 @@
         "desc": "Most SMBs track clicks or \"leads generated\" — but can't answer: what does each customer actually cost me, and what's their lifetime gross profit? Without CAC and LTGP, you're flying blind."
       }
     },
-    "leakPoints": ["Slow Reply", "No Nurture", "No Reactivation", "No Tracking", "Lost Revenue"]
+    "leakPoints": [
+      "Slow Reply",
+      "No Nurture",
+      "No Reactivation",
+      "No Tracking",
+      "Lost Revenue"
+    ]
   },
   "system": {
     "eyebrow": "The Alpine Approach",
@@ -57,12 +63,30 @@
     "subtitle": "Six steps. One engine. Every lead tracked from first click to closed deal.",
     "disclaimer": "Results vary by market, offer, budget, and sales process. Figures based on delivered client work.",
     "steps": {
-      "attract":  { "title": "Attract",              "desc": "Targeted ads on Meta, Google & LinkedIn. Landing pages built to convert, not impress." },
-      "capture":  { "title": "Capture",              "desc": "Every lead, every source — one CRM. No lost contacts, full attribution from first click." },
-      "route":    { "title": "Route & Score",        "desc": "Leads auto-scored and sent to the right workflow in seconds — not hours." },
-      "engage":   { "title": "Engage in <60s",       "desc": "Claude AI responds 24/7, qualifies the lead, and hands off only when they're ready." },
-      "nurture":  { "title": "Nurture & Reactivate", "desc": "Automated sequences via email, SMS & WhatsApp. Dormant leads don't go to waste." },
-      "measure":  { "title": "Measure & Improve",    "desc": "Live dashboards. CAC, LTGP, pipeline velocity — only the numbers that drive profit." }
+      "attract": {
+        "title": "Attract",
+        "desc": "Targeted ads on Meta, Google & LinkedIn. Landing pages built to convert, not impress."
+      },
+      "capture": {
+        "title": "Capture",
+        "desc": "Every lead, every source — one CRM. No lost contacts, full attribution from first click."
+      },
+      "route": {
+        "title": "Route & Score",
+        "desc": "Leads auto-scored and sent to the right workflow in seconds — not hours."
+      },
+      "engage": {
+        "title": "Engage in <60s",
+        "desc": "Claude AI responds 24/7, qualifies the lead, and hands off only when they're ready."
+      },
+      "nurture": {
+        "title": "Nurture & Reactivate",
+        "desc": "Automated sequences via email, SMS & WhatsApp. Dormant leads don't go to waste."
+      },
+      "measure": {
+        "title": "Measure & Improve",
+        "desc": "Live dashboards. CAC, LTGP, pipeline velocity — only the numbers that drive profit."
+      }
     }
   },
   "techStack": {
@@ -70,9 +94,21 @@
     "title": "Three Tools. Zero Manual Handoffs. One Unified System.",
     "footer": "The result? A system that works while you sleep, scales without hiring, and gets smarter with every lead it processes.",
     "tools": {
-      "claude": { "name": "Claude AI Agents",          "role": "THE BRAIN",          "desc": "Intelligent lead qualification and real-time intent analysis. Claude reads every incoming lead, scores urgency, determines the best response, and generates personalized human-like messages — all before your team finishes their morning coffee." },
-      "n8n":    { "name": "n8n Workflow Automation",   "role": "THE NERVOUS SYSTEM", "desc": "The connective tissue that links your ads, CRM, calendar, and reporting into a single automated pipeline. Custom workflows trigger instantly based on lead behavior — no Zapier tax, no duct tape." },
-      "ghl":    { "name": "GoHighLevel CRM",           "role": "THE COMMAND CENTER", "desc": "Pipeline management, automated sequences, appointment booking, and omni-channel communication (SMS / Email / WhatsApp) — all in one platform your team actually uses." }
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "THE BRAIN",
+        "desc": "Intelligent lead qualification and real-time intent analysis. Claude reads every incoming lead, scores urgency, determines the best response, and generates personalized human-like messages — all before your team finishes their morning coffee."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "THE NERVOUS SYSTEM",
+        "desc": "The connective tissue that links your ads, CRM, calendar, and reporting into a single automated pipeline. Custom workflows trigger instantly based on lead behavior — no Zapier tax, no duct tape."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "THE COMMAND CENTER",
+        "desc": "Pipeline management, automated sequences, appointment booking, and omni-channel communication (SMS / Email / WhatsApp) — all in one platform your team actually uses."
+      }
     }
   },
   "metrics": {
@@ -80,12 +116,30 @@
     "title": "Forget Vanity Metrics. Here's What Drives Growth.",
     "subtitle": "Every Alpine client gets a real-time dashboard tracking the numbers that actually determine profitable growth.",
     "items": {
-      "cac":       { "title": "CAC Reduction",     "desc": "Average reduction across clients in the first 90 days" },
-      "ltgp":      { "title": "LTGP Improvement",  "desc": "Average improvement with full-funnel optimization" },
-      "speed":     { "title": "Speed-to-Lead",     "desc": "Average first response time with our AI system active" },
-      "recovery":  { "title": "Pipeline Recovery", "desc": "Dormant leads reactivated through automated campaigns" },
-      "cycle":     { "title": "Sales Cycle",       "desc": "Faster from first touch to closed deal" },
-      "ratio":     { "title": "LTGP/CAC Ratio",    "desc": "Proven across dental, ICT, and professional services" }
+      "cac": {
+        "title": "CAC Reduction",
+        "desc": "Average reduction across clients in the first 90 days"
+      },
+      "ltgp": {
+        "title": "LTGP Improvement",
+        "desc": "Average improvement with full-funnel optimization"
+      },
+      "speed": {
+        "title": "Speed-to-Lead",
+        "desc": "Average first response time with our AI system active"
+      },
+      "recovery": {
+        "title": "Pipeline Recovery",
+        "desc": "Dormant leads reactivated through automated campaigns"
+      },
+      "cycle": {
+        "title": "Sales Cycle",
+        "desc": "Faster from first touch to closed deal"
+      },
+      "ratio": {
+        "title": "LTGP/CAC Ratio",
+        "desc": "Proven across dental, ICT, and professional services"
+      }
     },
     "callout": {
       "label": "Why LTGP and not just LTV?",
@@ -138,24 +192,66 @@
     "engineLabel": "Alpine AI Engine",
     "manualLabel": "Manual Sales Process",
     "rows": [
-      { "label": "Response Time",      "ai": "Under 60 seconds, 24/7",                "manual": "Whenever available — often hours" },
-      { "label": "Lead Qualification", "ai": "AI-scored, consistent, every lead",     "manual": "Subjective, varies by rep" },
-      { "label": "Scaling",            "ai": "Add volume without adding headcount",   "manual": "Every new lead = another hire" },
-      { "label": "Reporting",          "ai": "Real-time CAC, LTGP, pipeline velocity","manual": "Spreadsheets updated when someone remembers" },
-      { "label": "Dormant Leads",      "ai": "Automatically reactivated via campaigns","manual": "Forgotten in a CRM graveyard" },
-      { "label": "Sales Cycle",        "ai": "30-40% shorter through automation",     "manual": "Depends on who's selling that week" }
+      {
+        "label": "Response Time",
+        "ai": "Under 60 seconds, 24/7",
+        "manual": "Whenever available — often hours"
+      },
+      {
+        "label": "Lead Qualification",
+        "ai": "AI-scored, consistent, every lead",
+        "manual": "Subjective, varies by rep"
+      },
+      {
+        "label": "Scaling",
+        "ai": "Add volume without adding headcount",
+        "manual": "Every new lead = another hire"
+      },
+      {
+        "label": "Reporting",
+        "ai": "Real-time CAC, LTGP, pipeline velocity",
+        "manual": "Spreadsheets updated when someone remembers"
+      },
+      {
+        "label": "Dormant Leads",
+        "ai": "Automatically reactivated via campaigns",
+        "manual": "Forgotten in a CRM graveyard"
+      },
+      {
+        "label": "Sales Cycle",
+        "ai": "30-40% shorter through automation",
+        "manual": "Depends on who's selling that week"
+      }
     ]
   },
   "whyAlpine": {
     "eyebrow": "Why Alpine",
     "title": "Why Choose Alpine Marketing?",
     "cards": [
-      { "title": "Full-Funnel, Not Fragment",          "desc": "Most agencies optimize one channel. We systematize your entire acquisition engine — from first impression to lifetime profit." },
-      { "title": "Metrics That Mean Something",        "desc": "We track CAC and LTGP, not clicks. You'll always know what a customer costs to acquire and what they're worth in profit." },
-      { "title": "AI-First, Human-Guided",             "desc": "Claude AI handles triage, qualification, and response. Your team handles relationships and closing." },
-      { "title": "Swiss Precision, Startup Speed",     "desc": "GDPR-compliant infrastructure, transparent reporting, real-time tracking — delivered with urgency." },
-      { "title": "Automation That Compounds",          "desc": "Every lead makes the system smarter. A/B-tested sequences and continuous optimization lower your CAC over time." },
-      { "title": "Proven, Not Promised",               "desc": "3.4:1 to 4.2:1 LTGP/CAC ratios across dental, ICT, and professional services. Dashboard, not a pitch deck." }
+      {
+        "title": "Full-Funnel, Not Fragment",
+        "desc": "Most agencies optimize one channel. We systematize your entire acquisition engine — from first impression to lifetime profit."
+      },
+      {
+        "title": "Metrics That Mean Something",
+        "desc": "We track CAC and LTGP, not clicks. You'll always know what a customer costs to acquire and what they're worth in profit."
+      },
+      {
+        "title": "AI-First, Human-Guided",
+        "desc": "Claude AI handles triage, qualification, and response. Your team handles relationships and closing."
+      },
+      {
+        "title": "Swiss Precision, Startup Speed",
+        "desc": "GDPR-compliant infrastructure, transparent reporting, real-time tracking — delivered with urgency."
+      },
+      {
+        "title": "Automation That Compounds",
+        "desc": "Every lead makes the system smarter. A/B-tested sequences and continuous optimization lower your CAC over time."
+      },
+      {
+        "title": "Proven, Not Promised",
+        "desc": "3.4:1 to 4.2:1 LTGP/CAC ratios across dental, ICT, and professional services. Dashboard, not a pitch deck."
+      }
     ]
   },
   "team": {
@@ -163,32 +259,50 @@
     "title": "Operators, Not Theorists.",
     "subtitle": "Every person on our team builds and runs the systems we sell. No account managers reading scripts — just specialists who've shipped automation for dozens of SMBs.",
     "roles": {
-      "founder":     "Founder",
+      "founder": "Founder",
       "performance": "Performance Marketing",
       "engineering": "Engineering",
-      "content":     "Content",
-      "creative":    "Creative",
-      "motion":      "Motion"
+      "content": "Content",
+      "creative": "Creative",
+      "motion": "Motion"
     },
     "specialties": {
-      "founder":     "CRM Funnels & Automation Strategy",
+      "founder": "CRM Funnels & Automation Strategy",
       "performance": "Google & Meta Ads",
       "engineering": "Web Development & Automation",
-      "content":     "SEO & Conversion Copywriting",
-      "creative":    "Photo & Video Production",
-      "motion":      "Video Editing & Motion Design"
+      "content": "SEO & Conversion Copywriting",
+      "creative": "Photo & Video Production",
+      "motion": "Video Editing & Motion Design"
     }
   },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Common Questions, Straight Answers.",
     "items": [
-      { "q": "Do you only run ads?",                                                  "a": "No. Ads are one input to a system. We build the full acquisition engine — paid traffic, landing pages, CRM setup, lead routing, AI follow-up, nurture sequences, reactivation campaigns, and reporting. If your funnel is leaking at the follow-up stage, throwing more ad spend at it just makes the leak bigger." },
-      { "q": "Can you work with our existing CRM?",                                   "a": "It depends on the platform. We operate natively in GoHighLevel and can connect to most CRMs via API or n8n automation. If your CRM supports webhooks or has an API, we can integrate it. If it doesn't — we'll tell you honestly and explain the options." },
-      { "q": "Do you help with automation and lead follow-up?",                       "a": "That is the core of what we do. Speed-to-lead is one of the highest-ROI fixes available. Our Claude AI Agents respond within 60 seconds, qualify the lead, and route it correctly — 24/7, including weekends. Your team only touches leads that are actually ready." },
-      { "q": "What markets do you work in?",                                          "a": "Our primary experience is in Switzerland, the EU, and cross-border European markets. We have worked with dental clinics, ICT companies, professional service firms, and local service businesses. We do not take on every business — we will tell you on the audit call if we are not the right fit." },
-      { "q": "How do you handle privacy and tracking in post-cookie markets?",        "a": "We build consent-aware infrastructure from the start. That means proper cookie consent management, first-party data strategies, GDPR-compliant form flows, and CRM tracking that does not depend on third-party cookies. We do not load tracking scripts before consent. We do not use dark patterns." },
-      { "q": "What happens in a free funnel audit?",                                  "a": "We review your current acquisition setup — traffic sources, landing pages, CRM structure, follow-up sequences, reporting. We identify where leads are dropping out and what fixing each leak would be worth in revenue terms. You get a clear picture of the system gaps before we discuss working together." }
+      {
+        "q": "Do you only run ads?",
+        "a": "No. Ads are one input to a system. We build the full acquisition engine — paid traffic, landing pages, CRM setup, lead routing, AI follow-up, nurture sequences, reactivation campaigns, and reporting. If your funnel is leaking at the follow-up stage, throwing more ad spend at it just makes the leak bigger."
+      },
+      {
+        "q": "Can you work with our existing CRM?",
+        "a": "It depends on the platform. We operate natively in GoHighLevel and can connect to most CRMs via API or n8n automation. If your CRM supports webhooks or has an API, we can integrate it. If it doesn't — we'll tell you honestly and explain the options."
+      },
+      {
+        "q": "Do you help with automation and lead follow-up?",
+        "a": "That is the core of what we do. Speed-to-lead is one of the highest-ROI fixes available. Our Claude AI Agents respond within 60 seconds, qualify the lead, and route it correctly — 24/7, including weekends. Your team only touches leads that are actually ready."
+      },
+      {
+        "q": "What markets do you work in?",
+        "a": "Our primary experience is in Switzerland, the EU, and cross-border European markets. We have worked with dental clinics, ICT companies, professional service firms, and local service businesses. We do not take on every business — we will tell you on the audit call if we are not the right fit."
+      },
+      {
+        "q": "How do you handle privacy and tracking in post-cookie markets?",
+        "a": "We build consent-aware infrastructure from the start. That means proper cookie consent management, first-party data strategies, GDPR-compliant form flows, and CRM tracking that does not depend on third-party cookies. We do not load tracking scripts before consent. We do not use dark patterns."
+      },
+      {
+        "q": "What happens in a free funnel audit?",
+        "a": "We review your current acquisition setup — traffic sources, landing pages, CRM structure, follow-up sequences, reporting. We identify where leads are dropping out and what fixing each leak would be worth in revenue terms. You get a clear picture of the system gaps before we discuss working together."
+      }
     ]
   },
   "finalCta": {
@@ -232,5 +346,274 @@
     "label": "Language",
     "priority": "Primary languages",
     "other": "Other EU languages"
+  },
+  "servicesPage": {
+    "eyebrow": "What We Do",
+    "title": "Services Built Around Systems, Not Channels.",
+    "subtitle": "We do not sell individual tactics. We build and run acquisition systems — from paid traffic to closed client, tracked at every stage.",
+    "cta": "Book a Free Funnel Audit",
+    "learnMore": "Learn more",
+    "items": {
+      "performance": {
+        "title": "Performance Marketing",
+        "desc": "Paid traffic on Meta, Google, and LinkedIn — built to drive qualified leads, not just impressions. Every campaign is connected to your CRM so we can trace cost-per-acquisition in real time.",
+        "outcomes": [
+          "Lower CAC within 90 days",
+          "Attribution from click to closed deal",
+          "Audience targeting built on real purchase data"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automation",
+        "desc": "GoHighLevel setup, workflow architecture, AI lead qualification, and automated follow-up sequences. Your pipeline runs while you sleep — and every touchpoint is tracked.",
+        "outcomes": [
+          "<60s first response via Claude AI",
+          "Automated lead routing and scoring",
+          "Dormant lead reactivation campaigns"
+        ]
+      },
+      "reporting": {
+        "title": "Reporting & Analytics",
+        "desc": "Real-time dashboards that show CAC, LTGP, conversion rates, speed-to-lead, and pipeline velocity. We report on what drives profit, not what looks good in a slide deck.",
+        "outcomes": [
+          "Custom KPI dashboards",
+          "CAC and LTGP tracking",
+          "Weekly performance reviews"
+        ]
+      },
+      "content": {
+        "title": "Content Funnels",
+        "desc": "SEO-driven content, conversion-optimized landing pages, and nurture sequences that move leads through the funnel — not just get clicks.",
+        "outcomes": [
+          "Conversion-focused landing pages",
+          "Multi-step email and SMS sequences",
+          "SEO content aligned to buying intent"
+        ]
+      },
+      "funnel": {
+        "title": "Funnel Strategy",
+        "desc": "Before we build anything, we audit your current system — traffic sources, CRM structure, follow-up gaps, reporting blind spots. Then we build a roadmap that prioritizes revenue impact.",
+        "outcomes": [
+          "Free funnel audit",
+          "Gap analysis with revenue impact estimates",
+          "Prioritized 90-day sprint plan"
+        ]
+      },
+      "landing": {
+        "title": "Landing Pages",
+        "desc": "High-converting, mobile-first landing pages that are designed to capture leads — not to win design awards. A/B tested, CRM-connected, and built for speed.",
+        "outcomes": [
+          "CRM-integrated form logic",
+          "A/B testing ready",
+          "Built for speed and conversion"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "About Alpine Marketing",
+    "title": "Commercially minded. Systems-oriented. Anti-vanity-metric.",
+    "subtitle": "Alpine Marketing was built around a simple observation: most SMBs don't have a lead problem. They have a system problem. Leads come in and disappear — into slow follow-up, disconnected CRMs, and reporting that shows activity, not profit.",
+    "why": {
+      "title": "Why we exist.",
+      "p1": "Most agencies optimize one part of the funnel — usually the part they're comfortable selling. Ads, or content, or \"strategy\". The client gets a deliverable, not a working system.",
+      "p2": "Alpine Marketing was founded to fix this. We work across the entire acquisition stack: paid traffic, CRM, automation, follow-up, reactivation, and reporting — connected into one engine that actually closes clients.",
+      "p3": "We are based in Zurich and work with businesses in Switzerland, the EU, and internationally. We speak plain English, operate in CHF and EUR, and we hold ourselves accountable to the same metrics we ask our clients to care about."
+    },
+    "fullFunnel": {
+      "title": "What full-funnel thinking means.",
+      "p1": "Full-funnel is not a marketing phrase. It means: we care what happens to a lead after it fills out a form. We care about speed-to-lead. We care about whether the CRM nurtures or forgets. We care about reactivation. We care about reporting that connects ad spend to closed revenue.",
+      "p2": "This requires more coordination than running ads. But it produces a fundamentally different result: lower CAC, higher LTGP, and a system that compounds instead of plateaus."
+    },
+    "principlesTitle": "Operating Principles.",
+    "principles": [
+      {
+        "title": "Measure what matters.",
+        "desc": "CAC and LTGP. Not clicks. Not impressions. Not 'brand awareness'. If it doesn't connect to profit, we do not optimize for it."
+      },
+      {
+        "title": "Systems over tactics.",
+        "desc": "A tactic produces a result once. A system produces results compoundingly. We build the engine, not the individual campaign."
+      },
+      {
+        "title": "Honest about what we don't know.",
+        "desc": "We will tell you if a market is too competitive, if your offer needs work, or if your sales process is the real bottleneck. We are not here to take your budget and disappear."
+      },
+      {
+        "title": "Privacy-aware by design.",
+        "desc": "We operate across Swiss, EU, and US markets. Consent-aware architecture is not an afterthought — it is how we build every funnel."
+      },
+      {
+        "title": "Operators, not theorists.",
+        "desc": "Every system we recommend, we have built and run for real clients. We do not consult on theory. We build and manage the operational infrastructure."
+      }
+    ],
+    "ctaTitle": "Ready to talk?",
+    "ctaDesc": "Book a free funnel audit and we'll show you exactly what we'd fix and in what order — before you commit to anything.",
+    "ctaButton": "Book Your Free Audit"
+  },
+  "contactPage": {
+    "eyebrow": "Get In Touch",
+    "title": "Let's talk systems.",
+    "subtitlePrefix": "Use the form below for general enquiries. If you'd like a structured funnel review, use the ",
+    "subtitleLink": "Book Audit",
+    "subtitleSuffix": " page.",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone & Location",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Response time",
+      "responseValue": "Within 1 business day",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Name",
+      "namePh": "Jane Smith",
+      "email": "Email",
+      "emailPh": "jane@company.com",
+      "company": "Company",
+      "companyPh": "Acme GmbH",
+      "service": "Service interest",
+      "serviceDefault": "Select (optional)",
+      "serviceOptions": {
+        "performance": "Performance Marketing",
+        "crm": "CRM + Automation",
+        "reporting": "Reporting & Analytics",
+        "content": "Content Funnels",
+        "audit": "Full-system audit"
+      },
+      "message": "Message",
+      "messagePh": "Tell us about your situation...",
+      "requiredLabel": "Required:",
+      "optionalLabel": "Optional:",
+      "privacyPrefix": "I have read the ",
+      "privacyLink": "Privacy Notice",
+      "privacySuffix": " and consent to my information being processed to respond to this enquiry.",
+      "marketingText": "I'd like to receive email updates and insights from Alpine Marketing.",
+      "submit": "Send Message",
+      "validation": {
+        "name": "Name is required",
+        "email": "Valid email is required",
+        "company": "Company name is required",
+        "message": "Message is required",
+        "consent": "You must agree to continue"
+      },
+      "toastTitle": "Message received",
+      "toastDesc": "We'll be in touch within 1 business day."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Free Funnel Audit",
+    "title": "See exactly where your system leaks.",
+    "subtitle": "In a 30-minute audit call, we review your acquisition setup and show you the gaps — before asking for anything in return.",
+    "whatYouGetLabel": "What you get:",
+    "whatYouGet": [
+      "A map of where your current funnel loses leads and revenue",
+      "An honest assessment of which gaps are worth fixing first",
+      "A sense of what a systematized engine would look like for your business"
+    ],
+    "whoForLabel": "Who this is for:",
+    "whoForBody": "Service businesses generating leads but converting too few. Companies spending on ads but unsure what's actually working. SMBs ready to build a system, not buy another tactic.",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePh": "Jane Smith",
+      "workEmail": "Work Email",
+      "workEmailPh": "jane@company.com",
+      "company": "Company",
+      "companyPh": "Acme GmbH",
+      "website": "Website",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Monthly leads (approx.)",
+      "leadsDefault": "Select...",
+      "leadsOptions": {
+        "lt20": "Fewer than 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Biggest acquisition challenge",
+      "challengePh": "E.g. We generate leads but conversion is low and we don't know where they drop off...",
+      "requiredLabel": "Required:",
+      "optionalLabel": "Optional:",
+      "privacyPrefix": "I have read the ",
+      "privacyLink": "Privacy Notice",
+      "privacySuffix": " and agree that Alpine Marketing may process my information to respond to my request.",
+      "marketingText": "I would like to receive marketing updates, insights, and offers by email.",
+      "submit": "Request My Free Audit",
+      "footer": "Submitting this form does not commit you to any purchase. You will hear from us within 1 business day.",
+      "validation": {
+        "name": "Name is required",
+        "email": "Valid work email is required",
+        "company": "Company name is required",
+        "website": "Enter a valid URL (include https://)",
+        "monthlyLeads": "Please select an option",
+        "challenge": "Please describe your challenge — at least a sentence",
+        "consent": "You must agree to continue"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Request received.",
+    "lead": "We'll review your details and be in touch within ",
+    "leadBold": "1 business day",
+    "leadSuffix": " to confirm your audit time.",
+    "sub": "In the meantime, no action is needed on your side. This submission does not commit you to any purchase.",
+    "primary": "See Client Results",
+    "secondary": "Back to Home"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Field notes from the engine room of Swiss customer acquisition.",
+    "subtitle": "Honest write-ups on what works, what wastes ad spend, and the tools we deploy to turn pipelines into predictable profit. No fluff, no agency-speak.",
+    "all": "All",
+    "empty": "No articles in this category yet — check back soon.",
+    "featured": "Featured",
+    "minRead": "min read",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "All Articles",
+    "minRead": "min read",
+    "ctaEyebrow": "Ready to plug your funnel?",
+    "ctaTitle": "Get a free Pipeline Audit and see exactly where your money leaks.",
+    "ctaSub": "30-minute call · no pitch deck · concrete fixes you can apply this week.",
+    "ctaButton": "Book Free Audit",
+    "related": "Continue Reading",
+    "readSuffix": "min read"
+  },
+  "cookieConsent": {
+    "heading": "We use cookies to improve your experience.",
+    "bodyPrefix": "Some are strictly necessary to run the site. Others — analytics and marketing cookies — are only loaded with your consent. You can change your preferences at any time via ",
+    "privacyChoices": "Privacy Choices",
+    "between": ". See our ",
+    "cookieNotice": "Cookie Notice",
+    "bodySuffix": " for details.",
+    "acceptAll": "Accept all",
+    "necessaryOnly": "Necessary only",
+    "customize": "Customise",
+    "customizeIntro": "Strictly necessary cookies are always active. Toggle the rest below.",
+    "save": "Save preferences",
+    "back": "Back",
+    "closeAria": "Close and reject non-essential cookies",
+    "customizeAria": "Customise cookie settings",
+    "items": {
+      "necessary": {
+        "label": "Strictly Necessary",
+        "desc": "Required for the site to function."
+      },
+      "preferences": {
+        "label": "Preferences",
+        "desc": "Remembers your settings and choices."
+      },
+      "analytics": {
+        "label": "Analytics",
+        "desc": "Helps us understand how visitors use the site. No data shared before consent."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "desc": "Used for targeted advertising. Never loaded without your explicit consent."
+      }
+    }
   }
 }

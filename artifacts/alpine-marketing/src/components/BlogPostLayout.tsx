@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { Link } from "wouter";
 import { ArrowLeft, ArrowRight, Calendar, Clock, User } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import type { BlogPostMeta } from "@/blog/types";
@@ -16,6 +17,7 @@ interface Props {
 }
 
 export default function BlogPostLayout({ meta, children, related = [] }: Props) {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white text-zinc-900 flex flex-col font-sans">
       <Nav />
@@ -41,7 +43,7 @@ export default function BlogPostLayout({ meta, children, related = [] }: Props) 
               data-testid="link-back-to-blog"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
-              All Articles
+              {t("blogPost.back")}
             </Link>
 
             {/* Category eyebrow */}
@@ -99,7 +101,7 @@ export default function BlogPostLayout({ meta, children, related = [] }: Props) 
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5" />
-                {meta.readMinutes} min read
+                {meta.readMinutes} {t("blogPost.minRead")}
               </span>
             </motion.div>
           </div>
@@ -156,16 +158,16 @@ export default function BlogPostLayout({ meta, children, related = [] }: Props) 
                     className="text-[11px] font-bold tracking-[0.2em] uppercase mb-2"
                     style={{ color: CYAN, fontFamily: "'Space Grotesk', sans-serif" }}
                   >
-                    Ready to plug your funnel?
+                    {t("blogPost.ctaEyebrow")}
                   </p>
                   <h3
                     className="text-[1.5rem] md:text-[1.75rem] font-bold text-zinc-900 leading-tight tracking-tight"
                     style={{ fontFamily: "'Space Grotesk', sans-serif" }}
                   >
-                    Get a free Pipeline Audit and see exactly where your money leaks.
+                    {t("blogPost.ctaTitle")}
                   </h3>
                   <p className="mt-2 text-[14.5px] text-zinc-600 leading-relaxed">
-                    30-minute call · no pitch deck · concrete fixes you can apply this week.
+                    {t("blogPost.ctaSub")}
                   </p>
                 </div>
                 <Link
@@ -179,7 +181,7 @@ export default function BlogPostLayout({ meta, children, related = [] }: Props) 
                   }}
                   data-testid="link-cta-blog-footer"
                 >
-                  Book Free Audit
+                  {t("blogPost.ctaButton")}
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                 </Link>
               </div>
@@ -195,7 +197,7 @@ export default function BlogPostLayout({ meta, children, related = [] }: Props) 
                 className="text-[12px] font-bold tracking-[0.22em] uppercase text-zinc-500 mb-6"
                 style={{ fontFamily: "'Space Grotesk', sans-serif" }}
               >
-                Continue Reading
+                {t("blogPost.related")}
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {related.map((p) => (
@@ -221,7 +223,7 @@ export default function BlogPostLayout({ meta, children, related = [] }: Props) 
                       {p.excerpt}
                     </p>
                     <div className="mt-3 text-[11px] text-zinc-400">
-                      {p.readMinutes} min read
+                      {p.readMinutes} {t("blogPost.readSuffix")}
                     </div>
                   </Link>
                 ))}

@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect } from "react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowRight, Clock } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { POSTS_META } from "@/blog/posts";
@@ -12,13 +13,14 @@ const CYAN = "#0891b2";
 const ALL = "All" as const;
 
 export default function BlogIndexPage() {
+  const { t } = useTranslation();
   const [active, setActive] = useState<BlogCategory | typeof ALL>(ALL);
 
   useEffect(() => {
     const prev = document.title;
-    document.title = "Insights & Playbooks — Alpine Marketing";
+    document.title = t("blogIndex.docTitle");
     return () => { document.title = prev; };
-  }, []);
+  }, [t]);
 
   const categories = useMemo(() => {
     const set = new Set<BlogCategory>();
@@ -33,12 +35,13 @@ export default function BlogIndexPage() {
 
   const [featured, ...rest] = filtered;
 
+  const labelFor = (cat: string) => (cat === ALL ? t("blogIndex.all") : cat);
+
   return (
     <div className="min-h-screen bg-white text-zinc-900 flex flex-col font-sans">
       <Nav />
 
       <main className="flex-1">
-        {/* ── Hero ─────────────────────────────────────────── */}
         <header className="relative pt-28 md:pt-36 pb-10 md:pb-14 overflow-hidden bg-gradient-to-b from-zinc-50 to-white border-b border-zinc-100">
           <div
             className="absolute pointer-events-none"
@@ -59,7 +62,7 @@ export default function BlogIndexPage() {
               }}
             >
               <span className="w-1.5 h-1.5 rounded-full" style={{ background: CYAN }} />
-              Insights &amp; Playbooks
+              {t("blogIndex.eyebrow")}
             </motion.span>
 
             <motion.h1
@@ -68,7 +71,7 @@ export default function BlogIndexPage() {
               className="mt-5 text-[2.4rem] md:text-[3.2rem] lg:text-[3.6rem] font-bold text-zinc-900 leading-[1.06] tracking-tight max-w-3xl"
               style={{ fontFamily: "'Space Grotesk', sans-serif" }}
             >
-              Field notes from the engine room of Swiss customer acquisition.
+              {t("blogIndex.title")}
             </motion.h1>
 
             <motion.p
@@ -76,13 +79,11 @@ export default function BlogIndexPage() {
               transition={{ duration: 0.5, delay: 0.12 }}
               className="mt-5 text-[1.05rem] md:text-[1.15rem] leading-[1.7] text-zinc-600 max-w-2xl"
             >
-              Honest write-ups on what works, what wastes ad spend, and the tools we deploy
-              to turn pipelines into predictable profit. No fluff, no agency-speak.
+              {t("blogIndex.subtitle")}
             </motion.p>
           </div>
         </header>
 
-        {/* ── Category filter ──────────────────────────────── */}
         <div className="max-w-5xl mx-auto px-5 md:px-8 pt-10 pb-8">
           <div className="flex flex-wrap gap-2">
             {categories.map((cat) => {
@@ -93,9 +94,7 @@ export default function BlogIndexPage() {
                   onClick={() => setActive(cat as BlogCategory | typeof ALL)}
                   data-testid={`filter-category-${cat.toLowerCase().replace(/\s+/g, "-")}`}
                   className={`px-3.5 py-1.5 text-[12px] font-semibold tracking-wide rounded-full border transition-all ${
-                    isActive
-                      ? "text-[#0891b2]"
-                      : "text-zinc-500 hover:text-zinc-800"
+                    isActive ? "text-[#0891b2]" : "text-zinc-500 hover:text-zinc-800"
                   }`}
                   style={{
                     borderColor: isActive ? "#a5f3fc" : "#e4e4e7",
@@ -103,18 +102,17 @@ export default function BlogIndexPage() {
                     fontFamily: "'Space Grotesk', sans-serif",
                   }}
                 >
-                  {cat}
+                  {labelFor(cat)}
                 </button>
               );
             })}
           </div>
         </div>
 
-        {/* ── Featured + grid ───────────────────────────────── */}
         <section className="pb-24">
           <div className="max-w-5xl mx-auto px-5 md:px-8">
             {filtered.length === 0 && (
-              <p className="text-zinc-500 text-center py-16">No articles in this category yet — check back soon.</p>
+              <p className="text-zinc-500 text-center py-16">{t("blogIndex.empty")}</p>
             )}
 
             {featured && (
@@ -137,11 +135,11 @@ export default function BlogIndexPage() {
                           fontFamily: "'Space Grotesk', sans-serif",
                         }}
                       >
-                        Featured · {featured.category}
+                        {t("blogIndex.featured")} · {featured.category}
                       </span>
                       <span className="inline-flex items-center gap-1 text-[11.5px] text-zinc-500">
                         <Clock className="w-3 h-3" />
-                        {featured.readMinutes} min read
+                        {featured.readMinutes} {t("blogIndex.minRead")}
                       </span>
                     </div>
                     <h2
@@ -183,7 +181,7 @@ export default function BlogIndexPage() {
                       <span className="text-zinc-300">·</span>
                       <span className="inline-flex items-center gap-1 text-[11px] text-zinc-500">
                         <Clock className="w-3 h-3" />
-                        {p.readMinutes} min
+                        {p.readMinutes} {t("blogIndex.min")}
                       </span>
                     </div>
                     <h3
