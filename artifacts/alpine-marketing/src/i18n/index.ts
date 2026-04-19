@@ -6,6 +6,8 @@ import en from "./locales/en.json";
 import de from "./locales/de.json";
 import fr from "./locales/fr.json";
 import it from "./locales/it.json";
+import uk from "./locales/uk.json";
+import ru from "./locales/ru.json";
 
 /**
  * Supported languages — all 24 official EU languages.
@@ -19,6 +21,8 @@ export const LANGUAGES: { code: string; name: string; native: string; priority?:
   { code: "de", name: "German",     native: "Deutsch",     priority: true },
   { code: "fr", name: "French",     native: "Français",    priority: true },
   { code: "it", name: "Italian",    native: "Italiano",    priority: true },
+  { code: "uk", name: "Ukrainian",  native: "Українська",  priority: true },
+  { code: "ru", name: "Russian",    native: "Русский",     priority: true },
   { code: "es", name: "Spanish",    native: "Español" },
   { code: "pt", name: "Portuguese", native: "Português" },
   { code: "nl", name: "Dutch",      native: "Nederlands" },
@@ -46,6 +50,8 @@ const resources = {
   de: { translation: de },
   fr: { translation: fr },
   it: { translation: it },
+  uk: { translation: uk },
+  ru: { translation: ru },
 };
 
 i18n
@@ -58,8 +64,9 @@ i18n
     nonExplicitSupportedLngs: true,
     interpolation: { escapeValue: false },
     detection: {
-      order: ["localStorage", "navigator", "htmlTag"],
+      order: ["querystring", "localStorage", "navigator", "htmlTag"],
       caches: ["localStorage"],
+      lookupQuerystring: "lng",
       lookupLocalStorage: "alpine-lang",
     },
     react: { useSuspense: false },
