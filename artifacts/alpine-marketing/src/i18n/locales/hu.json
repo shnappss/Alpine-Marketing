@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Ingyenes Audit Foglalása",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Tudj Meg Többet",
+    "getStarted": "Kezdjük El",
+    "openMenu": "Menü megnyitása",
+    "closeMenu": "Menü bezárása"
+  },
+  "nav": {
+    "services": "Szolgáltatások",
+    "caseStudies": "Esettanulmányok",
+    "blog": "Blog",
+    "about": "Rólunk",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "eyebrow": "KKV-k és tech cégek számára Svájcban",
+    "headlineLead": "Megépítjük azt a gépezetet, amely hirdetési büdzséjéből ",
+    "headlineHighlight": "kiszámítható profitot termel.",
+    "subheadline": "Az Alpine Marketing teljes tölcsérű ügyfélszerzési rendszert épít — Meta és Google Ads kampányoktól az AI-alapú utánkövetésen át a lezárt üzletig — és egy irányítópultot biztosít, amely valós CAC-ot és élettartam-alapú bruttó profitot mutat.",
+    "subheadlineEmphasis": "Nem kattintások. Nem megjelenések. Profit.",
+    "primaryCta": "Kérjen ingyenes pipeline-auditot",
+    "secondaryCta": "Ügyféleredmények megtekintése",
+    "cardTitle": "Pipeline Vizualizátor — Élő",
+    "stats": {
+      "cac": "Átl. CAC-csökkentés",
+      "ratio": "LTGP/CAC arány",
+      "responseTime": "Lead-válaszidő",
+      "clients": "Svájci ügyfelek"
+    }
+  },
+  "problem": {
+    "eyebrow": "Az alapvető probléma",
+    "title": "Nem a marketinged romlott el. A rendszered az.",
+    "subtitle": "A legtöbb ügynökség kattintásokat és megjelenéseket ad el. De ha az értékesítési csatornád minden szakaszon szivárog — lassú válaszok, elmaradt utánkövetés, nulla reaktiváció — a több forgalom csak több veszteséget jelent.",
+    "cards": {
+      "speed": {
+        "title": "A sebességkülönbség",
+        "desc": "Az 5 percnél később megkeresett érdeklődők 21×-szer kisebb valószínűséggel konvertálnak. Az átlagos KKV-s válaszidő? Több mint 2 óra. Minden késlekedési perc elpárolgó pénzt jelent."
+      },
+      "followup": {
+        "title": "Az utánkövetés fekete lyuka",
+        "desc": "az érdeklődők soha nem kapnak második érintési pontot. Nincs nurturing-szekvencia, nincs SMS, nincs reaktiváció. Érdeklődésüket jelezték — és soha nem kaptak választ."
+      },
+      "metrics": {
+        "title": "A mutatószámok délibábja",
+        "valueLabel": "Láthatóság",
+        "desc": "A legtöbb KKV kattintásokat vagy „generált leadeket“ követ — de nem tud válaszolni arra: mennyibe kerül valójában egy ügyfél, és mekkora az élettartam alatti bruttó nyereség? CAC és LTGP nélkül vakon repülsz."
+      }
+    },
+    "leakPoints": [
+      "Lassú válasz",
+      "Nincs nurturing",
+      "Nincs reaktiváció",
+      "Nincs nyomon követés",
+      "Elveszett bevétel"
+    ]
+  },
+  "system": {
+    "eyebrow": "Az Alpine módszer",
+    "title": "Nem egy problémát oldunk meg. Mindent rendszerbe szervezünk.",
+    "subtitle": "Hat lépés. Egy motor. Minden érdeklődő nyomon követve az első kattintástól a lezárt üzletig.",
+    "disclaimer": "Az eredmények piactól, ajánlattól, büdzsétől és értékesítési folyamattól függően változnak. Az adatok valós ügyfélmunkákon alapulnak.",
+    "steps": {
+      "attract": {
+        "title": "Vonzás",
+        "desc": "Célzott hirdetések Meta, Google és LinkedIn felületeken. Konverzióra optimalizált landing oldalak — nem csupán látványos megjelenésre."
+      },
+      "capture": {
+        "title": "Rögzítés",
+        "desc": "Minden érdeklődő, minden forrás — egyetlen CRM-ben. Nincs elveszett kapcsolat, teljes attribúció az első kattintástól."
+      },
+      "route": {
+        "title": "Irányítás és pontozás",
+        "desc": "Az érdeklődők automatikusan pontozva és a megfelelő munkafolyamatba küldve — másodperceken belül, nem órák múlva."
+      },
+      "engage": {
+        "title": "Kapcsolatfelvétel <60 másodpercen belül",
+        "desc": "A Claude AI 24/7 válaszol, minősíti az érdeklődőt, és csak akkor adja át, amikor az valóban kész."
+      },
+      "nurture": {
+        "title": "Gondozás és újraaktiválás",
+        "desc": "Automatizált sorozatok e-mailen, SMS-en és WhatsApp-on keresztül. Az inaktív érdeklődők sem mennek kárba."
+      },
+      "measure": {
+        "title": "Mérés és fejlesztés",
+        "desc": "Élő irányítópultok. CAC, LTGP, pipeline-sebesség — csak azok a számok, amelyek valóban profitot termelnek."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "A Motorháztető Alatt",
+    "title": "Három Eszköz. Nulla Kézi Átadás. Egy Egységes Rendszer.",
+    "footer": "Az eredmény? Egy rendszer, amely akkor is dolgozik, amikor Ön alszik, növekszik anélkül, hogy új munkatársakat kellene felvennie, és minden feldolgozott érdeklődővel egyre okosabbá válik.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "AZ AGY",
+        "desc": "Intelligens lead-minősítés és valós idejű szándékelemzés. A Claude minden beérkező érdeklődőt elolvas, értékeli a sürgősséget, meghatározza a legjobb választ, és személyre szabott, emberi hangvételű üzeneteket generál — mindezt még azelőtt, hogy csapata befejezné a reggeli kávéját."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "AZ IDEGRENDSZER",
+        "desc": "Az összekötő szövet, amely összekapcsolja hirdetéseit, CRM-jét, naptárát és riportjait egyetlen automatizált folyamatba. Az egyedi munkafolyamatok azonnal aktiválódnak a lead viselkedése alapján — Zapier-díj nélkül, ragasztószalag nélkül."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "A PARANCSNOKI KÖZPONT",
+        "desc": "Pipeline-kezelés, automatizált szekvenciák, időpontfoglalás és omni-channel kommunikáció (SMS / Email / WhatsApp) — mindezt egyetlen platformon, amelyet a csapata valóban használ."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Mit mérünk valójában",
+    "title": "Felejtse el a hiúsági mutatókat. Íme, ami valóban növekedést hajt.",
+    "subtitle": "Minden Alpine ügyfél valós idejű dashboardot kap, amely azokat a számokat követi, amelyek a nyereséges növekedést ténylegesen meghatározzák.",
+    "items": {
+      "cac": {
+        "title": "CAC csökkentés",
+        "desc": "Átlagos csökkentés az ügyfeleinknél az első 90 napban"
+      },
+      "ltgp": {
+        "title": "LTGP javulás",
+        "desc": "Átlagos javulás teljes tölcsér optimalizációval"
+      },
+      "speed": {
+        "title": "Gyors leadkezelés",
+        "desc": "Átlagos első válaszidő aktív AI rendszerünkkel"
+      },
+      "recovery": {
+        "title": "Pipeline visszaszerzés",
+        "desc": "Inaktív leadek újraaktiválva automatizált kampányokkal"
+      },
+      "cycle": {
+        "title": "Értékesítési ciklus",
+        "desc": "Gyorsabb az első érintéstől a lezárt üzletig"
+      },
+      "ratio": {
+        "title": "LTGP/CAC arány",
+        "desc": "Bizonyított fogászati, ICT és szakmai szolgáltatások területén"
+      }
+    },
+    "callout": {
+      "label": "Miért LTGP és nem csak LTV?",
+      "lead": "Az LTV bevétel. A bevétel nem profit.",
+      "ltgpName": "LTGP (Lifetime Gross Profit)",
+      "body": "levonja a teljesítési költségeket, és megmutatja az ügyfelenkénti tényleges árrést — ami azt jelenti, hogy ez az egyetlen szám, amely megmondja, hogy a hirdetési kiadásai gazdagabbá teszik-e önt, vagy csupán elfoglaltabbá. Minden kampányunkat erre a számra építjük."
+    },
+    "disclaimer": "Ezek élő ügyfél-dashboardokból mért eredmények, nem előrejelzések."
+  },
+  "cases": {
+    "eyebrow": "Bizonyított Eredmények",
+    "title": "Valós Számok. Valós Ügyfelek. Valós Profit.",
+    "challenge": "Kihívás",
+    "approach": "Megközelítés",
+    "timeline": "Időkeret",
+    "results": "Eredmények",
+    "dental": {
+      "badge": "Egészségügy / Fogászat",
+      "title": "Zürichi Fogászati Klinika",
+      "challenge": "A páciensszerzési csatorna bővítése fenntartható ügyfélszerzési költségek mellett.",
+      "approach": "Meta Ads lead-gyűjtés → Claude AI triage → GHL nurture-szekvenciák + inaktív páciensek reaktiválása.",
+      "timeline": "3 hónap",
+      "results": [
+        "166 Lead",
+        "41 Páciens (24,7%-os konverzió)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (korábban 1,9:1)"
+      ],
+      "insight": "51% Meta Ads-ból · 49% AI-reaktiválásból — a páciensek közel fele olyan leadekből érkezett, akikről a klinika már lemondott."
+    },
+    "ict": {
+      "badge": "B2B Technológia",
+      "title": "Svájci ICT Vállalat",
+      "challenge": "A vállalati szoftverértékesítés felgyorsítása és a hosszú értékesítési ciklusok lerövidítése.",
+      "approach": "LinkedIn és e-mail kampányok → Claude AI minősítés → n8n automatizálás → GHL pipeline-kezelés.",
+      "timeline": "12 hónap",
+      "results": [
+        "312 Minősített Lead",
+        "67 Értékesítési Megbeszélés (21,5%-os arány)",
+        "Értékesítési Ciklus ↓38% (45→28 nap)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (korábban 2,1:1)",
+        "CHF 487K bevételi hatás"
+      ],
+      "insight": "Az automatizált minősítés havonta 80 órányi manuális értékesítési utánkövetést váltott ki, így az értékesítők kizárólag a vásárlásra kész érdeklődőkre koncentrálhattak."
+    }
+  },
+  "comparison": {
+    "title": "Mi változik, ha rendszerbe szervezi értékesítését",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Manuális értékesítési folyamat",
+    "rows": [
+      {
+        "label": "Válaszidő",
+        "ai": "60 másodpercen belül, 24/7",
+        "manual": "Amikor éppen elérhető valaki — gyakran órákat kell várni"
+      },
+      {
+        "label": "Lead-minősítés",
+        "ai": "AI-alapú pontozás, következetes, minden egyes leadnél",
+        "manual": "Szubjektív, értékesítőnként eltérő"
+      },
+      {
+        "label": "Skálázhatóság",
+        "ai": "Növelje a volument létszámbővítés nélkül",
+        "manual": "Minden új lead = újabb felvétel"
+      },
+      {
+        "label": "Riportálás",
+        "ai": "Valós idejű CAC, LTGP és pipeline-sebesség",
+        "manual": "Táblázatok, amelyeket akkor frissítenek, ha valaki éppen eszébe jut"
+      },
+      {
+        "label": "Inaktív leadek",
+        "ai": "Automatikusan újraaktiválva kampányokon keresztül",
+        "manual": "Elfeledve a CRM temetőjében"
+      },
+      {
+        "label": "Értékesítési ciklus",
+        "ai": "30–40%-kal rövidebb automatizálás révén",
+        "manual": "Attól függ, ki értékesít éppen azon a héten"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Miért Alpine",
+    "title": "Miért válassza az Alpine Marketinget?",
+    "cards": [
+      {
+        "title": "Teljes tölcsér, nem töredék",
+        "desc": "A legtöbb ügynökség egyetlen csatornát optimalizál. Mi az egész ügyfélszerzési gépezetét rendszerezzük — az első benyomástól az élettartam-nyereségig."
+      },
+      {
+        "title": "Valóban fontos mérőszámok",
+        "desc": "Mi CAC-ot és LTGP-t követünk, nem kattintásokat. Mindig pontosan tudni fogja, mennyibe kerül egy ügyfél megszerzése, és mekkora nyereséget jelent."
+      },
+      {
+        "title": "AI-alapú, emberek által irányítva",
+        "desc": "A Claude AI kezeli a szűrést, a minősítést és a válaszadást. Csapata a kapcsolatépítésre és a lezárásra összpontosíthat."
+      },
+      {
+        "title": "Svájci precizitás, startup-sebesség",
+        "desc": "GDPR-megfelelő infrastruktúra, átlátható riportolás, valós idejű nyomon követés — sürgősséggel megvalósítva."
+      },
+      {
+        "title": "Összetett hatású automatizálás",
+        "desc": "Minden lead okosabbá teszi a rendszert. Az A/B-tesztelt szekvenciák és a folyamatos optimalizálás idővel csökkentik a CAC-ot."
+      },
+      {
+        "title": "Bizonyított, nem ígérgető",
+        "desc": "3,4:1-től 4,2:1-ig terjedő LTGP/CAC arányok fogászati, ICT- és szakmai szolgáltatások területén. Valódi dashboard, nem diavetítés."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "A Csapat",
+    "title": "Kivitelezők, nem teoretikusok.",
+    "subtitle": "Csapatunk minden tagja maga építi és üzemelteti azokat a rendszereket, amelyeket értékesítünk. Nincsenek forgatókönyvből dolgozó account managerek — csak olyan specialisták, akik tucatnyi KKV számára szállítottak már automatizációs megoldásokat.",
+    "roles": {
+      "founder": "Alapító",
+      "performance": "Performance Marketing",
+      "engineering": "Fejlesztés",
+      "content": "Tartalom",
+      "creative": "Kreatív",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "CRM Tölcsérek & Automatizációs Stratégia",
+      "performance": "Google & Meta Hirdetések",
+      "engineering": "Webfejlesztés & Automatizáció",
+      "content": "SEO & Konverziófókuszú Szövegírás",
+      "creative": "Fotó & Videógyártás",
+      "motion": "Videóvágás & Motion Design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Gyakori kérdések, őszinte válaszok.",
+    "items": [
+      {
+        "q": "Csak hirdetéseket kezelnek?",
+        "a": "Nem. A hirdetés csupán egy elem a rendszerben. Mi a teljes ügyfélszerzési motort építjük fel — fizetett forgalom, landing oldalak, CRM beállítás, lead-routing, AI-alapú utánkövetés, nurture-szekvenciák, reaktivációs kampányok és riportálás. Ha a tölcsér az utánkövetésnél szivárog, a több hirdetési büdzsé csak nagyobbá teszi a lyukat."
+      },
+      {
+        "q": "Tudnak a meglévő CRM-ünkkel dolgozni?",
+        "a": "Ez a platformtól függ. Natívan a GoHighLevel-ben dolgozunk, és a legtöbb CRM-hez API-on vagy n8n automatizáción keresztül tudunk csatlakozni. Ha a CRM-je támogatja a webhookokat vagy van API-ja, integráljuk. Ha nem — őszintén megmondjuk, és elmagyarázzuk a lehetőségeket."
+      },
+      {
+        "q": "Segítenek az automatizálásban és a lead-utánkövetésben?",
+        "a": "Ez a munkánk lényege. A lead-re adott válaszidő az egyik legmagasabb ROI-t hozó fejlesztési terület. Claude AI Agenseink 60 másodpercen belül reagálnak, minősítik a leadet, és megfelelően irányítják tovább — 24/7, hétvégén is. A csapata csak azokkal a leadekkel foglalkozik, amelyek valóban érdeklődők."
+      },
+      {
+        "q": "Mely piacokon dolgoznak?",
+        "a": "Elsősorban Svájcban, az EU-ban és európai határon átnyúló piacokon van tapasztalatunk. Dolgoztunk fogászati klinikákkal, ICT-cégekkel, professzionális szolgáltatókkal és helyi vállalkozásokkal. Nem vállalunk el minden ügyfelet — az audit-hívás során őszintén megmondjuk, ha nem vagyunk a megfelelő partner."
+      },
+      {
+        "q": "Hogyan kezelik az adatvédelmet és a mérést a cookie utáni korszakban?",
+        "a": "Az infrastruktúrát eleve adatvédelem-tudatos szemlélettel építjük fel. Ez magában foglalja a megfelelő cookie-hozzájárulás-kezelést, első fél adatstrategákat, GDPR-kompatibilis űrlapfolyamatokat és olyan CRM-alapú nyomon követést, amely nem függ harmadik fél cookie-jaitól. Hozzájárulás előtt nem töltünk be nyomkövető szkripteket. Nem alkalmazunk manipulatív megoldásokat."
+      },
+      {
+        "q": "Mi történik egy ingyenes tölcsér-auditon?",
+        "a": "Átvizsgáljuk a jelenlegi ügyfélszerzési rendszert — forgalmi forrásokat, landing oldalakat, CRM-struktúrát, utánkövetési szekvenciákat és riportokat. Azonosítjuk, hol esnek ki a leadek, és azt, hogy az egyes hiányosságok megszüntetése mekkora bevételnövekedést hozhat. Még mielőtt az együttműködésről beszélnénk, tiszta képet kap a rendszer gyenge pontjairól."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Készen állsz a rendszer javítására?",
+    "title": "Hagyd abba, hogy egy hibás tölcsért töltögesd pénzzel.",
+    "subtitle": "Foglalj egy ingyenes auditot, és derítsd ki, hol szivárog az ügyfélszerzési rendszered, mit kell először megjavítani, és mely számok számítanak igazán.",
+    "primary": "Foglald le az ingyenes auditedet",
+    "secondary": "Tekintsd meg szolgáltatásainkat",
+    "disclaimer": "Kötelezettség nélkül. Az eredmények piactól, ajánlattól, büdzsétől és értékesítési folyamattól függően változnak."
+  },
+  "footer": {
+    "tagline": "Rendszerezett ügyfélszerzés svájci és európai KKV-k számára. Alacsonyabb CAC, erősebb értékesítési csatornák, átláthatóbb riportok.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Szolgáltatások",
+      "company": "Cégünk",
+      "legal": "Jogi & Adatvédelem"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatizálás",
+      "reporting": "Riportálás & Analitika",
+      "audit": "Teljes Tölcsér Audit"
+    },
+    "legal": {
+      "privacy": "Adatvédelmi tájékoztató",
+      "cookies": "Cookie-tájékoztató",
+      "terms": "Felhasználási feltételek",
+      "disclaimer": "Felelősségkizárás",
+      "accessibility": "Akadálymentesség",
+      "privacyChoices": "Adatvédelmi beállítások",
+      "dataRequests": "Adatkérelmek",
+      "security": "Biztonság & Adatkezelés",
+      "notice": "Jogi nyilatkozat"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Minden jog fenntartva. Zurich, Switzerland.",
+    "performanceDisclaimer": "Az oldalon bemutatott eredmények valós ügyfélmegbízásokon alapulnak, és nem jelentenek garanciát a jövőbeli teljesítményre. Az eredmények piactól, ajánlattól, büdzsétől, értékesítési folyamattól és egyéb, Alpine Marketing befolyásán kívül eső tényezőktől függően változnak."
+  },
+  "languageSwitcher": {
+    "label": "Nyelv",
+    "priority": "Elsődleges nyelvek",
+    "other": "Egyéb EU-s nyelvek"
+  },
+  "servicesPage": {
+    "eyebrow": "Amit csinálunk",
+    "title": "Rendszerekre épített szolgáltatások, nem csatornákra.",
+    "subtitle": "Nem egyedi taktikákat árulunk. Ügyfélszerzési rendszereket építünk és működtetünk — a fizetett forgalomtól a lezárt ügyfélig, minden szakaszon nyomon követve.",
+    "cta": "Ingyenes tölcsér-audit foglalása",
+    "learnMore": "Tudjon meg többet",
+    "items": {
+      "performance": {
+        "title": "Teljesítménymarketing",
+        "desc": "Fizetett hirdetések Meta, Google és LinkedIn platformokon — minősített érdeklődők generálására tervezve, nem csupán megjelenések elérésére. Minden kampány össze van kötve a CRM-rendszerével, hogy valós időben nyomon követhessük az ügyfélszerzési költséget.",
+        "outcomes": [
+          "Alacsonyabb CAC 90 napon belül",
+          "Attribúció a kattintástól a lezárt üzletig",
+          "Valódi vásárlási adatokon alapuló célközönség-meghatározás"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatizálás",
+        "desc": "GoHighLevel beállítás, munkafolyamat-architektúra, AI-alapú érdeklődő-minősítés és automatizált utánkövetési szekvenciák. Az értékesítési csatornája alvás közben is működik — és minden érintési pont rögzítve van.",
+        "outcomes": [
+          "<60 mp-es első válasz Claude AI segítségével",
+          "Automatikus érdeklődő-irányítás és -pontozás",
+          "Inaktív érdeklődőket reaktiváló kampányok"
+        ]
+      },
+      "reporting": {
+        "title": "Riportálás és analitika",
+        "desc": "Valós idejű irányítópultok, amelyek megmutatják a CAC-t, LTGP-t, konverziós arányokat, az érdeklődőkre való reagálási sebességet és az értékesítési csatorna lendületét. Arról számolunk be, ami a profitot hajtja — nem arról, ami jól néz ki egy prezentációban.",
+        "outcomes": [
+          "Egyedi KPI-irányítópultok",
+          "CAC és LTGP nyomon követés",
+          "Heti teljesítményértékelések"
+        ]
+      },
+      "content": {
+        "title": "Tartalmi tölcsérek",
+        "desc": "SEO-vezérelt tartalom, konverzióra optimalizált céloldalak és gondozási szekvenciák, amelyek az érdeklődőket végigvezetik a tölcséren — nem csupán kattintásokat generálnak.",
+        "outcomes": [
+          "Konverzióra fókuszált céloldalak",
+          "Többlépéses e-mail és SMS szekvenciák",
+          "Vásárlási szándékhoz igazított SEO-tartalom"
+        ]
+      },
+      "funnel": {
+        "title": "Tölcsér-stratégia",
+        "desc": "Mielőtt bármit felépítenénk, megvizsgáljuk a jelenlegi rendszerét — forgalomforrások, CRM-struktúra, utánkövetési hiányosságok, riportálási vakfoltok. Ezután olyan ütemtervet készítünk, amely a bevételi hatást helyezi előtérbe.",
+        "outcomes": [
+          "Ingyenes tölcsér-audit",
+          "Hiányosságelemzés bevételi hatásbecslésekkel",
+          "Priorizált 90 napos sprint-terv"
+        ]
+      },
+      "landing": {
+        "title": "Céloldalak",
+        "desc": "Nagy konverziójú, mobilra optimalizált céloldalak, amelyek érdeklődők megszerzésére készültek — nem dizájndíjak elnyerésére. A/B tesztelve, CRM-hez csatlakoztatva, sebességre optimalizálva.",
+        "outcomes": [
+          "CRM-integrált űrlaplogika",
+          "A/B tesztelésre kész",
+          "Sebességre és konverzióra optimalizálva"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Az Alpine Marketingről",
+    "title": "Üzletileg gondolkodva. Rendszerszemlélettel. Hiúsági mutatók nélkül.",
+    "subtitle": "Az Alpine Marketing egy egyszerű megfigyelésre épül: a legtöbb KKV-nak nem lead-problémája van. Rendszerproblémája van. A leadek beérkeznek, majd eltűnnek — lassú utánkövetésbe, széttagolt CRM-ekbe, és olyan riportokba, amelyek aktivitást mutatnak, nem profitot.",
+    "why": {
+      "title": "Miért létezünk.",
+      "p1": "A legtöbb ügynökség a tölcsér egyetlen részét optimalizálja — általában azt, amit a legkönnyebben el tud adni. Hirdetések, tartalom, vagy „stratégia“. Az ügyfél egy kiszállítható terméket kap, nem egy működő rendszert.",
+      "p2": "Az Alpine Marketinget azért alapítottuk, hogy ezt megoldjuk. Az egész ügyfélszerzési verem mentén dolgozunk: fizetett forgalom, CRM, automatizálás, utánkövetés, reaktiválás és riportálás — egyetlen, valóban ügyfeleket záró gépezetté összehangolva.",
+      "p3": "Zürichben vagyunk, és Svájcban, az EU-ban, valamint nemzetközi szinten működő vállalkozásokkal dolgozunk. Érthetően kommunikálunk, CHF-ben és EUR-ban dolgozunk, és ugyanazokra a mutatókra tartjuk magunkat számon, amelyeket az ügyfeleinktől is elvárunk."
+    },
+    "fullFunnel": {
+      "title": "Mit jelent a teljes tölcsérben való gondolkodás.",
+      "p1": "A „full-funnel“ nem marketingzsargon. Azt jelenti: érdekel minket, mi történik egy leaddel azután, hogy kitölt egy űrlapot. Érdekel a lead-reakcióidő. Érdekel, hogy a CRM gondoz vagy elfelejt. Érdekel a reaktiválás. Érdekel az a riport, amely a hirdetési költést a lezárt bevételhez köti.",
+      "p2": "Ez több koordinációt igényel, mint pusztán hirdetéseket futtatni. De alapvetően más eredményt hoz: alacsonyabb CAC-ot, magasabb LTGP-t, és egy rendszert, amely összetetté válik ahelyett, hogy megakadna."
+    },
+    "principlesTitle": "Működési alapelveink.",
+    "principles": [
+      {
+        "title": "Ami számít, azt mérjük.",
+        "desc": "CAC és LTGP. Nem kattintások. Nem megjelenések. Nem „márkaismertség“. Ha nem kapcsolódik a profithoz, nem optimalizálunk rá."
+      },
+      {
+        "title": "Rendszerek a taktikák helyett.",
+        "desc": "Egy taktika egyszer hoz eredményt. Egy rendszer összetett módon hoz eredményeket. Mi a gépezetet építjük, nem az egyszeri kampányt."
+      },
+      {
+        "title": "Őszinték vagyunk abban, amit nem tudunk.",
+        "desc": "Megmondjuk, ha egy piac túl versenyképes, ha az ajánlatán csiszolni kell, vagy ha az értékesítési folyamata az igazi szűk keresztmetszet. Nem azért vagyunk itt, hogy felvegyük a büdzsét, majd eltűnjünk."
+      },
+      {
+        "title": "Adatvédelem alapból.",
+        "desc": "Svájci, EU-s és amerikai piacokon működünk. A beleegyezésbarát architektúra nem utólagos gondolat — így építünk minden tölcsért."
+      },
+      {
+        "title": "Operátorok, nem teoretikusok.",
+        "desc": "Minden rendszert, amelyet ajánlunk, valódi ügyfelek számára építettük és üzemeltettük. Nem elméleteket tanácsadunk. Az operatív infrastruktúrát építjük és kezeljük."
+      }
+    ],
+    "ctaTitle": "Készen áll a beszélgetésre?",
+    "ctaDesc": "Foglaljon egy ingyenes tölcsér-auditot, és megmutatjuk pontosan, min változtatnánk és milyen sorrendben — mielőtt bármire elköteleződne.",
+    "ctaButton": "Foglalja le ingyenes auditját"
+  },
+  "contactPage": {
+    "eyebrow": "Kapcsolatfelvétel",
+    "title": "Beszéljük meg a rendszereket.",
+    "subtitlePrefix": "Általános megkeresésekhez használja az alábbi űrlapot. Ha strukturált tölcsér-átvizsgálást szeretne, látogasson el az ",
+    "subtitleLink": "Audit Foglalása",
+    "subtitleSuffix": " oldalra.",
+    "info": {
+      "emailLabel": "E-mail",
+      "phoneLabel": "Telefon és helyszín",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Válaszidő",
+      "responseValue": "1 munkanapon belül",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Név",
+      "namePh": "Jane Smith",
+      "email": "E-mail",
+      "emailPh": "jane@company.com",
+      "company": "Cég",
+      "companyPh": "Acme GmbH",
+      "service": "Érdeklődési terület",
+      "serviceDefault": "Válasszon (opcionális)",
+      "serviceOptions": {
+        "performance": "Teljesítménymarketing",
+        "crm": "CRM + Automatizálás",
+        "reporting": "Riportálás és analitika",
+        "content": "Tartalmi tölcsérek",
+        "audit": "Teljes rendszerátvizsgálás"
+      },
+      "message": "Üzenet",
+      "messagePh": "Meséljen a helyzetéről...",
+      "requiredLabel": "Kötelező:",
+      "optionalLabel": "Opcionális:",
+      "privacyPrefix": "Elolvastam az ",
+      "privacyLink": "Adatvédelmi tájékoztatót",
+      "privacySuffix": " és hozzájárulok adataim feldolgozásához a megkeresésem megválaszolása céljából.",
+      "marketingText": "Szeretnék e-mailes frissítéseket és szakmai betekintőket kapni az Alpine Marketingtől.",
+      "submit": "Üzenet küldése",
+      "validation": {
+        "name": "A név megadása kötelező",
+        "email": "Érvényes e-mail cím megadása kötelező",
+        "company": "A cégnév megadása kötelező",
+        "message": "Az üzenet megadása kötelező",
+        "consent": "A folytatáshoz el kell fogadnia a feltételeket"
+      },
+      "toastTitle": "Üzenet megérkezett",
+      "toastDesc": "1 munkanapon belül felvesszük Önnel a kapcsolatot."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Ingyenes tölcsér-audit",
+    "title": "Lássa pontosan, hol szivárog a rendszere.",
+    "subtitle": "Egy 30 perces audit-hívás során átvizsgáljuk az ügyfélszerzési struktúráját, és megmutatjuk a hiányosságokat — mielőtt bármit is kérnénk cserébe.",
+    "whatYouGetLabel": "Mit kap:",
+    "whatYouGet": [
+      "Egy térképet arról, hol veszíti el leadjeit és bevételét a jelenlegi tölcsére",
+      "Őszinte értékelést arról, mely hiányosságokat érdemes először orvosolni",
+      "Egy képet arról, hogyan nézne ki egy rendszerezett növekedési motor az Ön vállalkozásában"
+    ],
+    "whoForLabel": "Kinek szól ez:",
+    "whoForBody": "Olyan szolgáltatóvállalkozásoknak, amelyek generálnak leadeket, de túl keveset konvertálnak. Cégeknek, amelyek hirdetésekre költenek, de nem tudják, mi működik valójában. SMB-eknek, amelyek rendszert akarnak építeni, nem pedig újabb taktikát venni.",
+    "form": {
+      "fullName": "Teljes név",
+      "fullNamePh": "Kovács Éva",
+      "workEmail": "Munkahelyi e-mail",
+      "workEmailPh": "eva@ceg.hu",
+      "company": "Cég",
+      "companyPh": "Acme GmbH",
+      "website": "Weboldal",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Havi leadek (kb.)",
+      "leadsDefault": "Válasszon...",
+      "leadsOptions": {
+        "lt20": "Kevesebb mint 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Legnagyobb ügyfélszerzési kihívás",
+      "challengePh": "Pl. Generálunk leadeket, de az átalakítási arány alacsony, és nem tudjuk, hol esnek ki...",
+      "requiredLabel": "Kötelező:",
+      "optionalLabel": "Opcionális:",
+      "privacyPrefix": "Elolvastam az ",
+      "privacyLink": "Adatvédelmi tájékoztatót",
+      "privacySuffix": ", és hozzájárulok ahhoz, hogy az Alpine Marketing kezelje adataimat a megkeresésem megválaszolása céljából.",
+      "marketingText": "Szeretnék e-mailben marketing-frissítéseket, szakmai betekintőket és ajánlatokat kapni.",
+      "submit": "Ingyenes auditom igénylése",
+      "footer": "Az űrlap elküldése semmilyen vásárlási kötelezettséggel nem jár. 1 munkanapon belül visszajelzünk.",
+      "validation": {
+        "name": "A név megadása kötelező",
+        "email": "Érvényes munkahelyi e-mail-cím szükséges",
+        "company": "A cégnév megadása kötelező",
+        "website": "Adjon meg érvényes URL-t (tartalmazza a https:// előtagot)",
+        "monthlyLeads": "Kérjük, válasszon egy lehetőséget",
+        "challenge": "Kérjük, írja le a kihívását — legalább egy mondatban",
+        "consent": "A folytatáshoz el kell fogadnia a feltételeket"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Kérelmét megkaptuk.",
+    "lead": "Átnézzük az adatait, és ",
+    "leadBold": "1 munkanapon belül",
+    "leadSuffix": " visszajelzünk az auditidőpont megerősítéséről.",
+    "sub": "Addig sem kell semmit tennie. A beküldéssel semmilyen vásárlási kötelezettséget nem vállal.",
+    "primary": "Ügyféleredmények megtekintése",
+    "secondary": "Vissza a főoldalra"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Terepi jegyzetek a svájci ügyfélszerzés motorházából.",
+    "subtitle": "Őszinte összefoglalók arról, mi működik, mi emészti fel a hirdetési büdzsét, és milyen eszközökkel alakítjuk a pipeline-t kiszámítható profittá. Semmi felesleges szöveg, semmi ügynökségi zsargon.",
+    "all": "Összes",
+    "empty": "Ebben a kategóriában még nincsenek cikkek — látogass vissza hamarosan.",
+    "featured": "Kiemelt",
+    "minRead": "perces olvasás",
+    "min": "perc"
+  },
+  "blogPost": {
+    "back": "Összes cikk",
+    "minRead": "perc olvasás",
+    "ctaEyebrow": "Készen áll a tölcsér tömítésére?",
+    "ctaTitle": "Kérjen ingyenes Pipeline Auditot, és nézze meg pontosan, hol szivárog a pénze.",
+    "ctaSub": "30 perces hívás · nincs pitch deck · konkrét megoldások, amelyeket már ezen a héten alkalmazhat.",
+    "ctaButton": "Ingyenes Audit foglalása",
+    "related": "Olvasás folytatása",
+    "readSuffix": "perc olvasás"
+  },
+  "cookieConsent": {
+    "heading": "Sütiket használunk a felhasználói élmény javítása érdekében.",
+    "bodyPrefix": "Néhány süti elengedhetetlen az oldal működéséhez. Mások — az analitikai és marketing sütik — csak az Ön beleegyezésével töltődnek be. Beállításait bármikor módosíthatja a ",
+    "privacyChoices": "Adatvédelmi beállítások",
+    "between": " oldalon. Tekintse meg a ",
+    "cookieNotice": "Sütitájékoztatónkat",
+    "bodySuffix": " a részletekért.",
+    "acceptAll": "Összes elfogadása",
+    "necessaryOnly": "Csak szükségesek",
+    "customize": "Testreszabás",
+    "customizeIntro": "A feltétlenül szükséges sütik mindig aktívak. Az alábbiakban kapcsolja be vagy ki a többit.",
+    "save": "Beállítások mentése",
+    "back": "Vissza",
+    "closeAria": "Bezárás és a nem szükséges sütik elutasítása",
+    "customizeAria": "Sütibeállítások testreszabása",
+    "items": {
+      "necessary": {
+        "label": "Feltétlenül szükséges",
+        "desc": "Az oldal működéséhez elengedhetetlen."
+      },
+      "preferences": {
+        "label": "Preferenciák",
+        "desc": "Megjegyzi az Ön beállításait és választásait."
+      },
+      "analytics": {
+        "label": "Analitika",
+        "desc": "Segít megérteni, hogyan használják a látogatók az oldalt. Beleegyezés előtt semmilyen adat nem kerül megosztásra."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "desc": "Célzott hirdetésekhez használjuk. Soha nem töltődik be az Ön kifejezett beleegyezése nélkül."
+      }
+    }
+  }
+}

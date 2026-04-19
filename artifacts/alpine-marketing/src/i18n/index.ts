@@ -8,13 +8,30 @@ import fr from "./locales/fr.json";
 import it from "./locales/it.json";
 import uk from "./locales/uk.json";
 import ru from "./locales/ru.json";
+import es from "./locales/es.json";
+import pt from "./locales/pt.json";
+import nl from "./locales/nl.json";
+import pl from "./locales/pl.json";
+import sv from "./locales/sv.json";
+import da from "./locales/da.json";
+import fi from "./locales/fi.json";
+import el from "./locales/el.json";
+import cs from "./locales/cs.json";
+import sk from "./locales/sk.json";
+import sl from "./locales/sl.json";
+import hu from "./locales/hu.json";
+import ro from "./locales/ro.json";
+import bg from "./locales/bg.json";
+import hr from "./locales/hr.json";
+import et from "./locales/et.json";
+import lv from "./locales/lv.json";
+import lt from "./locales/lt.json";
+import mt from "./locales/mt.json";
+import ga from "./locales/ga.json";
 
 /**
- * Supported languages — all 24 official EU languages.
- * Top-priority languages (EN/DE/FR/IT) ship with full translations.
- * The other 20 are registered with English as the fallback so the
- * language switcher works site-wide; native translations can be filled
- * in incrementally by adding the corresponding locale JSON file.
+ * Supported languages — all 24 official EU languages plus Ukrainian and Russian.
+ * Every language ships with a full translation file.
  */
 export const LANGUAGES: { code: string; name: string; native: string; priority?: boolean }[] = [
   { code: "en", name: "English",    native: "English",     priority: true },
@@ -52,6 +69,26 @@ const resources = {
   it: { translation: it },
   uk: { translation: uk },
   ru: { translation: ru },
+  es: { translation: es },
+  pt: { translation: pt },
+  nl: { translation: nl },
+  pl: { translation: pl },
+  sv: { translation: sv },
+  da: { translation: da },
+  fi: { translation: fi },
+  el: { translation: el },
+  cs: { translation: cs },
+  sk: { translation: sk },
+  sl: { translation: sl },
+  hu: { translation: hu },
+  ro: { translation: ro },
+  bg: { translation: bg },
+  hr: { translation: hr },
+  et: { translation: et },
+  lv: { translation: lv },
+  lt: { translation: lt },
+  mt: { translation: mt },
+  ga: { translation: ga },
 };
 
 i18n

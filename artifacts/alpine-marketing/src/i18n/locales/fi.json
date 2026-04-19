@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Varaa ilmainen auditointi",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Lue lisää",
+    "getStarted": "Aloita nyt",
+    "openMenu": "Avaa valikko",
+    "closeMenu": "Sulje valikko"
+  },
+  "nav": {
+    "services": "Palvelut",
+    "caseStudies": "Asiakastapaukset",
+    "blog": "Blogi",
+    "about": "Meistä",
+    "contact": "Yhteystiedot"
+  },
+  "hero": {
+    "eyebrow": "PK-yrityksille ja teknologiayhtiöille Sveitsissä",
+    "headlineLead": "Rakennamme koneen, joka muuttaa mainosbudjettisi ",
+    "headlineHighlight": "ennustettavaksi voitoksi.",
+    "subheadline": "Alpine Marketing rakentaa täyden suppilun asiakashankintamoottorin — Meta- ja Google Ads -mainonnasta tekoälypohjaisten seurantatoimenpiteiden kautta kauppojen klousaamiseen — ja tarjoaa sinulle kojelaudan, josta näet todelliset CAC- ja elinkaaren bruttovoittoluvut.",
+    "subheadlineEmphasis": "Ei klikkejä. Ei näyttökertoja. Voittoa.",
+    "primaryCta": "Pyydä ilmainen pipeline-auditointi",
+    "secondaryCta": "Katso asiakastulokset",
+    "cardTitle": "Pipeline Visualizer — Live",
+    "stats": {
+      "cac": "CAC-vähennys keskim.",
+      "ratio": "LTGP/CAC-suhde",
+      "responseTime": "Liidien vasteaika",
+      "clients": "Sveitsiläiset asiakkaat"
+    }
+  },
+  "problem": {
+    "eyebrow": "Ydinongelma",
+    "title": "Markkinointisi ei ole rikki. Järjestelmäsi on.",
+    "subtitle": "Useimmat toimistot myyvät sinulle klikkauksia ja näyttökertoja. Mutta jos myyntiputkesi vuotaa joka vaiheessa — hitaat vastaukset, ei seurantaa, ei reaktivointia — lisää liikennettä tarkoittaa vain lisää haaskausta.",
+    "cards": {
+      "speed": {
+        "title": "Nopeuskuilu",
+        "desc": "Liideihin, joihin otetaan yhteyttä yli 5 minuutin kuluttua, on 21× epätodennäköisempää saada konversio. Pk-yrityksen keskimääräinen vasteaika? Yli 2 tuntia. Jokainen viivästynyt minuutti on rahaa, joka haihtuu ilmaan."
+      },
+      "followup": {
+        "title": "Seurannan musta aukko",
+        "desc": "liideistä ei koskaan saa toista yhteydenottoa. Ei nurturointisekvenssejä, ei tekstiviestejä, ei reaktivointia. He osoittivat kiinnostuksensa — ja saivat vastaukseksi hiljaisuuden."
+      },
+      "metrics": {
+        "title": "Mittareiden harha",
+        "valueLabel": "Näkyvyys",
+        "desc": "Useimmat pk-yritykset seuraavat klikkauksia tai \"generoituja liidejä\" — mutta eivät osaa vastata: mitä kukin asiakas todella maksaa minulle, ja mikä on heidän elinkaarensa bruttokate? Ilman CAC- ja LTGP-lukuja lennät sokkona."
+      }
+    },
+    "leakPoints": [
+      "Hidas vastaus",
+      "Ei nurturointia",
+      "Ei reaktivointia",
+      "Ei seurantaa",
+      "Menetetty tuotto"
+    ]
+  },
+  "system": {
+    "eyebrow": "Alpine-menetelmä",
+    "title": "Emme korjaa yhtä asiaa. Me systematisoimme kaiken.",
+    "subtitle": "Kuusi vaihetta. Yksi koneisto. Jokainen liidi seurataan ensimmäisestä klikkauksesta kauppaan.",
+    "disclaimer": "Tulokset vaihtelevat markkinan, tarjooman, budjetin ja myyntiprosessin mukaan. Luvut perustuvat toteutettuihin asiakasprojekteihin.",
+    "steps": {
+      "attract": {
+        "title": "Houkuttele",
+        "desc": "Kohdistetut mainokset Metassa, Googlessa ja LinkedInissä. Laskeutumissivut rakennettu konvertoimaan — ei vaikuttamaan."
+      },
+      "capture": {
+        "title": "Kaappaa",
+        "desc": "Jokainen liidi, jokainen lähde — yksi CRM. Ei katoa yhteystietoja, täysi attribuutio ensimmäisestä klikkauksesta."
+      },
+      "route": {
+        "title": "Reitittäminen & pisteytys",
+        "desc": "Liidit pisteytetään automaattisesti ja ohjataan oikeaan työnkulkuun sekunneissa — ei tunneissa."
+      },
+      "engage": {
+        "title": "Kontaktointi alle 60 sekunnissa",
+        "desc": "Claude AI vastaa 24/7, kvalifioi liidin ja siirtää sen eteenpäin vasta, kun aika on oikea."
+      },
+      "nurture": {
+        "title": "Hoivaa & reaktivoi",
+        "desc": "Automaattiset sekvenssit sähköpostitse, SMS:llä ja WhatsAppissa. Nukkuvat liidit eivät mene hukkaan."
+      },
+      "measure": {
+        "title": "Mittaa & kehitä",
+        "desc": "Reaaliaikaiset koontinäytöt. CAC, LTGP, putken nopeus — ainoastaan ne luvut, jotka kasvattavat tulosta."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Konepellin alla oleva moottori",
+    "title": "Kolme työkalua. Nolla manuaalisia siirtoja. Yksi yhtenäinen järjestelmä.",
+    "footer": "Tulos? Järjestelmä, joka työskentelee sinun nukkuessasi, skaalautuu ilman uusia rekrytointeja ja oppii jokaisesta käsittelemästään liidistä.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "AIVOT",
+        "desc": "Älykäs liidien kvalifiointi ja reaaliaikainen aikomusanalyysi. Claude lukee jokaisen saapuvan liidin, pisteyttää kiireellisyyden, määrittää parhaan vastestrategian ja luo personoituja, inhimillisiä viestejä — kaikki ennen kuin tiimisi ehtii juoda aamukahvinsa."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "HERMOSTO",
+        "desc": "Yhdistävä kudos, joka linkittää mainoksesi, CRM:n, kalenterin ja raportoinnin yhdeksi automatisoiduksi putkeksi. Mukautetut työnkulut käynnistyvät välittömästi liidin käyttäytymisen perusteella — ei ylimääräisiä kuluja, ei hätäratkaisuja."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "KOMENTOKESKUS",
+        "desc": "Myyntiputken hallinta, automatisoidut sekvenssit, tapaamisten varaus ja monikanavainen viestintä (SMS / Email / WhatsApp) — kaikki yhdessä alustassa, jota tiimisi oikeasti käyttää."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Mitä me todella mittaamme",
+    "title": "Unohda turhamaisuusmittarit. Tässä on se, mikä oikeasti kasvattaa liiketoimintaa.",
+    "subtitle": "Jokainen Alpine-asiakas saa reaaliaikaisen koontinäytön, joka seuraa lukuja, jotka todella ratkaisevat kannattavan kasvun.",
+    "items": {
+      "cac": {
+        "title": "CAC-vähennys",
+        "desc": "Keskimääräinen vähennys asiakkailla ensimmäisen 90 päivän aikana"
+      },
+      "ltgp": {
+        "title": "LTGP-parannus",
+        "desc": "Keskimääräinen parannus koko myyntiputken optimoinnilla"
+      },
+      "speed": {
+        "title": "Nopeus liidiin",
+        "desc": "Keskimääräinen ensivastausaika AI-järjestelmämme ollessa aktiivinen"
+      },
+      "recovery": {
+        "title": "Myyntiputken elvytys",
+        "desc": "Passiiviset liidit aktivoitu uudelleen automaattisten kampanjoiden avulla"
+      },
+      "cycle": {
+        "title": "Myyntisykli",
+        "desc": "Nopeampi ensikosketuksesta kaupan klousaamiseen"
+      },
+      "ratio": {
+        "title": "LTGP/CAC-suhde",
+        "desc": "Todistettu hammaslääkäri-, ICT- ja asiantuntijapalvelualoilla"
+      }
+    },
+    "callout": {
+      "label": "Miksi LTGP eikä pelkkä LTV?",
+      "lead": "LTV on liikevaihtoa. Liikevaihto ei ole voittoa.",
+      "ltgpName": "LTGP (Lifetime Gross Profit)",
+      "body": "vähentää toimituskulusi ja näyttää sinulle todellisen katteen per asiakas — mikä tarkoittaa, että se on ainoa luku, joka kertoo, tekeekö mainosbudjettisi sinut rikkaammaksi vai pelkästään kiireisemmäksi. Rakennamme jokaisen kampanjan sen varaan."
+    },
+    "disclaimer": "Nämä ovat mitattuja tuloksia asiakkaiden reaaliaikaisista koontinäytöistä — ei ennusteita."
+  },
+  "cases": {
+    "eyebrow": "Todistettuja tuloksia",
+    "title": "Oikeat luvut. Oikeat asiakkaat. Oikea tuotto.",
+    "challenge": "Haaste",
+    "approach": "Lähestymistapa",
+    "timeline": "Aikajana",
+    "results": "Tulokset",
+    "dental": {
+      "badge": "Terveydenhuolto / Hammashoito",
+      "title": "Zürichin hammashoitoklinikka",
+      "challenge": "Kasvata potilasputkea pitäen hankintakustannukset kestävällä tasolla.",
+      "approach": "Meta Ads -liidien keruu → Claude AI -triage → GHL-hoitosequenssit + passiivisten potilaiden uudelleenaktivointl.",
+      "timeline": "3 kuukautta",
+      "results": [
+        "166 liidiä",
+        "41 potilasta (24,7 % konversio)",
+        "CAC ↓29 % (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (aiemmin 1,9:1)"
+      ],
+      "insight": "51 % Meta Ads -kanavasta · 49 % AI-reaktivoinnista — lähes puolet potilaista tuli liideistä, joista klinikka oli jo luopunut."
+    },
+    "ict": {
+      "badge": "B2B-teknologia",
+      "title": "Sveitsiläinen ICT-yritys",
+      "challenge": "Nopeuta yritysohjelmistojen myyntiä ja lyhennä pitkiä myyntisyklejä.",
+      "approach": "LinkedIn- ja sähköpostikampanjat → Claude AI -kvalifiointi → n8n-automaatio → GHL-putken hallinta.",
+      "timeline": "12 kuukautta",
+      "results": [
+        "312 kvalifioitua liidiä",
+        "67 myyntipalaveria (21,5 % osuus)",
+        "Myyntisykli ↓38 % (45→28 päivää)",
+        "CAC ↓35 % (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (aiemmin 2,1:1)",
+        "CHF 487 000 liikevaihtovaiku­tus"
+      ],
+      "insight": "Automatisoitu kvalifiointi poisti 80 tuntia manuaalista myyntiseurantaa kuukaudessa — myyjät voivat nyt keskittyä yksinomaan ostovalmiisiin prospekteihin."
+    }
+  },
+  "comparison": {
+    "title": "Mitä muuttuu, kun prosessit systematisoidaan",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Manuaalinen myyntiprosessi",
+    "rows": [
+      {
+        "label": "Vasteaika",
+        "ai": "Alle 60 sekuntia, 24/7",
+        "manual": "Silloin kun ehditään — usein tunteja myöhemmin"
+      },
+      {
+        "label": "Liidien kvalifiointi",
+        "ai": "AI-pisteytys, johdonmukainen, jokainen liidi",
+        "manual": "Subjektiivinen, vaihtelee myyjän mukaan"
+      },
+      {
+        "label": "Skaalautuvuus",
+        "ai": "Lisää volyymiä ilman lisärekrytointeja",
+        "manual": "Jokainen uusi liidi vaatii uuden työntekijän"
+      },
+      {
+        "label": "Raportointi",
+        "ai": "Reaaliaikainen CAC, LTGP ja myyntiputken nopeus",
+        "manual": "Taulukot päivitetään silloin, kun joku muistaa"
+      },
+      {
+        "label": "Lepäävät liidit",
+        "ai": "Aktivoidaan automaattisesti kampanjoiden avulla",
+        "manual": "Unohdettu CRM:n hautausmaalle"
+      },
+      {
+        "label": "Myyntisykli",
+        "ai": "30–40 % lyhyempi automaation ansiosta",
+        "manual": "Riippuu siitä, kuka sattuu myymään sinä viikkona"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Miksi Alpine",
+    "title": "Miksi valita Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Koko suppilo, ei sirpaleita",
+        "desc": "Useimmat toimistot optimoivat yhtä kanavaa. Me systematisoimme koko hankintakoneistosi — ensivaikutelmasta elinaikaiseen tuottoon."
+      },
+      {
+        "title": "Mittarit, joilla on merkitystä",
+        "desc": "Seuraamme CAC- ja LTGP-lukuja, emme klikkauksia. Tiedät aina, mitä asiakkaan hankinta maksaa ja kuinka paljon hän tuottaa."
+      },
+      {
+        "title": "AI ensin, ihminen ohjaa",
+        "desc": "Claude AI hoitaa priorisoinnin, kvalifioinnin ja vastaamisen. Tiimisi hoitaa suhteet ja kauppojen klousauksen."
+      },
+      {
+        "title": "Sveitsiläinen tarkkuus, startupin vauhti",
+        "desc": "GDPR-yhteensopiva infrastruktuuri, läpinäkyvä raportointi, reaaliaikainen seuranta — toimitettuna ripeästi."
+      },
+      {
+        "title": "Automaatio, joka kumuloituu",
+        "desc": "Jokainen liidi tekee järjestelmästä älykkäämmän. A/B-testatut sekvenssit ja jatkuva optimointi laskevat CAC-arvoasi ajan myötä."
+      },
+      {
+        "title": "Todistettu, ei luvattu",
+        "desc": "LTGP/CAC-suhteet 3,4:1–4,2:1 hammashoidon, ICT:n ja asiantuntijapalveluiden toimialoilla. Dashboard, ei myyntikalvo."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Tiimi",
+    "title": "Tekijöitä, ei teoreetikkoja.",
+    "subtitle": "Jokainen tiimimme jäsen rakentaa ja hallinnoi itse myymäämme järjestelmiä. Ei asiakaspäälliköitä lukemassa käsikirjoituksesta — vain asiantuntijoita, jotka ovat toimittaneet automaatioratkaisuja kymmenille pk-yrityksille.",
+    "roles": {
+      "founder": "Perustaja",
+      "performance": "Tulosmarkkinointi",
+      "engineering": "Tekninen kehitys",
+      "content": "Sisältö",
+      "creative": "Luova tuotanto",
+      "motion": "Videotuotanto"
+    },
+    "specialties": {
+      "founder": "CRM-suppilot ja automaatiostrategia",
+      "performance": "Google- ja Meta-mainonta",
+      "engineering": "Verkkokehitys ja automaatio",
+      "content": "SEO ja konvertoiva copywriting",
+      "creative": "Valokuva- ja videotuotanto",
+      "motion": "Videoeditointi ja motion design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Yleisimmät kysymykset, suorat vastaukset.",
+    "items": [
+      {
+        "q": "Teettekö pelkästään mainontaa?",
+        "a": "Emme. Mainonta on vain yksi osa kokonaisjärjestelmää. Rakennamme koko asiakashankintakoneen — maksettu liikenne, laskeutumissivut, CRM-käyttöönotto, liidien reititys, AI-seuranta, hoivasequenssit, reaktivointikampanjat ja raportointi. Jos myyntiputkesi vuotaa seurantavaiheessa, mainosbudjetin kasvattaminen vain suurentaa vuotoa."
+      },
+      {
+        "q": "Voitteko integroitua olemassa olevaan CRM-järjestelmäämme?",
+        "a": "Se riippuu alustasta. Toimimme natiivisti GoHighLevelissä ja voimme yhdistää useimpiin CRM-järjestelmiin API:n tai n8n-automaation kautta. Jos CRM-järjestelmäsi tukee webhookeja tai sillä on API, integraatio onnistuu. Jos ei — kerromme sen suoraan ja selitämme vaihtoehdot."
+      },
+      {
+        "q": "Autatteko automaatiossa ja liidien seurannassa?",
+        "a": "Se on toimintamme ydin. Nopeus liidin kohtaamisessa on yksi korkeatuottoisimmista parannuksista. Claude AI -agenttimme vastaavat 60 sekunnin sisällä, kvalifioivat liidin ja reitittävät sen oikein — 24/7, myös viikonloppuisin. Tiimisi käsittelee vain liidejä, jotka ovat todella valmiita."
+      },
+      {
+        "q": "Millä markkinoilla toimitte?",
+        "a": "Ensisijainen kokemuksemme on Sveitsissä, EU:ssa ja eurooppalaisilla rajat ylittävillä markkinoilla. Olemme työskennelleet hammasklinikoiden, ICT-yritysten, asiantuntijapalveluyritysten ja paikallisten palveluyritysten kanssa. Emme ota kaikkia asiakkaita — kerromme auditointipuhelussa suoraan, jos emme ole oikea kumppani teille."
+      },
+      {
+        "q": "Miten huomioitte tietosuojan ja seurannan evästeiden jälkeisessä maailmassa?",
+        "a": "Rakennamme suostumuslähtöisen infrastruktuurin alusta alkaen. Tämä tarkoittaa asianmukaista evästeiden hallintaa, ensimmäisen osapuolen datastrategioita, GDPR-yhteensopivia lomakeprosesseja ja CRM-seurantaa, joka ei riipu kolmannen osapuolen evästeistä. Emme lataa seurantaskriptejä ennen suostumusta. Emme käytä harhaanjohtavia käytäntöjä."
+      },
+      {
+        "q": "Mitä tapahtuu ilmaisessa myyntiputkiauditoinnissa?",
+        "a": "Käymme läpi nykyisen asiakashankintarakenteesi — liikennelähteen, laskeutumissivut, CRM-rakenteen, seurantasequenssit ja raportoinnin. Tunnistamme, missä kohtaa liidit katoavat ja mitä kunkin vuodon korjaaminen merkitsisi liikevaihdon kannalta. Saat selkeän kuvan järjestelmän puutteista ennen kuin keskustelemme yhteistyöstä."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Valmis korjaamaan järjestelmän?",
+    "title": "Lopeta rahan tuhlaaminen rikkinäiseen suppiloon.",
+    "subtitle": "Varaa maksuton auditointi ja selvitä, missä kohtaa asiakashankintajärjestelmäsi vuotaa, mitä korjata ensin ja mitkä luvut todella merkitsevät.",
+    "primary": "Varaa maksuton auditointi",
+    "secondary": "Tutustu palveluihimme",
+    "disclaimer": "Ei sitoumuksia. Tulokset vaihtelevat markkinan, tarjooman, budjetin ja myyntiprosessin mukaan."
+  },
+  "footer": {
+    "tagline": "Systematisoitu asiakashankinta sveitsiläisille ja eurooppalaisille pk-yrityksille. Matalampi CAC, vahvempi myyntiputki, selkeämpi raportointi.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Palvelut",
+      "company": "Yritys",
+      "legal": "Juridiikka & tietosuoja"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + automaatio",
+      "reporting": "Raportointi & analytiikka",
+      "audit": "Full-Funnel Audit"
+    },
+    "legal": {
+      "privacy": "Tietosuojailmoitus",
+      "cookies": "Evästeilmoitus",
+      "terms": "Käyttöehdot",
+      "disclaimer": "Vastuuvapauslauseke",
+      "accessibility": "Saavutettavuus",
+      "privacyChoices": "Tietosuojavalinnat",
+      "dataRequests": "Tietopyynnöt",
+      "security": "Tietoturva & tietojenkäsittely",
+      "notice": "Lakihuomautus"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Kaikki oikeudet pidätetään. Zurich, Switzerland.",
+    "performanceDisclaimer": "Tällä sivustolla esitetyt tulokset perustuvat todellisiin asiakastoimeksiantoihin, eivätkä ne ole tae tulevista tuloksista. Suorituskyky vaihtelee markkinan, tarjouksen, budjetin, myyntiprosessin sekä muiden Alpine Marketingin vaikutuspiirin ulkopuolisten tekijöiden mukaan."
+  },
+  "languageSwitcher": {
+    "label": "Kieli",
+    "priority": "Ensisijaiset kielet",
+    "other": "Muut EU-kielet"
+  },
+  "servicesPage": {
+    "eyebrow": "Mitä teemme",
+    "title": "Palvelut, jotka rakentuvat järjestelmien — ei kanavien — ympärille.",
+    "subtitle": "Emme myy yksittäisiä taktiikoita. Rakennamme ja hallinnoimme asiakashankintajärjestelmiä — maksetusta liikenteestä suljettuun asiakkuuteen, seurattuna joka vaiheessa.",
+    "cta": "Varaa ilmainen suppiloauditointi",
+    "learnMore": "Lue lisää",
+    "items": {
+      "performance": {
+        "title": "Tulosmarkkinointi",
+        "desc": "Maksettu liikenne Metassa, Googlessa ja LinkedInissä — rakennettu tuottamaan laadukkaita liidejä, ei pelkkiä näyttökertoja. Jokainen kampanja on yhdistetty CRM-järjestelmääsi, jotta voimme seurata hankintahintaa reaaliajassa.",
+        "outcomes": [
+          "Alhaisempi CAC 90 päivän sisällä",
+          "Attribuointi klikkauksesta suljettuun kauppaan",
+          "Kohdentaminen rakennettu todellisen ostohistorian pohjalta"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automaatio",
+        "desc": "GoHighLevel-käyttöönotto, työnkulkuarkkitehtuuri, AI-pohjainen liidien kvalifiointi ja automatisoidut seurantasekvenssit. Myyntiputkesi pyörii nukkuessasi — ja jokainen kontaktipiste on seurannassa.",
+        "outcomes": [
+          "<60s ensivastaus Claude AI:n kautta",
+          "Automatisoitu liidien reititys ja pisteytys",
+          "Nukkuvien liidien reaktivointikampanjat"
+        ]
+      },
+      "reporting": {
+        "title": "Raportointi & Analytiikka",
+        "desc": "Reaaliaikaiset koontinäytöt, jotka näyttävät CAC:n, LTGP:n, konversioprosentit, reagointinopeuden ja myyntiputken virtauksen. Raportoimme siitä, mikä tuottaa tulosta — ei siitä, mikä näyttää hyvältä diaesityksessä.",
+        "outcomes": [
+          "Räätälöidyt KPI-koontinäytöt",
+          "CAC- ja LTGP-seuranta",
+          "Viikoittaiset suorituskyvyn arvioinnit"
+        ]
+      },
+      "content": {
+        "title": "Sisältösuppilot",
+        "desc": "SEO-vetoinen sisältö, konversioon optimoidut laskeutumissivut ja hoitoketjut, jotka kuljettavat liidejä suppilon läpi — eivät vain hanki klikkauksia.",
+        "outcomes": [
+          "Konversioon keskittyvät laskeutumissivut",
+          "Monivaiheinen sähköposti- ja SMS-seuranta",
+          "SEO-sisältö ostointention mukaan kohdennettuna"
+        ]
+      },
+      "funnel": {
+        "title": "Suppilostrategia",
+        "desc": "Ennen kuin rakennamme mitään, auditoimme nykyisen järjestelmäsi — liikenteen lähteet, CRM-rakenne, seurannan puutteet ja raportoinnin katvealueet. Sitten rakennамme tiekartan, joka priorisoi liikevaihdon kasvun.",
+        "outcomes": [
+          "Ilmainen suppiloauditointi",
+          "Puuteanalyysi liikevaihtoarvioiden kera",
+          "Priorisoitu 90 päivän sprinttisuunnitelma"
+        ]
+      },
+      "landing": {
+        "title": "Laskeutumissivut",
+        "desc": "Korkean konversion, mobiililähtöiset laskeutumissivut, jotka on suunniteltu keräämään liidejä — ei voittamaan designpalkintoja. A/B-testattu, CRM-integroitu ja rakennettu nopeuden ehdoilla.",
+        "outcomes": [
+          "CRM-integroitu lomaikkaligiikka",
+          "A/B-testaukseen valmis",
+          "Rakennettu nopeuden ja konversion ehdoilla"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Tietoa Alpine Marketingista",
+    "title": "Kaupallisesti ajatteleva. Järjestelmäkeskeinen. Turhamaisuusmittareita vastaan.",
+    "subtitle": "Alpine Marketing syntyi yksinkertaisen havainnon pohjalta: useimmilla pk-yrityksillä ei ole liidiongelma. Heillä on järjestelmäongelma. Liidit tulevat sisään ja katoavat — hitaaseen seurantaan, irrallisiin CRM-järjestelmiin ja raportointiin, joka kertoo aktiviteetista, ei voitosta.",
+    "why": {
+      "title": "Miksi olemme olemassa.",
+      "p1": "Useimmat toimistot optimoivat yhtä osaa suppiloista — yleensä sitä osaa, jota he osaavat myydä. Mainoksia, sisältöä tai \"strategiaa\". Asiakas saa toimitettavan tuotteen, ei toimivaa järjestelmää.",
+      "p2": "Alpine Marketing perustettiin korjaamaan tämä. Työskentelemme koko hankintapinon läpi: maksettu liikenne, CRM, automaatio, seuranta, reaktivointi ja raportointi — yhdistettynä yhdeksi koneistoksi, joka todella klousaa asiakkaat.",
+      "p3": "Toimipaikkamme on Zurich ja palvelemme yrityksiä Sveitsissä, EU:ssa ja kansainvälisesti. Puhumme selkeää kieltä, toimimme CHF:ssä ja EUR:ssa, ja pidämme itsemme vastuussa samoista mittareista, joita pyydämme asiakkaitamme seuraamaan."
+    },
+    "fullFunnel": {
+      "title": "Mitä koko suppiloa kattava ajattelu tarkoittaa.",
+      "p1": "Full-funnel ei ole markkinointitermi. Se tarkoittaa: välitämme siitä, mitä liidille tapahtuu sen jälkeen, kun hän täyttää lomakkeen. Välitämme reagointinopeudesta. Välitämme siitä, hoitaako CRM liidiä vai unohtaako sen. Välitämme reaktivoinnista. Välitämme raportoinnista, joka yhdistää mainoskulut suljettuihin kauppoihin.",
+      "p2": "Tämä vaatii enemmän koordinointia kuin pelkkien mainosten pyörittäminen. Mutta se tuottaa perustavanlaatuisesti erilaisen tuloksen: alhaisemman CAC:n, korkeamman LTGP:n ja järjestelmän, joka kasvaa kumulatiivisesti sen sijaan, että se tasaantuisi."
+    },
+    "principlesTitle": "Toimintaperiaatteet.",
+    "principles": [
+      {
+        "title": "Mittaa sitä, mikä merkitsee.",
+        "desc": "CAC ja LTGP. Ei klikkauksia. Ei näyttökertoja. Ei 'bränditietoisuutta'. Jos se ei kytkeydy voittoon, emme optimoi sen eteen."
+      },
+      {
+        "title": "Järjestelmät taktiikoiden edellä.",
+        "desc": "Taktiikka tuottaa tuloksen kerran. Järjestelmä tuottaa tuloksia kumulatiivisesti. Rakennamme koneiston, emme yksittäistä kampanjaa."
+      },
+      {
+        "title": "Rehellisyyttä myös siitä, mitä emme tiedä.",
+        "desc": "Kerromme suoraan, jos markkina on liian kilpailtu, jos tarjouksesi kaipaa hiomista tai jos myyntiprosessisi on todellinen pullonkaula. Emme ole täällä ottamassa budjettiasi ja katoamassa."
+      },
+      {
+        "title": "Yksityisyystietoinen rakenne alusta asti.",
+        "desc": "Toimimme Sveitsin, EU:n ja Yhdysvaltain markkinoilla. Suostumustietoinen arkkitehtuuri ei ole jälkiajatus — se on tapa, jolla rakennamme jokaisen suppilon."
+      },
+      {
+        "title": "Tekijöitä, ei teoreetikkoja.",
+        "desc": "Jokainen suosittelemamme järjestelmä on rakennettu ja ajettu oikeille asiakkaille. Emme konsultoi teorian tasolla. Rakennamme ja hallinnoimme operatiivisen infrastruktuurin."
+      }
+    ],
+    "ctaTitle": "Valmis keskustelemaan?",
+    "ctaDesc": "Varaa maksuton suppilotarkastus ja näytämme sinulle täsmälleen, mitä korjaisimme ja missä järjestyksessä — ennen kuin sitoudut mihinkään.",
+    "ctaButton": "Varaa maksuton tarkastus"
+  },
+  "contactPage": {
+    "eyebrow": "Ota yhteyttä",
+    "title": "Puhutaan järjestelmistä.",
+    "subtitlePrefix": "Käytä alla olevaa lomaketta yleisiin tiedusteluihin. Jos haluat jäsennellyn suppila-arvion, siirry ",
+    "subtitleLink": "Varaa auditointi",
+    "subtitleSuffix": " -sivulle.",
+    "info": {
+      "emailLabel": "Sähköposti",
+      "phoneLabel": "Puhelin & Sijainti",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Vasteaika",
+      "responseValue": "1 arkipäivän kuluessa",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Nimi",
+      "namePh": "Jane Smith",
+      "email": "Sähköposti",
+      "emailPh": "jane@company.com",
+      "company": "Yritys",
+      "companyPh": "Acme GmbH",
+      "service": "Palvelukiinnostus",
+      "serviceDefault": "Valitse (valinnainen)",
+      "serviceOptions": {
+        "performance": "Performance Marketing",
+        "crm": "CRM + Automaatio",
+        "reporting": "Raportointi & Analytiikka",
+        "content": "Sisältösuppiloita",
+        "audit": "Koko järjestelmän auditointi"
+      },
+      "message": "Viesti",
+      "messagePh": "Kerro tilanteestasi...",
+      "requiredLabel": "Pakollinen:",
+      "optionalLabel": "Valinnainen:",
+      "privacyPrefix": "Olen lukenut ",
+      "privacyLink": "tietosuojaselosteen",
+      "privacySuffix": " ja annan suostumukseni tietojeni käsittelyyn tähän tiedusteluun vastaamiseksi.",
+      "marketingText": "Haluan vastaanottaa sähköpostipäivityksiä ja näkemyksiä Alpine Marketingilta.",
+      "submit": "Lähetä viesti",
+      "validation": {
+        "name": "Nimi on pakollinen",
+        "email": "Kelvollinen sähköpostiosoite on pakollinen",
+        "company": "Yrityksen nimi on pakollinen",
+        "message": "Viesti on pakollinen",
+        "consent": "Sinun on hyväksyttävä jatkaaksesi"
+      },
+      "toastTitle": "Viesti vastaanotettu",
+      "toastDesc": "Otamme yhteyttä 1 arkipäivän kuluessa."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Ilmainen suppila-auditointi",
+    "title": "Näe tarkalleen, mistä järjestelmäsi vuotaa.",
+    "subtitle": "30 minuutin auditointipuhelussa käymme läpi hankintarakenteesi ja näytämme sinulle puutteet — ennen kuin pyydämme mitään vastineeksi.",
+    "whatYouGetLabel": "Mitä saat:",
+    "whatYouGet": [
+      "Kartan siitä, missä kohtaa nykyinen suppilas menettää liidejä ja tuloja",
+      "Rehellisen arvion siitä, mitkä puutteet kannattaa korjata ensin",
+      "Kuvan siitä, miltä systematisoitu kasvukone voisi näyttää juuri sinun liiketoiminnassasi"
+    ],
+    "whoForLabel": "Kenelle tämä on tarkoitettu:",
+    "whoForBody": "Palveluyrityksille, jotka hankkivat liidejä mutta konvertoivat niistä liian vähän. Yrityksille, jotka käyttävät rahaa mainontaan mutta eivät tiedä, mikä oikeasti toimii. SMB-yrityksille, jotka ovat valmiita rakentamaan järjestelmän — ei ostamaan yhtä taktiikkaa lisää.",
+    "form": {
+      "fullName": "Koko nimi",
+      "fullNamePh": "Matti Virtanen",
+      "workEmail": "Työsähköposti",
+      "workEmailPh": "matti@yritys.com",
+      "company": "Yritys",
+      "companyPh": "Acme GmbH",
+      "website": "Verkkosivusto",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Kuukausittaiset liidit (arvio)",
+      "leadsDefault": "Valitse...",
+      "leadsOptions": {
+        "lt20": "Alle 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Suurin hankintahaaste",
+      "challengePh": "Esim. Saamme liidejä, mutta konversio on heikko eikä meillä ole tietoa, missä he putoavat pois...",
+      "requiredLabel": "Pakollinen:",
+      "optionalLabel": "Valinnainen:",
+      "privacyPrefix": "Olen lukenut ",
+      "privacyLink": "tietosuojaselosteen",
+      "privacySuffix": " ja hyväksyn, että Alpine Marketing saa käsitellä tietojani vastaukseni lähettämiseksi.",
+      "marketingText": "Haluan vastaanottaa markkinointipäivityksiä, näkemyksiä ja tarjouksia sähköpostitse.",
+      "submit": "Pyydä ilmainen auditointi",
+      "footer": "Lomakkeen lähettäminen ei velvoita sinua mihinkään ostoon. Otamme sinuun yhteyttä yhden arkipäivän kuluessa.",
+      "validation": {
+        "name": "Nimi on pakollinen",
+        "email": "Voimassa oleva työsähköpostiosoite on pakollinen",
+        "company": "Yrityksen nimi on pakollinen",
+        "website": "Syötä kelvollinen URL-osoite (sis. https://)",
+        "monthlyLeads": "Valitse jokin vaihtoehto",
+        "challenge": "Kuvaile haastettasi — vähintään yhden lauseen verran",
+        "consent": "Sinun on hyväksyttävä jatkaaksesi"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Pyyntö vastaanotettu.",
+    "lead": "Käymme tietosi läpi ja olemme yhteydessä ",
+    "leadBold": "1 arkipäivän kuluessa",
+    "leadSuffix": " vahvistaaksemme auditointiajan.",
+    "sub": "Sinun ei tarvitse tehdä mitään odottaessasi. Lomakkeen lähettäminen ei sido sinua mihinkään ostoon.",
+    "primary": "Katso asiakastulokset",
+    "secondary": "Takaisin etusivulle"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Kenttämuistiinpanoja sveitsiläisen asiakashankinnan ytimestä.",
+    "subtitle": "Rehellisiä analyysejä siitä, mikä toimii, mikä syö mainosbudjetin ja millä työkaluilla muutamme myyntiputket ennustettavaksi tuotoksi. Ei turhaa täytettä, ei toimistojargonia.",
+    "all": "Kaikki",
+    "empty": "Tässä kategoriassa ei ole vielä artikkeleita — tule takaisin pian.",
+    "featured": "Nostettu",
+    "minRead": "min lukuaika",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Kaikki artikkelit",
+    "minRead": "min lukuaika",
+    "ctaEyebrow": "Valmis tiivistämään myyntiputkesi?",
+    "ctaTitle": "Pyydä maksuton Pipeline Audit – näe tarkalleen, mistä rahasi valuu hukkaan.",
+    "ctaSub": "30 minuutin puhelu · ei myyntiesityksiä · konkreettiset korjaukset, jotka voit toteuttaa jo tällä viikolla.",
+    "ctaButton": "Varaa maksuton auditointi",
+    "related": "Jatka lukemista",
+    "readSuffix": "min lukuaika"
+  },
+  "cookieConsent": {
+    "heading": "Käytämme evästeitä parantaaksemme käyttökokemustasi.",
+    "bodyPrefix": "Osa evästeistä on välttämättömiä sivuston toiminnan kannalta. Muut — analytiikka- ja markkinointievästeet — ladataan vain suostumuksellasi. Voit muuttaa asetuksiasi milloin tahansa kohdassa ",
+    "privacyChoices": "Tietosuojavalinnat",
+    "between": ". Katso lisätiedot ",
+    "cookieNotice": "Evästekäytännöstämme",
+    "bodySuffix": ".",
+    "acceptAll": "Hyväksy kaikki",
+    "necessaryOnly": "Vain välttämättömät",
+    "customize": "Mukauta",
+    "customizeIntro": "Välttämättömät evästeet ovat aina aktiivisia. Voit hallita muita evästeitä alla.",
+    "save": "Tallenna asetukset",
+    "back": "Takaisin",
+    "closeAria": "Sulje ja hylkää ei-välttämättömät evästeet",
+    "customizeAria": "Mukauta evästeasetuksia",
+    "items": {
+      "necessary": {
+        "label": "Välttämättömät",
+        "desc": "Vaaditaan sivuston toimintaan."
+      },
+      "preferences": {
+        "label": "Asetukset",
+        "desc": "Muistaa valintasi ja asetuksesi."
+      },
+      "analytics": {
+        "label": "Analytiikka",
+        "desc": "Auttaa meitä ymmärtämään, miten kävijät käyttävät sivustoa. Tietoja ei jaeta ennen suostumusta."
+      },
+      "marketing": {
+        "label": "Markkinointi",
+        "desc": "Käytetään kohdennettuun mainontaan. Ei koskaan ladata ilman nimenomaista suostumustasi."
+      }
+    }
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Rezervă un Audit Gratuit",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Află Mai Multe",
+    "getStarted": "Începe Acum",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul"
+  },
+  "nav": {
+    "services": "Servicii",
+    "caseStudies": "Studii de Caz",
+    "blog": "Blog",
+    "about": "Despre Noi",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Pentru IMM-uri & Companii Tech din Elveția",
+    "headlineLead": "Construim Mașinăria Care Transformă Bugetul Tău de Publicitate În ",
+    "headlineHighlight": "Profit Previzibil.",
+    "subheadline": "Alpine Marketing construiește un motor complet de achiziție — de la Meta & Google Ads până la follow-up automatizat prin AI și deal închis — și îți oferă un dashboard care arată CAC-ul real și Profitul Brut pe Durata de Viață a clientului.",
+    "subheadlineEmphasis": "Nu clickuri. Nu impresii. Profit.",
+    "primaryCta": "Obține Auditul Gratuit al Pipeline-ului",
+    "secondaryCta": "Vezi Rezultatele Clienților",
+    "cardTitle": "Pipeline Visualizer — Live",
+    "stats": {
+      "cac": "Reducere Medie CAC",
+      "ratio": "Rată LTGP/CAC",
+      "responseTime": "Timp de Răspuns Lead",
+      "clients": "Clienți din Elveția"
+    }
+  },
+  "problem": {
+    "eyebrow": "Problema Fundamentală",
+    "title": "Marketingul Tău Nu Este Stricat. Sistemul Tău Este.",
+    "subtitle": "Majoritatea agențiilor îți vând clicuri și afișări. Dar dacă pipeline-ul tău pierde la fiecare etapă — răspunsuri lente, fără follow-up, zero reactivare — mai mult trafic înseamnă doar mai multă risipă.",
+    "cards": {
+      "speed": {
+        "title": "Decalajul de Viteză",
+        "desc": "Lead-urile contactate după 5 minute au șanse de 21× mai mici să convertească. Timpul mediu de răspuns al unui SMB? Peste 2 ore. Fiecare minut de întârziere reprezintă bani care se evaporă."
+      },
+      "followup": {
+        "title": "Gaura Neagră a Follow-Up-ului",
+        "desc": "din lead-uri nu primesc niciodată un al doilea punct de contact. Nicio secvență de nurture, niciun SMS, nicio reactivare. Și-au exprimat interesul — și nu au primit niciun răspuns."
+      },
+      "metrics": {
+        "title": "Iluzia Metricilor",
+        "valueLabel": "Vizibilitate",
+        "desc": "Majoritatea SMB-urilor urmăresc clicuri sau „lead-uri generate“ — dar nu pot răspunde la: cât mă costă efectiv fiecare client și care este profitul brut pe durata vieții sale? Fără CAC și LTGP, zbori orbește."
+      }
+    },
+    "leakPoints": [
+      "Răspuns Lent",
+      "Fără Nurture",
+      "Fără Reactivare",
+      "Fără Tracking",
+      "Venituri Pierdute"
+    ]
+  },
+  "system": {
+    "eyebrow": "Abordarea Alpine",
+    "title": "Nu Reparăm Un Singur Lucru. Sistematizăm Totul.",
+    "subtitle": "Șase pași. Un singur motor. Fiecare lead urmărit de la primul click până la contract semnat.",
+    "disclaimer": "Rezultatele variază în funcție de piață, ofertă, buget și procesul de vânzare. Cifrele se bazează pe proiecte livrate clienților.",
+    "steps": {
+      "attract": {
+        "title": "Atrage",
+        "desc": "Reclame țintite pe Meta, Google & LinkedIn. Pagini de destinație construite să convertească, nu să impresioneze."
+      },
+      "capture": {
+        "title": "Captează",
+        "desc": "Fiecare lead, fiecare sursă — un singur CRM. Niciun contact pierdut, atribuire completă de la primul click."
+      },
+      "route": {
+        "title": "Direcționează & Scorează",
+        "desc": "Lead-urile sunt scorare automat și trimise în fluxul potrivit în câteva secunde — nu ore."
+      },
+      "engage": {
+        "title": "Angajează în <60s",
+        "desc": "Claude AI răspunde 24/7, califică lead-ul și predă mai departe doar când acesta este pregătit."
+      },
+      "nurture": {
+        "title": "Cultivă & Reactivează",
+        "desc": "Secvențe automate prin email, SMS & WhatsApp. Lead-urile dormante nu se pierd în zadar."
+      },
+      "measure": {
+        "title": "Măsoară & Îmbunătățește",
+        "desc": "Dashboarduri live. CAC, LTGP, viteza pipeline-ului — doar cifrele care generează profit."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Motorul Din Spatele Sistemului",
+    "title": "Trei Instrumente. Zero Handoff-uri Manuale. Un Singur Sistem Unificat.",
+    "footer": "Rezultatul? Un sistem care lucrează în timp ce dormi, scalează fără angajări suplimentare și devine mai inteligent cu fiecare lead procesat.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "CREIERUL",
+        "desc": "Calificarea inteligentă a lead-urilor și analiza intenției în timp real. Claude citește fiecare lead primit, evaluează urgența, determină cel mai bun răspuns și generează mesaje personalizate cu ton uman — înainte ca echipa ta să-și termine cafeaua de dimineață."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "SISTEMUL NERVOS",
+        "desc": "Țesătura conectivă care leagă reclamele, CRM-ul, calendarul și raportările într-un singur pipeline automatizat. Fluxurile personalizate se declanșează instant în funcție de comportamentul lead-ului — fără taxe Zapier, fără soluții improvizate."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "CENTRUL DE COMANDĂ",
+        "desc": "Managementul pipeline-ului, secvențe automate, programarea întâlnirilor și comunicare omni-channel (SMS / Email / WhatsApp) — totul într-o singură platformă pe care echipa ta o folosește cu adevărat."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Ce Măsurăm cu Adevărat",
+    "title": "Uită de Metrici de Vanitate. Iată Ce Generează Creștere.",
+    "subtitle": "Fiecare client Alpine primește un dashboard în timp real care urmărește cifrele ce determină cu adevărat creșterea profitabilă.",
+    "items": {
+      "cac": {
+        "title": "Reducerea CAC",
+        "desc": "Reducere medie pentru clienți în primele 90 de zile"
+      },
+      "ltgp": {
+        "title": "Îmbunătățirea LTGP",
+        "desc": "Îmbunătățire medie prin optimizarea întregului funnel"
+      },
+      "speed": {
+        "title": "Viteza de Răspuns",
+        "desc": "Timp mediu de prim răspuns cu sistemul nostru AI activ"
+      },
+      "recovery": {
+        "title": "Recuperarea Pipeline-ului",
+        "desc": "Leaduri inactive reactivate prin campanii automatizate"
+      },
+      "cycle": {
+        "title": "Ciclul de Vânzări",
+        "desc": "Mai rapid de la primul contact până la deal-ul încheiat"
+      },
+      "ratio": {
+        "title": "Raportul LTGP/CAC",
+        "desc": "Dovedit în domeniul stomatologic, ICT și servicii profesionale"
+      }
+    },
+    "callout": {
+      "label": "De ce LTGP și nu doar LTV?",
+      "lead": "LTV înseamnă venituri. Veniturile nu înseamnă profit.",
+      "ltgpName": "LTGP (Profit Brut pe Durata Vieții Clientului)",
+      "body": "elimină costurile de livrare și îți arată marja reală per client — ceea ce înseamnă că este singura cifră care îți poate spune dacă cheltuielile pe publicitate te îmbogățesc sau te fac pur și simplu mai ocupat. Construim fiecare campanie în jurul acestei cifre."
+    },
+    "disclaimer": "Acestea sunt rezultate măsurate din dashboarduri reale ale clienților, nu proiecții."
+  },
+  "cases": {
+    "eyebrow": "Rezultate Dovedite",
+    "title": "Cifre Reale. Clienți Reali. Profit Real.",
+    "challenge": "Provocare",
+    "approach": "Abordare",
+    "timeline": "Durată",
+    "results": "Rezultate",
+    "dental": {
+      "badge": "Sănătate / Stomatologie",
+      "title": "Clinică Stomatologică din Zurich",
+      "challenge": "Creșterea fluxului de pacienți, menținând în același timp costurile de achiziție la un nivel sustenabil.",
+      "approach": "Captare de lead-uri prin Meta Ads → triere cu Claude AI → secvențe de nurturing în GHL + reactivarea pacienților inactivi.",
+      "timeline": "3 luni",
+      "results": [
+        "166 Lead-uri",
+        "41 Pacienți (conversie 24,7%)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (față de 1,9:1)"
+      ],
+      "insight": "51% din Meta Ads · 49% din Reactivare AI — aproape jumătate dintre pacienți au provenit din lead-uri pe care clinica le considerase deja pierdute."
+    },
+    "ict": {
+      "badge": "Tehnologie B2B",
+      "title": "Companie ICT din Elveția",
+      "challenge": "Accelerarea vânzărilor de software enterprise și reducerea ciclurilor lungi de vânzare.",
+      "approach": "Campanii LinkedIn & email → calificare cu Claude AI → automatizare n8n → gestionarea pipeline-ului în GHL.",
+      "timeline": "12 luni",
+      "results": [
+        "312 Lead-uri Calificate",
+        "67 Întâlniri de Vânzări (rată 21,5%)",
+        "Ciclu de Vânzare ↓38% (45→28 zile)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (față de 2,1:1)",
+        "Impact în venituri de CHF 487K"
+      ],
+      "insight": "Calificarea automatizată a eliminat 80 de ore de follow-up manual de vânzări pe lună, permițând reprezentanților să se concentreze exclusiv pe prospecții gata să cumpere."
+    }
+  },
+  "comparison": {
+    "title": "Ce Se Schimbă Când Sistematizezi",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Proces de Vânzări Manual",
+    "rows": [
+      {
+        "label": "Timp de Răspuns",
+        "ai": "Sub 60 de secunde, 24/7",
+        "manual": "Când este disponibil cineva — adesea după ore întregi"
+      },
+      {
+        "label": "Calificarea Lead-urilor",
+        "ai": "Scorat de AI, consistent, pentru fiecare lead",
+        "manual": "Subiectiv, variază de la un agent la altul"
+      },
+      {
+        "label": "Scalabilitate",
+        "ai": "Crești volumul fără să angajezi în plus",
+        "manual": "Fiecare lead nou = un angajat nou"
+      },
+      {
+        "label": "Raportare",
+        "ai": "CAC, LTGP și viteza pipeline-ului în timp real",
+        "manual": "Fișiere Excel actualizate când își amintește cineva"
+      },
+      {
+        "label": "Lead-uri Inactive",
+        "ai": "Reactivate automat prin campanii dedicate",
+        "manual": "Uitate într-un cimitir de CRM"
+      },
+      {
+        "label": "Ciclul de Vânzări",
+        "ai": "Cu 30-40% mai scurt prin automatizare",
+        "manual": "Depinde de cine vinde în săptămâna respectivă"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "De ce Alpine",
+    "title": "De ce să alegi Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Pâlnie completă, nu fragmentată",
+        "desc": "Majoritatea agențiilor optimizează un singur canal. Noi sistematizăm întregul tău motor de achiziție — de la prima impresie până la profitul pe termen lung."
+      },
+      {
+        "title": "Metrici cu adevărat relevante",
+        "desc": "Urmărim CAC și LTGP, nu clicuri. Vei ști întotdeauna cât costă achiziția unui client și ce valoare aduce în profit."
+      },
+      {
+        "title": "AI în prim-plan, ghidat de oameni",
+        "desc": "Claude AI se ocupă de triere, calificare și răspunsuri. Echipa ta se ocupă de relații și de închiderea contractelor."
+      },
+      {
+        "title": "Precizie elvețiană, viteză de startup",
+        "desc": "Infrastructură conformă GDPR, raportare transparentă, monitorizare în timp real — livrate cu urgență."
+      },
+      {
+        "title": "Automatizare cu efect cumulativ",
+        "desc": "Fiecare lead face sistemul mai inteligent. Secvențele testate prin A/B și optimizarea continuă îți reduc CAC în timp."
+      },
+      {
+        "title": "Dovedit, nu promis",
+        "desc": "Rapoarte LTGP/CAC de la 3,4:1 la 4,2:1 în stomatologie, ICT și servicii profesionale. Dashboard, nu prezentare de vânzări."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Echipa",
+    "title": "Practicieni, Nu Teoreticieni.",
+    "subtitle": "Fiecare membru al echipei noastre construiește și operează sistemele pe care le vindem. Niciun account manager care citește de pe foaie — doar specialiști care au livrat automatizări pentru zeci de SMB-uri.",
+    "roles": {
+      "founder": "Fondator",
+      "performance": "Performance Marketing",
+      "engineering": "Inginerie",
+      "content": "Content",
+      "creative": "Creativ",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "Funneluri CRM & Strategie de Automatizare",
+      "performance": "Google & Meta Ads",
+      "engineering": "Dezvoltare Web & Automatizare",
+      "content": "SEO & Copywriting pentru Conversii",
+      "creative": "Producție Foto & Video",
+      "motion": "Editare Video & Motion Design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Întrebări frecvente, răspunsuri directe.",
+    "items": [
+      {
+        "q": "Vă ocupați doar de reclame?",
+        "a": "Nu. Reclamele sunt un singur element al unui sistem. Noi construim întregul motor de achiziție — trafic plătit, pagini de destinație, configurare CRM, rutare lead-uri, follow-up cu AI, secvențe de nurturing, campanii de reactivare și raportare. Dacă pâlnia dvs. pierde lead-uri în etapa de follow-up, investiția suplimentară în reclame nu face decât să amplifice problema."
+      },
+      {
+        "q": "Puteți lucra cu CRM-ul nostru existent?",
+        "a": "Depinde de platformă. Operăm nativ în GoHighLevel și ne putem conecta la majoritatea CRM-urilor prin API sau automatizare n8n. Dacă CRM-ul dvs. suportă webhooks sau dispune de un API, îl putem integra. Dacă nu — vă vom spune sincer și vă vom explica opțiunile disponibile."
+      },
+      {
+        "q": "Vă ocupați și de automatizare și follow-up pentru lead-uri?",
+        "a": "Aceasta este esența activității noastre. Viteza de răspuns către un lead este una dintre îmbunătățirile cu cel mai ridicat ROI disponibile. Agenții noștri Claude AI răspund în 60 de secunde, califică lead-ul și îl direcționează corect — 24/7, inclusiv în weekend. Echipa dvs. intervine doar pentru lead-urile care sunt cu adevărat pregătite."
+      },
+      {
+        "q": "În ce piețe activați?",
+        "a": "Experiența noastră principală este în Switzerland, UE și piețele europene transfrontaliere. Am colaborat cu clinici dentare, companii ICT, firme de servicii profesionale și afaceri locale. Nu acceptăm orice client — vă vom spune direct în cadrul apelului de audit dacă nu suntem potrivirea potrivită."
+      },
+      {
+        "q": "Cum gestionați confidențialitatea și tracking-ul în piețele post-cookie?",
+        "a": "Construim infrastructură orientată spre consimțământ încă de la început. Asta înseamnă gestionarea corectă a consimțământului pentru cookie-uri, strategii bazate pe date proprii (first-party), fluxuri de formulare conforme cu GDPR și tracking în CRM care nu depinde de cookie-uri terțe. Nu încărcăm scripturi de tracking înainte de consimțământ. Nu folosim tehnici de manipulare."
+      },
+      {
+        "q": "Ce se întâmplă în cadrul unui audit gratuit al pâlniei?",
+        "a": "Analizăm configurația actuală de achiziție — surse de trafic, pagini de destinație, structura CRM, secvențe de follow-up, raportare. Identificăm punctele în care se pierd lead-urile și ce valoare în termeni de venituri ar reprezenta remedierea fiecărei probleme. Obțineți o imagine clară a lacunelor din sistem înainte să discutăm despre o eventuală colaborare."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Gata să Repari Sistemul?",
+    "title": "Nu mai plăti pentru a umple o pâlnie spartă.",
+    "subtitle": "Programează un audit gratuit și află unde pierde sistem-ul tău de achiziție, ce să corectezi mai întâi și care cifre contează cu adevărat.",
+    "primary": "Programează Auditul Gratuit",
+    "secondary": "Vezi Serviciile Noastre",
+    "disclaimer": "Fără obligații. Rezultatele variază în funcție de piață, ofertă, buget și procesul de vânzare."
+  },
+  "footer": {
+    "tagline": "Achiziție sistematizată de clienți pentru IMM-uri din Elveția și Europa. CAC mai mic, pipeline-uri mai solide, raportare mai clară.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Servicii",
+      "company": "Companie",
+      "legal": "Juridic & Confidențialitate"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatizare",
+      "reporting": "Raportare & Analiză",
+      "audit": "Audit Full-Funnel"
+    },
+    "legal": {
+      "privacy": "Notă de confidențialitate",
+      "cookies": "Notă privind cookie-urile",
+      "terms": "Termeni de utilizare",
+      "disclaimer": "Declinarea răspunderii",
+      "accessibility": "Accesibilitate",
+      "privacyChoices": "Opțiuni de confidențialitate",
+      "dataRequests": "Solicitări privind datele",
+      "security": "Securitate & Prelucrarea datelor",
+      "notice": "Notă juridică"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Toate drepturile rezervate. Zurich, Switzerland.",
+    "performanceDisclaimer": "Rezultatele prezentate pe acest site provin din colaborări reale cu clienți și nu reprezintă o garanție a rezultatelor viitoare. Performanța variază în funcție de piață, ofertă, buget, procesul de vânzare și alți factori independenți de controlul Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Limbă",
+    "priority": "Limbi principale",
+    "other": "Alte limbi UE"
+  },
+  "servicesPage": {
+    "eyebrow": "Ce Facem",
+    "title": "Servicii Construite în Jurul Sistemelor, Nu al Canalelor.",
+    "subtitle": "Nu vindem tactici individuale. Construim și gestionăm sisteme de achiziție — de la trafic plătit până la client semnat, urmărite în fiecare etapă.",
+    "cta": "Programează un Audit Gratuit al Funnelului",
+    "learnMore": "Află mai mult",
+    "items": {
+      "performance": {
+        "title": "Marketing de Performanță",
+        "desc": "Trafic plătit pe Meta, Google și LinkedIn — construit pentru a genera lead-uri calificate, nu doar impresii. Fiecare campanie este conectată la CRM-ul tău, astfel încât să putem urmări costul pe achiziție în timp real.",
+        "outcomes": [
+          "CAC redus în 90 de zile",
+          "Atribuire de la click până la deal semnat",
+          "Targetare a audienței bazată pe date reale de achiziție"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatizare",
+        "desc": "Configurare GoHighLevel, arhitectură de fluxuri de lucru, calificare AI a lead-urilor și secvențe automate de follow-up. Pipeline-ul tău funcționează și când dormi — și fiecare punct de contact este urmărit.",
+        "outcomes": [
+          "Primul răspuns în <60s prin Claude AI",
+          "Rutare și scorare automată a lead-urilor",
+          "Campanii de reactivare a lead-urilor inactive"
+        ]
+      },
+      "reporting": {
+        "title": "Raportare & Analiză",
+        "desc": "Dashboarduri în timp real care afișează CAC, LTGP, rate de conversie, viteza de răspuns la lead-uri și viteza pipeline-ului. Raportăm ceea ce generează profit, nu ceea ce arată bine într-o prezentare.",
+        "outcomes": [
+          "Dashboarduri KPI personalizate",
+          "Urmărire CAC și LTGP",
+          "Analize de performanță săptămânale"
+        ]
+      },
+      "content": {
+        "title": "Funneluri de Conținut",
+        "desc": "Conținut SEO, pagini de destinație optimizate pentru conversie și secvențe de nurturing care mișcă lead-urile prin funnel — nu doar generează click-uri.",
+        "outcomes": [
+          "Pagini de destinație axate pe conversie",
+          "Secvențe email și SMS în mai mulți pași",
+          "Conținut SEO aliniat intenției de cumpărare"
+        ]
+      },
+      "funnel": {
+        "title": "Strategie de Funnel",
+        "desc": "Înainte să construim orice, audităm sistemul tău actual — surse de trafic, structura CRM, lacune în follow-up, puncte oarbe în raportare. Apoi construim o foaie de parcurs care prioritizează impactul asupra veniturilor.",
+        "outcomes": [
+          "Audit gratuit al funnelului",
+          "Analiză a lacunelor cu estimări de impact asupra veniturilor",
+          "Plan de sprint prioritizat pe 90 de zile"
+        ]
+      },
+      "landing": {
+        "title": "Pagini de Destinație",
+        "desc": "Pagini de destinație cu conversie ridicată, optimizate pentru mobil, proiectate să capteze lead-uri — nu să câștige premii de design. Testate A/B, conectate la CRM și construite pentru viteză.",
+        "outcomes": [
+          "Logică de formular integrată cu CRM",
+          "Pregătite pentru testare A/B",
+          "Construite pentru viteză și conversie"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Despre Alpine Marketing",
+    "title": "Orientați spre rezultate. Construiți pe sisteme. Anti-metrici-de-vanitate.",
+    "subtitle": "Alpine Marketing a luat naștere dintr-o observație simplă: majoritatea SMB-urilor nu au o problemă de lead-uri. Au o problemă de sistem. Lead-urile intră și dispar — în follow-up lent, CRM-uri deconectate și rapoarte care arată activitate, nu profit.",
+    "why": {
+      "title": "De ce existăm.",
+      "p1": "Majoritatea agențiilor optimizează o singură parte a funnel-ului — de obicei cea pe care o vând cu ușurință. Reclame, conținut sau „strategie“. Clientul primește un livrabil, nu un sistem funcțional.",
+      "p2": "Alpine Marketing a fost fondată pentru a remedia acest lucru. Lucrăm pe întregul stack de achiziție: trafic plătit, CRM, automatizare, follow-up, reactivare și raportare — conectate într-un singur motor care chiar închide clienți.",
+      "p3": "Suntem bazați în Zurich și lucrăm cu companii din Elveția, UE și la nivel internațional. Comunicăm direct, operăm în CHF și EUR și ne asumăm aceleași metrici pe care le cerem clienților noștri să le urmărească."
+    },
+    "fullFunnel": {
+      "title": "Ce înseamnă gândirea full-funnel.",
+      "p1": "Full-funnel nu este un termen de marketing. Înseamnă: ne pasă ce se întâmplă cu un lead după ce completează un formular. Ne pasă de viteza de răspuns. Ne pasă dacă CRM-ul nurturează sau uită. Ne pasă de reactivare. Ne pasă de rapoarte care conectează cheltuielile publicitare cu veniturile închise.",
+      "p2": "Asta necesită mai multă coordonare decât simpla rulare de reclame. Dar produce un rezultat fundamental diferit: CAC mai mic, LTGP mai mare și un sistem care se compoundează în loc să stagneze."
+    },
+    "principlesTitle": "Principii de operare.",
+    "principles": [
+      {
+        "title": "Măsoară ce contează.",
+        "desc": "CAC și LTGP. Nu clicuri. Nu afișări. Nu „notorietate de brand“. Dacă nu se conectează la profit, nu îl optimizăm."
+      },
+      {
+        "title": "Sisteme, nu tactici.",
+        "desc": "O tactică produce un rezultat o singură dată. Un sistem produce rezultate în mod compus. Construim motorul, nu campania individuală."
+      },
+      {
+        "title": "Sinceri despre ce nu știm.",
+        "desc": "Îți vom spune dacă o piață este prea competitivă, dacă oferta ta necesită ajustări sau dacă procesul tău de vânzări este adevăratul blocaj. Nu suntem aici să îți luăm bugetul și să dispărem."
+      },
+      {
+        "title": "Confidențialitate integrată prin design.",
+        "desc": "Operăm pe piețele elvețiană, UE și SUA. Arhitectura conștientă de consimțământ nu este o idee de ultim moment — este modul în care construim fiecare funnel."
+      },
+      {
+        "title": "Operatori, nu teoreticieni.",
+        "desc": "Fiecare sistem pe care îl recomandăm l-am construit și rulat pentru clienți reali. Nu consultăm pe bază de teorie. Construim și gestionăm infrastructura operațională."
+      }
+    ],
+    "ctaTitle": "Gata să vorbim?",
+    "ctaDesc": "Programează un audit gratuit al funnel-ului și îți vom arăta exact ce am remedia și în ce ordine — înainte să te angajezi la orice.",
+    "ctaButton": "Rezervă Auditul Tău Gratuit"
+  },
+  "contactPage": {
+    "eyebrow": "Contactați-ne",
+    "title": "Să vorbim despre sisteme.",
+    "subtitlePrefix": "Folosiți formularul de mai jos pentru întrebări generale. Dacă doriți o analiză structurată a pâlniei de vânzări, accesați pagina ",
+    "subtitleLink": "Rezervați Auditul",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Telefon și locație",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Timp de răspuns",
+      "responseValue": "În termen de 1 zi lucrătoare",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Nume",
+      "namePh": "Jane Smith",
+      "email": "Email",
+      "emailPh": "jane@company.com",
+      "company": "Companie",
+      "companyPh": "Acme GmbH",
+      "service": "Serviciu de interes",
+      "serviceDefault": "Selectați (opțional)",
+      "serviceOptions": {
+        "performance": "Marketing de performanță",
+        "crm": "CRM + Automatizare",
+        "reporting": "Raportare & Analiză",
+        "content": "Pâlnii de conținut",
+        "audit": "Audit complet al sistemului"
+      },
+      "message": "Mesaj",
+      "messagePh": "Descrieți-ne situația dvs....",
+      "requiredLabel": "Obligatoriu:",
+      "optionalLabel": "Opțional:",
+      "privacyPrefix": "Am citit ",
+      "privacyLink": "Politica de confidențialitate",
+      "privacySuffix": " și îmi exprim consimțământul pentru procesarea datelor mele în scopul răspunderii la această solicitare.",
+      "marketingText": "Doresc să primesc actualizări și informații prin email de la Alpine Marketing.",
+      "submit": "Trimiteți mesajul",
+      "validation": {
+        "name": "Numele este obligatoriu",
+        "email": "Este necesar un email valid",
+        "company": "Numele companiei este obligatoriu",
+        "message": "Mesajul este obligatoriu",
+        "consent": "Trebuie să fiți de acord pentru a continua"
+      },
+      "toastTitle": "Mesaj primit",
+      "toastDesc": "Vă vom contacta în termen de 1 zi lucrătoare."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Audit Gratuit al Pâlniei",
+    "title": "Descoperă exact unde pierde sistemul tău.",
+    "subtitle": "Într-un apel de audit de 30 de minute, analizăm configurația ta de achiziție și îți arătăm unde sunt golurile — fără să îți cerem nimic în schimb.",
+    "whatYouGetLabel": "Ce primești:",
+    "whatYouGet": [
+      "O hartă a locurilor unde pâlnia ta actuală pierde lead-uri și venituri",
+      "O evaluare sinceră a golurilor care merită remediate mai întâi",
+      "O imagine clară a cum ar arăta un motor sistematizat pentru afacerea ta"
+    ],
+    "whoForLabel": "Cui i se adresează:",
+    "whoForBody": "Afaceri de servicii care generează lead-uri, dar convertesc prea puține. Companii care cheltuiesc pe publicitate, dar nu știu ce funcționează cu adevărat. SMB-uri pregătite să construiască un sistem, nu să cumpere încă o tactică.",
+    "form": {
+      "fullName": "Nume complet",
+      "fullNamePh": "Ion Popescu",
+      "workEmail": "Email de serviciu",
+      "workEmailPh": "ion@companie.com",
+      "company": "Companie",
+      "companyPh": "Acme GmbH",
+      "website": "Website",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Lead-uri lunare (aproximativ)",
+      "leadsDefault": "Selectează...",
+      "leadsOptions": {
+        "lt20": "Mai puțin de 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Cea mai mare provocare în achiziție",
+      "challengePh": "Ex. Generăm lead-uri, dar rata de conversie este scăzută și nu știm unde se pierd...",
+      "requiredLabel": "Obligatoriu:",
+      "optionalLabel": "Opțional:",
+      "privacyPrefix": "Am citit ",
+      "privacyLink": "Nota de Confidențialitate",
+      "privacySuffix": " și sunt de acord ca Alpine Marketing să îmi prelucreze datele pentru a răspunde solicitării mele.",
+      "marketingText": "Doresc să primesc actualizări de marketing, informații și oferte prin email.",
+      "submit": "Solicită Auditul Meu Gratuit",
+      "footer": "Trimiterea acestui formular nu te angajează la nicio achiziție. Vei primi un răspuns din partea noastră în cel mult 1 zi lucrătoare.",
+      "validation": {
+        "name": "Numele este obligatoriu",
+        "email": "Este necesar un email de serviciu valid",
+        "company": "Numele companiei este obligatoriu",
+        "website": "Introdu un URL valid (include https://)",
+        "monthlyLeads": "Te rugăm să selectezi o opțiune",
+        "challenge": "Te rugăm să descrii provocarea ta — cel puțin o propoziție",
+        "consent": "Trebuie să fii de acord pentru a continua"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Cerere primită.",
+    "lead": "Vom analiza detaliile tale și te vom contacta în ",
+    "leadBold": "1 zi lucrătoare",
+    "leadSuffix": " pentru a confirma ora auditului.",
+    "sub": "Între timp, nu este necesară nicio acțiune din partea ta. Această solicitare nu te angajează la nicio achiziție.",
+    "primary": "Vezi Rezultatele Clienților",
+    "secondary": "Înapoi la Pagina Principală"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Note de teren din sala de mașini a achiziției de clienți elvețieni.",
+    "subtitle": "Analize sincere despre ce funcționează, ce risipește bugetul publicitar și instrumentele pe care le folosim pentru a transforma pipeline-urile în profit previzibil. Fără umplutură, fără jargon de agenție.",
+    "all": "Toate",
+    "empty": "Niciun articol în această categorie încă — revino curând.",
+    "featured": "Recomandat",
+    "minRead": "min de citit",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Toate Articolele",
+    "minRead": "min citire",
+    "ctaEyebrow": "Pregătit să-ți astupezi scurgerile din funnel?",
+    "ctaTitle": "Obține un audit gratuit al pipeline-ului și află exact unde îți fug banii.",
+    "ctaSub": "30 de minute · fără prezentări de vânzare · soluții concrete pe care le poți aplica chiar săptămâna aceasta.",
+    "ctaButton": "Rezervă Auditul Gratuit",
+    "related": "Continuă să Citești",
+    "readSuffix": "min citire"
+  },
+  "cookieConsent": {
+    "heading": "Folosim cookie-uri pentru a îmbunătăți experiența dvs.",
+    "bodyPrefix": "Unele sunt strict necesare pentru funcționarea site-ului. Altele — cookie-uri de analiză și marketing — sunt încărcate doar cu consimțământul dvs. Puteți modifica preferințele în orice moment prin ",
+    "privacyChoices": "Opțiuni de confidențialitate",
+    "between": ". Consultați ",
+    "cookieNotice": "Politica privind cookie-urile",
+    "bodySuffix": " pentru detalii.",
+    "acceptAll": "Acceptă toate",
+    "necessaryOnly": "Doar necesare",
+    "customize": "Personalizează",
+    "customizeIntro": "Cookie-urile strict necesare sunt întotdeauna active. Activați sau dezactivați restul mai jos.",
+    "save": "Salvează preferințele",
+    "back": "Înapoi",
+    "closeAria": "Închide și respinge cookie-urile neesențiale",
+    "customizeAria": "Personalizează setările cookie-urilor",
+    "items": {
+      "necessary": {
+        "label": "Strict necesare",
+        "desc": "Necesare pentru funcționarea site-ului."
+      },
+      "preferences": {
+        "label": "Preferințe",
+        "desc": "Reține setările și opțiunile dvs."
+      },
+      "analytics": {
+        "label": "Analiză",
+        "desc": "Ne ajută să înțelegem cum utilizează vizitatorii site-ul. Niciun date nu sunt partajate înainte de consimțământ."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "desc": "Utilizate pentru publicitate direcționată. Nu sunt niciodată încărcate fără consimțământul dvs. explicit."
+      }
+    }
+  }
+}

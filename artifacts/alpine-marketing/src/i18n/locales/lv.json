@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Rezervēt bezmaksas auditu",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Uzzināt vairāk",
+    "getStarted": "Sākt darbu",
+    "openMenu": "Atvērt izvēlni",
+    "closeMenu": "Aizvērt izvēlni"
+  },
+  "nav": {
+    "services": "Pakalpojumi",
+    "caseStudies": "Gadījumu izpēte",
+    "blog": "Blogs",
+    "about": "Par mums",
+    "contact": "Kontakti"
+  },
+  "hero": {
+    "eyebrow": "SMB uzņēmumiem un tehnoloģiju kompānijām Šveicē",
+    "headlineLead": "Mēs veidojam sistēmu, kas pārvērš jūsu reklāmas budžetu ",
+    "headlineHighlight": "prognozējamā peļņā.",
+    "subheadline": "Alpine Marketing izveido pilna piltuvē klientu piesaistes dzinēju — no Meta & Google Ads līdz AI vadītai saziņai un noslēgtajam darījumam — un nodrošina jums informācijas paneli ar reālajiem CAC un Lifetime Gross Profit rādītājiem.",
+    "subheadlineEmphasis": "Ne klikšķi. Ne atvēršanas. Peļņa.",
+    "primaryCta": "Saņemiet bezmaksas pārdošanas cauruļvada auditu",
+    "secondaryCta": "Skatīt klientu rezultātus",
+    "cardTitle": "Pipeline Visualizer — tiešraidē",
+    "stats": {
+      "cac": "Vid. CAC samazinājums",
+      "ratio": "LTGP/CAC attiecība",
+      "responseTime": "Atbildes laiks uz vadiem",
+      "clients": "Šveices klienti"
+    }
+  },
+  "problem": {
+    "eyebrow": "Galvenā Problēma",
+    "title": "Jūsu Mārketings Nav Salauzts. Jūsu Sistēma Ir.",
+    "subtitle": "Lielākā daļa aģentūru pārdod jums klikšķus un rādījumus. Bet ja jūsu pārdošanas cauruļvads tek katrā posmā — lēnas atbildes, nav atkārtotas saziņas, nulles reaktivācija — vairāk trafika nozīmē tikai vairāk izšķērdējumu.",
+    "cards": {
+      "speed": {
+        "title": "Ātruma Plaisa",
+        "desc": "Potenciālie klienti, ar kuriem sazinās pēc 5 minūtēm, ir 21× mazāk gatavi konvertēties. Vidējais SMB atbildes laiks? Vairāk nekā 2 stundas. Katra nokavētā minūte ir nauda, kas izgaist gaisā."
+      },
+      "followup": {
+        "title": "Atkārtotas Saziņas Melnais Caurums",
+        "desc": "potenciālo klientu nekad nesaņem otro kontaktpunktu. Nav audzināšanas secības, nav SMS, nav reaktivācijas. Viņi izrādīja interesi — un dzirdēja tikai klusumu."
+      },
+      "metrics": {
+        "title": "Rādītāju Mirāža",
+        "valueLabel": "Redzamība",
+        "desc": "Lielākā daļa SMB seko klikšķiem vai «ģenerētajiem potenciālajiem klientiem» — taču nevar atbildēt: cik katrs klients mani patiesībā izmaksā un kāda ir viņa mūža bruto peļņa? Bez CAC un LTGP jūs lidojat aklumā."
+      }
+    },
+    "leakPoints": [
+      "Lēna Atbilde",
+      "Nav Audzināšanas",
+      "Nav Reaktivācijas",
+      "Nav Izsekošanas",
+      "Zaudētie Ieņēmumi"
+    ]
+  },
+  "system": {
+    "eyebrow": "Alpine pieeja",
+    "title": "Mēs nelabojam vienu lietu. Mēs sistematizējam visu.",
+    "subtitle": "Seši soļi. Viens mehānisms. Katrs potenciālais klients izsekots no pirmā klikšķa līdz noslēgtam darījumam.",
+    "disclaimer": "Rezultāti atšķiras atkarībā no tirgus, piedāvājuma, budžeta un pārdošanas procesa. Skaitļi balstīti uz reāli paveikto klientu darbu.",
+    "steps": {
+      "attract": {
+        "title": "Piesaiste",
+        "desc": "Mērķtiecīgas reklāmas Meta, Google un LinkedIn platformās. Mērķlapas veidotas konversijai, nevis iespaidam."
+      },
+      "capture": {
+        "title": "Uztveršana",
+        "desc": "Katrs klients, katrs avots — viens CRM. Nav zaudētu kontaktu, pilna atribūcija no pirmā klikšķa."
+      },
+      "route": {
+        "title": "Maršrutēšana un vērtēšana",
+        "desc": "Klienti tiek automātiski novērtēti un sekundēs nosūtīti uz atbilstošo darbplūsmu — nevis stundu laikā."
+      },
+      "engage": {
+        "title": "Iesaiste <60s laikā",
+        "desc": "Claude AI atbild 24/7, kvalificē klientu un nodod tālāk tikai tad, kad viņš ir gatavs."
+      },
+      "nurture": {
+        "title": "Uzturēšana un reaktivācija",
+        "desc": "Automatizētas secības pa e-pastu, SMS un WhatsApp. Neaktīvie klienti netiek izmesti vējā."
+      },
+      "measure": {
+        "title": "Mērīšana un uzlabošana",
+        "desc": "Tiešraides informācijas paneļi. CAC, LTGP, cauruļvada ātrums — tikai tie skaitļi, kas virza peļņu."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Dzinējs zem pārsega",
+    "title": "Trīs rīki. Nulles manuālu nodošanu. Viena vienota sistēma.",
+    "footer": "Rezultāts? Sistēma, kas strādā kamēr jūs gulat, aug bez jaunu darbinieku pieņemšanas un kļūst gudrāka ar katru apstrādāto potenciālo klientu.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI aģenti",
+        "role": "SMADZENES",
+        "desc": "Inteliģenta potenciālo klientu kvalifikācija un reāllaika nodomu analīze. Claude izlasa katru ienākošo pieprasījumu, novērtē steidzamību, nosaka optimālo atbildi un ģenerē personalizētus, cilvēciskus ziņojumus — viss notiek pirms jūsu komanda ir paspējusi izdzert rīta kafiju."
+      },
+      "n8n": {
+        "name": "n8n darbplūsmas automatizācija",
+        "role": "NERVU SISTĒMA",
+        "desc": "Savienojošais elements, kas apvieno jūsu reklāmas, CRM, kalendāru un atskaites vienā automatizētā cauruļvadā. Pielāgotas darbplūsmas aktivizējas nekavējoties, pamatojoties uz potenciālā klienta uzvedību — bez liekiem maksājumiem par Zapier, bez pagaidu risinājumiem."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "VADĪBAS CENTRS",
+        "desc": "Cauruļvada pārvaldība, automatizētas secības, tikšanos rezervēšana un daudzkanālu komunikācija (SMS / e-pasts / WhatsApp) — viss vienā platformā, ko jūsu komanda patiešām izmanto."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Ko Mēs Patiesībā Mēram",
+    "title": "Aizmirstiet par tukšiem rādītājiem. Lūk, kas veicina izaugsmi.",
+    "subtitle": "Katrs Alpine klients saņem reāllaika informācijas paneli, kurā tiek izsekoti skaitļi, kas patiešām nosaka rentablu izaugsmi.",
+    "items": {
+      "cac": {
+        "title": "CAC Samazinājums",
+        "desc": "Vidējais samazinājums klientiem pirmajās 90 dienās"
+      },
+      "ltgp": {
+        "title": "LTGP Uzlabojums",
+        "desc": "Vidējais uzlabojums ar pilna piltuvveida optimizāciju"
+      },
+      "speed": {
+        "title": "Ātrums-līdz-Klientam",
+        "desc": "Vidējais pirmās atbildes laiks, kad aktīva mūsu AI sistēma"
+      },
+      "recovery": {
+        "title": "Pārdošanas Cauruļvada Atjaunošana",
+        "desc": "Neaktīvi potenciālie klienti reaktivizēti ar automatizētām kampaņām"
+      },
+      "cycle": {
+        "title": "Pārdošanas Cikls",
+        "desc": "Ātrāk no pirmā kontakta līdz noslēgtam darījumam"
+      },
+      "ratio": {
+        "title": "LTGP/CAC Attiecība",
+        "desc": "Pierādīts zobārstniecības, IKT un profesionālo pakalpojumu nozarē"
+      }
+    },
+    "callout": {
+      "label": "Kāpēc LTGP, nevis tikai LTV?",
+      "lead": "LTV ir ieņēmumi. Ieņēmumi nav peļņa.",
+      "ltgpName": "LTGP (Mūža bruto peļņa)",
+      "body": "izslēdz jūsu piegādes izmaksas un parāda faktisko peļņas normu uz vienu klientu — kas nozīmē, ka tas ir vienīgais rādītājs, kas var pateikt, vai jūsu reklāmas izdevumi dara jūs turīgākus vai vienkārši aizņemtākus. Mēs veidojam katru kampaņu ap šo skaitli."
+    },
+    "disclaimer": "Šie ir izmērīti rezultāti no klientu reāllaika informācijas paneļiem, nevis prognozes."
+  },
+  "cases": {
+    "eyebrow": "Pierādīti Rezultāti",
+    "title": "Īsti Skaitļi. Īsti Klienti. Īsts Peļņa.",
+    "challenge": "Izaicinājums",
+    "approach": "Pieeja",
+    "timeline": "Laika Grafiks",
+    "results": "Rezultāti",
+    "dental": {
+      "badge": "Veselības aprūpe / Zobārstniecība",
+      "title": "Zurich Zobārstniecības Klīnika",
+      "challenge": "Palielināt pacientu plūsmu, saglabājot ilgtspējīgas piesaistes izmaksas.",
+      "approach": "Meta Ads potenciālo klientu piesaiste → Claude AI triāža → GHL audzināšanas secības + neaktīvo pacientu reaktivācija.",
+      "timeline": "3 mēneši",
+      "results": [
+        "166 Potenciālie Klienti",
+        "41 Pacienti (24,7% konversija)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3.4:1 (no 1.9:1)"
+      ],
+      "insight": "51% no Meta Ads · 49% no AI Reaktivācijas — gandrīz puse pacientu nāca no potenciālajiem klientiem, kurus klīnika jau bija norakstījusi."
+    },
+    "ict": {
+      "badge": "B2B Tehnoloģijas",
+      "title": "Šveices IKT Uzņēmums",
+      "challenge": "Paātrināt uzņēmumu programmatūras pārdošanu un saīsināt garos pārdošanas ciklus.",
+      "approach": "LinkedIn un e-pasta kampaņas → Claude AI kvalifikācija → n8n automatizācija → GHL cauruļvada pārvaldība.",
+      "timeline": "12 mēneši",
+      "results": [
+        "312 Kvalificēti Potenciālie Klienti",
+        "67 Pārdošanas Tikšanās (21,5% likme)",
+        "Pārdošanas Cikls ↓38% (45→28 dienas)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4.2:1 (no 2.1:1)",
+        "CHF 487K ieņēmumu ietekme"
+      ],
+      "insight": "Automatizētā kvalifikācija novērsa 80 manuālās pārdošanas uzraudzības stundas mēnesī, ļaujot pārdošanas pārstāvjiem koncentrēties tikai uz pirkšanai gataviem potenciālajiem klientiem."
+    }
+  },
+  "comparison": {
+    "title": "Kas mainās, kad sistematizējat procesu",
+    "engineLabel": "Alpine AI dzinējs",
+    "manualLabel": "Manuālais pārdošanas process",
+    "rows": [
+      {
+        "label": "Atbildes laiks",
+        "ai": "Līdz 60 sekundēm, 24/7",
+        "manual": "Kad ir brīvs laiks — bieži stundas vēlāk"
+      },
+      {
+        "label": "Potenciālo klientu kvalifikācija",
+        "ai": "AI novērtēta, konsekventa, katram klientam",
+        "manual": "Subjektīva, atkarīga no konkrētā pārdevēja"
+      },
+      {
+        "label": "Mērogošana",
+        "ai": "Palieliniet apjomu bez papildu darbavietām",
+        "manual": "Katrs jauns klients = jauns darbinieks"
+      },
+      {
+        "label": "Atskaites",
+        "ai": "Reāllaika CAC, LTGP un cauruļvada ātrums",
+        "manual": "Izklājlapas, ko atjaunina, kad kāds atceras"
+      },
+      {
+        "label": "Neaktīvie potenciālie klienti",
+        "ai": "Automātiski reaktivizēti ar kampaņu palīdzību",
+        "manual": "Aizmirsti CRM kapsētā"
+      },
+      {
+        "label": "Pārdošanas cikls",
+        "ai": "Par 30–40% īsāks, pateicoties automatizācijai",
+        "manual": "Atkarīgs no tā, kurš šonedēļ pārdod"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Kāpēc Alpine",
+    "title": "Kāpēc izvēlēties Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Pilns pārdošanas piltuves cikls, nevis fragmenti",
+        "desc": "Lielākā daļa aģentūru optimizē vienu kanālu. Mēs sistematizējam visu jūsu klientu piesaistes mehānismu — no pirmā iespaida līdz ilgtermiņa peļņai."
+      },
+      {
+        "title": "Rādītāji, kam ir nozīme",
+        "desc": "Mēs sekojam CAC un LTGP, nevis klikšķiem. Jūs vienmēr zināsiet, cik izmaksā klienta piesaiste un kāda ir viņa peļņas vērtība."
+      },
+      {
+        "title": "AI priekšplānā, cilvēks pie stūres",
+        "desc": "Claude AI nodrošina prioritizēšanu, kvalifikāciju un atbildes. Jūsu komanda koncentrējas uz attiecībām un darījumu noslēgšanu."
+      },
+      {
+        "title": "Šveices precizitāte, starta ātrums",
+        "desc": "GDPR atbilstoša infrastruktūra, caurspīdīga atskaišu sistēma, reāllaika izsekošana — piegādāta ar nepieciešamo steidzamību."
+      },
+      {
+        "title": "Automatizācija, kas uzkrājas",
+        "desc": "Katrs potenciālais klients padara sistēmu gudrāku. A/B testētas secības un nepārtraukta optimizācija laika gaitā samazina jūsu CAC."
+      },
+      {
+        "title": "Pierādīts, ne apsolīts",
+        "desc": "LTGP/CAC attiecība no 3.4:1 līdz 4.2:1 zobārstniecības, IKT un profesionālo pakalpojumu nozarēs. Informācijas panelis, nevis prezentācija investoriem."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Komanda",
+    "title": "Praktiķi, Ne Teorētiķi.",
+    "subtitle": "Katrs mūsu komandas loceklis pats būvē un uztur sistēmas, kuras mēs pārdodam. Nekādu konta menedžeru, kas lasa skriptus — tikai speciālisti, kas ir ieviesuši automatizāciju desmitiem SMB uzņēmumu.",
+    "roles": {
+      "founder": "Dibinātājs",
+      "performance": "Veiktspējas mārketings",
+      "engineering": "Inženierija",
+      "content": "Saturs",
+      "creative": "Radošais",
+      "motion": "Animācija"
+    },
+    "specialties": {
+      "founder": "CRM Piltuves & Automatizācijas stratēģija",
+      "performance": "Google & Meta reklāmas",
+      "engineering": "Tīmekļa izstrāde & Automatizācija",
+      "content": "SEO & Konversiju tekstu rakstīšana",
+      "creative": "Foto & Video produkcija",
+      "motion": "Video montāža & Motion dizains"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Biežākie jautājumi — skaidras atbildes.",
+    "items": [
+      {
+        "q": "Vai jūs tikai palaižat reklāmas?",
+        "a": "Nē. Reklāmas ir tikai viens sistēmas elements. Mēs veidojam pilnu klientu piesaistes dzinēju — apmaksātu trafiku, mērķlapas, CRM iestatīšanu, potenciālo klientu maršrutēšanu, AI sekošanas automatizāciju, audzināšanas secības, reaktivācijas kampaņas un atskaites. Ja jūsu piltuve „tek“ sekošanas posmā, lielāki reklāmas izdevumi tikai palielina zaudējumus."
+      },
+      {
+        "q": "Vai varat strādāt ar mūsu esošo CRM?",
+        "a": "Tas atkarīgs no platformas. Mēs strādājam GoHighLevel vidē un varam savienoties ar lielāko daļu CRM sistēmu, izmantojot API vai n8n automatizāciju. Ja jūsu CRM atbalsta webhooks vai tam ir API — integrācija ir iespējama. Ja nē — mēs to pateikšim godīgi un izskaidrosim pieejamās iespējas."
+      },
+      {
+        "q": "Vai jūs palīdzat ar automatizāciju un potenciālo klientu sekošanu?",
+        "a": "Tas ir mūsu darbības kodols. Ātrums saskarsmē ar potenciālo klientu ir viens no augstākās ROI uzlabojumiem. Mūsu Claude AI Aģenti atbild 60 sekunžu laikā, kvalificē klientu un novirza to pareizi — 24/7, arī nedēļas nogalēs. Jūsu komanda strādā tikai ar tiem klientiem, kuri patiešām ir gatavi."
+      },
+      {
+        "q": "Kuros tirgos jūs strādājat?",
+        "a": "Mūsu galvenā pieredze ir Šveicē, ES un pārrobežu Eiropas tirgos. Esam strādājuši ar zobārstniecības klīnikām, ICT uzņēmumiem, profesionālo pakalpojumu firmām un vietējiem pakalpojumu uzņēmumiem. Mēs neuzņemamies katru klientu — revīzijas zvana laikā pateikšim godīgi, ja neesam piemēroti."
+      },
+      {
+        "q": "Kā jūs risināt privātumu un izsekošanu tirgos pēc sīkdatņu ēras?",
+        "a": "Mēs veidojam uz piekrišanu balstītu infrastruktūru jau no paša sākuma. Tas nozīmē pienācīgu sīkdatņu piekrišanas pārvaldību, pirmās puses datu stratēģijas, GDPR atbilstošas veidlapu plūsmas un CRM izsekošanu, kas nav atkarīga no trešo pušu sīkdatnēm. Mēs neielādējam izsekošanas skriptus pirms piekrišanas saņemšanas. Mēs neizmantojam maldinošus modeļus."
+      },
+      {
+        "q": "Kas notiek bezmaksas piltuves revīzijā?",
+        "a": "Mēs izvērtējam jūsu pašreizējo klientu piesaistes iestatījumu — trafika avotus, mērķlapas, CRM struktūru, sekošanas secības un atskaites. Identificējam, kur potenciālie klienti tiek zaudēti, un novērtējam, cik katras problēmas novēršana atmaksātos ieņēmumu ziņā. Jūs iegūstat skaidru priekšstatu par sistēmas nepilnībām vēl pirms apspriežam sadarbību."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Gatavs labot sistēmu?",
+    "title": "Pārstājiet maksāt par to, lai piepildītu salauztu piltuveni.",
+    "subtitle": "Rezervējiet bezmaksas auditu un uzziniet, kur jūsu klientu piesaistes sistēma zaudē, ko labot vispirms un kuri skaitļi tiešām ir svarīgi.",
+    "primary": "Rezervēt bezmaksas auditu",
+    "secondary": "Skatīt mūsu pakalpojumus",
+    "disclaimer": "Bez saistībām. Rezultāti atšķiras atkarībā no tirgus, piedāvājuma, budžeta un pārdošanas procesa."
+  },
+  "footer": {
+    "tagline": "Sistematizēta klientu piesaiste Šveices un Eiropas SMB uzņēmumiem. Zemāks CAC, spēcīgāks pārdošanas cauruļvads, skaidrāka atskaišu veidošana.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Pakalpojumi",
+      "company": "Uzņēmums",
+      "legal": "Juridiskā informācija un privātums"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatizācija",
+      "reporting": "Atskaites un analītika",
+      "audit": "Pilna piltuve — audits"
+    },
+    "legal": {
+      "privacy": "Privātuma paziņojums",
+      "cookies": "Sīkdatņu paziņojums",
+      "terms": "Lietošanas noteikumi",
+      "disclaimer": "Atruna",
+      "accessibility": "Pieejamība",
+      "privacyChoices": "Privātuma izvēles",
+      "dataRequests": "Datu pieprasījumi",
+      "security": "Drošība un datu apstrāde",
+      "notice": "Juridiskais paziņojums"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Visas tiesības aizsargātas. Zurich, Switzerland.",
+    "performanceDisclaimer": "Šajā vietnē rādītie rezultāti iegūti reālos klientu projektos un nav garantija turpmākajiem iznākumiem. Sniegums atšķiras atkarībā no tirgus, piedāvājuma, budžeta, pārdošanas procesa un citiem faktoriem, kas nav Alpine Marketing kontrolē."
+  },
+  "languageSwitcher": {
+    "label": "Valoda",
+    "priority": "Galvenās valodas",
+    "other": "Citas ES valodas"
+  },
+  "servicesPage": {
+    "eyebrow": "Ko Mēs Darām",
+    "title": "Pakalpojumi, kas veidoti ap sistēmām, nevis kanāliem.",
+    "subtitle": "Mēs nepārdodam atsevišķas taktikas. Mēs veidojam un vadām klientu piesaistes sistēmas — no apmaksātas datplūsmas līdz noslēgtam darījumam, izsekojot katru posmu.",
+    "cta": "Pieteikties bezmaksas piltuvveida auditam",
+    "learnMore": "Uzzināt vairāk",
+    "items": {
+      "performance": {
+        "title": "Veiktspējas mārketings",
+        "desc": "Apmaksāta datplūsma Meta, Google un LinkedIn platformās — veidota, lai piesaistītu kvalificētus potenciālos klientus, nevis tikai iespaidu. Katra kampaņa ir savienota ar jūsu CRM, lai mēs varētu reāllaikā izsekot izmaksas uz vienu piesaistīto klientu.",
+        "outcomes": [
+          "Zemāks CAC 90 dienu laikā",
+          "Atribūcija no klikšķa līdz noslēgtam darījumam",
+          "Auditorijas mērķēšana, kas balstīta uz reāliem pirkumu datiem"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatizācija",
+        "desc": "GoHighLevel iestatīšana, darbplūsmas arhitektūra, AI vadīta potenciālo klientu kvalifikācija un automatizētas turpmākās saziņas secības. Jūsu pārdošanas cauruļvads darbojas pat tad, kad jūs gulat — un katrs saskares punkts tiek izsekots.",
+        "outcomes": [
+          "<60s pirmā atbilde, izmantojot Claude AI",
+          "Automatizēta potenciālo klientu maršrutēšana un vērtēšana",
+          "Neaktīvo potenciālo klientu reaktivācijas kampaņas"
+        ]
+      },
+      "reporting": {
+        "title": "Pārskati un analītika",
+        "desc": "Reāllaika informācijas paneļi, kas parāda CAC, LTGP, konversijas rādītājus, ātrumu līdz potenciālajam klientam un cauruļvada ātrumu. Mēs ziņojam par to, kas veicina peļņu, nevis par to, kas izskatās pievilcīgi prezentāciju slaidēs.",
+        "outcomes": [
+          "Pielāgoti KPI informācijas paneļi",
+          "CAC un LTGP izsekošana",
+          "Iknedēļas veiktspējas pārskati"
+        ]
+      },
+      "content": {
+        "title": "Satura piltuves",
+        "desc": "SEO virzīts saturs, konversijai optimizētas galvenās lapas un audzināšanas secības, kas virza potenciālos klientus cauri piltuvei — nevis tikai nodrošina klikšķus.",
+        "outcomes": [
+          "Konversijai vērstas galvenās lapas",
+          "Daudzpakāpju e-pasta un SMS secības",
+          "SEO saturs, kas saskaņots ar pirkuma nodomu"
+        ]
+      },
+      "funnel": {
+        "title": "Piltuves stratēģija",
+        "desc": "Pirms ko veidojam, mēs auditējam jūsu pašreizējo sistēmu — datplūsmas avotus, CRM struktūru, turpmākās saziņas nepilnības, pārskatu aklos punktus. Pēc tam mēs veidojam ceļvedi, kas prioritizē ieņēmumu ietekmi.",
+        "outcomes": [
+          "Bezmaksas piltuves audits",
+          "Nepilnību analīze ar ieņēmumu ietekmes aplēsēm",
+          "Prioritizēts 90 dienu sprinta plāns"
+        ]
+      },
+      "landing": {
+        "title": "Galvenās lapas",
+        "desc": "Augstas konversijas, mobilajām ierīcēm orientētas galvenās lapas, kas veidotas, lai piesaistītu potenciālos klientus — nevis iegūtu dizaina balvas. Testētas ar A/B metodi, savienotas ar CRM un veidotas ātrumam.",
+        "outcomes": [
+          "CRM integrēta veidlapu loģika",
+          "Gatava A/B testēšanai",
+          "Veidota ātrumam un konversijai"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Par Alpine Marketing",
+    "title": "Komerciāli domājoši. Sistēmiski orientēti. Pret tukšiem rādītājiem.",
+    "subtitle": "Alpine Marketing tika veidots, balstoties uz vienu vienkāršu novērojumu: lielākajai daļai SMB uzņēmumu nav potenciālo klientu problēmas. Viņiem ir sistēmas problēma. Potenciālie klienti ienāk un pazūd — lēnā turpmākajā apstrādē, nesavienotos CRM un pārskatos, kas rāda aktivitāti, nevis peļņu.",
+    "why": {
+      "title": "Kāpēc mēs eksistējam.",
+      "p1": "Lielākā daļa aģentūru optimizē vienu piltuvės daļu — parasti to, kuru viņiem ir ērti pārdot. Reklāmas, vai saturu, vai «stratēģiju». Klients saņem rezultātu, nevis funkcionējošu sistēmu.",
+      "p2": "Alpine Marketing tika dibināts, lai to mainītu. Mēs strādājam visā iegādes infrastruktūrā: apmaksātā trafika, CRM, automatizācija, turpmākā apstrāde, reaktivācija un pārskati — savienoti vienā dzinējā, kas patiesībā piesaista klientus.",
+      "p3": "Mēs atrodamies Zurich un strādājam ar uzņēmumiem Šveicē, ES un starptautiski. Mēs izsakāmies skaidri, strādājam CHF un EUR, un mēs sevi vērtējam pēc tiem pašiem rādītājiem, kurus prasām ievērot saviem klientiem."
+    },
+    "fullFunnel": {
+      "title": "Ko nozīmē pilnas piltuvēs domāšana.",
+      "p1": "Pilna piltuve nav mārketinga frāze. Tā nozīmē: mūs interesē, kas notiek ar potenciālo klientu pēc tam, kad viņš aizpilda formu. Mūs interesē reakcijas ātrums. Mūs interesē, vai CRM uztur kontaktu vai aizmirst. Mūs interesē reaktivācija. Mūs interesē pārskati, kas savieno reklāmas izdevumus ar noslēgtajiem darījumiem.",
+      "p2": "Tas prasa lielāku koordināciju nekā vienkārša reklāmu palaišana. Taču tas rada būtiski atšķirīgu rezultātu: zemāku CAC, augstāku LTGP un sistēmu, kas aug eksponenciāli, nevis stagnē."
+    },
+    "principlesTitle": "Darbības principi.",
+    "principles": [
+      {
+        "title": "Mēri to, kas ir svarīgi.",
+        "desc": "CAC un LTGP. Ne klikšķi. Ne iespaidi. Ne «zīmola atpazīstamība». Ja tas nav saistīts ar peļņu, mēs to neoptimizējam."
+      },
+      {
+        "title": "Sistēmas, nevis taktikas.",
+        "desc": "Taktika dod rezultātu vienu reizi. Sistēma dod rezultātus pastāvīgi un pieaugošā tempā. Mēs būvējam dzinēju, nevis atsevišķu kampaņu."
+      },
+      {
+        "title": "Godīgi par to, ko nezinām.",
+        "desc": "Mēs jums pateiks, ja tirgus ir pārāk konkurētspējīgs, ja jūsu piedāvājums ir jāpilnveido vai ja jūsu pārdošanas process ir īstais šaurais kakls. Mēs neesam šeit, lai paņemtu jūsu budžetu un pazustu."
+      },
+      {
+        "title": "Privātuma aizsardzība pēc dizaina.",
+        "desc": "Mēs strādājam Šveices, ES un ASV tirgos. Piekrišanas apzināta arhitektūra nav papildinājums — tā ir veids, kā mēs veidojam katru piltuvi."
+      },
+      {
+        "title": "Praktiķi, nevis teorētiķi.",
+        "desc": "Katru sistēmu, ko mēs iesakām, esam izveidojuši un vadījuši īstiem klientiem. Mēs nekonsultējam par teoriju. Mēs veidojam un pārvaldām operacionālo infrastruktūru."
+      }
+    ],
+    "ctaTitle": "Gatavs sarunai?",
+    "ctaDesc": "Rezervē bezmaksas piltuvēs auditu un mēs parādīsim tev tieši to, ko mēs labotu un kādā secībā — pirms tu uzņemies jebkādas saistības.",
+    "ctaButton": "Rezervē savu bezmaksas auditu"
+  },
+  "contactPage": {
+    "eyebrow": "Sazinieties ar mums",
+    "title": "Parunāsim par sistēmām.",
+    "subtitlePrefix": "Izmantojiet zemāk esošo formu vispārīgiem jautājumiem. Ja vēlaties strukturētu piltuvju pārskatu, izmantojiet ",
+    "subtitleLink": "Rezervēt auditu",
+    "subtitleSuffix": " lapu.",
+    "info": {
+      "emailLabel": "E-pasts",
+      "phoneLabel": "Tālrunis un atrašanās vieta",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Atbildes laiks",
+      "responseValue": "Vienas darba dienas laikā",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Vārds",
+      "namePh": "Jane Smith",
+      "email": "E-pasts",
+      "emailPh": "jane@company.com",
+      "company": "Uzņēmums",
+      "companyPh": "Acme GmbH",
+      "service": "Pakalpojumu interese",
+      "serviceDefault": "Izvēlēties (neobligāti)",
+      "serviceOptions": {
+        "performance": "Efektivitātes mārketings",
+        "crm": "CRM + Automatizācija",
+        "reporting": "Pārskati un analītika",
+        "content": "Satura piltuves",
+        "audit": "Pilnas sistēmas audits"
+      },
+      "message": "Ziņojums",
+      "messagePh": "Pastāstiet mums par savu situāciju...",
+      "requiredLabel": "Obligāti:",
+      "optionalLabel": "Neobligāti:",
+      "privacyPrefix": "Esmu izlasījis(-usi) ",
+      "privacyLink": "Privātuma paziņojumu",
+      "privacySuffix": " un piekrītu savu datu apstrādei, lai atbildētu uz šo pieprasījumu.",
+      "marketingText": "Vēlos saņemt e-pasta atjauninājumus un ieskatus no Alpine Marketing.",
+      "submit": "Nosūtīt ziņojumu",
+      "validation": {
+        "name": "Vārds ir obligāts",
+        "email": "Nepieciešams derīgs e-pasta adrese",
+        "company": "Uzņēmuma nosaukums ir obligāts",
+        "message": "Ziņojums ir obligāts",
+        "consent": "Lai turpinātu, jums jāpiekrīt"
+      },
+      "toastTitle": "Ziņojums saņemts",
+      "toastDesc": "Mēs sazināsimies ar jums vienas darba dienas laikā."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Bezmaksas piltuves audits",
+    "title": "Uzziniet tieši, kur jūsu sistēma zaudē.",
+    "subtitle": "30 minūšu audita zvana laikā mēs pārskatām jūsu klientu piesaistes iestatījumu un parādām nepilnības — pirms jebkā lūgt pretī.",
+    "whatYouGetLabel": "Ko jūs iegūstat:",
+    "whatYouGet": [
+      "Karte ar vietām, kur jūsu pašreizējā piltuve zaudē potenciālos klientus un ieņēmumus",
+      "Godīgs novērtējums par to, kuras nepilnības vērts novērst vispirms",
+      "Priekšstats par to, kā strukturēts mārketinga dzinējs varētu izskatīties jūsu uzņēmumam"
+    ],
+    "whoForLabel": "Kam tas paredzēts:",
+    "whoForBody": "Pakalpojumu uzņēmumiem, kas piesaista potenciālos klientus, bet konvertē pārāk maz. Uzņēmumiem, kas iegulda reklāmā, bet nav pārliecināti, kas patiesībā darbojas. SMB, kas gatavi veidot sistēmu, nevis pirkt vēl vienu taktiku.",
+    "form": {
+      "fullName": "Vārds, uzvārds",
+      "fullNamePh": "Jānis Bērziņš",
+      "workEmail": "Darba e-pasts",
+      "workEmailPh": "janis@uznemums.lv",
+      "company": "Uzņēmums",
+      "companyPh": "Acme GmbH",
+      "website": "Vietne",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Ikmēneša potenciālie klienti (aptuveni)",
+      "leadsDefault": "Izvēlieties...",
+      "leadsOptions": {
+        "lt20": "Mazāk nekā 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Lielākais klientu piesaistes izaicinājums",
+      "challengePh": "Piemēram, mēs piesaistām potenciālos klientus, bet konversija ir zema un nezinām, kur viņi pazūd...",
+      "requiredLabel": "Obligāti:",
+      "optionalLabel": "Neobligāti:",
+      "privacyPrefix": "Esmu izlasījis(-usi) ",
+      "privacyLink": "Privātuma paziņojumu",
+      "privacySuffix": " un piekrītu, ka Alpine Marketing var apstrādāt manu informāciju, lai atbildētu uz manu pieprasījumu.",
+      "marketingText": "Vēlos saņemt mārketinga jaunumus, atziņas un piedāvājumus pa e-pastu.",
+      "submit": "Pieprasīt bezmaksas auditu",
+      "footer": "Šīs veidlapas iesniegšana neuzliek jums nekādas pirkuma saistības. Mēs sazināsimies ar jums vienas darba dienas laikā.",
+      "validation": {
+        "name": "Vārds ir obligāts",
+        "email": "Nepieciešams derīgs darba e-pasts",
+        "company": "Uzņēmuma nosaukums ir obligāts",
+        "website": "Ievadiet derīgu URL (iekļaujiet https://)",
+        "monthlyLeads": "Lūdzu, izvēlieties opciju",
+        "challenge": "Lūdzu, aprakstiet savu izaicinājumu — vismaz vienu teikumu",
+        "consent": "Lai turpinātu, jums jāpiekrīt"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Pieprasījums saņemts.",
+    "lead": "Mēs izskatīsim jūsu informāciju un sazināsimies ar jums ",
+    "leadBold": "1 darba dienas laikā",
+    "leadSuffix": ", lai apstiprinātu jūsu audita laiku.",
+    "sub": "Tikmēr no jūsu puses nekāda rīcība nav nepieciešama. Šī pieteikuma iesniegšana neuzliek jums pienākumu veikt kādu pirkumu.",
+    "primary": "Skatīt klientu rezultātus",
+    "secondary": "Atpakaļ uz sākumu"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Piezīmes no Šveices klientu piesaistes dzinējistabas.",
+    "subtitle": "Atklāti apskati par to, kas darbojas, kas tērē reklāmas budžetu, un rīkiem, ko izmantojam, lai cauruļvadus pārvērstu paredzamā peļņā. Bez tukšas runāšanas un aģentūru žargona.",
+    "all": "Visi",
+    "empty": "Šajā kategorijā vēl nav rakstu — atnāciet drīz atkal.",
+    "featured": "Izceltais",
+    "minRead": "min lasīšana",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Visi raksti",
+    "minRead": "min lasīšana",
+    "ctaEyebrow": "Gatavs aizbāzt caurumus savā pārdošanas piltuvē?",
+    "ctaTitle": "Saņem bezmaksas Pipeline auditu un uzzini tieši, kur pazūd tava nauda.",
+    "ctaSub": "30 minūšu zvans · bez prezentācijām · konkrēti risinājumi, kurus vari ieviest jau šonedēļ.",
+    "ctaButton": "Rezervēt bezmaksas auditu",
+    "related": "Turpini lasīt",
+    "readSuffix": "min lasīšana"
+  },
+  "cookieConsent": {
+    "heading": "Mēs izmantojam sīkfailus, lai uzlabotu jūsu pieredzi.",
+    "bodyPrefix": "Daži ir obligāti nepieciešami vietnes darbībai. Citi — analītikas un mārketinga sīkfaili — tiek ielādēti tikai ar jūsu piekrišanu. Varat mainīt savas preferences jebkurā laikā, izmantojot ",
+    "privacyChoices": "Privātuma izvēles",
+    "between": ". Skatiet mūsu ",
+    "cookieNotice": "Sīkfailu paziņojumu",
+    "bodySuffix": " sīkākai informācijai.",
+    "acceptAll": "Pieņemt visus",
+    "necessaryOnly": "Tikai nepieciešamie",
+    "customize": "Pielāgot",
+    "customizeIntro": "Obligāti nepieciešamie sīkfaili vienmēr ir aktīvi. Pārējos varat ieslēgt vai izslēgt zemāk.",
+    "save": "Saglabāt preferences",
+    "back": "Atpakaļ",
+    "closeAria": "Aizvērt un noraidīt nebūtiskos sīkfailus",
+    "customizeAria": "Pielāgot sīkfailu iestatījumus",
+    "items": {
+      "necessary": {
+        "label": "Obligāti nepieciešamie",
+        "desc": "Nepieciešami vietnes darbības nodrošināšanai."
+      },
+      "preferences": {
+        "label": "Preferences",
+        "desc": "Atceras jūsu iestatījumus un izvēles."
+      },
+      "analytics": {
+        "label": "Analītika",
+        "desc": "Palīdz mums saprast, kā apmeklētāji izmanto vietni. Dati netiek kopīgoti bez piekrišanas."
+      },
+      "marketing": {
+        "label": "Mārketings",
+        "desc": "Izmantots mērķtiecīgai reklamēšanai. Nekad netiek ielādēts bez jūsu skaidras piekrišanas."
+      }
+    }
+  }
+}

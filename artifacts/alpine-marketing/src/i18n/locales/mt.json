@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Ibbukkja Awditu Bla Ħlas",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Kun af Aktar",
+    "getStarted": "Ibda Issa",
+    "openMenu": "Iftaħ il-menu",
+    "closeMenu": "Agħlaq il-menu"
+  },
+  "nav": {
+    "services": "Servizzi",
+    "caseStudies": "Każi ta' Studju",
+    "blog": "Blog",
+    "about": "Dwarni",
+    "contact": "Kuntatt"
+  },
+  "hero": {
+    "eyebrow": "Għal SMBs & Kumpaniji Teknoloġiċi fl-Iżvizzera",
+    "headlineLead": "Nibnu l-Magna li Tittrasforma l-Ispejjeż tar-Reklami Tiegħek f'",
+    "headlineHighlight": "Profitt Prevedibbli.",
+    "subheadline": "Alpine Marketing tibni magna sħiħa ta' akkwiżizzjoni — minn Meta & Google Ads sa follow-up imsaħħaħ bl-AI sa ftehim magħluq — u tagħtik dashboard li juri l-CAC reali tiegħek u l-Profitt Gross tul il-Ħajja.",
+    "subheadlineEmphasis": "Mhux klikks. Mhux impressjonijiet. Profitt.",
+    "primaryCta": "Ikseb l-Awditu tal-Pipeline Tiegħek b'Xejn",
+    "secondaryCta": "Ara r-Riżultati tal-Klijenti",
+    "cardTitle": "Pipeline Visualizer — Dirett",
+    "stats": {
+      "cac": "Tnaqqis Medju tal-CAC",
+      "ratio": "Proporzjon LTGP/CAC",
+      "responseTime": "Ħin ta' Risposta għal-Lead",
+      "clients": "Klijenti Żvizzeri"
+    }
+  },
+  "problem": {
+    "eyebrow": "Il-Problema Ewlenija",
+    "title": "Il-Marketing Tiegħek Mhuwiex Miksur. Is-Sistema Tiegħek Hi.",
+    "subtitle": "Il-biċċa l-kbira tal-aġenziji jbigħulek klikks u impressjonijiet. Iżda jekk il-pipeline tiegħek tgħaddi mill-ilma f'kull stadju — tweġibiet bil-mod, l-ebda follow-up, żero reattivazzjoni — aktar traffiku jfisser aktar ħela.",
+    "cards": {
+      "speed": {
+        "title": "Id-Differenza fil-Veloċità",
+        "desc": "Il-leads li jiġu kkuntattjati wara 5 minuti huma 21× inqas probabbli li jikkonvertu. Il-ħin medju ta' risposta ta' SMB? Aktar minn sagħtejn. Kull minuta ta' dewmien hi flus li jintilfu."
+      },
+      "followup": {
+        "title": "Il-Vojt tal-Follow-Up",
+        "desc": "tal-leads qatt ma jirċievu punt ta' kuntatt sekondarju. L-ebda sekwenza ta' nurturing, l-ebda SMS, l-ebda reattivazzjoni. Urrew interess — u ma semgħu xejn lura."
+      },
+      "metrics": {
+        "title": "Il-Mirraġġ tal-Metriċi",
+        "valueLabel": "Viżibbiltà",
+        "desc": "Il-biċċa l-kbira tal-SMBs isegwu l-klikks jew «leads generated» — iżda ma jistgħux iwieġbu: kemm tiswa' tabilħaqq kull klijent, u x'inhu l-gross profit matul ħajtu? Mingħajr CAC u LTGP, qed titajjar bl-għama."
+      }
+    },
+    "leakPoints": [
+      "Tweġiba Bil-Mod",
+      "L-ebda Nurturing",
+      "L-ebda Reattivazzjoni",
+      "L-ebda Traċċar",
+      "Dħul Mitluf"
+    ]
+  },
+  "system": {
+    "eyebrow": "L-Approċċ Alpine",
+    "title": "Ma Naħdmux Fuq Ħaġa Waħda. Nissistematizzaw Kollox.",
+    "subtitle": "Sitt passi. Magna waħda. Kull lead immonitorat mill-ewwel klikk sal-ftehim magħluq.",
+    "disclaimer": "Ir-riżultati jvarjaw skont is-suq, l-offerta, il-baġit, u l-proċess tal-bejgħ. Iċ-ċifri huma bbażati fuq xogħol reali mwassal lill-klijenti.",
+    "steps": {
+      "attract": {
+        "title": "Attratti",
+        "desc": "Reklami mmirati fuq Meta, Google & LinkedIn. Paġni ta' destinazzjoni maħluqa biex jikkonvertu, mhux biex jimpresjjonaw."
+      },
+      "capture": {
+        "title": "Aqleb",
+        "desc": "Kull lead, kull sors — CRM wieħed. L-ebda kuntatt ma jintilef, attribuzzjoni sħiħa mill-ewwel klikk."
+      },
+      "route": {
+        "title": "Direzzjoni & Skor",
+        "desc": "Il-leads jiġu skorjati awtomatikament u mibgħuta lejn il-flusso t-tajjeb f'sekondi — mhux sigħat."
+      },
+      "engage": {
+        "title": "Ingaġġ f'<60s",
+        "desc": "Claude AI jwieġeb 24/7, jikkwalifika l-lead, u jgħaddih biss meta jkun lest."
+      },
+      "nurture": {
+        "title": "Njurtura & Reattivar",
+        "desc": "Sekwenzi awtomatizzati permezz ta' email, SMS & WhatsApp. Il-leads dormienti ma jintilfux."
+      },
+      "measure": {
+        "title": "Kejjel & Tejjeb",
+        "desc": "Dashboards ħajjin. CAC, LTGP, veloċità tal-pipeline — biss iċ-ċifri li jdaħħlu l-profitt."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Il-Magna Taħt il-Kapuċċ",
+    "title": "Tliet Għodod. Żero Trasferimenti Manwali. Sistema Waħda Unifikata.",
+    "footer": "Ir-riżultat? Sistema li taħdem waqt li torqod, tikber mingħajr ma tħaddem iktar nies, u ssir aktar intelliġenti ma' kull lead li tipproċessa.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "IL-MOĦĦ",
+        "desc": "Kwalifika intelliġenti tal-leads u analiżi tal-intenzjoni f'ħin reali. Claude jaqra kull lead li jasal, jevalwa l-urġenza, jiddetermina l-aħjar risposta, u jiġġenera messaġġi personaliżżati li jidhru umani — kollox qabel ma t-tim tiegħek itemm il-kafè tal-għodwa."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "IS-SISTEMA NERVUŻA",
+        "desc": "It-tessut konnettiv li jorbot ir-reklami, il-CRM, il-kalendarju u r-rapporti tiegħek f'pipeline awtomatiku wieħed. Workflows personalizzati jitniżżlu minnufih skont l-imġieba tal-lead — l-ebda taxxa ta' Zapier, l-ebda soluzzjonijiet improvvisati."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "ĊENTRU TAL-KMAND",
+        "desc": "Ġestjoni tal-pipeline, sekwenzi awtomatiċi, booking ta' appuntamenti, u komunikazzjoni omni-channel (SMS / Email / WhatsApp) — kollox f'pjattaforma waħda li t-tim tiegħek tassew juża."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Dak li Verament Nkejlu",
+    "title": "Insejt il-Metriċi tal-Vanità. Hawn Dak li Jħarrek it-Tkabbir.",
+    "subtitle": "Kull klijent ta' Alpine jirċievi dashboard f'ħin reali li jsegwi n-numri li tassew jiddeterminaw it-tkabbir profittabbli.",
+    "items": {
+      "cac": {
+        "title": "Tnaqqis tal-CAC",
+        "desc": "Tnaqqis medju fost il-klijenti fl-ewwel 90 jum"
+      },
+      "ltgp": {
+        "title": "Titjib tal-LTGP",
+        "desc": "Titjib medju bl-ottimizzazzjoni tal-funnel kollu"
+      },
+      "speed": {
+        "title": "Veloċità lejn il-Lead",
+        "desc": "Żmien medju tal-ewwel risposta bis-sistema AI tagħna attiva"
+      },
+      "recovery": {
+        "title": "Irkupru tal-Pipeline",
+        "desc": "Leads inattivi riattivati permezz ta' kampanji awtomatizzati"
+      },
+      "cycle": {
+        "title": "Ċiklu tal-Bejgħ",
+        "desc": "Aktar mgħaġġel mill-ewwel kuntatt sal-ftehim magħluq"
+      },
+      "ratio": {
+        "title": "Proporzjon LTGP/CAC",
+        "desc": "Ipprovat fis-settur dentali, ICT, u servizzi professjonali"
+      }
+    },
+    "callout": {
+      "label": "Għaliex LTGP u mhux biss LTV?",
+      "lead": "LTV huwa dħul. Id-dħul mhuwiex qligħ.",
+      "ltgpName": "LTGP (Qligħ Gross Matul il-Ħajja)",
+      "body": "jelimina l-ispejjeż tal-kunsinna u jurik il-marġni reali għal kull klijent — u dan ifisser li huwa l-uniku numru li jista' jurik jekk in-nefqa fuq ir-reklami qiegħdax tagħmlek aktar sinjur jew sempliċement aktar imħabbat. Aħna nibnu kull kampanja madwar dak in-numru."
+    },
+    "disclaimer": "Dawn huma riżultati mkejla minn dashboards ta' klijenti ħajjin, mhux projezzjonijiet."
+  },
+  "cases": {
+    "eyebrow": "Riżultati Ppruvati",
+    "title": "Numri Reali. Klijenti Reali. Profitt Reali.",
+    "challenge": "Sfida",
+    "approach": "Approċċ",
+    "timeline": "Skeda ta' Żmien",
+    "results": "Riżultati",
+    "dental": {
+      "badge": "Saħħa / Dentistika",
+      "title": "Zurich Dental Clinic",
+      "challenge": "Tkabbar il-flusso ta' pazjenti filwaqt li jinżammu l-ispejjeż tal-akkwiżizzjoni sostenibbli.",
+      "approach": "Meta Ads għall-ġbir ta' leads → Claude AI triage → GHL nurture sequences + riattivazzjoni ta' pazjenti dormanti.",
+      "timeline": "3 xhur",
+      "results": [
+        "166 Leads",
+        "41 Pazjent (24.7% konverżjoni)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3.4:1 (minn 1.9:1)"
+      ],
+      "insight": "51% mill-Meta Ads · 49% mill-AI Reattivazzjoni — kważi nofs il-pazjenti ġew minn leads li l-klinika kienet diġà abbandunathom."
+    },
+    "ict": {
+      "badge": "B2B Teknoloġija",
+      "title": "Swiss ICT Company",
+      "challenge": "Aċċellera l-bejgħ ta' softwer enterprise u naqqas iċ-ċikli twal tal-bejgħ.",
+      "approach": "Kampanji LinkedIn & email → Claude AI kwalifikazzjoni → n8n awtomazzjoni → GHL pipeline management.",
+      "timeline": "12-il xahar",
+      "results": [
+        "312 Leads Ikkwalifikati",
+        "67 Laqgħat tal-Bejgħ (21.5% rata)",
+        "Ċiklu tal-Bejgħ ↓38% (45→28 jum)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4.2:1 (minn 2.1:1)",
+        "CHF 487K impatt fuq id-dħul"
+      ],
+      "insight": "Il-kwalifikazzjoni awtomatizzata eliminat 80 siegħa ta' follow-up manwali tal-bejgħ fix-xahar, u ħalliet lir-rappreżentanti jiffukaw biss fuq il-prospetti lesti biex jixtru."
+    }
+  },
+  "comparison": {
+    "title": "X'Jinbidel Meta Tissistematizza",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Proċess tal-Bejgħ Manwali",
+    "rows": [
+      {
+        "label": "Ħin ta' Risposta",
+        "ai": "Taħt 60 sekonda, 24/7",
+        "manual": "Meta jkun hemm min iwieġeb — spiss sigħat"
+      },
+      {
+        "label": "Kwalifikazzjoni tal-Leads",
+        "ai": "Imskorjat mill-AI, konsistenti, kull lead",
+        "manual": "Soġġettiv, jvarja skont ir-rappreżentant"
+      },
+      {
+        "label": "Tkabbir",
+        "ai": "Żid il-volum mingħajr ma żżid il-persunal",
+        "manual": "Kull lead ġdid = impjegat ieħor"
+      },
+      {
+        "label": "Rappurtar",
+        "ai": "CAC, LTGP, u veloċità tal-pipeline f'ħin reali",
+        "manual": "Spreadsheets aġġornati meta xi ħadd jiftakar"
+      },
+      {
+        "label": "Leads Dormienti",
+        "ai": "Riattivar awtomatiku permezz ta' kampanji",
+        "manual": "Minsija f'qabar tal-CRM"
+      },
+      {
+        "label": "Ċiklu tal-Bejgħ",
+        "ai": "30-40% iqsar permezz tal-awtomazzjoni",
+        "manual": "Jiddependi minn min ikun qed ibiegħ dik il-ġimgħa"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Għaliex Alpine",
+    "title": "Għaliex Tagħżel Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Full-Funnel, Mhux Frammentata",
+        "desc": "Il-biċċa l-kbira tal-aġenziji jottimizzaw kanal wieħed. Aħna nsistematizzaw l-intier engine tal-akkwist tiegħek — mill-ewwel impressjoni sal-profitt tul il-ħajja kollha."
+      },
+      {
+        "title": "Metriċi li Jfissru Xi Ħaġa",
+        "desc": "Aħna nsegwu l-CAC u l-LTGP, mhux il-klikks. Dejjem tkun taf kemm jiswa l-akkwist ta' klijent u kemm jiġġenera fil-profitt."
+      },
+      {
+        "title": "AI l-Ewwel, Gwida Umana",
+        "desc": "Claude AI jieħu ħsieb it-triage, il-kwalifika, u r-rispons. It-tim tiegħek jieħu ħsieb ir-relazzjonijiet u l-għeluq."
+      },
+      {
+        "title": "Preċiżjoni Żvizzera, Veloċità ta' Startup",
+        "desc": "Infrastruttura konformi mal-GDPR, rapportar trasparenti, traċċar f'ħin reali — imwassla b'urġenza."
+      },
+      {
+        "title": "Awtomazzjoni li Tikber",
+        "desc": "Kull lead jagħmel is-sistema aktar intelliġenti. Sekwenzi ttestjati bl-A/B u ottimizzazzjoni kontinwa jnaqqsu l-CAC tiegħek maż-żmien."
+      },
+      {
+        "title": "Muri, Mhux Imwiegħda",
+        "desc": "Rati LTGP/CAC minn 3.4:1 sa 4.2:1 fis-setturi dentali, ICT, u servizzi professjonali. Dashboard, mhux pitċ deck."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "It-Tim",
+    "title": "Operaturi, Mhux Teoristi.",
+    "subtitle": "Kull persuna fit-tim tagħna tibni u tħaddem is-sistemi li nbiegħu. L-ebda maniġers tal-kontijiet jaqraw skripts — biss speċjalisti li ħadmu fuq l-awtomazzjoni għal għexieren ta' SMBs.",
+    "roles": {
+      "founder": "Fundatur",
+      "performance": "Marketing tal-Prestazzjoni",
+      "engineering": "Inġinerija",
+      "content": "Kontenut",
+      "creative": "Kreattiv",
+      "motion": "Animazzjoni"
+    },
+    "specialties": {
+      "founder": "Funnels tal-CRM & Strateġija tal-Awtomazzjoni",
+      "performance": "Google & Meta Ads",
+      "engineering": "Żvilupp tal-Web & Awtomazzjoni",
+      "content": "SEO & Kitba għall-Konverżjoni",
+      "creative": "Produzzjoni ta' Ritratti & Vidjo",
+      "motion": "Editjar tal-Vidjo & Motion Design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Mistoqsijiet Komuni, Tweġibiet Diretti.",
+    "items": [
+      {
+        "q": "Taħdmu biss bil-reklami?",
+        "a": "Le. Ir-reklami huma biss element wieħed f'sistema sħiħa. Aħna nibnu l-magna kompluta tal-akkwiżizzjoni — traffiku mħallas, paġni tal-landing, setup tal-CRM, direzzjoni tal-leads, segwitu bl-AI, sekwenzi ta' nurturing, kampanji ta' riattivazzjoni, u rappurtar. Jekk il-funnel tiegħek qed jitnixxi fil-fażi tas-segwitu, żieda fin-nefqa fuq reklami biss tagħmel in-nixfa akbar."
+      },
+      {
+        "q": "Tistgħu taħdmu mal-CRM eżistenti tagħna?",
+        "a": "Jiddependi fuq il-pjattaforma. Aħna naħdmu b'mod nattiv fi GoHighLevel u nistgħu nikkonnettjaw mal-biċċa l-kbira tal-CRMs permezz ta' API jew awtomazzjoni n8n. Jekk il-CRM tiegħek isapporta webhooks jew għandu API, nistgħu nintegrawh. Jekk le — ngħidulek b'mod onest u nispjegaw l-għażliet disponibbli."
+      },
+      {
+        "q": "Tgħinuna bl-awtomazzjoni u s-segwitu tal-leads?",
+        "a": "Dan huwa l-qofol ta' dak li nagħmlu. Il-veloċità fir-rispons għal lead hija waħda mill-iktar korrezzjonijiet b'ROI għoli disponibbli. L-Aġenti tagħna Claude AI jwieġbu fi żmien 60 sekonda, jikklassifikaw il-lead, u jiddirezzjonawhom korrettament — 24/7, inkluż il-weekends. It-tim tiegħek jittratta biss leads li huma tassew lesti."
+      },
+      {
+        "q": "F'liema swieq taħdmu?",
+        "a": "L-esperjenza primarja tagħna hija fl-Iżvizzera, fl-UE, u fis-swieq Ewropej transkonfinali. Ħdimna ma' kliniki dentali, kumpaniji tal-ICT, ditti ta' servizzi professjonali, u negozji ta' servizzi lokali. Ma naċċettawx kull negozju — inkunu trasparenti fil-call tal-awditu jekk ma aħniex l-għażla t-tajba għalik."
+      },
+      {
+        "q": "Kif tittrattaw il-privatezza u t-tracking fis-swieq post-cookie?",
+        "a": "Nibnu infrastruttura konxja tal-kunsens mill-bidu. Dan ifisser ġestjoni xierqa tal-kunsens tal-cookies, strateġiji tad-data tal-ewwel parti, flussi tal-formoli konformi mal-GDPR, u tracking tal-CRM li ma jiddependix fuq cookies ta' partijiet terzi. Ma nlodjawx scripts tat-tracking qabel il-kunsens. Ma nużawx dark patterns."
+      },
+      {
+        "q": "X'jiġri f'awditu tal-funnel b'xejn?",
+        "a": "Nirrevedu s-setup attwali tal-akkwiżizzjoni tiegħek — sorsi tat-traffiku, paġni tal-landing, struttura tal-CRM, sekwenzi ta' segwitu, rappurtar. Nidentifikaw fejn qed jinħarbu l-leads u kemm tiswillek kull nixfa f'termini ta' dħul. Tirċievi stampa ċara tan-nuqqasijiet fis-sistema qabel ma niddiskutu kif naħdmu flimkien."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Lest li Tissewwa' s-Sistema?",
+    "title": "Ieqaf tħallas biex timla funnel miksur.",
+    "subtitle": "Ibbukkja awditu b'xejn u ara fejn is-sistema tal-akkwiżizzjoni tiegħek taqbad l-ilma, x'għandek tissewwa' l-ewwel, u liema numri huma dawk li tassew jgħoddu.",
+    "primary": "Ibbukkja l-Awditu B'xejn Tiegħek",
+    "secondary": "Ara s-Servizzi Tagħna",
+    "disclaimer": "Ebda obbligu. Ir-riżultati jvarjaw skont is-suq, l-offerta, il-baġit, u l-proċess tal-bejgħ."
+  },
+  "footer": {
+    "tagline": "Akkwiżizzjoni sistematizzata ta' klijenti għal SMBs Żvizzeri u Ewropej. CAC aktar baxx, pipelines aktar b'saħħithom, rappurtar aktar nadif.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Servizzi",
+      "company": "Kumpanija",
+      "legal": "Legali u Privatezza"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Awtomazzjoni",
+      "reporting": "Rappurtar u Analiżi",
+      "audit": "Full-Funnel Audit"
+    },
+    "legal": {
+      "privacy": "Avviż tal-Privatezza",
+      "cookies": "Avviż tal-Cookies",
+      "terms": "Termini tal-Użu",
+      "disclaimer": "Disclaimer",
+      "accessibility": "Aċċessibbiltà",
+      "privacyChoices": "Għażliet tal-Privatezza",
+      "dataRequests": "Talbiet għad-Data",
+      "security": "Sigurtà u Pproċessar tad-Data",
+      "notice": "Avviż Legali"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Id-drittijiet kollha riżervati. Zurich, Switzerland.",
+    "performanceDisclaimer": "Ir-riżultati murija f'dan is-sit ġejjin minn impenn reali ma' klijenti u mhumiex garanzija ta' riżultati futuri. Il-prestazzjoni tvarja skont is-suq, l-offerta, il-baġit, il-proċess tal-bejgħ, u fatturi oħra 'l barra mill-kontroll ta' Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Lingwa",
+    "priority": "Lingwi primarji",
+    "other": "Lingwi oħra tal-UE"
+  },
+  "servicesPage": {
+    "eyebrow": "X'Nagħmlu",
+    "title": "Servizzi Mibnijiн Madwar Sistemi, Mhux Kanali.",
+    "subtitle": "Aħna ma nbiegħux tattiċi individwali. Nibnu u nħaddmu sistemi ta' akkwist — mit-traffiku mħallas sal-klijent magħluq, immonitorjat f'kull stadju.",
+    "cta": "Ibbukkja Awditu tal-Funnel b'Xejn",
+    "learnMore": "Tgħallem aktar",
+    "items": {
+      "performance": {
+        "title": "Marketing tal-Prestazzjoni",
+        "desc": "Traffiku mħallas fuq Meta, Google, u LinkedIn — imfassal biex jiġġenera leads kwalifikati, mhux biss impressjonijiet. Kull kampanja hija konnessa mal-CRM tiegħek biex nkunu nistgħu nsegwu l-ispiża-għal-akkwist f'ħin reali.",
+        "outcomes": [
+          "CAC aktar baxx fi żmien 90 jum",
+          "Attribuzzjoni mill-klikk sal-ftehim magħluq",
+          "Targeting tal-udjenza mibni fuq dejta ta' xiri reali"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Awtomazzjoni",
+        "desc": "Konfigurazzjoni ta' GoHighLevel, arkitettura tal-workflow, kwalifikazzjoni ta' leads permezz tal-AI, u sekwenzi ta' follow-up awtomatizzati. Il-pipeline tiegħek taħdem waqt li torqod — u kull punt ta' kuntatt huwa mmonitorjat.",
+        "outcomes": [
+          "<60s ewwel risposta permezz ta' Claude AI",
+          "Rotot u skor awtomatizzat tal-leads",
+          "Kampannji ta' riattivazzjoni ta' leads dormanti"
+        ]
+      },
+      "reporting": {
+        "title": "Rappurtar u Analitiċi",
+        "desc": "Dashboards f'ħin reali li juru CAC, LTGP, rati ta' konverżjoni, veloċità lejn il-lead, u veloċità tal-pipeline. Nirrapportaw dwar dak li jġib il-profitt, mhux dak li jidher tajjeb f'preżentazzjoni.",
+        "outcomes": [
+          "Dashboards ta' KPI personalizzati",
+          "Traċċar ta' CAC u LTGP",
+          "Reviżjonijiet tal-prestazzjoni kull ġimgħa"
+        ]
+      },
+      "content": {
+        "title": "Funnels tal-Kontenut",
+        "desc": "Kontenut imħarrek mis-SEO, paġni ta' destinazzjoni ottimizzati għall-konverżjoni, u sekwenzi ta' trawwim li jmexxu l-leads matul il-funnel — mhux biss jiksbu klikks.",
+        "outcomes": [
+          "Paġni ta' destinazzjoni ffokati fuq il-konverżjoni",
+          "Sekwenzi ta' email u SMS b'bosta passi",
+          "Kontenut SEO allinjat mal-intenzjoni tax-xiri"
+        ]
+      },
+      "funnel": {
+        "title": "Strateġija tal-Funnel",
+        "desc": "Qabel nibnu xejn, nawditjaw is-sistema attwali tiegħek — sorsi tat-traffiku, struttura tal-CRM, nuqqasijiet fil-follow-up, punti għomja fir-rappurtar. Imbagħad nibnu pjan direzzjonali li jagħti l-prijorità lill-impatt fuq id-dħul.",
+        "outcomes": [
+          "Awditu tal-funnel b'xejn",
+          "Analiżi tan-nuqqasijiet b'stimi tal-impatt fuq id-dħul",
+          "Pjan ta' sprint ta' 90 jum b'prijoritajiet"
+        ]
+      },
+      "landing": {
+        "title": "Paġni ta' Destinazzjoni",
+        "desc": "Paġni ta' destinazzjoni b'konverżjoni għolja, li jpoġġu l-mobile l-ewwel, imfassla biex jaqbdu leads — mhux biex jirbaħu premjijiet tad-disinn. Ittestjati b'A/B, konnessi mal-CRM, u mibnijiн għall-veloċità.",
+        "outcomes": [
+          "Loġika tal-formola integrata mal-CRM",
+          "Lesta għat-testjar A/B",
+          "Mibnija għall-veloċità u l-konverżjoni"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Dwar Alpine Marketing",
+    "title": "Kummerċjalment orjentat. Ibbażat fuq sistemi. Kontra l-metriċi tal-vanità.",
+    "subtitle": "Alpine Marketing inbniet madwar osservazzjoni sempliċi: il-biċċa l-kbira tal-SMBs m'għandhomx problema ta' leads. Għandhom problema ta' sistema. Il-leads jaslu u jisparaw — fil-follow-up bil-mod, CRMs mhux konnessi, u rappurtaġġ li juri attività, mhux profitt.",
+    "why": {
+      "title": "Għaliex neżistu.",
+      "p1": "Il-biċċa l-kbira tal-aġenziji jottimizzaw parti waħda tal-funnel — normalment il-parti li jħossuhom komdi jbigħu. Reklami, jew kontenut, jew «strateġija». Il-klijent jirċievi xi ħaġa konsenjata, mhux sistema li taħdem.",
+      "p2": "Alpine Marketing twaqqfet biex tsolvi dan. Naħdmu fuq l-acquisition stack kollu: traffiku mħallas, CRM, awtomazzjoni, follow-up, riattivazzjoni, u rappurtaġġ — kollha konnessi f'magna waħda li tagħlaq klijenti verament.",
+      "p3": "Aħna bbażati f'Zurich u naħdmu ma' negozji fi Switzerland, fl-UE, u internazzjonalment. Nitkellmu bl-Ingliż ċar, noperaw f'CHF u EUR, u nżommu lilna nfusna responsabbli għall-istess metriċi li nitolbu lill-klijenti tagħna biex jagħtu kas tagħhom."
+    },
+    "fullFunnel": {
+      "title": "X'ifisser il-ħsieb full-funnel.",
+      "p1": "Full-funnel mhux frażi ta' marketing. Tfisser: aħna nimpurtana x'jiġri minn lead wara li jimla formola. Nimpurtana l-veloċità lejn il-lead. Nimpurtana jekk il-CRM iħaddan jew jinsa. Nimpurtana r-riattivazzjoni. Nimpurtana rappurtaġġ li jgħaqqad in-nefqa tar-reklami mal-introjtu magħluq.",
+      "p2": "Dan jeħtieġ aktar koordinament milli tħaddem reklami. Iżda jipproduċi riżultat fundamentalment differenti: CAC aktar baxx, LTGP ogħla, u sistema li tikber kontinwament minflok ma tieqaf."
+    },
+    "principlesTitle": "Prinċipji Operattivi.",
+    "principles": [
+      {
+        "title": "Ikejjel dak li jiswa.",
+        "desc": "CAC u LTGP. Mhux klikks. Mhux impressjonijiet. Mhux «għarfien tal-brand». Jekk ma jgħaqqadx mal-profitt, aħna ma nottimizzawx għalih."
+      },
+      {
+        "title": "Sistemi fuq tattiki.",
+        "desc": "Tattika tipproduċi riżultat darba. Sistema tipproduċi riżultati b'mod kontinwu. Nibnu l-magna, mhux il-kampanja individwali."
+      },
+      {
+        "title": "Onesti dwar dak li ma nafux.",
+        "desc": "Ngħidulek jekk suq ikun kompetittiv wisq, jekk l-offerta tiegħek teħtieġ xogħol, jew jekk il-proċess tal-bejgħ tiegħek huwa l-ostaklu reali. M'aħniex hawn biex nieħdu l-baġit tiegħek u nisparaw."
+      },
+      {
+        "title": "Konxji tal-privatezza mid-disinn.",
+        "desc": "Noperaw fis-swieq Żvizzeri, tal-UE, u tal-AS. L-arkitettura konxja tal-kunsens mhix ħsieb ta' wara — hija l-mod kif nibnu kull funnel."
+      },
+      {
+        "title": "Operaturi, mhux teoristi.",
+        "desc": "Kull sistema li nirrakkomandaw, bnejna u ħaddemna għal klijenti reali. Ma nikkonsultawx fuq teorija. Nibnu u nimmaniġġjaw l-infrastruttura operattiva."
+      }
+    ],
+    "ctaTitle": "Lest biex titkellem?",
+    "ctaDesc": "Ibbukkja awditu tal-funnel b'xejn u nuruk eżattament x'niffissaw u f'liema ordni — qabel ma tintrabat ma' xejn.",
+    "ctaButton": "Ibbukkja l-Awditu Tiegħek B'Xejn"
+  },
+  "contactPage": {
+    "eyebrow": "Ikkuntattjana",
+    "title": "Ejja nitħaddtu dwar is-sistemi.",
+    "subtitlePrefix": "Uża l-formola hawn taħt għal mistoqsijiet ġenerali. Jekk tixtieq reviżjoni strutturata tal-funnel, uża l-paġna ",
+    "subtitleLink": "Book Audit",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Telefon u Lokazzjoni",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Żmien ta' risposta",
+      "responseValue": "Fi żmien jum ta' xogħol wieħed",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Isem",
+      "namePh": "Jane Smith",
+      "email": "Email",
+      "emailPh": "jane@company.com",
+      "company": "Kumpanija",
+      "companyPh": "Acme GmbH",
+      "service": "Servizz ta' interess",
+      "serviceDefault": "Agħżel (fakultattiv)",
+      "serviceOptions": {
+        "performance": "Performance Marketing",
+        "crm": "CRM + Awtomazzjoni",
+        "reporting": "Rapportar u Analitiċi",
+        "content": "Content Funnels",
+        "audit": "Awditu sħiħ tas-sistema"
+      },
+      "message": "Messaġġ",
+      "messagePh": "Għidilna dwar is-sitwazzjoni tiegħek...",
+      "requiredLabel": "Meħtieġ:",
+      "optionalLabel": "Fakultattiv:",
+      "privacyPrefix": "Qrajt l-",
+      "privacyLink": "Avviż tal-Privatezza",
+      "privacySuffix": " u nagħti l-kunsens tiegħi biex l-informazzjoni tiegħi tiġi pproċessata biex wieġbu għal din l-mistoqsija.",
+      "marketingText": "Nixtieq nirċievi aġġornamenti u tagħrif bl-email mingħand Alpine Marketing.",
+      "submit": "Ibgħat il-Messaġġ",
+      "validation": {
+        "name": "L-isem huwa meħtieġ",
+        "email": "Indirizz email validu huwa meħtieġ",
+        "company": "L-isem tal-kumpanija huwa meħtieġ",
+        "message": "Il-messaġġ huwa meħtieġ",
+        "consent": "Għandek taqbel biex tkompli"
+      },
+      "toastTitle": "Messaġġ irċevut",
+      "toastDesc": "Ser nikkuntattjawk fi żmien jum ta' xogħol wieħed."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Awditu Bla Ħlas",
+    "title": "Ara eżattament fejn is-sistema tiegħek titlef.",
+    "subtitle": "F'sejħa ta' awditu ta' 30 minuta, nirrevedu s-setup tal-akkwisizzjoni tiegħek u nuruk il-lakuni — qabel ma nitolbuk xejn lura.",
+    "whatYouGetLabel": "X'tikseb:",
+    "whatYouGet": [
+      "Mappa ta' fejn il-funnel attwali tiegħek jitlef leads u dħul",
+      "Valutazzjoni onesta ta' liema lakuni jistħoqqilhom jiġu solvuti l-ewwel",
+      "Idea ta' kif jidher magna sistematizzata għan-negozju tiegħek"
+    ],
+    "whoForLabel": "Għal min hu dan:",
+    "whoForBody": "Negozji ta' servizzi li jiġġeneraw leads iżda jikkonvertu ftit wisq. Kumpaniji li jonfqu fuq reklami iżda mhux ċerti x'qed jaħdem fil-fatt. SMBs lesti biex jibnu sistema, mhux jixtru tattika oħra.",
+    "form": {
+      "fullName": "Isem Sħiħ",
+      "fullNamePh": "Jane Smith",
+      "workEmail": "Email tax-Xogħol",
+      "workEmailPh": "jane@company.com",
+      "company": "Kumpanija",
+      "companyPh": "Acme GmbH",
+      "website": "Websajt",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Leads kull xahar (approssimattivament)",
+      "leadsDefault": "Agħżel...",
+      "leadsOptions": {
+        "lt20": "Inqas minn 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "L-akbar sfida tal-akkwisizzjoni",
+      "challengePh": "P.eż. Niġġeneraw leads iżda l-konversjoni hi baxxa u ma nafux fejn jaqgħu...",
+      "requiredLabel": "Meħtieġ:",
+      "optionalLabel": "Fakultattiv:",
+      "privacyPrefix": "Qrajt l-",
+      "privacyLink": "Avviż tal-Privatezza",
+      "privacySuffix": " u naqbel li Alpine Marketing tista' tipproċessa l-informazzjoni tiegħi biex tirrispondi għat-talba tiegħi.",
+      "marketingText": "Nixtieq nirċievi aġġornamenti ta' marketing, approfondimenti, u offerti bl-email.",
+      "submit": "Itlob l-Awditu Bla Ħlas Tiegħi",
+      "footer": "Is-sottomissjoni ta' dan il-formola ma torblokx għal ebda xirja. Se tisma' minna fi żmien 1 ġurnata tax-xogħol.",
+      "validation": {
+        "name": "L-isem huwa meħtieġ",
+        "email": "Email valida tax-xogħol hija meħtieġa",
+        "company": "L-isem tal-kumpanija huwa meħtieġ",
+        "website": "Daħħal URL validu (inkludi https://)",
+        "monthlyLeads": "Jekk jogħġbok agħżel għażla",
+        "challenge": "Jekk jogħġbok iddeskrivi l-isfida tiegħek — tal-anqas sentenza waħda",
+        "consent": "Għandek taqbel biex tkompli"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Talba rċevuta.",
+    "lead": "Ser nirrevedu d-dettalji tiegħek u nikkuntattjawk fi żmien ",
+    "leadBold": "1 jum ta' xogħol",
+    "leadSuffix": " biex nikkonformaw il-ħin tal-awditu tiegħek.",
+    "sub": "Sadanittant, m'għandekx bżonn tieħu ebda azzjoni min-naħa tiegħek. Din is-sottomissjoni ma torботokx għal ebda xiri.",
+    "primary": "Ara r-Riżultati tal-Klijenti",
+    "secondary": "Lura għall-Paġna Ewlenija"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Noti mill-qalba tal-magna tal-akkwiżizzjoni tal-klijenti Svizzeri.",
+    "subtitle": "Kitbiet onesti dwar dak li jaħdem, dak li jisraq il-budget tar-reklami, u l-għodod li nużaw biex nipprevedu qligħ minn pipelines. Ebda fluff, ebda lingwaġġ tal-aġenzija.",
+    "all": "Kollox",
+    "empty": "L-ebda artiklu f'din il-kategorija għalissa — erġa' żur dalwaqt.",
+    "featured": "Evidenzjat",
+    "minRead": "min qari",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "L-Artikoli Kollha",
+    "minRead": "min qari",
+    "ctaEyebrow": "Lest li tissewwa l-funnel tiegħek?",
+    "ctaTitle": "Ikseb Awditu tal-Pipeline b'xejn u ara eżattament fejn il-flus tiegħek jgħaddu.",
+    "ctaSub": "Telefonata ta' 30 minuta · l-ebda pitch deck · soluzzjonijiet konkreti li tista' tapplika din il-ġimgħa.",
+    "ctaButton": "Ibbukkja Awditu b'Xejn",
+    "related": "Kompli Taqra",
+    "readSuffix": "min qari"
+  },
+  "cookieConsent": {
+    "heading": "Nużaw il-cookies biex intejbu l-esperjenza tiegħek.",
+    "bodyPrefix": "Xi wħud huma strettament meħtieġa biex is-sit jaħdem. Oħrajn — cookies ta' analitiċi u marketing — jintgħabbew biss bil-kunsens tiegħek. Tista' tibdel il-preferenzi tiegħek fi kwalunkwe ħin permezz ta' ",
+    "privacyChoices": "Għażliet tal-Privatezza",
+    "between": ". Ara l-",
+    "cookieNotice": "Avviż dwar il-Cookies",
+    "bodySuffix": " tagħna għad-dettalji.",
+    "acceptAll": "Aċċetta kollox",
+    "necessaryOnly": "Meħtieġa biss",
+    "customize": "Ippersonalizza",
+    "customizeIntro": "Il-cookies strettament meħtieġa huma dejjem attivi. Attiva jew agħlaq il-bqija hawn taħt.",
+    "save": "Issejvja l-preferenzi",
+    "back": "Lura",
+    "closeAria": "Agħlaq u irrifjuta l-cookies mhux essenzjali",
+    "customizeAria": "Ippersonalizza s-settings tal-cookies",
+    "items": {
+      "necessary": {
+        "label": "Strettament Meħtieġa",
+        "desc": "Meħtieġa biex is-sit jaħdem."
+      },
+      "preferences": {
+        "label": "Preferenzi",
+        "desc": "Tiftakar is-settings u l-għażliet tiegħek."
+      },
+      "analytics": {
+        "label": "Analitiċi",
+        "desc": "Jgħinna nifhmu kif il-viżitaturi jużaw is-sit. L-ebda data ma tinqasam qabel il-kunsens."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "desc": "Użat għar-reklamar immirat. Qatt ma jintgħabbi mingħajr il-kunsens espliċitu tiegħek."
+      }
+    }
+  }
+}

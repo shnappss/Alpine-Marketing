@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Rezervirajte Besplatnu Reviziju",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Saznajte Više",
+    "getStarted": "Počnite Sada",
+    "openMenu": "Otvori izbornik",
+    "closeMenu": "Zatvori izbornik"
+  },
+  "nav": {
+    "services": "Usluge",
+    "caseStudies": "Studije slučaja",
+    "blog": "Blog",
+    "about": "O nama",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Za SMB-ove i tehnološke tvrtke u Švicarskoj",
+    "headlineLead": "Gradimo stroj koji vaš oglasnički budžet pretvara u ",
+    "headlineHighlight": "Predvidiv profit.",
+    "subheadline": "Alpine Marketing gradi cjeloviti akvizicijski sustav — od Meta i Google Ads oglasa do AI-potpomognutog praćenja i zatvaranja dogovora — te vam pruža nadzornu ploču s vašim stvarnim CAC-om i cjeloživotnim bruto profitom.",
+    "subheadlineEmphasis": "Ne klikovi. Ne impresije. Profit.",
+    "primaryCta": "Zatražite besplatnu reviziju pipeline-a",
+    "secondaryCta": "Pogledajte rezultate klijenata",
+    "cardTitle": "Pipeline Vizualizator — Uživo",
+    "stats": {
+      "cac": "Prosj. smanjenje CAC-a",
+      "ratio": "LTGP/CAC omjer",
+      "responseTime": "Vrijeme odgovora na lead",
+      "clients": "Švicarski klijenti"
+    }
+  },
+  "problem": {
+    "eyebrow": "Temeljni Problem",
+    "title": "Vaš Marketing Nije Pokvaren. Vaš Sustav Jest.",
+    "subtitle": "Većina agencija prodaje vam klikove i impresije. Ali ako vaš prodajni lijevak propušta na svakoj razini — spori odgovori, nema praćenja, nula reaktivacije — više prometa znači samo više rasipanja.",
+    "cards": {
+      "speed": {
+        "title": "Jaz u Brzini Odgovora",
+        "desc": "Leadovi kontaktirani nakon 5 minuta 21× su manje skloni konverziji. Prosječno vrijeme odgovora SMB tvrtke? Više od 2 sata. Svaka minuta odgode je novac koji isparava."
+      },
+      "followup": {
+        "title": "Crna Rupa Praćenja",
+        "desc": "leadova nikad ne dobije drugi kontakt. Nema nurture sekvence, nema SMS-a, nema reaktivacije. Pokazali su interes — i nikad nisu čuli odgovor."
+      },
+      "metrics": {
+        "title": "Iluzija Metrika",
+        "valueLabel": "Vidljivost",
+        "desc": "Većina SMB tvrtki prati klikove ili „generirane leadove“ — ali ne mogu odgovoriti: koliko me zapravo košta svaki kupac i koliki mu je doživotni bruto profit? Bez CAC-a i LTGP-a, letite slijepo."
+      }
+    },
+    "leakPoints": [
+      "Spori Odgovor",
+      "Nema Nurturinga",
+      "Nema Reaktivacije",
+      "Nema Praćenja",
+      "Izgubljeni Prihod"
+    ]
+  },
+  "system": {
+    "eyebrow": "The Alpine Approach",
+    "title": "Ne popravljamo jednu stvar. Sistematiziramo sve.",
+    "subtitle": "Šest koraka. Jedan sustav. Svaki lead praćen od prvog klika do sklopljenog posla.",
+    "disclaimer": "Rezultati se razlikuju ovisno o tržištu, ponudi, budžetu i prodajnom procesu. Brojevi se temelje na realiziranim projektima s klijentima.",
+    "steps": {
+      "attract": {
+        "title": "Privlačenje",
+        "desc": "Ciljani oglasi na Meta, Google & LinkedIn platformama. Odredišne stranice koje konvertiraju — ne impresioniraju."
+      },
+      "capture": {
+        "title": "Prikupljanje",
+        "desc": "Svaki lead, svaki izvor — jedan CRM. Niti jedan kontakt ne propada, potpuna atribucija od prvog klika."
+      },
+      "route": {
+        "title": "Usmjeravanje & Bodovanje",
+        "desc": "Leadovi se automatski boduju i šalju u pravi tijek rada u sekundama — ne satima."
+      },
+      "engage": {
+        "title": "Angažman u <60s",
+        "desc": "Claude AI odgovara 24/7, kvalificira lead i prosljeđuje ga dalje tek kada je spreman."
+      },
+      "nurture": {
+        "title": "Njegovanje & Reaktivacija",
+        "desc": "Automatizirane sekvence putem e-pošte, SMS-a & WhatsAppa. Neaktivni leadovi ne idu u zaborav."
+      },
+      "measure": {
+        "title": "Mjerenje & Unaprjeđenje",
+        "desc": "Dashboardi uživo. CAC, LTGP, brzina pipelina — samo brojevi koji pokreću profit."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Motor Koji Pokreće Sve",
+    "title": "Tri Alata. Nula Ručnih Prijenosa. Jedan Objedinjeni Sustav.",
+    "footer": "Rezultat? Sustav koji radi dok vi spavate, raste bez novih zapošljavanja i postaje pametniji sa svakim leadom koji obradi.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agenti",
+        "role": "MOZAK SUSTAVA",
+        "desc": "Inteligentna kvalifikacija leadova i analiza namjere u stvarnom vremenu. Claude pročita svaki novi lead, ocijeni hitnost, odredi najbolji odgovor i generira personalizirane poruke koje zvuče ljudski — sve prije nego vaš tim popije jutarnju kavu."
+      },
+      "n8n": {
+        "name": "n8n Automatizacija Radnih Procesa",
+        "role": "ŽIVČANI SUSTAV",
+        "desc": "Vezivno tkivo koje povezuje vaše oglase, CRM, kalendar i izvještaje u jedan automatizirani pipeline. Prilagođeni radni tokovi aktiviraju se trenutno na temelju ponašanja leada — bez Zapier naknade, bez krpanja rupa."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "ZAPOVJEDNO SREDIŠTE",
+        "desc": "Upravljanje pipelineom, automatizirani nizovi poruka, zakazivanje sastanaka i omni-kanalna komunikacija (SMS / Email / WhatsApp) — sve na jednoj platformi koju vaš tim zaista koristi."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Što Zapravo Mjerimo",
+    "title": "Zaboravite Lažne Metrike. Ovo Je Ono Što Pokreće Rast.",
+    "subtitle": "Svaki Alpine klijent dobiva dashboard u stvarnom vremenu koji prati brojeve koji zaista određuju profitabilan rast.",
+    "items": {
+      "cac": {
+        "title": "Smanjenje CAC-a",
+        "desc": "Prosječno smanjenje kod klijenata u prvih 90 dana"
+      },
+      "ltgp": {
+        "title": "Poboljšanje LTGP-a",
+        "desc": "Prosječno poboljšanje uz optimizaciju cijelog lijevka"
+      },
+      "speed": {
+        "title": "Brzina Odgovora na Lead",
+        "desc": "Prosječno vrijeme prvog odgovora uz aktivan AI sustav"
+      },
+      "recovery": {
+        "title": "Oporavak Prodajnog Cjevovoda",
+        "desc": "Neaktivni leadovi reaktivirani automatiziranim kampanjama"
+      },
+      "cycle": {
+        "title": "Prodajni Ciklus",
+        "desc": "Brže od prvog kontakta do sklopljenog posla"
+      },
+      "ratio": {
+        "title": "Omjer LTGP/CAC",
+        "desc": "Dokazano u dentalnoj industriji, ICT-u i profesionalnim uslugama"
+      }
+    },
+    "callout": {
+      "label": "Zašto LTGP, a ne samo LTV?",
+      "lead": "LTV je prihod. Prihod nije profit.",
+      "ltgpName": "LTGP (Doživotna Bruto Dobit)",
+      "body": "oduzima vaše troškove isporuke i prikazuje vam stvarnu maržu po klijentu — što znači da je to jedini broj koji vam može reći povećava li vaša potrošnja na oglase vaše bogatstvo ili samo vašu zauzetost. Svaku kampanju gradimo oko tog broja."
+    },
+    "disclaimer": "Ovo su izmjereni rezultati s dashboarda aktivnih klijenata, a ne projekcije."
+  },
+  "cases": {
+    "eyebrow": "Dokazani rezultati",
+    "title": "Pravi brojevi. Pravi klijenti. Prava zarada.",
+    "challenge": "Izazov",
+    "approach": "Pristup",
+    "timeline": "Vremenski okvir",
+    "results": "Rezultati",
+    "dental": {
+      "badge": "Zdravstvo / Stomatologija",
+      "title": "Zurich Dental Clinic",
+      "challenge": "Povećati broj potencijalnih pacijenata uz održive troškove akvizicije.",
+      "approach": "Meta Ads prikupljanje kontakata → Claude AI trijažiranje → GHL sekvence njegovanja + reaktivacija neaktivnih pacijenata.",
+      "timeline": "3 mjeseca",
+      "results": [
+        "166 leadova",
+        "41 pacijent (konverzija 24,7%)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (s 1,9:1)"
+      ],
+      "insight": "51% putem Meta Ads · 49% putem AI reaktivacije — gotovo polovica pacijenata došla je od kontakata koje je klinika već bila otpisala."
+    },
+    "ict": {
+      "badge": "B2B tehnologija",
+      "title": "Swiss ICT Company",
+      "challenge": "Ubrzati prodaju enterprise softvera i skratiti dugačke prodajne cikluse.",
+      "approach": "LinkedIn i e-mail kampanje → Claude AI kvalifikacija → n8n automatizacija → GHL upravljanje prodajnim kanalom.",
+      "timeline": "12 mjeseci",
+      "results": [
+        "312 kvalificiranih leadova",
+        "67 prodajnih sastanaka (stopa 21,5%)",
+        "Prodajni ciklus ↓38% (45→28 dana)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (s 2,1:1)",
+        "CHF 487K prihodni učinak"
+      ],
+      "insight": "Automatizirana kvalifikacija eliminirala je 80 sati ručnog praćenja prodaje mjesečno, omogućujući predstavnicima da se fokusiraju isključivo na kupce spremne za kupnju."
+    }
+  },
+  "comparison": {
+    "title": "Što se mijenja kada sistematizirate",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Ručni prodajni proces",
+    "rows": [
+      {
+        "label": "Vrijeme odgovora",
+        "ai": "Ispod 60 sekundi, 24/7",
+        "manual": "Kada je netko dostupan — često sati čekanja"
+      },
+      {
+        "label": "Kvalifikacija potencijalnih klijenata",
+        "ai": "AI ocjenjivanje, dosljedno, za svaki lead",
+        "manual": "Subjektivno, ovisi o prodavaču"
+      },
+      {
+        "label": "Skaliranje",
+        "ai": "Povećajte volumen bez novih zapošljavanja",
+        "manual": "Svaki novi lead = još jedno zapošljavanje"
+      },
+      {
+        "label": "Izvještavanje",
+        "ai": "CAC, LTGP i brzina pipeline-a u stvarnom vremenu",
+        "manual": "Tablice koje netko ažurira kada se sjeti"
+      },
+      {
+        "label": "Neaktivni leadovi",
+        "ai": "Automatski reaktivirani putem kampanja",
+        "manual": "Zaboravljeni u CRM grobnici"
+      },
+      {
+        "label": "Prodajni ciklus",
+        "ai": "30–40% kraći zahvaljujući automatizaciji",
+        "manual": "Ovisi o tome tko prodaje taj tjedan"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Zašto Alpine",
+    "title": "Zašto odabrati Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Cijeli lijevak, ne samo fragment",
+        "desc": "Većina agencija optimizira jedan kanal. Mi sustaviziramo vaš cjelokupni akvizicijski stroj — od prvog dojma do doživotnog profita."
+      },
+      {
+        "title": "Metrike koje nešto znače",
+        "desc": "Pratimo CAC i LTGP, ne klikove. Uvijek ćete znati koliko vas košta privlačenje klijenta i koliku vrijednost donosi u profitu."
+      },
+      {
+        "title": "AI na prvom mjestu, čovjek na kormilu",
+        "desc": "Claude AI preuzima trijažu, kvalifikaciju i odgovaranje. Vaš tim preuzima odnose i zatvaranje poslova."
+      },
+      {
+        "title": "Švicarska preciznost, startup brzina",
+        "desc": "GDPR-usklađena infrastruktura, transparentno izvještavanje, praćenje u realnom vremenu — isporučeno s urgencijom."
+      },
+      {
+        "title": "Automatizacija koja se multiplicira",
+        "desc": "Svaki lead čini sustav pametnijim. A/B-testirani slijedi i kontinuirana optimizacija smanjuju vaš CAC kroz vrijeme."
+      },
+      {
+        "title": "Dokazano, ne obećano",
+        "desc": "Omjeri LTGP/CAC od 3,4:1 do 4,2:1 u dentalnoj, ICT i profesionalnim uslugama. Dashboard, ne prezentacija za prodaju."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Tim",
+    "title": "Izvršitelji, Ne Teoretičari.",
+    "subtitle": "Svaki član našeg tima gradi i upravlja sustavima koje prodajemo. Bez voditelja računa koji čitaju skripte — samo stručnjaci koji su implementirali automatizaciju za desetke SMB klijenata.",
+    "roles": {
+      "founder": "Osnivač",
+      "performance": "Performance Marketing",
+      "engineering": "Razvoj",
+      "content": "Sadržaj",
+      "creative": "Kreativa",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "CRM Lijevci i Strategija Automatizacije",
+      "performance": "Google & Meta oglasi",
+      "engineering": "Web razvoj i automatizacija",
+      "content": "SEO i copywriting usmjeren na konverziju",
+      "creative": "Foto i video produkcija",
+      "motion": "Video montaža i motion dizajn"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Česta pitanja, izravni odgovori.",
+    "items": [
+      {
+        "q": "Bavite li se isključivo oglasima?",
+        "a": "Ne. Oglasi su samo jedan element sustava. Mi gradimo cjeloviti akvizicijski stroj — plaćeni promet, odredišne stranice, postavljanje CRM-a, usmjeravanje leadova, AI praćenje, nurture sekvence, kampanje reaktivacije i izvještavanje. Ako vaš lijevak propušta u fazi praćenja, trošenje više novca na oglase samo povećava gubitak."
+      },
+      {
+        "q": "Možete li raditi s našim postojećim CRM-om?",
+        "a": "Ovisi o platformi. Nativno radimo u GoHighLevel-u i možemo se povezati s većinom CRM-ova putem API-ja ili n8n automatizacije. Ako vaš CRM podržava webhookove ili ima API, možemo ga integrirati. Ako ne — reći ćemo vam to iskreno i objasniti dostupne opcije."
+      },
+      {
+        "q": "Pomažete li s automatizacijom i praćenjem leadova?",
+        "a": "To je srž onoga što radimo. Brzina odgovora na lead jedan je od dostupnih popravaka s najvišim ROI-em. Naši Claude AI Agenti reagiraju unutar 60 sekundi, kvalificiraju lead i ispravno ga usmjeravaju — 24/7, uključujući vikende. Vaš tim kontaktira samo leadove koji su stvarno spremni."
+      },
+      {
+        "q": "Na kojim tržištima radite?",
+        "a": "Naše primárno iskustvo je u Švicarskoj, EU-u i prekograničnim europskim tržištima. Radili smo sa stomatološkim klinikama, ICT tvrtkama, profesionalnim uslužnim firmama i lokalnim servisnim poduzećima. Ne prihvaćamo svaki posao — na revizijskom pozivu ćemo vam iskreno reći ako nismo pravi izbor za vas."
+      },
+      {
+        "q": "Kako pristupate privatnosti i praćenju na tržištima bez kolačića trećih strana?",
+        "a": "Od samog početka gradimo infrastrukturu koja je usklađena s pristankom korisnika. To podrazumijeva ispravno upravljanje pristankom za kolačiće, strategije podataka prve strane, tijekove obrazaca usklađene s GDPR-om i CRM praćenje koje ne ovisi o kolačićima trećih strana. Ne učitavamo skripte za praćenje prije pristanka. Ne koristimo tamne obrasce."
+      },
+      {
+        "q": "Što se događa na besplatnoj reviziji lijevka?",
+        "a": "Pregledavamo vaš trenutni akvizicijski postav — izvore prometa, odredišne stranice, strukturu CRM-a, sekvence praćenja i izvještavanje. Identificiramo gdje leadovi ispadaju iz procesa i koliko bi svaki popravak vrijedio u prihodima. Dobivate jasnu sliku nedostataka sustava prije nego što razgovaramo o suradnji."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Spremni za popravak sustava?",
+    "title": "Prestanite plaćati punjenje pokvarenog lijevka.",
+    "subtitle": "Zakažite besplatnu reviziju i otkrijte gdje vaš sustav akvizicije gubi korisnike, što prvo popraviti i koji su brojevi zaista važni.",
+    "primary": "Zakažite besplatnu reviziju",
+    "secondary": "Pogledajte naše usluge",
+    "disclaimer": "Bez obveza. Rezultati variraju ovisno o tržištu, ponudi, budžetu i prodajnom procesu."
+  },
+  "footer": {
+    "tagline": "Sustavno privlačenje klijenata za švicarske i europske SMB tvrtke. Niži CAC, jači pipeline, jasnije izvješćivanje.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Usluge",
+      "company": "Tvrtka",
+      "legal": "Pravni okvir i privatnost"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatizacija",
+      "reporting": "Izvješćivanje i analitika",
+      "audit": "Full-Funnel revizija"
+    },
+    "legal": {
+      "privacy": "Obavijest o privatnosti",
+      "cookies": "Obavijest o kolačićima",
+      "terms": "Uvjeti korištenja",
+      "disclaimer": "Odricanje od odgovornosti",
+      "accessibility": "Pristupačnost",
+      "privacyChoices": "Postavke privatnosti",
+      "dataRequests": "Zahtjevi za podatke",
+      "security": "Sigurnost i obrada podataka",
+      "notice": "Pravna napomena"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Sva prava pridržana. Zurich, Switzerland.",
+    "performanceDisclaimer": "Rezultati prikazani na ovoj stranici temelje se na stvarnim angažmanima s klijentima i ne predstavljaju jamstvo budućih ishoda. Uspješnost varira ovisno o tržištu, ponudi, budžetu, prodajnom procesu i ostalim čimbenicima izvan kontrole Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Jezik",
+    "priority": "Primarni jezici",
+    "other": "Ostali jezici EU-a"
+  },
+  "servicesPage": {
+    "eyebrow": "Što radimo",
+    "title": "Usluge izgrađene oko sustava, ne kanala.",
+    "subtitle": "Ne prodajemo pojedinačne taktike. Gradimo i vodimo sustave akvizicije — od plaćenog prometa do zatvorenog klijenta, praćeno u svakoj fazi.",
+    "cta": "Rezervirajte besplatni funnel audit",
+    "learnMore": "Saznajte više",
+    "items": {
+      "performance": {
+        "title": "Performance Marketing",
+        "desc": "Plaćeni promet na Meta, Google i LinkedIn platformama — izgrađen za privlačenje kvalificiranih leadova, ne samo impresija. Svaka kampanja povezana je s vašim CRM-om kako bismo mogli pratiti trošak po akviziciji u stvarnom vremenu.",
+        "outcomes": [
+          "Niži CAC unutar 90 dana",
+          "Atribucija od klika do zatvorenog posla",
+          "Ciljanje publike izgrađeno na stvarnim podacima o kupnji"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatizacija",
+        "desc": "GoHighLevel postavljanje, arhitektura radnih tijekova, AI kvalifikacija leadova i automatizirani follow-up sekvenci. Vaš pipeline radi dok vi spavate — i svaka točka kontakta je zabilježena.",
+        "outcomes": [
+          "Prvi odgovor u <60s putem Claude AI",
+          "Automatizirano usmjeravanje i bodovanje leadova",
+          "Kampanje za reaktivaciju neaktivnih leadova"
+        ]
+      },
+      "reporting": {
+        "title": "Izvještavanje i analitika",
+        "desc": "Nadzorne ploče u stvarnom vremenu koje prikazuju CAC, LTGP, stope konverzije, brzinu odgovora na leada i brzinu pipeline-a. Izvještavamo o onome što pokreće profit — ne o onome što dobro izgleda u prezentaciji.",
+        "outcomes": [
+          "Prilagođene KPI nadzorne ploče",
+          "Praćenje CAC-a i LTGP-a",
+          "Tjedni pregledi performansi"
+        ]
+      },
+      "content": {
+        "title": "Content Funneli",
+        "desc": "SEO-driven sadržaj, odredišne stranice optimizirane za konverziju i nurture sekvenci koje vode leadove kroz funnel — ne samo do klikova.",
+        "outcomes": [
+          "Odredišne stranice usmjerene na konverziju",
+          "Višekoračne e-mail i SMS sekvenci",
+          "SEO sadržaj usklađen s kupovnom namjerom"
+        ]
+      },
+      "funnel": {
+        "title": "Funnel strategija",
+        "desc": "Prije nego što išta izgradimo, revidiramo vaš trenutni sustav — izvore prometa, strukturu CRM-a, praznine u follow-upu, slijepe točke u izvještavanju. Zatim gradimo plan koji daje prioritet prihvatnom učinku.",
+        "outcomes": [
+          "Besplatni funnel audit",
+          "Analiza praznina s procjenama prihvatnog učinka",
+          "Prioritizirani 90-dnevni sprint plan"
+        ]
+      },
+      "landing": {
+        "title": "Odredišne stranice",
+        "desc": "Visokokonverzijske, mobile-first odredišne stranice dizajnirane za prikupljanje leadova — ne za osvajanje dizajnerskih nagrada. A/B testirane, povezane s CRM-om i izgrađene za brzinu.",
+        "outcomes": [
+          "Logika obrazaca integrirana s CRM-om",
+          "Spremne za A/B testiranje",
+          "Izgrađene za brzinu i konverziju"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "O Alpine Marketingu",
+    "title": "Komercijalno orijentirani. Sistemski nastrojeni. Protiv taštih metrika.",
+    "subtitle": "Alpine Marketing nastao je iz jedne jednostavne opservacije: većina SMB-ova nema problem s potencijalnim klijentima. Ima problem sa sustavom. Leadovi dolaze i nestaju — u sporom praćenju, nepovezanim CRM-ovima i izvještajima koji prikazuju aktivnost, a ne profit.",
+    "why": {
+      "title": "Zašto postojimo.",
+      "p1": "Većina agencija optimizira jedan dio lijevka — obično onaj koji im je najlakše prodati. Oglase, sadržaj ili „strategiju“. Klijent dobiva isporučevinu, a ne funkcionalan sustav.",
+      "p2": "Alpine Marketing osnovan je kako bi to promijenio. Radimo kroz cijeli akvizicijski niz: plaćeni promet, CRM, automatizaciju, praćenje, reaktivaciju i izvještavanje — sve povezano u jedan motor koji zaista zatvara klijente.",
+      "p3": "Imamo sjedište u Zurichu i surađujemo s tvrtkama u Švicarskoj, EU-u i međunarodno. Komuniciramo jasno i izravno, poslujemo u CHF-u i EUR-u te sebe držimo odgovornima prema istim metrikama koje tražimo od svojih klijenata."
+    },
+    "fullFunnel": {
+      "title": "Što znači razmišljanje kroz cijeli lijevak.",
+      "p1": "Full-funnel nije marketinška fraza. Znači: briga nas što se dogodi s leadom nakon što ispuni obrazac. Briga nas brzina reakcije na lead. Briga nas nurtura li CRM ili zaboravlja. Briga nas reaktivacija. Briga nas izvještavanje koje povezuje potrošnju oglasa sa zatvorenim prihodom.",
+      "p2": "To zahtijeva više koordinacije nego samo pokretanje oglasa. No daje fundamentalno drugačiji rezultat: niži CAC, viši LTGP i sustav koji se multiplicira umjesto da stagnira."
+    },
+    "principlesTitle": "Načela rada.",
+    "principles": [
+      {
+        "title": "Mjerite ono što je važno.",
+        "desc": "CAC i LTGP. Ne klikovi. Ne impresije. Ne „brand awareness“. Ako se ne povezuje s profitom, mi za to ne optimiziramo."
+      },
+      {
+        "title": "Sustavi ispred taktika.",
+        "desc": "Taktika daje rezultat jednom. Sustav daje rezultate kumulativno. Gradimo motor, a ne pojedinačnu kampanju."
+      },
+      {
+        "title": "Iskreni o onome što ne znamo.",
+        "desc": "Reći ćemo vam ako je tržište previše konkurentno, ako vaša ponuda treba doradu ili ako je vaš prodajni proces pravi uski grlo. Nismo tu da uzmemo vaš budžet i nestanemo."
+      },
+      {
+        "title": "Privatnost ugrađena od temelja.",
+        "desc": "Poslujemo na švicarskim, EU i US tržištima. Arhitektura svjesna pristanka nije naknadna misao — upravo tako gradimo svaki lijevak."
+      },
+      {
+        "title": "Operativci, ne teoretičari.",
+        "desc": "Svaki sustav koji preporučujemo, izgradili smo i vodili za stvarne klijente. Ne savjetujemo o teoriji. Gradimo i upravljamo operativnom infrastrukturom."
+      }
+    ],
+    "ctaTitle": "Spremni za razgovor?",
+    "ctaDesc": "Rezervirajte besplatnu reviziju lijevka i pokazat ćemo vam točno što bismo popravili i kojim redoslijedom — prije nego što se obvežete na bilo što.",
+    "ctaButton": "Rezervirajte besplatnu reviziju"
+  },
+  "contactPage": {
+    "eyebrow": "Kontaktirajte nas",
+    "title": "Razgovarajmo o sustavima.",
+    "subtitlePrefix": "Koristite obrazac ispod za opće upite. Ako želite strukturirani pregled lijevka, posjetite stranicu ",
+    "subtitleLink": "Rezervirajte reviziju",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "E-pošta",
+      "phoneLabel": "Telefon i lokacija",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Vrijeme odgovora",
+      "responseValue": "U roku od 1 radnog dana",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Ime",
+      "namePh": "Jane Smith",
+      "email": "E-pošta",
+      "emailPh": "jane@company.com",
+      "company": "Tvrtka",
+      "companyPh": "Acme GmbH",
+      "service": "Područje interesa",
+      "serviceDefault": "Odaberite (neobavezno)",
+      "serviceOptions": {
+        "performance": "Performance Marketing",
+        "crm": "CRM + Automatizacija",
+        "reporting": "Izvještavanje i analitika",
+        "content": "Content lijevci",
+        "audit": "Kompletna revizija sustava"
+      },
+      "message": "Poruka",
+      "messagePh": "Opišite nam svoju situaciju...",
+      "requiredLabel": "Obavezno:",
+      "optionalLabel": "Neobavezno:",
+      "privacyPrefix": "Pročitao/la sam ",
+      "privacyLink": "Obavijest o privatnosti",
+      "privacySuffix": " i dajem suglasnost za obradu svojih podataka u svrhu odgovora na ovaj upit.",
+      "marketingText": "Želim primati e-mail obavijesti i uvide od Alpine Marketing.",
+      "submit": "Pošalji poruku",
+      "validation": {
+        "name": "Ime je obavezno",
+        "email": "Potrebna je ispravna e-mail adresa",
+        "company": "Naziv tvrtke je obavezan",
+        "message": "Poruka je obavezna",
+        "consent": "Morate se složiti kako biste nastavili"
+      },
+      "toastTitle": "Poruka primljena",
+      "toastDesc": "Javit ćemo vam se u roku od 1 radnog dana."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Besplatna revizija lijevka",
+    "title": "Otkrijte točno gdje vaš sustav gubi.",
+    "subtitle": "U 30-minutnom pozivu za reviziju analiziramo vaš sustav akvizicije i pokazujemo vam gdje su praznine — bez ikakvih obaveza s vaše strane.",
+    "whatYouGetLabel": "Što dobivate:",
+    "whatYouGet": [
+      "Pregled mjesta na kojima vaš trenutni lijevak gubi leadove i prihode",
+      "Iskrenu procjenu koje je praznine najvažnije popuniti prve",
+      "Uvid u to kako bi izgledao sistematizirani engine za vaše poslovanje"
+    ],
+    "whoForLabel": "Za koga je ovo:",
+    "whoForBody": "Uslužne tvrtke koje generiraju leadove, ali konvertiraju premalo njih. Kompanije koje ulažu u oglašavanje, ali nisu sigurne što zapravo funkcionira. SMB-ovi spremni izgraditi sustav, a ne kupiti još jednu taktiku.",
+    "form": {
+      "fullName": "Ime i prezime",
+      "fullNamePh": "Iva Horvat",
+      "workEmail": "Poslovni e-mail",
+      "workEmailPh": "iva@tvrtka.com",
+      "company": "Tvrtka",
+      "companyPh": "Acme GmbH",
+      "website": "Web stranica",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Mjesečni leadovi (otprilike)",
+      "leadsDefault": "Odaberite...",
+      "leadsOptions": {
+        "lt20": "Manje od 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Najveći izazov u akviziciji",
+      "challengePh": "Npr. Generiramo leadove, ali konverzija je niska i ne znamo gdje odlaze...",
+      "requiredLabel": "Obavezno:",
+      "optionalLabel": "Neobavezno:",
+      "privacyPrefix": "Pročitao/la sam ",
+      "privacyLink": "Obavijest o privatnosti",
+      "privacySuffix": " i suglasan/suglasna sam da Alpine Marketing može obrađivati moje podatke u svrhu odgovora na moj zahtjev.",
+      "marketingText": "Želim primati marketinške novosti, uvide i ponude putem e-maila.",
+      "submit": "Zatražite besplatnu reviziju",
+      "footer": "Slanjem ovog obrasca ne preuzimate nikakve obveze kupnje. Javit ćemo vam se unutar 1 radnog dana.",
+      "validation": {
+        "name": "Ime je obavezno",
+        "email": "Potrebna je važeća poslovna e-mail adresa",
+        "company": "Naziv tvrtke je obavezan",
+        "website": "Unesite valjani URL (s https://)",
+        "monthlyLeads": "Molimo odaberite opciju",
+        "challenge": "Opišite svoj izazov — barem jednom rečenicom",
+        "consent": "Morate se složiti za nastavak"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Zahtjev primljen.",
+    "lead": "Pregledat ćemo vaše podatke i javiti se u roku od ",
+    "leadBold": "1 radnog dana",
+    "leadSuffix": " kako bismo potvrdili termin vašeg audita.",
+    "sub": "U međuvremenu, nije potrebna nikakva akcija s vaše strane. Ovim slanjem ne obvezujete se ni na kakvu kupnju.",
+    "primary": "Pogledajte rezultate klijenata",
+    "secondary": "Povratak na početnu"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Terenske bilješke iz strojarnice švicarskog stjecanja klijenata.",
+    "subtitle": "Iskreni prikazi onoga što funkcionira, što troši oglasni budžet i alati koje koristimo kako bismo pretvorili pipeline u predvidiv profit. Bez pahuljica, bez agencijskog žargona.",
+    "all": "Sve",
+    "empty": "Još nema članaka u ovoj kategoriji — svratite uskoro.",
+    "featured": "Istaknuto",
+    "minRead": "min čitanja",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Svi članci",
+    "minRead": "min čitanja",
+    "ctaEyebrow": "Spremni začepiti svoj lijevak?",
+    "ctaTitle": "Zatražite besplatni Pipeline Audit i otkrijte točno gdje vam novac curi.",
+    "ctaSub": "30-minutni poziv · bez prezentacija · konkretna rješenja koja možete primijeniti ovaj tjedan.",
+    "ctaButton": "Rezervirajte besplatni Audit",
+    "related": "Nastavite čitati",
+    "readSuffix": "min čitanja"
+  },
+  "cookieConsent": {
+    "heading": "Koristimo kolačiće kako bismo poboljšali vaše iskustvo.",
+    "bodyPrefix": "Neki su nužni za funkcioniranje stranice. Drugi — analitički i marketinški kolačići — učitavaju se samo uz vaš pristanak. Svoje postavke možete promijeniti u bilo kojem trenutku putem ",
+    "privacyChoices": "Postavki privatnosti",
+    "between": ". Pogledajte naš ",
+    "cookieNotice": "Pravilnik o kolačićima",
+    "bodySuffix": " za više detalja.",
+    "acceptAll": "Prihvati sve",
+    "necessaryOnly": "Samo nužni",
+    "customize": "Prilagodi",
+    "customizeIntro": "Strogo nužni kolačići uvijek su aktivni. Ostale možete uključiti ili isključiti u nastavku.",
+    "save": "Spremi postavke",
+    "back": "Natrag",
+    "closeAria": "Zatvori i odbij neobavezne kolačiće",
+    "customizeAria": "Prilagodi postavke kolačića",
+    "items": {
+      "necessary": {
+        "label": "Strogo nužni",
+        "desc": "Potrebni za funkcioniranje stranice."
+      },
+      "preferences": {
+        "label": "Postavke",
+        "desc": "Pamti vaše postavke i odabire."
+      },
+      "analytics": {
+        "label": "Analitika",
+        "desc": "Pomaže nam razumjeti kako posjetitelji koriste stranicu. Podaci se ne dijele prije vašeg pristanka."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "desc": "Koristi se za ciljano oglašavanje. Nikada se ne učitava bez vašeg izričitog pristanka."
+      }
+    }
+  }
+}

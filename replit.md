@@ -31,6 +31,13 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - `src/components/Footer.tsx` — Footer with logo, links
 - `src/hooks/useCountUp.ts` — Framer Motion count-up hook
 
+#### Internationalization (i18n)
+- **All 26 languages ship with full native translations**: 24 official EU languages + Ukrainian + Russian
+- Locale files: `src/i18n/locales/<code>.json` (en, de, fr, it, uk, ru, es, pt, nl, pl, sv, da, fi, el, cs, sk, sl, hu, ro, bg, hr, et, lv, lt, mt, ga)
+- Config: `src/i18n/index.ts` — i18next with browser language detection (querystring `?lng=xx`, localStorage `alpine-lang`, navigator)
+- Translation script: `.local/translate-locales.mjs` — uses Anthropic Claude (claude-sonnet-4-6) via Replit AI Integrations to translate `en.json` into a target language; chunks by top-level key for parallel calls; auto-repairs JSON when the model uses ASCII `"` instead of localized closing quotes. Re-run with `node .local/translate-locales.mjs <code>[,<code>...]` after editing en.json to regenerate translations.
+- Blog posts are also language-aware: each post exports `getLocalizedMeta(lang)` and a body component selected by current language; posts use the post's localized meta for title/excerpt/date and pick the matching body (English fallback for unsupported languages).
+
 #### Assets
 - Logo: `attached_assets/Screenshot_2026-03-22_at_21.14.04_1775773255892.png` (inverted in dark theme)
 - Team: `attached_assets/Screenshot_2026-03-23_at_01.32.28_1775773255892.png`

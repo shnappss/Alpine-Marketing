@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Rezervovať bezplatnú analýzu",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Zistiť viac",
+    "getStarted": "Začať",
+    "openMenu": "Otvoriť menu",
+    "closeMenu": "Zatvoriť menu"
+  },
+  "nav": {
+    "services": "Služby",
+    "caseStudies": "Prípadové štúdie",
+    "blog": "Blog",
+    "about": "O nás",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Pre SMB a technologické firmy vo Švajčiarsku",
+    "headlineLead": "Budujeme stroj, ktorý premení váš reklamný rozpočet na ",
+    "headlineHighlight": "predvídateľný zisk.",
+    "subheadline": "Alpine Marketing buduje komplexný akviziční engine — od reklám na Meta & Google až po AI-riadený follow-up a uzavretý obchod — a poskytuje vám dashboard s reálnym CAC a celoživotným hrubým ziskom.",
+    "subheadlineEmphasis": "Nie kliky. Nie zobrazenia. Zisk.",
+    "primaryCta": "Získajte bezplatný audit pipeline",
+    "secondaryCta": "Pozrite si výsledky klientov",
+    "cardTitle": "Pipeline Visualizer — naživo",
+    "stats": {
+      "cac": "Priem. zníženie CAC",
+      "ratio": "Pomer LTGP/CAC",
+      "responseTime": "Čas odozvy na leady",
+      "clients": "Švajčiarski klienti"
+    }
+  },
+  "problem": {
+    "eyebrow": "Základný problém",
+    "title": "Váš marketing nie je pokazený. Váš systém je.",
+    "subtitle": "Väčšina agentúr vám predáva kliknutia a zobrazenia. Ale ak váš pipeline uniká na každom kroku — pomalé odpovede, žiadny follow-up, nulová reaktivácia — viac návštevnosti znamená len viac zbytočných výdavkov.",
+    "cards": {
+      "speed": {
+        "title": "Medzera v rýchlosti",
+        "desc": "Leady kontaktované po viac ako 5 minútach majú 21× menšiu šancu na konverziu. Priemerná reakčná doba SMB? Viac ako 2 hodiny. Každá minúta oneskorenia sú peniaze vyhodené z okna."
+      },
+      "followup": {
+        "title": "Čierna diera follow-upu",
+        "desc": "leadov nikdy nedostane druhý kontaktný bod. Žiadna nurturovacia sekvencia, žiadna SMS, žiadna reaktivácia. Prejavili záujem — a nepočuli nič späť."
+      },
+      "metrics": {
+        "title": "Prízrak metrík",
+        "valueLabel": "Viditeľnosť",
+        "desc": "Väčšina SMB sleduje kliknutia alebo „vygenerované leady“ — ale nevie odpovedať: čo ma každý zákazník skutočne stojí a aký je jeho celoživotný hrubý zisk? Bez CAC a LTGP lietate naslepo."
+      }
+    },
+    "leakPoints": [
+      "Pomalá odpoveď",
+      "Žiadny nurturing",
+      "Žiadna reaktivácia",
+      "Žiadne sledovanie",
+      "Stratené príjmy"
+    ]
+  },
+  "system": {
+    "eyebrow": "The Alpine Approach",
+    "title": "Neopravujeme jednu vec. Systematizujeme všetko.",
+    "subtitle": "Šesť krokov. Jeden motor. Každý lead sledovaný od prvého kliknutia až po uzavretý obchod.",
+    "disclaimer": "Výsledky sa líšia podľa trhu, ponuky, rozpočtu a predajného procesu. Čísla vychádzajú z realizovaných projektov pre klientov.",
+    "steps": {
+      "attract": {
+        "title": "Pritiahnite",
+        "desc": "Cielené reklamy na Meta, Google & LinkedIn. Vstupné stránky navrhnuté na konverziu, nie na efekt."
+      },
+      "capture": {
+        "title": "Zachyťte",
+        "desc": "Každý lead, každý zdroj — jeden CRM. Žiadne stratené kontakty, plná atribúcia od prvého kliknutia."
+      },
+      "route": {
+        "title": "Smerovanie & Skórovanie",
+        "desc": "Leady sú automaticky ohodnotené a odoslané do správneho workflowu v priebehu sekúnd — nie hodín."
+      },
+      "engage": {
+        "title": "Reakcia do 60 sekúnd",
+        "desc": "Claude AI odpovedá 24/7, kvalifikuje lead a odovzdáva ho ďalej až vtedy, keď je pripravený."
+      },
+      "nurture": {
+        "title": "Starostlivosť & Reaktivácia",
+        "desc": "Automatizované sekvencie cez e-mail, SMS & WhatsApp. Neaktívne leady neprichádzajú nazmar."
+      },
+      "measure": {
+        "title": "Meranie & Optimalizácia",
+        "desc": "Živé dashboardy. CAC, LTGP, rýchlosť pipeline — len čísla, ktoré skutočne generujú zisk."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Motor Celého Systému",
+    "title": "Tri nástroje. Nula manuálnych prechodov. Jeden ucelený systém.",
+    "footer": "Výsledok? Systém, ktorý pracuje aj keď spíte, rastie bez ďalšieho personálu a stáva sa inteligentnejším s každým spracovaným leadom.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agenti",
+        "role": "MOZOG SYSTÉMU",
+        "desc": "Inteligentná kvalifikácia leadov a analýza zámerov v reálnom čase. Claude prečíta každý prichádzajúci lead, ohodnotí naliehavosť, určí najlepšiu reakciu a vygeneruje personalizované správy s ľudským nádychom — ešte predtým, než váš tím dopije rannú kávu."
+      },
+      "n8n": {
+        "name": "n8n Automatizácia Procesov",
+        "role": "NERVOVÝ SYSTÉM",
+        "desc": "Spojivové tkanivo, ktoré prepája vaše reklamy, CRM, kalendár a reporty do jedného automatizovaného pipeline. Vlastné workflow sa spúšťajú okamžite na základe správania leadu — bez zbytočných poplatkov za Zapier, bez improvizovaných riešení."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "RIADIACE CENTRUM",
+        "desc": "Správa pipeline, automatizované sekvencie, rezervácia termínov a omni-channel komunikácia (SMS / Email / WhatsApp) — všetko na jednej platforme, ktorú váš tím skutočne používa."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Čo skutočne meriame",
+    "title": "Zabudnite na okrasné metriky. Toto poháňa rast.",
+    "subtitle": "Každý klient Alpine dostáva dashboard v reálnom čase, ktorý sleduje čísla, ktoré skutočne určujú ziskový rast.",
+    "items": {
+      "cac": {
+        "title": "Zníženie CAC",
+        "desc": "Priemerné zníženie u klientov počas prvých 90 dní"
+      },
+      "ltgp": {
+        "title": "Zlepšenie LTGP",
+        "desc": "Priemerné zlepšenie pri optimalizácii celého lievika"
+      },
+      "speed": {
+        "title": "Rýchlosť reakcie na lead",
+        "desc": "Priemerný čas prvej odpovede pri aktívnom AI systéme"
+      },
+      "recovery": {
+        "title": "Obnova pipeline",
+        "desc": "Neaktívne leady reaktivované prostredníctvom automatizovaných kampaní"
+      },
+      "cycle": {
+        "title": "Obchodný cyklus",
+        "desc": "Rýchlejší od prvého kontaktu po uzavretý obchod"
+      },
+      "ratio": {
+        "title": "Pomer LTGP/CAC",
+        "desc": "Overené v oblasti stomatológie, ICT a profesionálnych služieb"
+      }
+    },
+    "callout": {
+      "label": "Prečo LTGP a nie len LTV?",
+      "lead": "LTV je obrat. Obrat nie je zisk.",
+      "ltgpName": "LTGP (celoživotný hrubý zisk)",
+      "body": "odstraňuje náklady na realizáciu a ukazuje vám skutočnú maržu na zákazníka — čo znamená, že je to jediné číslo, ktoré vám povie, či vaše výdavky na reklamu vás skutočne obohacujú, alebo vás len zaneprázdňujú. Okolo tohto čísla stavíme každú kampaň."
+    },
+    "disclaimer": "Toto sú namerané výsledky z živých dashboardov klientov, nie projekcie."
+  },
+  "cases": {
+    "eyebrow": "Overené výsledky",
+    "title": "Reálne čísla. Skutoční klienti. Skutočný zisk.",
+    "challenge": "Výzva",
+    "approach": "Prístup",
+    "timeline": "Časový rámec",
+    "results": "Výsledky",
+    "dental": {
+      "badge": "Zdravotníctvo / Stomatológia",
+      "title": "Zubná klinika Zurich",
+      "challenge": "Rozšíriť prísun pacientov pri udržaní nákladov na akvizíciu na únosnej úrovni.",
+      "approach": "Zachytávanie kontaktov cez Meta Ads → triedenie pomocou Claude AI → nurture sekvencie v GHL + reaktivácia neaktívnych pacientov.",
+      "timeline": "3 mesiace",
+      "results": [
+        "166 kontaktov",
+        "41 pacientov (konverzia 24,7 %)",
+        "CAC ↓29 % (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (z 1,9:1)"
+      ],
+      "insight": "51 % z Meta Ads · 49 % z AI reaktivácie — takmer polovica pacientov pochádzala z kontaktov, ktoré klinika už dávno odpisovala."
+    },
+    "ict": {
+      "badge": "B2B Technológie",
+      "title": "Švajčiarska ICT spoločnosť",
+      "challenge": "Urýchliť predaj podnikového softvéru a skrátiť zdĺhavé predajné cykly.",
+      "approach": "Kampane na LinkedIn a e-mail → kvalifikácia pomocou Claude AI → automatizácia cez n8n → správa pipeline v GHL.",
+      "timeline": "12 mesiacov",
+      "results": [
+        "312 kvalifikovaných kontaktov",
+        "67 obchodných stretnutí (miera 21,5 %)",
+        "Predajný cyklus ↓38 % (45→28 dní)",
+        "CAC ↓35 % (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (z 2,1:1)",
+        "Príjmový dopad CHF 487K"
+      ],
+      "insight": "Automatizovaná kvalifikácia odstránila 80 hodín manuálneho obchodného follow-upu mesačne — obchodníci sa tak môžu sústrediť výlučne na zákazníkov pripravených na nákup."
+    }
+  },
+  "comparison": {
+    "title": "Čo sa zmení, keď to systematizujete",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Manuálny obchodný proces",
+    "rows": [
+      {
+        "label": "Čas odozvy",
+        "ai": "Do 60 sekúnd, 24/7",
+        "manual": "Podľa dostupnosti — často hodiny"
+      },
+      {
+        "label": "Kvalifikácia leadov",
+        "ai": "AI hodnotenie, konzistentné, pre každý lead",
+        "manual": "Subjektívne, závisí od obchodníka"
+      },
+      {
+        "label": "Škálovanie",
+        "ai": "Zvýšte objem bez navyšovania tímu",
+        "manual": "Každý nový lead = ďalší nábor"
+      },
+      {
+        "label": "Reporting",
+        "ai": "CAC, LTGP a rýchlosť pipeline v reálnom čase",
+        "manual": "Tabuľky aktualizované, keď si niekto spomenie"
+      },
+      {
+        "label": "Neaktívne leady",
+        "ai": "Automaticky reaktivované cez kampane",
+        "manual": "Zabudnuté v cintoríne CRM"
+      },
+      {
+        "label": "Obchodný cyklus",
+        "ai": "O 30 – 40 % kratší vďaka automatizácii",
+        "manual": "Závisí od toho, kto práve predáva"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Prečo Alpine",
+    "title": "Prečo si vybrať Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Celý lievik, nie len fragment",
+        "desc": "Väčšina agentúr optimalizuje jeden kanál. My systematizujeme celý váš akviziční motor — od prvého dojmu až po celoživotný zisk."
+      },
+      {
+        "title": "Metriky, ktoré majú zmysel",
+        "desc": "Sledujeme CAC a LTGP, nie kliknutia. Vždy budete vedieť, čo vás zákazník stojí a čo predstavuje z hľadiska zisku."
+      },
+      {
+        "title": "AI na prvom mieste, človek na kormidlе",
+        "desc": "Claude AI zabezpečuje triedenie, kvalifikáciu a odpovede. Váš tím sa venuje vzťahom a uzatváraniu obchodov."
+      },
+      {
+        "title": "Švajčiarska precíznosť, rýchlosť startupu",
+        "desc": "GDPR-kompatibilná infraštruktúra, transparentné reporty, sledovanie v reálnom čase — dodané s maximálnou efektivitou."
+      },
+      {
+        "title": "Automatizácia, ktorá sa nabaľuje",
+        "desc": "Každý lead robí systém inteligentnejším. A/B-testované sekvencie a kontinuálna optimalizácia znižujú váš CAC v priebehu času."
+      },
+      {
+        "title": "Overené, nie sľubované",
+        "desc": "Pomery LTGP/CAC od 3,4:1 do 4,2:1 v odvetviach stomatológie, ICT a profesionálnych služieb. Dashboard, nie prezentácia pre investorov."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Tím",
+    "title": "Praktici, nie teoretici.",
+    "subtitle": "Každý člen nášho tímu buduje a prevádzkuje systémy, ktoré predávame. Žiadni account manažéri odrecitúvajúci scenáre — len špecialisti, ktorí nasadili automatizáciu pre desiatky SMB.",
+    "roles": {
+      "founder": "Zakladateľ",
+      "performance": "Výkonnostný marketing",
+      "engineering": "Vývoj",
+      "content": "Obsah",
+      "creative": "Kreatíva",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "CRM lieviky & automatizačná stratégia",
+      "performance": "Google & Meta Ads",
+      "engineering": "Webový vývoj & automatizácia",
+      "content": "SEO & konverzný copywriting",
+      "creative": "Foto & video produkcia",
+      "motion": "Strih videa & motion design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Časté otázky, priame odpovede.",
+    "items": [
+      {
+        "q": "Venujete sa iba správe reklám?",
+        "a": "Nie. Reklamy sú len jedným vstupom do systému. Budujeme kompletný akvizičný stroj — platená návštevnosť, landing pages, nastavenie CRM, smerovanie leadov, AI follow-up, nurture sekvencie, reaktivačné kampane a reportovanie. Ak váš lievik uniká vo fáze follow-upu, hádzanie ďalšieho rozpočtu na reklamy úniku len prispeje."
+      },
+      {
+        "q": "Dokážete pracovať s naším existujúcim CRM?",
+        "a": "Záleží na platforme. Natívne pracujeme v GoHighLevel a dokážeme sa pripojiť k väčšine CRM systémov cez API alebo n8n automatizáciu. Ak váš CRM podporuje webhooky alebo disponuje API, vieme ho integrovať. Ak nie — povieme vám to úprimne a vysvetlíme dostupné možnosti."
+      },
+      {
+        "q": "Pomáhate aj s automatizáciou a follow-upom leadov?",
+        "a": "To je samotné jadro toho, čo robíme. Rýchlosť reakcie na lead patrí medzi opravy s najvyšším ROI. Naši Claude AI Agenti reagujú do 60 sekúnd, kvalifikujú lead a správne ho smerujú — 24/7, vrátane víkendov. Váš tím sa dostane iba k leadom, ktoré sú skutočne pripravené."
+      },
+      {
+        "q": "Na akých trhoch pôsobíte?",
+        "a": "Naše primárne skúsenosti sú vo Švajčiarsku, v EÚ a na cezhraničných európskych trhoch. Spolupracovali sme so zubnými klinikami, ICT spoločnosťami, firmami poskytujúcimi odborné služby aj miestnymi prevádzkami. Neprijímame každého klienta — na audítnom hovore vám otvorene povieme, ak nie sme tou správnou voľbou."
+      },
+      {
+        "q": "Ako riešite ochranu súkromia a sledovanie v prostredí bez cookies tretích strán?",
+        "a": "Budujeme infraštruktúru zohľadňujúcu súhlas od samého začiatku. To znamená správnu správu súhlasu s cookies, stratégie vlastných dát prvej strany, GDPR-kompatibilné formulárové procesy a CRM sledovanie, ktoré nezávisí na cookies tretích strán. Sledovacie skripty nenačítavame pred udelením súhlasu. Nepoužívame manipulatívne praktiky."
+      },
+      {
+        "q": "Čo sa deje počas bezplatného auditu lievika?",
+        "a": "Preskúmame váš súčasný akvizičný systém — zdroje návštevnosti, landing pages, štruktúru CRM, follow-up sekvencie a reportovanie. Identifikujeme, kde leady odpadávajú, a vyčíslime, čo by oprava každého úniku znamenala z hľadiska tržieb. Získate jasný obraz o medzerách v systéme ešte predtým, ako sa porozprávame o spolupráci."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Pripravení opraviť systém?",
+    "title": "Prestaňte platiť za plnenie nefunkčného lievika.",
+    "subtitle": "Rezervujte si bezplatný audit a zistite, kde váš akvizičný systém stráca, čo opraviť ako prvé a ktoré čísla skutočne rozhodujú.",
+    "primary": "Rezervovať bezplatný audit",
+    "secondary": "Zobraziť naše služby",
+    "disclaimer": "Bez záväzkov. Výsledky sa líšia podľa trhu, ponuky, rozpočtu a obchodného procesu."
+  },
+  "footer": {
+    "tagline": "Systematizovaná akvizícia klientov pre švajčiarske a európske SMB. Nižší CAC, silnejšie pipeline, prehľadnejší reporting.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Služby",
+      "company": "Spoločnosť",
+      "legal": "Právne informácie & Ochrana súkromia"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatizácia",
+      "reporting": "Reporting & Analytika",
+      "audit": "Full-Funnel Audit"
+    },
+    "legal": {
+      "privacy": "Zásady ochrany súkromia",
+      "cookies": "Zásady používania cookies",
+      "terms": "Podmienky používania",
+      "disclaimer": "Vylúčenie zodpovednosti",
+      "accessibility": "Prístupnosť",
+      "privacyChoices": "Nastavenia súkromia",
+      "dataRequests": "Žiadosti o údaje",
+      "security": "Bezpečnosť & Spracovanie údajov",
+      "notice": "Právne upozornenie"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Všetky práva vyhradené. Zurich, Switzerland.",
+    "performanceDisclaimer": "Výsledky prezentované na tejto stránke pochádzajú z reálnych klientskych projektov a nepredstavujú záruku budúcich výsledkov. Výkonnosť sa líši v závislosti od trhu, ponuky, rozpočtu, obchodného procesu a ďalších faktorov mimo kontroly Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Jazyk",
+    "priority": "Hlavné jazyky",
+    "other": "Ostatné jazyky EÚ"
+  },
+  "servicesPage": {
+    "eyebrow": "Čo robíme",
+    "title": "Služby postavené na systémoch, nie na kanáloch.",
+    "subtitle": "Nepredávame jednotlivé taktiky. Budujeme a prevádzkujeme akvizičné systémy — od platenej návštevnosti až po uzavretého klienta, sledované v každej fáze.",
+    "cta": "Rezervovať bezplatný audit funnelu",
+    "learnMore": "Zistiť viac",
+    "items": {
+      "performance": {
+        "title": "Performance Marketing",
+        "desc": "Platená návštevnosť na Meta, Google a LinkedIn — navrhnutá na generovanie kvalifikovaných leadov, nielen zobrazení. Každá kampaň je prepojená s vaším CRM, aby sme mohli sledovať náklady na akvizíciu v reálnom čase.",
+        "outcomes": [
+          "Nižší CAC do 90 dní",
+          "Atribúcia od kliku až po uzavretý obchod",
+          "Cielenie na publikum postavené na reálnych nákupných dátach"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatizácia",
+        "desc": "Nastavenie GoHighLevel, architektúra workflowov, AI kvalifikácia leadov a automatizované follow-up sekvencie. Váš pipeline funguje aj keď spíte — a každý kontaktný bod je sledovaný.",
+        "outcomes": [
+          "<60s prvá odpoveď cez Claude AI",
+          "Automatické smerovanie a hodnotenie leadov",
+          "Kampane na reaktiváciu neaktívnych leadov"
+        ]
+      },
+      "reporting": {
+        "title": "Reporting a analytika",
+        "desc": "Dashboardy v reálnom čase zobrazujúce CAC, LTGP, miery konverzií, rýchlosť reakcie na lead a rýchlosť pipeline. Reportujeme to, čo tvorí zisk — nie to, čo dobre vyzerá v prezentácii.",
+        "outcomes": [
+          "Vlastné KPI dashboardy",
+          "Sledovanie CAC a LTGP",
+          "Týždenné hodnotenia výkonnosti"
+        ]
+      },
+      "content": {
+        "title": "Obsahové funnely",
+        "desc": "SEO obsah, konverzne optimalizované landing pages a nurture sekvencie, ktoré posúvajú leadov cez funnel — nielen zbierajú kliky.",
+        "outcomes": [
+          "Landing pages zamerané na konverziu",
+          "Viacstupňové e-mailové a SMS sekvencie",
+          "SEO obsah zosúladený s nákupným zámerom"
+        ]
+      },
+      "funnel": {
+        "title": "Stratégia funnelu",
+        "desc": "Pred tým, ako čokoľvek vytvoríme, auditujeme váš súčasný systém — zdroje návštevnosti, štruktúru CRM, medzery vo follow-up, slepé miesta v reportingu. Následne zostavíme plán, ktorý uprednostňuje dopad na tržby.",
+        "outcomes": [
+          "Bezplatný audit funnelu",
+          "Analýza medzier s odhadmi dopadu na tržby",
+          "Prioritizovaný 90-dňový sprint plán"
+        ]
+      },
+      "landing": {
+        "title": "Landing Pages",
+        "desc": "Vysoko konverzné, mobile-first landing pages navrhnuté na zachytávanie leadov — nie na získavanie dizajnových ocenení. A/B testované, prepojené s CRM a optimalizované na rýchlosť.",
+        "outcomes": [
+          "Logika formulárov integrovaná s CRM",
+          "Pripravené na A/B testovanie",
+          "Optimalizované na rýchlosť a konverziu"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "O Alpine Marketing",
+    "title": "Obchodne zmýšľajúci. Systémovo orientovaní. Bez kultu prázdnych metrík.",
+    "subtitle": "Alpine Marketing vznikol na základe jednoduchého pozorovania: väčšina SMB firiem nemá problém s počtom leadov. Majú problém so systémom. Leady prichádzajú a miznú — v pomalých následných krokoch, odpojených CRM systémoch a reportoch, ktoré ukazujú aktivitu, nie zisk.",
+    "why": {
+      "title": "Prečo existujeme.",
+      "p1": "Väčšina agentúr optimalizuje jednu časť lievika — zvyčajne tú, ktorú sa im najľahšie predáva. Reklamy, obsah alebo „stratégia“. Klient dostane výstup, nie funkčný systém.",
+      "p2": "Alpine Marketing vznikol práve preto, aby to zmenil. Pracujeme naprieč celým akvizičným stackom: platená návštevnosť, CRM, automatizácia, follow-up, reaktivácia a reporting — prepojené do jedného motora, ktorý skutočne uzatvára klientov.",
+      "p3": "Sídlime v Zurich a spolupracujeme s firmami v Švajčiarsku, EÚ aj na medzinárodnej úrovni. Hovoríme zrozumiteľne, pracujeme v CHF a EUR a zodpovedáme sa za rovnaké metriky, ktoré vyžadujeme od svojich klientov."
+    },
+    "fullFunnel": {
+      "title": "Čo znamená full-funnel myslenie.",
+      "p1": "Full-funnel nie je len marketingová fráza. Znamená to: zaujíma nás, čo sa s leadom stane potom, čo vyplní formulár. Zaujíma nás rýchlosť reakcie na lead. Zaujíma nás, či CRM lead pestuje, alebo naň zabudne. Zaujíma nás reaktivácia. Zaujíma nás reporting, ktorý prepája výdavky na reklamu s uzavretými obchodmi.",
+      "p2": "To si vyžaduje väčšiu koordináciu než samotné spúšťanie reklám. Ale prináša to zásadne odlišný výsledok: nižší CAC, vyšší LTGP a systém, ktorý rastie namiesto toho, aby stagnoval."
+    },
+    "principlesTitle": "Naše pracovné princípy.",
+    "principles": [
+      {
+        "title": "Merajte to, na čom záleží.",
+        "desc": "CAC a LTGP. Nie kliky. Nie zobrazenia. Nie „povedomie o značke“. Ak sa to nepremietne do zisku, neoptimalizujeme pre to."
+      },
+      {
+        "title": "Systémy nad taktikami.",
+        "desc": "Taktika prinesie výsledok raz. Systém prináša výsledky opakovane a s narastajúcou silou. Budujeme motor, nie jednotlivú kampaň."
+      },
+      {
+        "title": "Úprimní v tom, čo nevieme.",
+        "desc": "Povieme vám, ak je trh príliš konkurenčný, ak vaša ponuka potrebuje úpravu alebo ak je skutočným úzkym hrdlom váš predajný proces. Nie sme tu na to, aby sme vzali váš rozpočet a zmizli."
+      },
+      {
+        "title": "Ochrana súkromia ako základ.",
+        "desc": "Pôsobíme na švajčiarskych, európskych aj amerických trhoch. Architektúra zohľadňujúca súhlas používateľov nie je doplnok — je to spôsob, akým budujeme každý lievik."
+      },
+      {
+        "title": "Operatívci, nie teoretici.",
+        "desc": "Každý systém, ktorý odporúčame, sme sami postavili a prevádzkovali pre skutočných klientov. Nekonsultujeme teóriu. Budujeme a spravujeme prevádzkovú infraštruktúru."
+      }
+    ],
+    "ctaTitle": "Pripravení porozprávať sa?",
+    "ctaDesc": "Rezervujte si bezplatný audit lievika a ukážeme vám presne, čo by sme opravili a v akom poradí — bez akéhokoľvek záväzku z vašej strany.",
+    "ctaButton": "Rezervovať bezplatný audit"
+  },
+  "contactPage": {
+    "eyebrow": "Kontaktujte nás",
+    "title": "Porozprávajme sa o systémoch.",
+    "subtitlePrefix": "Pre všeobecné otázky použite formulár nižšie. Ak máte záujem o štruktúrovaný audit funnela, prejdite na stránku ",
+    "subtitleLink": "Rezervovať audit",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Telefón a lokalita",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Čas odpovede",
+      "responseValue": "Do 1 pracovného dňa",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Meno",
+      "namePh": "Jana Nováková",
+      "email": "Email",
+      "emailPh": "jana@spolocnost.com",
+      "company": "Spoločnosť",
+      "companyPh": "Acme GmbH",
+      "service": "Oblasť záujmu",
+      "serviceDefault": "Vyberte (voliteľné)",
+      "serviceOptions": {
+        "performance": "Performance Marketing",
+        "crm": "CRM + Automatizácia",
+        "reporting": "Reporting & Analytics",
+        "content": "Obsahové funnely",
+        "audit": "Komplexný audit systému"
+      },
+      "message": "Správa",
+      "messagePh": "Popíšte nám vašu situáciu...",
+      "requiredLabel": "Povinné:",
+      "optionalLabel": "Voliteľné:",
+      "privacyPrefix": "Prečítal/-a som si ",
+      "privacyLink": "Zásady ochrany osobných údajov",
+      "privacySuffix": " a súhlasím so spracovaním mojich údajov za účelom odpovede na túto otázku.",
+      "marketingText": "Chcem dostávať e-mailové novinky a postrehy od Alpine Marketing.",
+      "submit": "Odoslať správu",
+      "validation": {
+        "name": "Meno je povinné",
+        "email": "Zadajte platný email",
+        "company": "Názov spoločnosti je povinný",
+        "message": "Správa je povinná",
+        "consent": "Pre pokračovanie musíte súhlasiť"
+      },
+      "toastTitle": "Správa prijatá",
+      "toastDesc": "Ozveme sa vám do 1 pracovného dňa."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Bezplatný audit lievika",
+    "title": "Zistite presne, kde váš systém stráca.",
+    "subtitle": "Počas 30-minútového auditu preskúmame váš akvizičný systém a ukážeme vám medzery — bez akýchkoľvek záväzkov z vašej strany.",
+    "whatYouGetLabel": "Čo získate:",
+    "whatYouGet": [
+      "Prehľad o tom, kde váš súčasný lievik prichádza o leady a tržby",
+      "Úprimnú analýzu toho, ktoré medzery sa oplatí riešiť ako prvé",
+      "Predstavu o tom, ako by mohol vyzerať systematizovaný engine pre váš biznis"
+    ],
+    "whoForLabel": "Pre koho je tento audit:",
+    "whoForBody": "Pre servisné firmy, ktoré generujú leady, ale konvertujú príliš málo. Pre spoločnosti investujúce do reklamy, no bez jasného obrazu o jej výsledkoch. Pre SMB, ktoré sú pripravené budovať systém — nie kupovať ďalšiu taktiku.",
+    "form": {
+      "fullName": "Celé meno",
+      "fullNamePh": "Ján Novák",
+      "workEmail": "Pracovný e-mail",
+      "workEmailPh": "jan@firma.sk",
+      "company": "Spoločnosť",
+      "companyPh": "Acme GmbH",
+      "website": "Webová stránka",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Mesačné leady (približne)",
+      "leadsDefault": "Vyberte...",
+      "leadsOptions": {
+        "lt20": "Menej ako 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Najväčšia výzva v oblasti akvizície",
+      "challengePh": "Napr. Generujeme leady, ale konverzia je nízka a nevieme, kde odchádzajú...",
+      "requiredLabel": "Povinné:",
+      "optionalLabel": "Voliteľné:",
+      "privacyPrefix": "Prečítal/-a som si ",
+      "privacyLink": "Zásady ochrany osobných údajov",
+      "privacySuffix": " a súhlasím s tým, že Alpine Marketing môže spracovávať moje údaje na účely odpovede na moju žiadosť.",
+      "marketingText": "Chcem dostávať marketingové novinky, postrehy a ponuky e-mailom.",
+      "submit": "Požiadať o bezplatný audit",
+      "footer": "Odoslaním tohto formulára sa k ničomu nezaväzujete. Ozveme sa vám do 1 pracovného dňa.",
+      "validation": {
+        "name": "Meno je povinné",
+        "email": "Zadajte platný pracovný e-mail",
+        "company": "Názov spoločnosti je povinný",
+        "website": "Zadajte platnú URL adresu (vrátane https://)",
+        "monthlyLeads": "Prosím, vyberte možnosť",
+        "challenge": "Prosím, opíšte svoju výzvu — aspoň jednou vetou",
+        "consent": "Na pokračovanie je potrebný váš súhlas"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Žiadosť bola prijatá.",
+    "lead": "Prezrieme si vaše údaje a ozveme sa vám do ",
+    "leadBold": "1 pracovného dňa",
+    "leadSuffix": ", aby sme potvrdili termín auditu.",
+    "sub": "Medzitým nie je z vašej strany potrebná žiadna akcia. Odoslaním tohto formulára sa nezaväzujete k žiadnemu nákupu.",
+    "primary": "Pozrieť výsledky klientov",
+    "secondary": "Späť na úvodnú stránku"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Zápisky priamo z masťovne švajčiarskej akvizície zákazníkov.",
+    "subtitle": "Úprimné poznatky o tom, čo funguje, čo zbytočne vypaľuje reklamný rozpočet a aké nástroje nasadzujeme, aby sa z pipeline stal predvídateľný zisk. Žiadne prázdne frázy, žiadna agentúrna hantírka.",
+    "all": "Všetky",
+    "empty": "V tejto kategórii zatiaľ nie sú žiadne články — skúste to neskôr.",
+    "featured": "Odporúčané",
+    "minRead": "min čítania",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Všetky články",
+    "minRead": "min čítania",
+    "ctaEyebrow": "Pripravení utesniť váš lievik?",
+    "ctaTitle": "Získajte bezplatný Pipeline Audit a zistite presne, kde vám unikajú peniaze.",
+    "ctaSub": "30-minútový hovor · žiadna prezentácia · konkrétne riešenia, ktoré môžete uplatniť tento týždeň.",
+    "ctaButton": "Rezervovať bezplatný audit",
+    "related": "Pokračovať v čítaní",
+    "readSuffix": "min čítania"
+  },
+  "cookieConsent": {
+    "heading": "Používame cookies na zlepšenie vášho zážitku.",
+    "bodyPrefix": "Niektoré sú nevyhnutné pre správne fungovanie stránky. Iné — analytické a marketingové cookies — načítavame len s vaším súhlasom. Svoje preferencie môžete kedykoľvek zmeniť prostredníctvom ",
+    "privacyChoices": "Nastavení ochrany súkromia",
+    "between": ". Pozrite si naše ",
+    "cookieNotice": "Oznámenie o cookies",
+    "bodySuffix": " pre podrobnosti.",
+    "acceptAll": "Prijať všetky",
+    "necessaryOnly": "Len nevyhnutné",
+    "customize": "Prispôsobiť",
+    "customizeIntro": "Nevyhnutné cookies sú vždy aktívne. Ostatné môžete prepínať nižšie.",
+    "save": "Uložiť preferencie",
+    "back": "Späť",
+    "closeAria": "Zavrieť a odmietnuť nepodstatné cookies",
+    "customizeAria": "Prispôsobiť nastavenia cookies",
+    "items": {
+      "necessary": {
+        "label": "Nevyhnutné",
+        "desc": "Vyžadované pre správne fungovanie stránky."
+      },
+      "preferences": {
+        "label": "Preferencie",
+        "desc": "Zapamätáva vaše nastavenia a voľby."
+      },
+      "analytics": {
+        "label": "Analytické",
+        "desc": "Pomáhajú nám pochopiť, ako návštevníci stránku používajú. Žiadne údaje sa nezdieľajú pred udelením súhlasu."
+      },
+      "marketing": {
+        "label": "Marketingové",
+        "desc": "Používané na cielenú reklamu. Nikdy sa nenačítavajú bez vášho výslovného súhlasu."
+      }
+    }
+  }
+}

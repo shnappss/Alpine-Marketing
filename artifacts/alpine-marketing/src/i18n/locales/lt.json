@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Rezervuoti nemokamą auditą",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Sužinoti daugiau",
+    "getStarted": "Pradėti",
+    "openMenu": "Atidaryti meniu",
+    "closeMenu": "Uždaryti meniu"
+  },
+  "nav": {
+    "services": "Paslaugos",
+    "caseStudies": "Sėkmės istorijos",
+    "blog": "Tinklaraštis",
+    "about": "Apie mus",
+    "contact": "Kontaktai"
+  },
+  "hero": {
+    "eyebrow": "SMB ir technologijų įmonėms Šveicarijoje",
+    "headlineLead": "Mes kuriame sistemą, kuri paverčia jūsų reklamos išlaidas į ",
+    "headlineHighlight": "Nuspėjamą pelną.",
+    "subheadline": "Alpine Marketing sukuria pilno ciklo klientų pritraukimo variklį — nuo Meta ir „Google Ads“ iki AI valdomo tolesnio kontakto ir sudaryto sandorio — ir suteikia jums valdymo skydelį, rodantį tikrąjį CAC bei viso gyvavimo ciklo bendrąjį pelną.",
+    "subheadlineEmphasis": "Ne paspaudimai. Ne peržiūros. Pelnas.",
+    "primaryCta": "Gaukite nemokamą pardavimų kanalo auditą",
+    "secondaryCta": "Peržiūrėti klientų rezultatus",
+    "cardTitle": "Pardavimų kanalo vizualizatorius — tiesiogiai",
+    "stats": {
+      "cac": "Vid. CAC sumažėjimas",
+      "ratio": "LTGP/CAC santykis",
+      "responseTime": "Atsako į užklausą laikas",
+      "clients": "Šveicarijos klientai"
+    }
+  },
+  "problem": {
+    "eyebrow": "Pagrindinė problema",
+    "title": "Jūsų rinkodara nėra sugedusi. Sugedusi jūsų sistema.",
+    "subtitle": "Dauguma agentūrų parduoda jums paspaudimus ir peržiūras. Tačiau jei jūsų pardavimų kanalas „prateka“ kiekviename etape — lėti atsakymai, jokio tolesnio kontakto, jokio reaktyvavimo — daugiau srauto reiškia tik daugiau išeikvotų lėšų.",
+    "cards": {
+      "speed": {
+        "title": "Greičio spraga",
+        "desc": "Su potencialiais klientais, į kuriuos kreipiamasi po 5 minučių, konversija 21× mažiau tikėtina. Vidutinis MVĮ atsakymo laikas? Daugiau nei 2 valandos. Kiekviena delsimo minutė — tai išgaruojantys pinigai."
+      },
+      "followup": {
+        "title": "Tolesinio kontakto juodoji skylė",
+        "desc": "potencialių klientų niekada nesulaukia antrojo kontakto. Jokios puoselėjimo sekos, jokių SMS, jokio reaktyvavimo. Jie išreiškė susidomėjimą — ir negavo jokio atsakymo."
+      },
+      "metrics": {
+        "title": "Metrikų miražas",
+        "valueLabel": "Matomumas",
+        "desc": "Dauguma MVĮ stebi paspaudimus ar „sugeneruotus potencialius klientus“ — tačiau negali atsakyti: kiek iš tikrųjų kainuoja kiekvienas klientas ir koks jo visą gyvenimą uždirbtas grynasis pelnas? Be CAC ir LTGP skrendate akli."
+      }
+    },
+    "leakPoints": [
+      "Lėtas atsakymas",
+      "Nėra puoselėjimo",
+      "Nėra reaktyvavimo",
+      "Nėra sekimo",
+      "Prarastos pajamos"
+    ]
+  },
+  "system": {
+    "eyebrow": "„Alpine“ metodas",
+    "title": "Mes nesprendžiame vienos problemos. Mes sisteminome viską.",
+    "subtitle": "Šeši žingsniai. Vienas variklis. Kiekvienas potencialus klientas stebimas nuo pirmojo paspaudimo iki sudaryto sandorio.",
+    "disclaimer": "Rezultatai skiriasi priklausomai nuo rinkos, pasiūlymo, biudžeto ir pardavimų proceso. Skaičiai pagrįsti realiais darbais su klientais.",
+    "steps": {
+      "attract": {
+        "title": "Pritraukimas",
+        "desc": "Tikslinės reklamos „Meta“, „Google“ ir LinkedIn platformose. Nukreipimo puslapiai sukurti konversijai, o ne demonstracijai."
+      },
+      "capture": {
+        "title": "Fiksavimas",
+        "desc": "Kiekvienas potencialus klientas, kiekvienas šaltinis — viename CRM. Jokie kontaktai neprarandami, pilna atributika nuo pirmojo paspaudimo."
+      },
+      "route": {
+        "title": "Nukreipimas ir vertinimas",
+        "desc": "Potencialūs klientai automatiškai įvertinami ir per kelias sekundes — ne valandas — nukreipiami į tinkamą darbo eigą."
+      },
+      "engage": {
+        "title": "Įsitraukimas per <60s",
+        "desc": "Claude AI atsako 24/7, kvalifikuoja potencialų klientą ir perduoda jį toliau tik tada, kai šis yra pasiruošęs."
+      },
+      "nurture": {
+        "title": "Puoselėjimas ir reaktyvavimas",
+        "desc": "Automatizuotos sekos el. paštu, SMS ir „WhatsApp“. Neaktyvūs potencialūs klientai nenukeliauja į šiukšliadėžę."
+      },
+      "measure": {
+        "title": "Matavimas ir tobulinimas",
+        "desc": "Realaus laiko informacinės suvestinės. CAC, LTGP, pardavimų proceso greitis — tik tie rodikliai, kurie lemia pelną."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Variklis Po Gaubtu",
+    "title": "Trys Įrankiai. Jokių Rankinių Perdavimų. Viena Vieninga Sistema.",
+    "footer": "Rezultatas? Sistema, kuri dirba kol jūs miegote, plečiasi be naujų darbuotojų ir tampa protingesnė su kiekvienu apdorojamu leadu.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agentai",
+        "role": "SMEGENYS",
+        "desc": "Intelektuali leadų kvalifikacija ir realaus laiko ketinimų analizė. Claude perskaito kiekvieną gaunamą leadą, įvertina skubumą, nustato geriausią atsakymą ir sugeneruoja personalizuotas, žmogiškas žinutes — visa tai dar prieš jūsų komandai užbaigiant rytinę kavą."
+      },
+      "n8n": {
+        "name": "n8n Darbo Eigos Automatizavimas",
+        "role": "NERVŲ SISTEMA",
+        "desc": "Jungiamasis audinys, kuris sujungia jūsų skelbimus, CRM, kalendorių ir ataskaitas į vieną automatizuotą srautą. Pasirinktinės darbo eigos suaktyvinamos akimirksniu pagal leado elgseną — jokių papildomų mokesčių, jokių laikinų sprendimų."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "KOMANDŲ CENTRAS",
+        "desc": "Pardavimų įvamzdžio valdymas, automatizuotos sekos, susitikimų rezervavimas ir daugiakanalė komunikacija (SMS / El. paštas / WhatsApp) — visa tai vienoje platformoje, kurią jūsų komanda iš tikrųjų naudoja."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Ką mes iš tikrųjų matuojame",
+    "title": "Užmirškite tuščias metrikas. Štai kas lemia augimą.",
+    "subtitle": "Kiekvienas Alpine klientas gauna realaus laiko prietaisų skydelį, kuriame stebimi skaičiai, iš tikrųjų lemiantys pelningą augimą.",
+    "items": {
+      "cac": {
+        "title": "CAC sumažinimas",
+        "desc": "Vidutinis sumažinimas tarp klientų per pirmąsias 90 dienų"
+      },
+      "ltgp": {
+        "title": "LTGP gerinimas",
+        "desc": "Vidutinis pagerėjimas optimizuojant visą pardavimo piltuvėlį"
+      },
+      "speed": {
+        "title": "Greitis iki potencialaus kliento",
+        "desc": "Vidutinis pirmojo atsako laikas, kai veikia mūsų AI sistema"
+      },
+      "recovery": {
+        "title": "Pardavimų srauto atkūrimas",
+        "desc": "Neaktyvūs potencialūs klientai reaktyvuoti automatizuotomis kampanijomis"
+      },
+      "cycle": {
+        "title": "Pardavimo ciklas",
+        "desc": "Greitesnis kelias nuo pirmojo kontakto iki sudaryto sandorio"
+      },
+      "ratio": {
+        "title": "LTGP/CAC santykis",
+        "desc": "Įrodytas odontologijos, IKT ir profesinių paslaugų sektoriuose"
+      }
+    },
+    "callout": {
+      "label": "Kodėl LTGP, o ne tik LTV?",
+      "lead": "LTV yra pajamos. Pajamos nėra pelnas.",
+      "ltgpName": "LTGP (Lifetime Gross Profit)",
+      "body": "atskaičiuoja jūsų paslaugų teikimo sąnaudas ir parodo tikrąją maržą kiekvienam klientui — o tai reiškia, kad tai vienintelis skaičius, galintis pasakyti, ar jūsų reklamos išlaidos daro jus turtingesniu, ar tiesiog užimtesniu. Kiekvieną kampaniją kuriame remdamiesi šiuo skaičiumi."
+    },
+    "disclaimer": "Tai išmatuoti rezultatai iš aktyvių klientų prietaisų skydelių, o ne prognozės."
+  },
+  "cases": {
+    "eyebrow": "Įrodyti rezultatai",
+    "title": "Tikri skaičiai. Tikri klientai. Tikras pelnas.",
+    "challenge": "Iššūkis",
+    "approach": "Metodas",
+    "timeline": "Trukmė",
+    "results": "Rezultatai",
+    "dental": {
+      "badge": "Sveikatos priežiūra / Odontologija",
+      "title": "Ciuricho odontologijos klinika",
+      "challenge": "Padidinti pacientų srautą išlaikant tvarią įsigijimo kainą.",
+      "approach": "Meta Ads kontaktų rinkimas → Claude AI atranka → GHL puoselėjimo sekos + neaktyvių pacientų reaktyvacija.",
+      "timeline": "3 mėnesiai",
+      "results": [
+        "166 potencialūs klientai",
+        "41 pacientas (24,7 % konversija)",
+        "CAC ↓29 % (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (buvęs 1,9:1)"
+      ],
+      "insight": "51 % iš Meta Ads · 49 % iš AI reaktyvacijos — beveik pusė pacientų atsirado iš kontaktų, kuriais klinika jau buvo nustojusi tikėti."
+    },
+    "ict": {
+      "badge": "B2B technologijos",
+      "title": "Šveicarijos ICT įmonė",
+      "challenge": "Paspartinti įmonių programinės įrangos pardavimus ir sutrumpinti ilgus pardavimo ciklus.",
+      "approach": "LinkedIn ir el. pašto kampanijos → Claude AI kvalifikacija → n8n automatizacija → GHL pardavimų proceso valdymas.",
+      "timeline": "12 mėnesių",
+      "results": [
+        "312 kvalifikuotų potencialių klientų",
+        "67 pardavimų susitikimai (21,5 % rodiklis)",
+        "Pardavimų ciklas ↓38 % (45→28 dienos)",
+        "CAC ↓35 % (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (buvęs 2,1:1)",
+        "CHF 487K pajamų poveikis"
+      ],
+      "insight": "Automatizuota kvalifikacija per mėnesį sutaupė 80 valandų rankinio pardavimų apdorojimo — pardavėjai galėjo sutelkti dėmesį tik į pirkti pasiruošusius potencialius klientus."
+    }
+  },
+  "comparison": {
+    "title": "Kas keičiasi, kai sistemizuojate procesus",
+    "engineLabel": "Alpine AI variklis",
+    "manualLabel": "Rankinis pardavimų procesas",
+    "rows": [
+      {
+        "label": "Atsako laikas",
+        "ai": "Iki 60 sekundžių, 24/7",
+        "manual": "Kai įmanoma — dažnai po kelių valandų"
+      },
+      {
+        "label": "Potencialių klientų kvalifikacija",
+        "ai": "AI įvertinta, nuosekli, kiekvienam klientui",
+        "manual": "Subjektyvi, priklauso nuo vadybininko"
+      },
+      {
+        "label": "Mastelio keitimas",
+        "ai": "Didinkite apimtis nemokydami naujų darbuotojų",
+        "manual": "Kiekvienas naujas klientas — dar vienas samdymas"
+      },
+      {
+        "label": "Ataskaitos",
+        "ai": "Realaus laiko CAC, LTGP, pardavimų srautas",
+        "manual": "Skaičiuoklės atnaujinamos, kai kas nors prisimena"
+      },
+      {
+        "label": "Neaktyvūs potencialūs klientai",
+        "ai": "Automatiškai reaktyvuojami per kampanijas",
+        "manual": "Užmiršti CRM kapinynuose"
+      },
+      {
+        "label": "Pardavimų ciklas",
+        "ai": "30–40 % trumpesnis dėl automatizavimo",
+        "manual": "Priklauso nuo to, kas tą savaitę parduoda"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Kodėl Alpine",
+    "title": "Kodėl rinktis Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Visas kanalas, ne fragmentai",
+        "desc": "Dauguma agentūrų optimizuoja vieną kanalą. Mes sistemizuojame visą jūsų klientų įsigijimo mechanizmą — nuo pirmojo įspūdžio iki viso gyvenimo pelno."
+      },
+      {
+        "title": "Rodikliai, kurie iš tikrųjų svarbūs",
+        "desc": "Mes sekame CAC ir LTGP, o ne paspaudimus. Jūs visada žinosite, kiek kainuoja kliento įsigijimas ir kokią pelno vertę jis atneša."
+      },
+      {
+        "title": "AI pirmiausia, žmogus vadovauja",
+        "desc": "Claude AI tvarko atranką, kvalifikavimą ir atsakymus. Jūsų komanda rūpinasi santykiais ir sandorių užbaigimu."
+      },
+      {
+        "title": "Šveicariškas tikslumas, startuolio greitis",
+        "desc": "GDPR atitinkanti infrastruktūra, skaidrios ataskaitos, stebėjimas realiuoju laiku — visa tai teikiama nedelsiant."
+      },
+      {
+        "title": "Automatizavimas, kuris kaupiasi",
+        "desc": "Kiekvienas potencialus klientas daro sistemą išmanesnę. A/B testuotos sekos ir nuolatinis optimizavimas laikui bėgant mažina jūsų CAC."
+      },
+      {
+        "title": "Įrodyta, ne pažadėta",
+        "desc": "3,4:1–4,2:1 LTGP/CAC santykiai odontologijos, IKT ir profesionalių paslaugų sektoriuose. Valdymo skydelis, o ne pardavimų prezentacija."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Komanda",
+    "title": "Praktikai, Ne Teoretikai.",
+    "subtitle": "Kiekvienas mūsų komandos narys kuria ir valdo sistemas, kurias parduodame. Jokių klientų vadybininkų, skaitančių scenarijus — tik specialistai, diegę automatizavimą dešimtims SMB įmonių.",
+    "roles": {
+      "founder": "Įkūrėjas",
+      "performance": "Efektyvumo Rinkodara",
+      "engineering": "Inžinerija",
+      "content": "Turinys",
+      "creative": "Kūryba",
+      "motion": "Animacija"
+    },
+    "specialties": {
+      "founder": "CRM Piltuvėliai ir Automatizavimo Strategija",
+      "performance": "„Google“ ir „Meta“ Skelbimai",
+      "engineering": "Svetainių Kūrimas ir Automatizavimas",
+      "content": "SEO ir Konvertuojantys Tekstai",
+      "creative": "Foto ir Vaizdo Gamyba",
+      "motion": "Vaizdo Montažas ir Judesio Dizainas"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Dažni klausimai — tiesūs atsakymai.",
+    "items": [
+      {
+        "q": "Ar jūs tik valdote reklamą?",
+        "a": "Ne. Reklama — tai tik vienas sistemos elementas. Mes kuriame visą klientų pritraukimo variklį — mokamą srautą, nukreipimo puslapius, CRM sąranką, potencialių klientų maršrutizavimą, AI sekamąjį ryšį, puoselėjimo sekas, reaktyvacijos kampanijas ir ataskaitų teikimą. Jei jūsų piltuvėlis „prateka“ sekamojo ryšio stadijoje, didinant reklamos biudžetą tik padidėja nuostoliai."
+      },
+      {
+        "q": "Ar galite dirbti su mūsų esamu CRM?",
+        "a": "Tai priklauso nuo platformos. Mes natively dirbame su GoHighLevel ir galime prisijungti prie daugumos CRM sistemų per API arba n8n automatizavimą. Jei jūsų CRM palaiko webhooks arba turi API — galime jį integruoti. Jei ne — pasakysime atvirai ir paaiškinsime galimas alternatyvas."
+      },
+      {
+        "q": "Ar padedote su automatizavimu ir potencialių klientų sekimu?",
+        "a": "Tai ir yra mūsų veiklos pagrindas. Greitas atsakas potencialiam klientui — vienas iš didžiausią ROI duodančių sprendimų. Mūsų Claude AI agentai atsako per 60 sekundžių, kvalifikuoja potencialų klientą ir nukreipia jį tinkama kryptimi — 24/7, įskaitant savaitgalius. Jūsų komanda dirba tik su tikrai paruoštais klientais."
+      },
+      {
+        "q": "Kokiose rinkose dirbate?",
+        "a": "Pagrindinė mūsų patirtis — Šveicarija, ES ir tarpvalstybinės Europos rinkos. Esame dirbę su odontologijos klinikomis, ICT įmonėmis, profesionalių paslaugų firmomis ir vietinio verslo įmonėmis. Mes nepriimame kiekvieno kliento — auditinio pokalbio metu atvirai pasakysime, jei nesame tinkamiausias partneris."
+      },
+      {
+        "q": "Kaip tvarkote privatumą ir stebėjimą rinkose be trečiųjų šalių slapukų?",
+        "a": "Mes kuriame sutikimą atitinkančią infrastruktūrą nuo pat pradžių. Tai reiškia tinkamą slapukų sutikimo valdymą, pirmosios šalies duomenų strategijas, GDPR atitinkančius formų srautus ir CRM stebėjimą, kuris nepriklauso nuo trečiųjų šalių slapukų. Stebėjimo skriptų prieš gavus sutikimą neįkeliame. Tamsių šablonų nenaudojame."
+      },
+      {
+        "q": "Kas vyksta nemokamo piltuvėlio audito metu?",
+        "a": "Mes peržiūrime jūsų esamą klientų pritraukimo sąranką — srauto šaltinius, nukreipimo puslapius, CRM struktūrą, sekamojo ryšio sekas ir ataskaitas. Nustatome, kurioje vietoje prarandami potencialūs klientai, ir įvertiname, kiek kiekvienos „nutekėjimo“ vietos pašalinimas būtų vertas pajamomis. Gausite aiškų sistemos spragų vaizdą dar prieš aptariant galimą bendradarbiavimą."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Pasiruošę sutvarkyti sistemą?",
+    "title": "Liaukitės mokėję už nesandarų piltuvėlį.",
+    "subtitle": "Užsisakykite nemokamą auditą ir sužinokite, kur jūsų klientų įsigijimo sistema praranda srautą, ką taisyti pirmiausia ir kokie rodikliai iš tiesų svarbūs.",
+    "primary": "Užsisakyti nemokamą auditą",
+    "secondary": "Peržiūrėti mūsų paslaugas",
+    "disclaimer": "Jokių įsipareigojimų. Rezultatai skiriasi priklausomai nuo rinkos, pasiūlymo, biudžeto ir pardavimų proceso."
+  },
+  "footer": {
+    "tagline": "Sistemizuotas klientų pritraukimas Šveicarijos ir Europos SMB įmonėms. Mažesnis CAC, stipresni pardavimų kanalai, aiškesnė atskaitomybė.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Paslaugos",
+      "company": "Įmonė",
+      "legal": "Teisinė informacija ir privatumas"
+    },
+    "services": {
+      "performance": "Rezultatais grįstas marketingas",
+      "crm": "CRM + automatizavimas",
+      "reporting": "Ataskaitų teikimas ir analizė",
+      "audit": "Viso pardavimo kanalo auditas"
+    },
+    "legal": {
+      "privacy": "Privatumo pranešimas",
+      "cookies": "Slapukų pranešimas",
+      "terms": "Naudojimo sąlygos",
+      "disclaimer": "Atsakomybės apribojimas",
+      "accessibility": "Prieinamumas",
+      "privacyChoices": "Privatumo pasirinkimai",
+      "dataRequests": "Duomenų užklausos",
+      "security": "Saugumas ir duomenų tvarkymas",
+      "notice": "Teisinis pranešimas"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Visos teisės saugomos. Zurich, Switzerland.",
+    "performanceDisclaimer": "Šioje svetainėje rodomi rezultatai gauti iš realių bendradarbiavimų su klientais ir nėra būsimų rezultatų garantija. Rodikliai skiriasi priklausomai nuo rinkos, pasiūlymo, biudžeto, pardavimo proceso ir kitų veiksnių, nepriklausančių nuo Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Kalba",
+    "priority": "Pagrindinės kalbos",
+    "other": "Kitos ES kalbos"
+  },
+  "servicesPage": {
+    "eyebrow": "Ką Mes Darome",
+    "title": "Paslaugos, Grįstos Sistemomis, o Ne Kanalais.",
+    "subtitle": "Mes neparduodame atskirų taktikų. Mes kuriame ir valdome klientų pritraukimo sistemas — nuo mokamo srauto iki uždaryto kliento, stebimos kiekviename etape.",
+    "cta": "Užsisakyti Nemokamą Piltuvo Auditą",
+    "learnMore": "Sužinoti daugiau",
+    "items": {
+      "performance": {
+        "title": "Efektyvumo Rinkodara",
+        "desc": "Mokamas srautas per „Meta“, „Google“ ir „LinkedIn“ — sukurtas generuoti kokybiškus potencialius klientus, o ne vien parodymų skaičių. Kiekviena kampanija sujungta su jūsų CRM, kad galėtume stebėti įsigijimo kainą realiuoju laiku.",
+        "outcomes": [
+          "Mažesnis CAC per 90 dienų",
+          "Atribucija nuo paspaudimo iki uždaryto sandorio",
+          "Auditorijų taikymas, pagrįstas realiais pirkimo duomenimis"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatizavimas",
+        "desc": "GoHighLevel diegimas, darbo eigos architektūra, AI potencialių klientų kvalifikavimas ir automatizuotos tolesnių veiksmų sekos. Jūsų pardavimų vamzdynas veikia net tada, kai miegate — ir kiekvienas kontaktinis taškas yra stebimas.",
+        "outcomes": [
+          "Pirmasis atsakymas per <60 sek. naudojant Claude AI",
+          "Automatizuotas potencialių klientų nukreipimas ir vertinimas",
+          "Neaktyvių potencialių klientų reaktyvavimo kampanijos"
+        ]
+      },
+      "reporting": {
+        "title": "Ataskaitos ir Analizė",
+        "desc": "Realiojo laiko suvestinės, rodančios CAC, LTGP, konversijų rodiklius, reakcijos greitį ir pardavimų vamzdyno spartą. Teikiame ataskaitas apie tai, kas lemia pelną, o ne apie tai, kas gražiai atrodo skaidrėse.",
+        "outcomes": [
+          "Individualiai pritaikytos KPI suvestinės",
+          "CAC ir LTGP stebėjimas",
+          "Savaitinės veiklos efektyvumo apžvalgos"
+        ]
+      },
+      "content": {
+        "title": "Turinio Piltuvai",
+        "desc": "SEO grįstas turinys, konversijai optimizuoti nukreipimo puslapiai ir puoselėjimo sekos, kurios veda potencialius klientus per piltuvą — o ne tik pritraukia paspaudimus.",
+        "outcomes": [
+          "Konversijai skirti nukreipimo puslapiai",
+          "Daugiapakopės el. pašto ir SMS sekos",
+          "SEO turinys, suderintas su pirkimo intencija"
+        ]
+      },
+      "funnel": {
+        "title": "Piltuvo Strategija",
+        "desc": "Prieš ką nors kurdami, audituojame jūsų esamą sistemą — srauto šaltinius, CRM struktūrą, tolesnių veiksmų spragas, ataskaitų akląsias zonas. Tada sudarome veiksmų planą, kuriame pirmenybė teikiama pajamų augimui.",
+        "outcomes": [
+          "Nemokamas piltuvo auditas",
+          "Spragų analizė su pajamų poveikio vertinimais",
+          "Prioritetinis 90 dienų sprinto planas"
+        ]
+      },
+      "landing": {
+        "title": "Nukreipimo Puslapiai",
+        "desc": "Didelio konversijos rodiklio, mobiliesiems įrenginiams pritaikyti nukreipimo puslapiai, sukurti klientams pritraukti — o ne dizaino apdovanojimams laimėti. Testuojami A/B metodu, sujungti su CRM ir optimizuoti greičiui.",
+        "outcomes": [
+          "CRM integruota formų logika",
+          "Paruošta A/B testavimui",
+          "Sukurta greičiui ir konversijai"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Apie Alpine Marketing",
+    "title": "Komercinė mąstysena. Sisteminis požiūris. Jokių tuščių metrikų.",
+    "subtitle": "Alpine Marketing gimė iš paprastos įžvalgos: dauguma SMB įmonių neturi potencialių klientų trūkumo problemos. Jų problema — sistema. Potencialūs klientai ateina ir dingsta — dėl lėto reagavimo, nesujungtų CRM ir ataskaitų, kurios rodo veiklą, bet ne pelną.",
+    "why": {
+      "title": "Kodėl mes egzistuojame.",
+      "p1": "Dauguma agentūrų optimizuoja vieną piltuvėlio dalį — dažniausiai tą, kurią patogiausia parduoti. Reklamos, turinys arba „strategija“. Klientas gauna rezultatą, bet ne veikiančią sistemą.",
+      "p2": "Alpine Marketing buvo įkurta tam, kad tai pakeistų. Dirbame per visą klientų pritraukimo grandinę: mokama reklama, CRM, automatizavimas, tolimesnis bendravimas, reaktyvavimas ir ataskaitų teikimas — visa tai sujungta į vieną variklį, kuris iš tiesų uždaro sandorius.",
+      "p3": "Esame įsikūrę Zurich ir dirbame su įmonėmis Šveicarijoje, ES ir tarptautiniu mastu. Kalbame aiškiai, dirbame CHF ir EUR valiutomis ir laikome save atsakingais už tas pačias metrikas, kurių reikalaujame iš savo klientų."
+    },
+    "fullFunnel": {
+      "title": "Ką reiškia visapusiškas piltuvėlio mąstymas.",
+      "p1": "Visapusiškas piltuvėlis — tai ne rinkodaros frazė. Tai reiškia: mums rūpi, kas nutinka potencialiam klientui po to, kai jis užpildo formą. Mums rūpi reagavimo greitis. Mums rūpi, ar CRM puoselėja ryšį, ar pamiršta klientą. Mums rūpi reaktyvavimas. Mums rūpi ataskaitos, kurios susieja reklamos išlaidas su uždarytomis pajamomis.",
+      "p2": "Tam reikia daugiau koordinavimo nei vien reklamos paleidimo. Tačiau tai duoda iš esmės kitokį rezultatą: mažesnį CAC, aukštesnį LTGP ir sistemą, kuri kaupiasi, o ne sustoja."
+    },
+    "principlesTitle": "Veiklos principai.",
+    "principles": [
+      {
+        "title": "Matuokite tai, kas svarbu.",
+        "desc": "CAC ir LTGP. Ne paspaudimai. Ne rodymai. Ne „žinomumas“. Jei tai nesusieta su pelnu, mes to neoptimizuojame."
+      },
+      {
+        "title": "Sistemos, o ne taktikos.",
+        "desc": "Taktika duoda rezultatą vieną kartą. Sistema duoda rezultatus nuolat ir kaupiamai. Mes kuriame variklį, o ne atskiras kampanijas."
+      },
+      {
+        "title": "Sąžiningumas apie tai, ko nežinome.",
+        "desc": "Mes jums pasakysime, jei rinka per daug konkurencinga, jei jūsų pasiūlymas reikalauja tobulinimo arba jei jūsų pardavimo procesas yra tikroji kliūtis. Mes čia ne tam, kad pasiimtume jūsų biudžetą ir dingstume."
+      },
+      {
+        "title": "Privatumas — pagal nutylėjimą.",
+        "desc": "Dirbame Šveicarijos, ES ir JAV rinkose. Sutikimo valdymu grįsta architektūra nėra antraeilė mintis — tai yra tai, kaip mes kuriame kiekvieną piltuvėlį."
+      },
+      {
+        "title": "Praktikai, o ne teoretikai.",
+        "desc": "Kiekvieną sistemą, kurią rekomenduojame, esame sukūrę ir valdę realiems klientams. Mes nekonsultuojame teoriškai. Mes kuriame ir valdome operacinę infrastruktūrą."
+      }
+    ],
+    "ctaTitle": "Pasiruošę kalbėtis?",
+    "ctaDesc": "Užsisakykite nemokamą piltuvėlio auditą ir mes tiksliai parodysime, ką pataisytume ir kokia tvarka — dar prieš tai, kai įsipareigojate.",
+    "ctaButton": "Užsisakyti nemokamą auditą"
+  },
+  "contactPage": {
+    "eyebrow": "Susisiekite",
+    "title": "Pakalbėkime apie sistemas.",
+    "subtitlePrefix": "Bendriems klausimams naudokite žemiau esančią formą. Jei norite struktūrizuoto pardavimo piltuvėlio audito, naudokite ",
+    "subtitleLink": "Audito užsakymo",
+    "subtitleSuffix": " puslapį.",
+    "info": {
+      "emailLabel": "El. paštas",
+      "phoneLabel": "Telefonas ir vieta",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Atsakymo laikas",
+      "responseValue": "Per 1 darbo dieną",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Vardas",
+      "namePh": "Jane Smith",
+      "email": "El. paštas",
+      "emailPh": "jane@company.com",
+      "company": "Įmonė",
+      "companyPh": "Acme GmbH",
+      "service": "Domina paslauga",
+      "serviceDefault": "Pasirinkti (neprivaloma)",
+      "serviceOptions": {
+        "performance": "Efektyvumo rinkodara",
+        "crm": "CRM + Automatizavimas",
+        "reporting": "Ataskaitų teikimas ir analizė",
+        "content": "Turinio piltuvėliai",
+        "audit": "Visos sistemos auditas"
+      },
+      "message": "Žinutė",
+      "messagePh": "Papasakokite apie savo situaciją...",
+      "requiredLabel": "Privaloma:",
+      "optionalLabel": "Neprivaloma:",
+      "privacyPrefix": "Perskaičiau ",
+      "privacyLink": "Privatumo pranešimą",
+      "privacySuffix": " ir sutinku, kad mano informacija būtų tvarkoma siekiant atsakyti į šį užklausą.",
+      "marketingText": "Norėčiau gauti el. paštu Alpine Marketing naujienas ir įžvalgas.",
+      "submit": "Siųsti žinutę",
+      "validation": {
+        "name": "Vardas yra privalomas",
+        "email": "Reikalingas galiojantis el. pašto adresas",
+        "company": "Įmonės pavadinimas yra privalomas",
+        "message": "Žinutė yra privaloma",
+        "consent": "Norėdami tęsti, turite sutikti"
+      },
+      "toastTitle": "Žinutė gauta",
+      "toastDesc": "Susisieksime su jumis per 1 darbo dieną."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Nemokamas piltuvo auditas",
+    "title": "Sužinokite tiksliai, kur jūsų sistema „prateka“.",
+    "subtitle": "Per 30 minučių audito pokalbį peržiūrėsime jūsų klientų pritraukimo sistemą ir parodysime trūkumus — nieko nereikalaudami mainais.",
+    "whatYouGetLabel": "Ką gausite:",
+    "whatYouGet": [
+      "Žemėlapį, kuriame jūsų dabartinis piltuvas praranda potencialius klientus ir pajamas",
+      "Sąžiningą vertinimą, kuriuos trūkumus verta pašalinti pirmiausia",
+      "Aiškų vaizdą, kaip atrodytų sisteminga rinkodaros mašina jūsų verslui"
+    ],
+    "whoForLabel": "Kam tai skirta:",
+    "whoForBody": "Paslaugų verslams, kurie pritraukia potencialių klientų, tačiau konvertuoja per mažai. Įmonėms, investuojančioms į reklamą, bet nesuprantančioms, kas iš tikrųjų veikia. SMB, pasiruošusiems kurti sistemą, o ne pirkti dar vieną taktiką.",
+    "form": {
+      "fullName": "Vardas ir pavardė",
+      "fullNamePh": "Jonas Jonaitis",
+      "workEmail": "Darbo el. paštas",
+      "workEmailPh": "jonas@imone.lt",
+      "company": "Įmonė",
+      "companyPh": "Acme GmbH",
+      "website": "Svetainė",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Mėnesiniai potencialūs klientai (apytiksliai)",
+      "leadsDefault": "Pasirinkite...",
+      "leadsOptions": {
+        "lt20": "Mažiau nei 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Didžiausia klientų pritraukimo problema",
+      "challengePh": "Pvz. Generuojame potencialius klientus, tačiau konversija žema ir nežinome, kur jie išnyksta...",
+      "requiredLabel": "Privaloma:",
+      "optionalLabel": "Neprivaloma:",
+      "privacyPrefix": "Perskaičiau ",
+      "privacyLink": "privatumo pranešimą",
+      "privacySuffix": " ir sutinku, kad Alpine Marketing tvarkytų mano informaciją mano užklausai atsakyti.",
+      "marketingText": "Norėčiau gauti rinkodaros naujienas, įžvalgas ir pasiūlymus el. paštu.",
+      "submit": "Gauti nemokamą auditą",
+      "footer": "Pateikę šią formą, jūs neįsipareigojate pirkti. Susisieksime su jumis per 1 darbo dieną.",
+      "validation": {
+        "name": "Vardas yra privalomas",
+        "email": "Būtinas galiojantis darbo el. pašto adresas",
+        "company": "Įmonės pavadinimas yra privalomas",
+        "website": "Įveskite galiojantį URL (įtraukite https://)",
+        "monthlyLeads": "Pasirinkite vieną iš variantų",
+        "challenge": "Aprašykite savo problemą — bent vienu sakiniu",
+        "consent": "Norėdami tęsti, turite sutikti"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Užklausa gauta.",
+    "lead": "Peržiūrėsime jūsų informaciją ir susisieksime per ",
+    "leadBold": "1 darbo dieną",
+    "leadSuffix": ", kad patvirtintume audito laiką.",
+    "sub": "Tuo tarpu jums nieko daryti nereikia. Ši užklausa neįpareigoja jūsų nieko pirkti.",
+    "primary": "Peržiūrėti klientų rezultatus",
+    "secondary": "Grįžti į pradžią"
+  },
+  "blogIndex": {
+    "docTitle": "Įžvalgos ir vadovai — Alpine Marketing",
+    "eyebrow": "Įžvalgos ir vadovai",
+    "title": "Lauko užrašai iš Šveicarijos klientų pritraukimo variklinės.",
+    "subtitle": "Sąžiningi apžvalgos apie tai, kas veikia, kas eikvoja reklamos biudžetą, ir įrankiai, kuriuos naudojame, kad pardavimų srautai virstų nuspėjamu pelnu. Jokio pūko, jokio agentūrinio žargono.",
+    "all": "Visi",
+    "empty": "Šioje kategorijoje straipsnių dar nėra — grįžkite netrukus.",
+    "featured": "Rekomenduojama",
+    "minRead": "min skaityti",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Visi straipsniai",
+    "minRead": "min skaitymo",
+    "ctaEyebrow": "Pasiruošę užtaisyti savo piltuvėlį?",
+    "ctaTitle": "Gaukite nemokamą „Pipeline“ auditą ir sužinokite, kur tiksliai nuteka jūsų pinigai.",
+    "ctaSub": "30 minučių skambutis · jokių pristatymų · konkretūs sprendimai, kuriuos galite pritaikyti šią savaitę.",
+    "ctaButton": "Užsisakyti nemokamą auditą",
+    "related": "Skaitykite toliau",
+    "readSuffix": "min skaitymo"
+  },
+  "cookieConsent": {
+    "heading": "Mes naudojame slapukus, kad pagerintume jūsų patirtį.",
+    "bodyPrefix": "Vieni yra būtini svetainės veikimui. Kiti — analitikos ir rinkodaros slapukai — įkeliami tik gavus jūsų sutikimą. Savo nuostatas galite keisti bet kuriuo metu per ",
+    "privacyChoices": "Privatumo pasirinkimai",
+    "between": ". Žiūrėkite mūsų ",
+    "cookieNotice": "Slapukų pranešimą",
+    "bodySuffix": " išsamesnei informacijai.",
+    "acceptAll": "Priimti visus",
+    "necessaryOnly": "Tik būtinieji",
+    "customize": "Tinkinti",
+    "customizeIntro": "Būtinieji slapukai visada yra aktyvūs. Kitus galite įjungti arba išjungti žemiau.",
+    "save": "Išsaugoti nuostatas",
+    "back": "Atgal",
+    "closeAria": "Uždaryti ir atmesti nebūtinuosius slapukus",
+    "customizeAria": "Tinkinti slapukų nuostatas",
+    "items": {
+      "necessary": {
+        "label": "Būtinieji",
+        "desc": "Reikalingi tinkamam svetainės veikimui."
+      },
+      "preferences": {
+        "label": "Nuostatos",
+        "desc": "Įsimena jūsų nustatymus ir pasirinkimus."
+      },
+      "analytics": {
+        "label": "Analitika",
+        "desc": "Padeda mums suprasti, kaip lankytojai naudojasi svetaine. Jokie duomenys neperduodami be jūsų sutikimo."
+      },
+      "marketing": {
+        "label": "Rinkodara",
+        "desc": "Naudojama tikslinei reklamai. Niekada neįkeliama be jūsų aiškaus sutikimo."
+      }
+    }
+  }
+}

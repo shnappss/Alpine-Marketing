@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Áirigh Iniúchadh Saor in Aisce",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Foghlaim Tuilleadh",
+    "getStarted": "Tosaigh Anois",
+    "openMenu": "Oscail an roghchlár",
+    "closeMenu": "Dún an roghchlár"
+  },
+  "nav": {
+    "services": "Seirbhísí",
+    "caseStudies": "Cásanna Staidéir",
+    "blog": "Blag",
+    "about": "Fúinn",
+    "contact": "Teagmháil"
+  },
+  "hero": {
+    "eyebrow": "Do SMBanna & Cuideachtaí Teicneolaíochta san Eilvéis",
+    "headlineLead": "Tógaimid an Meaisín a Iompaíonn do Chaiteachas Fógraíochta ina ",
+    "headlineHighlight": "Brabús Intuartha.",
+    "subheadline": "Tógann Alpine Marketing inneall sealbhaithe lánchainéil — ó Meta & Google Ads go leantóireacht faoi chumhacht AI go déileáil dúnta — agus tugann sé duit deais a thaispeánann do CAC fíor agus do Bhrabús Comhlán Saoil.",
+    "subheadlineEmphasis": "Ní cliclanna. Ní priontaí. Brabús.",
+    "primaryCta": "Faigh d'Iniúchadh Píblíne Saor In Aisce",
+    "secondaryCta": "Féach ar Thorthaí Cliant",
+    "cardTitle": "Físeoir Píblíne — Beo",
+    "stats": {
+      "cac": "Laghdú Meán CAC",
+      "ratio": "Cóimheas LTGP/CAC",
+      "responseTime": "Am Freagartha Seolta",
+      "clients": "Cliaint Eilvéiseacha"
+    }
+  },
+  "problem": {
+    "eyebrow": "An Fhadhb Lárnach",
+    "title": "Níl Do Mhargaíocht Briste. Do Chóras Atá.",
+    "subtitle": "Díolann an chuid is mó de ghníomhaireachtaí cliceanna agus amharcanna duit. Ach má tá do phíblíne ag szivárgás ag gach céim — freagraí mall, gan aon lean-suas, aon athghníomhachtú — ní chiallaíonn trácht níos mó ach amú níos mó.",
+    "cards": {
+      "speed": {
+        "title": "An Bhearna Luais",
+        "desc": "Tá sé 21× níos lú dóchúla go gcomhshódh iontrálacha a ndéantar teagmháil leo tar éis 5 nóiméad. Am freagartha meán SMB? Os cionn 2 uair an chloig. Gach nóiméad moille, tá airgead ag imeacht in aer."
+      },
+      "followup": {
+        "title": "Poll Dubh an Lean-Suas",
+        "desc": "de na hiontrálacha ní fhaigheann siad pointe teagmhála dara uair riamh. Gan seicheamh cothaithe, gan SMS, gan athghníomhachtú. Léirigh siad suim — agus níor chuala siad rud ar bith ina dhiaidh sin."
+      },
+      "metrics": {
+        "title": "Mealladh na Méadróga",
+        "valueLabel": "Infheictheacht",
+        "desc": "Déanann an chuid is mó de SMBanna cliceanna nó «iontrálacha ginte» a rianú — ach ní féidir leo a fhreagairt: cad a chosnaíonn gach custaiméir orm i ndáiríre, agus cad é a mbrabús comhlán saoil? Gan CAC agus LTGP, tá tú ag eitilt dall."
+      }
+    },
+    "leakPoints": [
+      "Freagra Mall",
+      "Gan Cothú",
+      "Gan Athghníomhachtú",
+      "Gan Rianú",
+      "Ioncam Caillte"
+    ]
+  },
+  "system": {
+    "eyebrow": "Cur Chuige Alpine",
+    "title": "Ní Réitímid Rud Amháin. Cuirimid Córas ar Gach Rud.",
+    "subtitle": "Sé chéim. Inneall amháin. Gach lead á rianú ón gcéad chliceáil go dtí an margadh dúnta.",
+    "disclaimer": "Athraíonn torthaí de réir margaidh, tairisceana, buiséid agus próisis díolacháin. Figiúirí bunaithe ar obair a seachadadh do chliaint.",
+    "steps": {
+      "attract": {
+        "title": "Meall",
+        "desc": "Fógraí spriocdhírithe ar Meta, Google & LinkedIn. Leathanaigh tuirlingthe tógtha chun tiontú, ní chun iontas a chur."
+      },
+      "capture": {
+        "title": "Gabh",
+        "desc": "Gach lead, gach foinse — CRM amháin. Gan teagmhálaí caillte, inchurtha iomlán ón gcéad chliceáil."
+      },
+      "route": {
+        "title": "Bealaigh & Scór",
+        "desc": "Leads scórtha go huathoibríoch agus seolta chuig an sreabhadh oibre ceart laistigh de shoicindí — ní uaireanta."
+      },
+      "engage": {
+        "title": "Gabh Leis in <60s",
+        "desc": "Freagraíonn Claude AI 24/7, cáilíonn sé an lead, agus aistrítear é nuair atá sé réidh."
+      },
+      "nurture": {
+        "title": "Cothromaigh & Athghníomhachtaigh",
+        "desc": "Seichimh uathoibríocha trí ríomhphost, SMS & WhatsApp. Ní théann leads neamhghníomhacha amú."
+      },
+      "measure": {
+        "title": "Tomhais & Feabhsaigh",
+        "desc": "Deaisí beo. CAC, LTGP, luas píblíne — na huimhreacha sin amháin a thiomáineann brabús."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "An t-Inneall Faoin Bhonnet",
+    "title": "Trí Uirlis. Nialas Aistrithe Láimhe. Córas Aontaithe Amháin.",
+    "footer": "An toradh? Córas a oibríonn agus tú i do chodladh, a fhásann gan earcaíocht, agus a éiríonn níos cliste le gach gníomhaí a phróiseálann sé.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Gníomhairí",
+        "role": "AN INCHINN",
+        "desc": "Cáiliú gníomhairí cliste agus anailís intinne fíor-ama. Léann Claude gach gníomhaí a thagann isteach, scóráileann práinne, cinneann an freagra is fearr, agus gineann teachtaireachtaí pearsantaithe cosúil le duine — agus sin go léir sula gcríochnaíonn do fhoireann a gcaife maidin."
+      },
+      "n8n": {
+        "name": "n8n Uathoibriú Sreabhadh Oibre",
+        "role": "AN CÓRAS NÉARÓG",
+        "desc": "An snáithín ceangail a nascann do fhógraí, CRM, féilire, agus tuairisciú in aon phíblíne uathoibrithe amháin. Cuireann sreafaí oibre saincheaptha tús leo féin láithreach bunaithe ar iompar gníomhairí — gan cáin Zapier, gan téip ghreamaitheach."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "LÁRIONAD NA hORDUITHE",
+        "desc": "Bainistíocht píblíne, seichimh uathoibrithe, áirithint coinní, agus cumarsáid ilbhealaigh (SMS / Ríomhphost / WhatsApp) — ar aon ardán amháin a úsáideann do fhoireann i ndáiríre."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Na Figiúirí a Thomhaismid i ndáiríre",
+    "title": "Dearmad le Méadrachtaí Maisiúla. Seo a Thiomáineann Fás.",
+    "subtitle": "Faigheann gach cliant Alpine deais fíor-ama a rianaíonn na huimhreacha a chinneann fás brabúsach i ndáiríre.",
+    "items": {
+      "cac": {
+        "title": "Laghdú CAC",
+        "desc": "Meánlaghdú trasna cliantanna sna chéad 90 lá"
+      },
+      "ltgp": {
+        "title": "Feabhsúchán LTGP",
+        "desc": "Meánfheabhsúchán le optamú lánchoire"
+      },
+      "speed": {
+        "title": "Luas-go-Lead",
+        "desc": "Meánám chéad fhreagra lenár gcóras AI gníomhach"
+      },
+      "recovery": {
+        "title": "Téarnamh Píblíne",
+        "desc": "Leads díomhaoine athghníomhachtaithe trí fheachtais uathoibrithe"
+      },
+      "cycle": {
+        "title": "Timthriall Díolachán",
+        "desc": "Níos tapúla ón gcéad teagmháil go dtí déileáil dúnta"
+      },
+      "ratio": {
+        "title": "Cóimheas LTGP/CAC",
+        "desc": "Cruthaithe i seirbhísí fiaclóireachta, ICT, agus gairmiúla"
+      }
+    },
+    "callout": {
+      "label": "Cén fáth LTGP agus ní LTV amháin?",
+      "lead": "Is ioncam é LTV. Ní brabús é ioncam.",
+      "ltgpName": "LTGP (Brabús Comhlán ar Feadh an tSaoil)",
+      "body": "baineann sé costas seachadta amach agus taispeánann sé an t-imeall iarbhír in aghaidh an chustaiméara — rud a chiallaíonn gurb é an t-aon uimhir is féidir a insint duit an bhfuil do chaiteachas fógraíochta ag déanamh tú níos saibhre nó níos gnóthaí amháin. Tógaimid gach feachtas timpeall ar an uimhir sin."
+    },
+    "disclaimer": "Is torthaí tomhaiste ó dheaiseanna beo cliantanna iad seo, ní tionscadail."
+  },
+  "cases": {
+    "eyebrow": "Torthaí Cruthaithe",
+    "title": "Figiúirí Fíora. Cliaint Fhíora. Brabús Fíor.",
+    "challenge": "Dúshlán",
+    "approach": "Cur Chuige",
+    "timeline": "Amlíne",
+    "results": "Torthaí",
+    "dental": {
+      "badge": "Cúram Sláinte / Fiaclóireacht",
+      "title": "Claonad Fiaclóireachta Zurich",
+      "challenge": "Líon othar a mhéadú agus costais fála á gcoinneáil inbhuanaithe.",
+      "approach": "Gabháil leads le Meta Ads → triage Claude AI → seichimh cothaithe GHL + athghníomhachtú othar díomhaoin.",
+      "timeline": "3 mhí",
+      "results": [
+        "166 Lead",
+        "41 Othar (comhshó 24.7%)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3.4:1 (ó 1.9:1)"
+      ],
+      "insight": "51% ó Meta Ads · 49% ó Athghníomhachtú AI — tháinig beagnach leath de na hothair ó leads ar éirigh an claonad astu cheana féin."
+    },
+    "ict": {
+      "badge": "Teicneolaíocht B2B",
+      "title": "Cuideachta ICT na hEilvéise",
+      "challenge": "Díolacháin bogearraí fiontraíochta a bhrostú agus timthriallta fada díolacháin a ghiorrú.",
+      "approach": "Feachtais LinkedIn & ríomhphoist → cáilíocht Claude AI → uathoibriú n8n → bainistiú píblíne GHL.",
+      "timeline": "12 mhí",
+      "results": [
+        "312 Lead Cáilithe",
+        "67 Cruinniú Díolacháin (ráta 21.5%)",
+        "Timthriall Díolacháin ↓38% (45→28 lá)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4.2:1 (ó 2.1:1)",
+        "Tionchar ioncaim CHF 487K"
+      ],
+      "insight": "Chuir cáilíocht uathoibrithe deireadh le 80 uair an chloig d'obair leanúna díolacháin de láimh in aghaidh na míosa, rud a lig do ionadaithe díriú ar ionchasóirí réidh le ceannach amháin."
+    }
+  },
+  "comparison": {
+    "title": "Cad a Athraíonn Nuair a Chuireann Tú Córas i bhFeidhm",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Próiseas Díolacháin de Láimh",
+    "rows": [
+      {
+        "label": "Am Freagartha",
+        "ai": "Faoi 60 soicind, 24/7",
+        "manual": "Nuair atá duine ar fáil — uaireanta an chloig go minic"
+      },
+      {
+        "label": "Cáilíocht Leideanna",
+        "ai": "Scórtha ag AI, comhsheasmhach, gach leid",
+        "manual": "Suibiachtúil, athraíonn de réir ionadaí"
+      },
+      {
+        "label": "Scálú",
+        "ai": "Méadaigh an toirt gan foireann bhreise a fhostú",
+        "manual": "Gach leid nua = earcaíocht nua"
+      },
+      {
+        "label": "Tuairisciú",
+        "ai": "CAC, LTGP agus luas píblíne i bhfíor-am",
+        "manual": "Scarbhileoga nuashonraithe nuair a chuimhníonn duine air"
+      },
+      {
+        "label": "Leideanna Díomhaoine",
+        "ai": "Athghníomhachtaithe go huathoibríoch trí fheachtais",
+        "manual": "Dearmadta i reilig CRM"
+      },
+      {
+        "label": "Timthriall Díolacháin",
+        "ai": "30-40% níos giorra trí uathoibriú",
+        "manual": "Braitheann ar cé atá ag díol an tseachtain sin"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Cén Fáth Alpine",
+    "title": "Cén Fáth Alpine Marketing a Roghnú?",
+    "cards": [
+      {
+        "title": "Córas Iomlán, Ní Blúire",
+        "desc": "Déanann an chuid is mó d'ghníomhaireachtaí optamú ar chainéal amháin. Cuirimidne córas iomlán ar bhur ngnólacht — ó an chéad chlóigeann go dtí brabús saoil."
+      },
+      {
+        "title": "Tomhais a Bhfuil Ciall Leo",
+        "desc": "Rianaimid CAC agus LTGP, ní cliceanna. Beidh a fhios agat i gcónaí cé mhéad a chosnaíonn sé custaiméir a fháil agus cad is fiú é ó thaobh brabúis."
+      },
+      {
+        "title": "AI ar Dtús, Daoine á Stiúradh",
+        "desc": "Láimhseálann Claude AI an triage, an cáiliúchán agus na freagraí. Láimhseálann do fhoireann na caidrimh agus na déileálacha."
+      },
+      {
+        "title": "Cruinneas Eilvéiseach, Luas Gnólachta Nua",
+        "desc": "Bonneagar comhlíontach le GDPR, tuairisciú trédhearcach, rianú fíor-ama — seachadta le práinn."
+      },
+      {
+        "title": "Uathoibriú a Chumasc",
+        "desc": "Déanann gach lead an córas níos cliste. Íslíonn seichimh tástáilte A/B agus optamú leanúnach do CAC le himeacht ama."
+      },
+      {
+        "title": "Cruthaithe, Ní Geallta",
+        "desc": "Cóimheasa LTGP/CAC idir 3.4:1 agus 4.2:1 i bhfiaclóireacht, ICT, agus seirbhísí gairmiúla. Deais, ní cur i láthair díolacháin."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "An Fhoireann",
+    "title": "Oibreoirí, Ní Teoiriceoirí.",
+    "subtitle": "Tógann agus ritheann gach duine ar ár bhfoireann na córais a dhíolaimid. Gan bainisteoirí cuntais ag léamh scripteanna — díreach speisialtóirí a sheachaid uathoibriú do dhosaein de SMBanna.",
+    "roles": {
+      "founder": "Bunaitheoir",
+      "performance": "Margaíocht Feidhmíochta",
+      "engineering": "Innealtóireacht",
+      "content": "Ábhar",
+      "creative": "Cruthaitheach",
+      "motion": "Gluaiseacht"
+    },
+    "specialties": {
+      "founder": "Funnels CRM & Straitéis Uathoibrithe",
+      "performance": "Fógraí Google & Meta",
+      "engineering": "Forbairt Gréasáin & Uathoibriú",
+      "content": "SEO & Cóipeáil Tiontaithe",
+      "creative": "Táirgeadh Grianghraf & Físe",
+      "motion": "Eagarthóireacht Físe & Dearadh Gluaiseachta"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Ceisteanna Coitianta, Freagraí Soiléire.",
+    "items": [
+      {
+        "q": "An mbíonn sibh ag rith fógraí amháin?",
+        "a": "Ní bhíonn. Is ionchur amháin i gcóras iad fógraí. Tógaimid an t-inneall fála iomlán — trácht íoctha, leathanaigh tuirlingthe, socrú CRM, treorú leads, leanúint suas AI, seichimh cothaithe, feachtais athghníomhachtaithe, agus tuairisciú. Má tá do fhuinil ag szivárgás ag céim na leanúna suas, ní dhéanann caiteachas fógraí níos mó ach an sceitheadh a dhéanamh níos mó."
+      },
+      {
+        "q": "An féidir libh oibriú lenár CRM atá ann cheana?",
+        "a": "Braitheann sé ar an ardán. Oibrímid go dúchasach i GoHighLevel agus is féidir linn nascadh le formhór CRManna trí API nó uathoibriú n8n. Má thacaíonn do CRM le webhooks nó má tá API aige, is féidir linn é a chomhtháthú. Mura dtacaíonn — inseoimid duit go macánta agus mínímid na roghanna."
+      },
+      {
+        "q": "An gcabhraíonn sibh le huathoibriú agus leanúint suas leads?",
+        "a": "Sin croílár a bhfuil á dhéanamh againn. Is é luas-go-lead ceann de na deisiúcháin ROI is airde atá ar fáil. Freagraíonn ár gClaude AI Agents laistigh de 60 soicind, cáilíonn siad an lead, agus treorítear go ceart é — 24/7, ag an deireadh seachtaine san áireamh. Ní bhíonn do fhoireann i dteagmháil ach le leads atá réidh iarbhír."
+      },
+      {
+        "q": "Cé na margaí a n-oibríonn sibh iontu?",
+        "a": "Is é an Eilvéis, an AE, agus margaí trasteorann Eorpacha ár bpríomhréimse taithí. Tá taithí againn ar obair le clinicí fiaclóireachta, cuideachtaí ICT, gnólachtaí seirbhíse gairmiúla, agus gnólachtaí seirbhíse áitiúla. Ní ghlacaimid le gach gnó — inseoimid duit ar ghlaoch an iniúchta mura sinn an rogha cheart."
+      },
+      {
+        "q": "Conas a láimhseálann sibh príobháideachas agus rianú i margaí iar-fhianáin?",
+        "a": "Tógaimid bonneagar atá feasach ar thoiliú ón tús. Ciallaíonn sé sin bainistíocht chuí ar thoiliú fianáin, straitéisí sonraí céad-pháirtí, sreafaí foirme atá comhoiriúnach le GDPR, agus rianú CRM nach braitheann ar fhianáin tríú páirtí. Ní luchtaímid scripteanna rianaithe roimh thoiliú. Ní úsáidimid patrúin dhorcha."
+      },
+      {
+        "q": "Cad a tharlaíonn in iniúchadh fuinile saor in aisce?",
+        "a": "Déanaimid athbhreithniú ar do shocrú fála reatha — foinsí tráchta, leathanaigh tuirlingthe, struchtúr CRM, seichimh leanúna suas, tuairisciú. Sainaithníomid cá bhfuil leads ag titim amach agus cad a bhí fiú i dtéarmaí ioncaim gach sceitheadh a dheisiú. Faigheann tú pictiúr soiléir de na bearnaí sa chóras sula bpléimid oibriú le chéile."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Réidh le Córas Briste a Dheisiú?",
+    "title": "Stop ag íoc as tolg briste a líonadh.",
+    "subtitle": "Seol isteach d'iarratas ar iniúchadh saor in aisce agus feic cá bhfuil do chóras fála ag szivárgás, cad ba chóir a dheisiú ar dtús, agus na huimhreacha a bhfuil tábhacht leo i ndáiríre.",
+    "primary": "Seol Iarratas ar Iniúchadh Saor In Aisce",
+    "secondary": "Féach ar Ár Seirbhísí",
+    "disclaimer": "Gan aon oibleagáid. Athraíonn torthaí de réir margaidh, tairisceana, buiséid agus próisis díolacháin."
+  },
+  "footer": {
+    "tagline": "Sealbhú cliant córasaithe do FBManna na hEilvéise agus na hEorpa. CAC níos ísle, píblínte níos láidre, tuairisciú níos glaine.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Seirbhísí",
+      "company": "Cuideachta",
+      "legal": "Dlí & Príobháideachas"
+    },
+    "services": {
+      "performance": "Margaíocht Feidhmíochta",
+      "crm": "CRM + Uathoibriú",
+      "reporting": "Tuairisciú & Anailísíocht",
+      "audit": "Iniúchadh Iomlán an Fhunnail"
+    },
+    "legal": {
+      "privacy": "Fógra Príobháideachais",
+      "cookies": "Fógra Fianán",
+      "terms": "Téarmaí Úsáide",
+      "disclaimer": "Séanadh",
+      "accessibility": "Inrochtaineacht",
+      "privacyChoices": "Roghanna Príobháideachais",
+      "dataRequests": "Iarratais ar Shonraí",
+      "security": "Slándáil & Próiseáil Sonraí",
+      "notice": "Fógra Dlí"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Gach ceart ar cosaint. Zurich, Switzerland.",
+    "performanceDisclaimer": "Is ó ghníomhachtaí réadacha cliant a thagann na torthaí a thaispeántar ar an suíomh seo agus ní ráthaíocht iad ar thorthaí amach anseo. Athraíonn feidhmíocht de réir margaidh, tairisceana, buiséid, próisis díolacháin, agus fachtóirí eile atá lasmuigh de smacht Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Teanga",
+    "priority": "Príomhtheangacha",
+    "other": "Teangacha eile an AE"
+  },
+  "servicesPage": {
+    "eyebrow": "Ár gCuid Oibre",
+    "title": "Seirbhísí Tógtha ar Chórais, Ní ar Chainéil.",
+    "subtitle": "Ní dhíolaimid beartaíocht aonair. Tógaimid agus reáchtálaimid córais fála — ó thrácht íoctha go dtí cliant dúnta, rianaithe ag gach céim.",
+    "cta": "Leabhraigh Iniúchadh Funnail Saor in Aisce",
+    "learnMore": "Foghlaim tuilleadh",
+    "items": {
+      "performance": {
+        "title": "Margaíocht Feidhmíochta",
+        "desc": "Trácht íoctha ar Meta, Google, agus LinkedIn — tógtha chun leideanna cáilithe a thiomáint, ní impressions amháin. Tá gach feachtas nasctha le do CRM ionas gur féidir linn costas-in-aghaidh-fála a rianú i bhfíor-am.",
+        "outcomes": [
+          "CAC níos ísle laistigh de 90 lá",
+          "Sannadh ó chliceáil go dtí déileáil dhúnta",
+          "Spriocdhíriú lucht féachana tógtha ar fhíorshonraí ceannaigh"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Uathoibriú",
+        "desc": "Socrú GoHighLevel, ailtireacht sreabhadh oibre, cáiliú leideanna AI, agus seichimh leantóireachta uathoibrithe. Ritheann do phíblíne fad is atá tú i do chodladh — agus rianítear gach teagmháil.",
+        "outcomes": [
+          "Chéad fhreagra <60s trí Claude AI",
+          "Treorú agus scóráil leideanna uathoibrithe",
+          "Feachtais athghníomhachtaithe leideanna suanlíonra"
+        ]
+      },
+      "reporting": {
+        "title": "Tuairisciú & Anailísíocht",
+        "desc": "Deaisí fíor-ama a thaispeánann CAC, LTGP, rátaí tiontaithe, luas-go-leid, agus treoluas píblíne. Tuairiscímid ar a thiomáineann brabús, ní ar a bhfuil cuma mhaith air i gcairteacha sleamhnáin.",
+        "outcomes": [
+          "Deaisí KPI saincheaptha",
+          "Rianú CAC agus LTGP",
+          "Athbhreithnithe feidhmíochta seachtainiúla"
+        ]
+      },
+      "content": {
+        "title": "Funnail Ábhair",
+        "desc": "Ábhar tiomáinte ag SEO, leathanaigh tuirlingthe optamaithe le haghaidh tiontaithe, agus seichimh cothaithe a bhogann leideanna tríd an bhfunnal — ní hamháin cliceanna a fháil.",
+        "outcomes": [
+          "Leathanaigh tuirlingthe dírithe ar thiontú",
+          "Seichimh ríomhphoist agus SMS il-chéime",
+          "Ábhar SEO ailínithe le hintinn ceannaigh"
+        ]
+      },
+      "funnel": {
+        "title": "Straitéis Funnail",
+        "desc": "Sula dtógaimid rud ar bith, déanaimid iniúchadh ar do chóras reatha — foinsí tráchta, struchtúr CRM, bearnaí leantóireachta, pointí dall tuairiscithe. Ansin tógaimid treochlár a thugann tosaíocht d'éifeacht ioncaim.",
+        "outcomes": [
+          "Iniúchadh funnail saor in aisce",
+          "Anailís bearnaí le meastacháin éifeachta ioncaim",
+          "Plean sprinte 90 lá le tosaíochtaí soiléire"
+        ]
+      },
+      "landing": {
+        "title": "Leathanaigh Tuirlingthe",
+        "desc": "Leathanaigh tuirlingthe ardfheidhmíochta, soghluaiste-ar dtús atá deartha chun leideanna a ghabháil — ní chun duaiseanna dearaidh a bhuachan. Á dtástáil A/B, nasctha le CRM, agus tógtha le haghaidh luais.",
+        "outcomes": [
+          "Loighic foirme comhtháite le CRM",
+          "Réidh le haghaidh tástála A/B",
+          "Tógtha le haghaidh luais agus tiontaithe"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Faoi Alpine Marketing",
+    "title": "Dírithe ar thráchtáil. Córas-bhunaithe. In aghaidh mhéadrachta bréige.",
+    "subtitle": "Bunaíodh Alpine Marketing ar bhreathnóireacht shimplí: níl fadhb leads ag an gcuid is mó de SMBanna. Tá fadhb córais acu. Tagann leads isteach agus imíonn siad — isteach i bhfollúint mhall, CRManna dícheangailte, agus tuairisciú a thaispeánann gníomhaíocht, ní brabús.",
+    "why": {
+      "title": "Cén fáth a bhfuilimid ann.",
+      "p1": "Déanann an chuid is mó de ghníomhaireachtaí optamú ar chuid amháin den fhunnel — de ghnáth an chuid is compordaí leo a dhíol. Fógraí, nó ábhar, nó «straitéis». Faigheann an cliant seachadadh, ní córas oibre.",
+      "p2": "Bunaíodh Alpine Marketing chun é seo a leigheas. Oibrímid ar fud an chruach fála iomlán: trácht íoctha, CRM, uathoibriú, follúint, athghníomhachtú, agus tuairisciú — ceangailte in aon inneall amháin a dhúnann cliaint i ndáiríre.",
+      "p3": "Tá ár mbonn i Zurich agus oibrímid le gnólachtaí in Switzerland, san AE, agus go hidirnáisiúnta. Labhraímid Béarla soiléir, oibrímid in CHF agus EUR, agus coinníonn muid sinn féin freagrach do na méadracha céanna a iarraimid ar ár gcliaint a chúram a dhéanamh dóibh."
+    },
+    "fullFunnel": {
+      "title": "Cad a chiallaíonn smaoineamh lánfhunnel.",
+      "p1": "Ní frása margaíochta é lánfhunnel. Ciallaíonn sé: tá suim againn cad a tharlaíonn do lead tar éis dó foirm a líonadh. Tá suim againn i luas-go-lead. Tá suim againn an gcothaíonn nó an ndearmadann an CRM. Tá suim againn san athghníomhachtú. Tá suim againn i dtuairisciú a nascann caiteachas fógraí le fáltas dúnta.",
+      "p2": "Teastaíonn níos mó comhordaithe ná fógraí a rith chuige seo. Ach táirgeann sé toradh go bunúsach difriúil: CAC níos ísle, LTGP níos airde, agus córas a chomhdhéanann in ionad dul i léig."
+    },
+    "principlesTitle": "Prionsabail Oibriúcháin.",
+    "principles": [
+      {
+        "title": "Tomhais an rud atá tábhachtach.",
+        "desc": "CAC agus LTGP. Ní cliceanna. Ní tuairimí. Ní 'feasacht branda'. Mura nascann sé le brabús, ní dhéanaimid optamú air."
+      },
+      {
+        "title": "Córais os cionn beartaíochta.",
+        "desc": "Táirgeann beartaíocht toradh uair amháin. Táirgeann córas torthaí go comhdhéanach. Tógaimid an t-inneall, ní an feachtas aonair."
+      },
+      {
+        "title": "Macánta faoi nach bhfuilimid eolach air.",
+        "desc": "Inseoidh muid duit má tá margadh róchomaortasach, má tá obair ag teastáil ó do thairiscint, nó más é do phróiseas díolacháin an bac fíor. Níl muid anseo chun do bhuiséad a ghlacadh agus imeacht."
+      },
+      {
+        "title": "Príobháideacht-feasach ó dhearadh.",
+        "desc": "Oibrímid ar fud margaí na hEilvéise, an AE, agus na SA. Ní smaoineamh iarchurtha í ailtireacht toilithe — is é mar a thógaimid gach funnel."
+      },
+      {
+        "title": "Oibreoirí, ní teoiriceoirí.",
+        "desc": "Gach córas a molaimid, tá sé tógtha agus reáchtáilte againn do chliaint fíora. Ní comhairleoimid ar theoiric. Tógaimid agus bainistímid an bonneagar oibriúcháin."
+      }
+    ],
+    "ctaTitle": "Réidh le labhairt?",
+    "ctaDesc": "Déan socrú le haghaidh iniúchadh funnel saor in aisce agus taispeánfaimid duit go díreach cad a dheiseodhaimid agus in ord cén rud — sula ngeallfaidh tú d'aon rud.",
+    "ctaButton": "Déan Socrú le d'Iniúchadh Saor In Aisce"
+  },
+  "contactPage": {
+    "eyebrow": "Déan Teagmháil Linn",
+    "title": "Labhraímis faoi chórais.",
+    "subtitlePrefix": "Úsáid an fhoirm thíos le haghaidh fiosrúcháin ghinearálta. Más mian leat athbhreithniú struchtúrtha ar do fheabhchóras, úsáid an leathanach ",
+    "subtitleLink": "Iniúchadh a Chur in Áirithe",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "Ríomhphost",
+      "phoneLabel": "Fón & Suíomh",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Am freagartha",
+      "responseValue": "Laistigh de 1 lá gnó",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Ainm",
+      "namePh": "Jane Smith",
+      "email": "Ríomhphost",
+      "emailPh": "jane@company.com",
+      "company": "Cuideachta",
+      "companyPh": "Acme GmbH",
+      "service": "Spéis i seirbhís",
+      "serviceDefault": "Roghnaigh (roghnach)",
+      "serviceOptions": {
+        "performance": "Margaíocht Feidhmíochta",
+        "crm": "CRM + Uathoibriú",
+        "reporting": "Tuairisciú & Anailísíocht",
+        "content": "Feabhchórais Ábhair",
+        "audit": "Iniúchadh iomlán an chórais"
+      },
+      "message": "Teachtaireacht",
+      "messagePh": "Inis dúinn faoi do chás...",
+      "requiredLabel": "Riachtanach:",
+      "optionalLabel": "Roghnach:",
+      "privacyPrefix": "Léigh mé an ",
+      "privacyLink": "Fógra Príobháideachais",
+      "privacySuffix": " agus tugaim mo thoiliú go ndéanfar mo chuid faisnéise a phróiseáil chun freagra a thabhairt ar an bhfiosrúchán seo.",
+      "marketingText": "Ba mhaith liom nuashonruithe ríomhphoist agus léargais a fháil ó Alpine Marketing.",
+      "submit": "Seol Teachtaireacht",
+      "validation": {
+        "name": "Tá ainm de dhíth",
+        "email": "Tá ríomhphost bailí de dhíth",
+        "company": "Tá ainm cuideachta de dhíth",
+        "message": "Tá teachtaireacht de dhíth",
+        "consent": "Ní mór duit aontú chun leanúint ar aghaidh"
+      },
+      "toastTitle": "Teachtaireacht faighte",
+      "toastDesc": "Rachaimid i dteagmháil leat laistigh de 1 lá gnó."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Iniúchadh Funnail Saor in Aisce",
+    "title": "Feic go díreach cá bhfuil do chóras ag sceitheadh.",
+    "subtitle": "I nglaoch iniúchta 30 nóiméad, déanaimid athbhreithniú ar do shuiteáil fála agus taispeánaimid na bealaí isteach — sula n-iarraimid aon rud ar ais ort.",
+    "whatYouGetLabel": "A gheobhaidh tú:",
+    "whatYouGet": [
+      "Léarscáil de na háiteanna ina gcailleann do fhunail reatha leideanna agus ioncam",
+      "Measúnú macánta ar na bearnaí is fiú a shocrú ar dtús",
+      "Léargas ar conas a d'fhéadfadh inneall córasaithe breathnú do do ghnó"
+    ],
+    "whoForLabel": "Cé dó a bhfuil sé seo:",
+    "whoForBody": "Gnólachtaí seirbhíse a ghineann leideanna ach a thiontaíonn an iomarca beag. Cuideachtaí a chaitheann ar fhógraí ach nach bhfuil cinnte cad atá ag obair i ndáiríre. SMBanna réidh chun córas a thógáil, ní tactic eile a cheannach.",
+    "form": {
+      "fullName": "Ainm Iomlán",
+      "fullNamePh": "Máire Ní Bhriain",
+      "workEmail": "Ríomhphost Oibre",
+      "workEmailPh": "maire@cuideachta.com",
+      "company": "Cuideachta",
+      "companyPh": "Acme GmbH",
+      "website": "Suíomh Gréasáin",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Leideanna míosúla (tuairim is)",
+      "leadsDefault": "Roghnaigh...",
+      "leadsOptions": {
+        "lt20": "Níos lú ná 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "An dúshlán fála is mó",
+      "challengePh": "M.sh. Gineann muid leideanna ach tá an tiontú íseal agus níl a fhios againn cá dtitid siad amach...",
+      "requiredLabel": "Riachtanach:",
+      "optionalLabel": "Roghnach:",
+      "privacyPrefix": "Tá an ",
+      "privacyLink": "Fógra Príobháideachais",
+      "privacySuffix": " léite agam agus aontaím go bhféadfaidh Alpine Marketing mo chuid faisnéise a phróiseáil chun freagairt ar m'iarraidh.",
+      "marketingText": "Ba mhaith liom nuashonruithe margaíochta, léargais agus tairiscintí a fháil trí ríomhphost.",
+      "submit": "Iarr Mo Iniúchadh Saor in Aisce",
+      "footer": "Ní gheallan an fhoirm seo aon cheannach duit. Cloisfidh tú uainn laistigh de 1 lá gnó.",
+      "validation": {
+        "name": "Tá ainm ag teastáil",
+        "email": "Tá ríomhphost oibre bailí ag teastáil",
+        "company": "Tá ainm cuideachta ag teastáil",
+        "website": "Iontráil URL bailí (cuir https:// leis)",
+        "monthlyLeads": "Roghnaigh rogha le do thoil",
+        "challenge": "Déan cur síos ar do dhúshlán le do thoil — ar a laghad abairt amháin",
+        "consent": "Ní mór duit aontú chun leanúint ar aghaidh"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Iarratas faighte.",
+    "lead": "Déanfaimid do chuid sonraí a athbhreithniú agus rachaimid i dteagmháil leat laistigh de ",
+    "leadBold": "1 lá gnó",
+    "leadSuffix": " chun am do scrúdaithe a dheimhniú.",
+    "sub": "Idir an dá linn, ní gá duit aon ghníomh a dhéanamh. Ní cheanglaíonn an t-aighneacht seo thú le haon cheannach.",
+    "primary": "Féach ar Thorthaí Cliant",
+    "secondary": "Ar Ais go dtí an Baile"
+  },
+  "blogIndex": {
+    "docTitle": "Léargais & Leabhair Imeartha — Alpine Marketing",
+    "eyebrow": "Léargais & Leabhair Imeartha",
+    "title": "Nótaí allamuigh ó chroí-inneall fháil custaiméirí na hEilvéise.",
+    "subtitle": "Scríbhinní macánta ar a n-oibríonn, ar a gcuireann deireadh le caiteachas fógraíochta gan torадh, agus ar na huirlisí a úsáidimid chun píblínte a iompú ina mbrabús inréamh-mheasta. Gan líonadh, gan caint ghníomhaireachta.",
+    "all": "Gach ceann",
+    "empty": "Níl aon alt sa chatagóir seo fós — tar ar ais go luath.",
+    "featured": "Roghnaithe",
+    "minRead": "nóim léitheoireachta",
+    "min": "nóim"
+  },
+  "blogPost": {
+    "back": "Gach Alt",
+    "minRead": "nóim léamh",
+    "ctaEyebrow": "Réidh le do fheadán a dheisiú?",
+    "ctaTitle": "Faigh Iniúchadh Pipeline saor in aisce agus feic go díreach cá bhfuil do chuid airgid ag sileadh.",
+    "ctaSub": "Glao 30 nóiméad · gan clár cur i láthair · réitigh coincréiteacha is féidir leat a chur i bhfeidhm an tseachtain seo.",
+    "ctaButton": "Áirigh Iniúchadh Saor in Aisce",
+    "related": "Lean ar Aghaidh ag Léamh",
+    "readSuffix": "nóim léamh"
+  },
+  "cookieConsent": {
+    "heading": "Úsáidimid fianáin chun d'eispéireas a fheabhsú.",
+    "bodyPrefix": "Tá cuid acu riachtanach chun an suíomh a oibriú. Ní luchtaítear cinn eile — fianáin anailísíochta agus margaíochta — ach amháin le do thoiliú. Is féidir leat do roghanna a athrú ag am ar bith trí ",
+    "privacyChoices": "Roghanna Príobháideachais",
+    "between": ". Féach ár ",
+    "cookieNotice": "Fógra Fianán",
+    "bodySuffix": " le haghaidh sonraí.",
+    "acceptAll": "Glac le gach ceann",
+    "necessaryOnly": "Riachtanaigh amháin",
+    "customize": "Saincheap",
+    "customizeIntro": "Bíonn fianáin atá riachtanach go docht gníomhach i gcónaí. Scoránaigh an chuid eile thíos.",
+    "save": "Sábháil roghanna",
+    "back": "Ar ais",
+    "closeAria": "Dún agus diúltaigh fianáin neamhriachtanacha",
+    "customizeAria": "Saincheap socruithe fianán",
+    "items": {
+      "necessary": {
+        "label": "Riachtanach go Docht",
+        "desc": "Ag teastáil chun an suíomh a oibriú."
+      },
+      "preferences": {
+        "label": "Roghanna",
+        "desc": "Cuimhníonn ar do shocruithe agus do roghanna."
+      },
+      "analytics": {
+        "label": "Anailísíocht",
+        "desc": "Cabhraíonn linn tuiscint a fháil ar conas a úsáideann cuairteoirí an suíomh. Ní roinntear aon sonraí roimh thoiliú."
+      },
+      "marketing": {
+        "label": "Margaíocht",
+        "desc": "Úsáidtear é d'fhógraíocht spriocdhírithe. Ní luchtaítear riamh é gan do thoiliú sainráite."
+      }
+    }
+  }
+}

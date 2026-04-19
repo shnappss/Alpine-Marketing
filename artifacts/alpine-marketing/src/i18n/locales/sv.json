@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Boka gratis revision",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Läs mer",
+    "getStarted": "Kom igång",
+    "openMenu": "Öppna meny",
+    "closeMenu": "Stäng meny"
+  },
+  "nav": {
+    "services": "Tjänster",
+    "caseStudies": "Kundcase",
+    "blog": "Blogg",
+    "about": "Om oss",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "För SMB:s och techbolag i Schweiz",
+    "headlineLead": "Vi bygger maskinen som förvandlar dina annonskostnader till ",
+    "headlineHighlight": "förutsägbar vinst.",
+    "subheadline": "Alpine Marketing bygger en fullständig förvärvsmotor — från Meta & Google Ads till AI-driven uppföljning till stängt avtal — och ger dig en dashboard som visar ditt verkliga CAC och livstidsbruttoresultat.",
+    "subheadlineEmphasis": "Inte klick. Inte visningar. Vinst.",
+    "primaryCta": "Få din kostnadsfria pipeline-analys",
+    "secondaryCta": "Se kundresultat",
+    "cardTitle": "Pipeline-visualiserare — Live",
+    "stats": {
+      "cac": "Genomsnittlig CAC-minskning",
+      "ratio": "LTGP/CAC-kvot",
+      "responseTime": "Responstid för leads",
+      "clients": "Schweiziska kunder"
+    }
+  },
+  "problem": {
+    "eyebrow": "Kärnproblemet",
+    "title": "Din marknadsföring är inte trasig. Ditt system är det.",
+    "subtitle": "De flesta byråer säljer dig klick och visningar. Men om din pipeline läcker i varje steg — långsamma svar, utebliven uppföljning, noll återaktivering — innebär mer trafik bara mer slöseri.",
+    "cards": {
+      "speed": {
+        "title": "Hastighetsgapet",
+        "desc": "Leads som kontaktas efter 5 minuter är 21× mindre benägna att konvertera. Den genomsnittliga svarstiden för ett SMB? Över 2 timmar. Varje minuts fördröjning är pengar som försvinner i luften."
+      },
+      "followup": {
+        "title": "Uppföljningens svarta hål",
+        "desc": "av alla leads får aldrig en andra kontaktpunkt. Ingen nurture-sekvens, inget SMS, ingen återaktivering. De visade intresse — och fick aldrig något svar."
+      },
+      "metrics": {
+        "title": "Måttillusions-fällan",
+        "valueLabel": "Synlighet",
+        "desc": "De flesta SMB:s spårar klick eller \"genererade leads\" — men kan inte svara på: vad kostar varje kund mig egentligen, och vad är deras livstids bruttomarginal? Utan CAC och LTGP flyger du i blindo."
+      }
+    },
+    "leakPoints": [
+      "Långsamt svar",
+      "Ingen nurturing",
+      "Ingen återaktivering",
+      "Ingen spårning",
+      "Förlorad omsättning"
+    ]
+  },
+  "system": {
+    "eyebrow": "The Alpine Approach",
+    "title": "Vi fixar inte ett problem. Vi systematiserar allt.",
+    "subtitle": "Sex steg. En motor. Varje lead spårat från första klick till avslutat affär.",
+    "disclaimer": "Resultat varierar beroende på marknad, erbjudande, budget och säljprocess. Siffror baserade på levererat kundarbete.",
+    "steps": {
+      "attract": {
+        "title": "Attrahera",
+        "desc": "Riktad annonsering på Meta, Google & LinkedIn. Landningssidor byggda för att konvertera – inte imponera."
+      },
+      "capture": {
+        "title": "Fånga",
+        "desc": "Varje lead, varje källa – ett CRM. Inga förlorade kontakter, full attribution från första klick."
+      },
+      "route": {
+        "title": "Dirigera & Poängsätt",
+        "desc": "Leads poängsätts automatiskt och skickas till rätt arbetsflöde på sekunder – inte timmar."
+      },
+      "engage": {
+        "title": "Engagera inom <60s",
+        "desc": "Claude AI svarar dygnet runt, kvalificerar leadet och lämnar över det först när de är redo."
+      },
+      "nurture": {
+        "title": "Vårda & Återaktivera",
+        "desc": "Automatiserade sekvenser via e-post, SMS & WhatsApp. Vilande leads går inte till spillo."
+      },
+      "measure": {
+        "title": "Mät & Förbättra",
+        "desc": "Livebaserade dashboards. CAC, LTGP, pipeline-hastighet – bara de siffror som driver vinst."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Motorn Under Huven",
+    "title": "Tre Verktyg. Noll Manuella Överlämningar. Ett Enat System.",
+    "footer": "Resultatet? Ett system som arbetar medan du sover, skalar utan nyrekryteringar och blir smartare för varje lead det behandlar.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "HJÄRNAN",
+        "desc": "Intelligent leadkvalificering och realtidsanalys av köpintention. Claude läser varje inkommande lead, bedömer angelägenhetsgraden, avgör bästa respons och genererar personliga, mänskliga meddelanden — allt innan ditt team ens hunnit dricka sitt morgonkaffe."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "NERVSYSTEMET",
+        "desc": "Den sammanbindande vävnaden som kopplar ihop dina annonser, CRM, kalender och rapportering i en enda automatiserad pipeline. Anpassade arbetsflöden triggas direkt baserat på leadbeteende — ingen Zapier-avgift, inget lapptäcke."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "KOMMANDOCENTRALEN",
+        "desc": "Pipelinehantering, automatiserade sekvenser, bokningshantering och omnikanalskommunikation (SMS / E-post / WhatsApp) — allt i en plattform som ditt team faktiskt använder."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Vad vi faktiskt mäter",
+    "title": "Glöm fåfängemätetal. Här är vad som driver tillväxt.",
+    "subtitle": "Varje Alpine-kund får en realtidsdashboard som spårar de siffror som verkligen avgör lönsam tillväxt.",
+    "items": {
+      "cac": {
+        "title": "CAC-reducering",
+        "desc": "Genomsnittlig minskning hos kunder under de första 90 dagarna"
+      },
+      "ltgp": {
+        "title": "LTGP-förbättring",
+        "desc": "Genomsnittlig förbättring med heltrattoptimering"
+      },
+      "speed": {
+        "title": "Tid till leadkontakt",
+        "desc": "Genomsnittlig första svarstid med vårt AI-system aktivt"
+      },
+      "recovery": {
+        "title": "Pipeline-återhämtning",
+        "desc": "Vilande leads återaktiverade via automatiserade kampanjer"
+      },
+      "cycle": {
+        "title": "Säljcykel",
+        "desc": "Snabbare från första kontakt till avslutat affär"
+      },
+      "ratio": {
+        "title": "LTGP/CAC-kvot",
+        "desc": "Beprövat inom dental, ICT och professionella tjänster"
+      }
+    },
+    "callout": {
+      "label": "Varför LTGP och inte bara LTV?",
+      "lead": "LTV är omsättning. Omsättning är inte vinst.",
+      "ltgpName": "LTGP (Lifetime Gross Profit)",
+      "body": "rensar bort dina leveranskostnader och visar den faktiska marginalen per kund — vilket innebär att det är det enda måttet som kan avgöra om dina annonskostnader gör dig rikare eller bara mer sysselsatt. Vi bygger varje kampanj kring det talet."
+    },
+    "disclaimer": "Detta är uppmätta resultat från aktiva kunddasboards, inte prognoser."
+  },
+  "cases": {
+    "eyebrow": "Bevisade Resultat",
+    "title": "Riktiga Siffror. Riktiga Kunder. Riktig Vinst.",
+    "challenge": "Utmaning",
+    "approach": "Tillvägagångssätt",
+    "timeline": "Tidsram",
+    "results": "Resultat",
+    "dental": {
+      "badge": "Hälsovård / Tandvård",
+      "title": "Zurich Tandklinik",
+      "challenge": "Öka patientflödet samtidigt som anskaffningskostnaderna hålls på en hållbar nivå.",
+      "approach": "Meta Ads lead-insamling → Claude AI triage → GHL nurture-sekvenser + reaktivering av vilande patienter.",
+      "timeline": "3 månader",
+      "results": [
+        "166 Leads",
+        "41 Patienter (24,7% konvertering)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (från 1,9:1)"
+      ],
+      "insight": "51% från Meta Ads · 49% från AI-reaktivering — nästan hälften av patienterna kom från leads som kliniken redan hade gett upp hoppet om."
+    },
+    "ict": {
+      "badge": "B2B Teknologi",
+      "title": "Schweiziskt ICT-företag",
+      "challenge": "Accelerera försäljningen av företagsprogramvara och förkorta långa säljcykler.",
+      "approach": "LinkedIn- och e-postkampanjer → Claude AI-kvalificering → n8n-automatisering → GHL pipeline-hantering.",
+      "timeline": "12 månader",
+      "results": [
+        "312 Kvalificerade Leads",
+        "67 Säljmöten (21,5% andel)",
+        "Säljcykel ↓38% (45→28 dagar)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (från 2,1:1)",
+        "CHF 487K i intäktspåverkan"
+      ],
+      "insight": "Automatiserad kvalificering eliminerade 80 timmars manuell säljuppföljning per månad, vilket lät säljarna fokusera enbart på köpredo prospekt."
+    }
+  },
+  "comparison": {
+    "title": "Vad som förändras när du systematiserar",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Manuell säljprocess",
+    "rows": [
+      {
+        "label": "Svarstid",
+        "ai": "Under 60 sekunder, dygnet runt",
+        "manual": "När tillfälle ges — ofta flera timmar"
+      },
+      {
+        "label": "Leadkvalificering",
+        "ai": "AI-poängsatt, konsekvent, varje lead",
+        "manual": "Subjektiv, varierar från säljare till säljare"
+      },
+      {
+        "label": "Skalbarhet",
+        "ai": "Öka volymen utan att utöka personalstyrkan",
+        "manual": "Varje nytt lead = ytterligare en anställning"
+      },
+      {
+        "label": "Rapportering",
+        "ai": "Realtidsdata för CAC, LTGP och pipeline-hastighet",
+        "manual": "Kalkylblad uppdaterade när någon råkar komma ihåg det"
+      },
+      {
+        "label": "Vilande leads",
+        "ai": "Återaktiveras automatiskt via kampanjer",
+        "manual": "Bortglömda i ett CRM-arkiv ingen öppnar"
+      },
+      {
+        "label": "Säljcykel",
+        "ai": "30–40 % kortare tack vare automatisering",
+        "manual": "Beror på vem som säljer just den veckan"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Varför Alpine",
+    "title": "Varför välja Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Hela tratten, inte fragment",
+        "desc": "De flesta byråer optimerar en enda kanal. Vi systematiserar hela er förvärvsmotor — från första intryck till livstidsvinst."
+      },
+      {
+        "title": "Mätvärden som faktiskt betyder något",
+        "desc": "Vi spårar CAC och LTGP, inte klick. Ni vet alltid vad en kund kostar att förvärva och vad den är värd i vinst."
+      },
+      {
+        "title": "AI-first, mänskligt styrd",
+        "desc": "Claude AI hanterar triagering, kvalificering och svar. Ert team hanterar relationer och avslut."
+      },
+      {
+        "title": "Schweizisk precision, startup-tempo",
+        "desc": "GDPR-kompatibel infrastruktur, transparent rapportering, realtidsspårning — levererat med skärpa."
+      },
+      {
+        "title": "Automatisering som förstärks över tid",
+        "desc": "Varje lead gör systemet smartare. A/B-testade sekvenser och kontinuerlig optimering sänker er CAC med tiden."
+      },
+      {
+        "title": "Bevisat, inte utlovat",
+        "desc": "3,4:1 till 4,2:1 LTGP/CAC-kvoter inom tandvård, ICT och professionella tjänster. Dashboard, inte ett säljdeck."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Teamet",
+    "title": "Praktiker, inte teoretiker.",
+    "subtitle": "Alla i vårt team bygger och driver de system vi säljer. Inga kundansvariga som läser från manus — bara specialister som har levererat automatisering till dussintals SMB-företag.",
+    "roles": {
+      "founder": "Grundare",
+      "performance": "Performance Marketing",
+      "engineering": "Teknik",
+      "content": "Innehåll",
+      "creative": "Kreativ",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "CRM-funnlar & automationsstrategi",
+      "performance": "Google- & Meta-annonser",
+      "engineering": "Webbutveckling & automation",
+      "content": "SEO & konverterande copywriting",
+      "creative": "Foto- & videoproduktion",
+      "motion": "Videoredigering & motion design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Vanliga frågor, raka svar.",
+    "items": [
+      {
+        "q": "Kör ni bara annonser?",
+        "a": "Nej. Annonser är en komponent i ett större system. Vi bygger hela kundanskaffningsmaskinen — betald trafik, landningssidor, CRM-uppsättning, leadrouting, AI-uppföljning, nurture-sekvenser, reaktiveringskampanjer och rapportering. Om er tratt läcker vid uppföljningssteget innebär mer annonsbudget bara att läckan växer."
+      },
+      {
+        "q": "Kan ni arbeta med vårt befintliga CRM?",
+        "a": "Det beror på plattformen. Vi arbetar nativt i GoHighLevel och kan ansluta till de flesta CRM-system via API eller n8n-automation. Om ert CRM stöder webhooks eller har ett API kan vi integrera det. Om det inte gör det — berättar vi det ärligt och förklarar alternativen."
+      },
+      {
+        "q": "Hjälper ni till med automation och leaduppföljning?",
+        "a": "Det är kärnan i det vi gör. Snabbhet i leadhanteringen är en av de åtgärder som ger högst ROI. Våra Claude AI Agents svarar inom 60 sekunder, kvalificerar leadet och dirigerar det rätt — dygnet runt, även på helger. Ert team hanterar bara leads som faktiskt är redo att ta nästa steg."
+      },
+      {
+        "q": "Vilka marknader arbetar ni på?",
+        "a": "Vår primära erfarenhet är från Schweiz, EU och gränsöverskridande europeiska marknader. Vi har arbetat med tandläkarkliniker, ICT-bolag, professionella tjänsteföretag och lokala serviceverksamheter. Vi tar inte på oss vilket uppdrag som helst — vi berättar på auditsamtalet om vi inte är rätt partner för er."
+      },
+      {
+        "q": "Hur hanterar ni integritet och spårning på post-cookie-marknader?",
+        "a": "Vi bygger samtyckesmedveten infrastruktur från grunden. Det innebär korrekt hantering av cookie-samtycke, strategier för förstapartsdata, GDPR-anpassade formulärflöden och CRM-spårning som inte är beroende av tredjepartscookies. Vi laddar inga spårningsskript innan samtycke har getts. Vi använder inga mörka mönster."
+      },
+      {
+        "q": "Vad händer under en kostnadsfri trattaudit?",
+        "a": "Vi granskar er nuvarande kundanskaffningsstruktur — trafikkällor, landningssidor, CRM-struktur, uppföljningssekvenser och rapportering. Vi identifierar var leads faller bort och vad det är värt i intäkter att täppa till varje läcka. Ni får en tydlig bild av systemets brister innan vi diskuterar ett eventuellt samarbete."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Redo att åtgärda systemet?",
+    "title": "Sluta betala för att fylla en trasig tratt.",
+    "subtitle": "Boka en kostnadsfri granskning och se var ditt förvärvsystem läcker, vad du bör åtgärda först och vilka siffror som faktiskt spelar roll.",
+    "primary": "Boka din kostnadsfria granskning",
+    "secondary": "Se våra tjänster",
+    "disclaimer": "Ingen förpliktelse. Resultaten varierar beroende på marknad, erbjudande, budget och säljprocess."
+  },
+  "footer": {
+    "tagline": "Systematiserad kundanskaffning för schweiziska och europeiska SMB. Lägre CAC, starkare pipelines, tydligare rapportering.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Tjänster",
+      "company": "Företaget",
+      "legal": "Juridik & Integritet"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatisering",
+      "reporting": "Rapportering & Analys",
+      "audit": "Full-Funnel Audit"
+    },
+    "legal": {
+      "privacy": "Integritetspolicy",
+      "cookies": "Cookiepolicy",
+      "terms": "Användarvillkor",
+      "disclaimer": "Friskrivningsklausul",
+      "accessibility": "Tillgänglighet",
+      "privacyChoices": "Integritetsinställningar",
+      "dataRequests": "Dataförfrågningar",
+      "security": "Säkerhet & Databehandling",
+      "notice": "Juridisk information"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Alla rättigheter förbehållna. Zurich, Switzerland.",
+    "performanceDisclaimer": "Resultaten som visas på denna webbplats är hämtade från verkliga kunduppdrag och utgör ingen garanti för framtida utfall. Resultaten varierar beroende på marknad, erbjudande, budget, säljprocess och andra faktorer utanför Alpine Marketings kontroll."
+  },
+  "languageSwitcher": {
+    "label": "Språk",
+    "priority": "Primära språk",
+    "other": "Andra EU-språk"
+  },
+  "servicesPage": {
+    "eyebrow": "Vad vi gör",
+    "title": "Tjänster byggda kring system, inte kanaler.",
+    "subtitle": "Vi säljer inte enskilda taktiker. Vi bygger och driver förvärvsystem — från betald trafik till stängd kund, spårat i varje steg.",
+    "cta": "Boka en kostnadsfri trattgranskning",
+    "learnMore": "Läs mer",
+    "items": {
+      "performance": {
+        "title": "Prestationsmarknadsföring",
+        "desc": "Betald trafik på Meta, Google och LinkedIn — byggt för att generera kvalificerade leads, inte bara visningar. Varje kampanj är kopplad till ditt CRM så att vi kan spåra kostnad per förvärv i realtid.",
+        "outcomes": [
+          "Lägre CAC inom 90 dagar",
+          "Attribuering från klick till stängd affär",
+          "Målgruppsinriktning baserad på verklig köpdata"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatisering",
+        "desc": "GoHighLevel-konfiguration, arbetsflödesarkitektur, AI-kvalificering av leads och automatiserade uppföljningssekvenser. Din pipeline arbetar medan du sover — och varje kontaktpunkt spåras.",
+        "outcomes": [
+          "<60s första svar via Claude AI",
+          "Automatiserad leadrouting och -poängsättning",
+          "Reaktiveringskampanjer för inaktiva leads"
+        ]
+      },
+      "reporting": {
+        "title": "Rapportering & Analys",
+        "desc": "Realtidsdashboards som visar CAC, LTGP, konverteringsgrad, svarstid och pipelinehastighet. Vi rapporterar om det som driver vinst — inte det som ser bra ut i en presentation.",
+        "outcomes": [
+          "Anpassade KPI-dashboards",
+          "Spårning av CAC och LTGP",
+          "Veckovisa prestandagenomgångar"
+        ]
+      },
+      "content": {
+        "title": "Innehållstrattar",
+        "desc": "SEO-drivet innehåll, konverteringsoptimerade landningssidor och vårdssekvenser som för leads genom tratten — inte bara genererar klick.",
+        "outcomes": [
+          "Konverteringsfokuserade landningssidor",
+          "Flerstegssekvenser via e-post och SMS",
+          "SEO-innehåll anpassat till köpintention"
+        ]
+      },
+      "funnel": {
+        "title": "Trattstrategi",
+        "desc": "Innan vi bygger något granskar vi ditt nuvarande system — trafikkällor, CRM-struktur, uppföljningsluckor och blinda fläckar i rapporteringen. Sedan skapar vi en färdplan som prioriterar intäktspåverkan.",
+        "outcomes": [
+          "Kostnadsfri trattgranskning",
+          "Gapanalys med uppskattad intäktspåverkan",
+          "Prioriterad 90-dagars sprintplan"
+        ]
+      },
+      "landing": {
+        "title": "Landningssidor",
+        "desc": "Högkonverterande, mobilanpassade landningssidor designade för att fånga leads — inte för att vinna designpriser. A/B-testade, CRM-kopplade och byggda för hastighet.",
+        "outcomes": [
+          "CRM-integrerad formulärlogik",
+          "Redo för A/B-testning",
+          "Byggda för hastighet och konvertering"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Om Alpine Marketing",
+    "title": "Affärsdrivet. Systemorienterat. Utan skenfransiga mätvärden.",
+    "subtitle": "Alpine Marketing grundades utifrån en enkel iakttagelse: de flesta SMB:s har inte ett leadproblem. De har ett systemproblem. Leads kommer in och försvinner — i långsam uppföljning, frånkopplade CRM-system och rapportering som visar aktivitet, inte vinst.",
+    "why": {
+      "title": "Varför vi finns.",
+      "p1": "De flesta byråer optimerar en del av tratten — vanligtvis den del de är bekväma med att sälja. Annonser, content eller »strategi«. Kunden får en leverans, inte ett fungerande system.",
+      "p2": "Alpine Marketing grundades för att lösa detta. Vi arbetar över hela förvärvskedjan: betald trafik, CRM, automation, uppföljning, reaktivering och rapportering — sammankopplade till en motor som faktiskt stänger affärer.",
+      "p3": "Vi är baserade i Zurich och arbetar med företag i Schweiz, EU och internationellt. Vi kommunicerar rakt och tydligt, arbetar i CHF och EUR, och håller oss ansvariga till samma mätvärden vi ber våra kunder att bry sig om."
+    },
+    "fullFunnel": {
+      "title": "Vad heltrattsstrategi faktiskt innebär.",
+      "p1": "Heltratt är inte ett marknadsföringsuttryck. Det betyder: vi bryr oss om vad som händer med ett lead efter att det fyllt i ett formulär. Vi bryr oss om hastigheten till första kontakt. Vi bryr oss om huruvida CRM:et nurturar eller glömmer bort. Vi bryr oss om reaktivering. Vi bryr oss om rapportering som kopplar annonskostnader till faktisk omsättning.",
+      "p2": "Det kräver mer koordination än att bara köra annonser. Men det producerar ett fundamentalt annorlunda resultat: lägre CAC, högre LTGP, och ett system som bygger på sig självt i stället för att plana ut."
+    },
+    "principlesTitle": "Verksamhetsprinciper.",
+    "principles": [
+      {
+        "title": "Mät det som spelar roll.",
+        "desc": "CAC och LTGP. Inte klick. Inte visningar. Inte »varumärkeskännedom«. Om det inte kopplar till vinst optimerar vi inte för det."
+      },
+      {
+        "title": "System före taktik.",
+        "desc": "En taktik ger ett resultat en gång. Ett system ger resultat som förstärks över tid. Vi bygger motorn, inte den enskilda kampanjen."
+      },
+      {
+        "title": "Ärlighet om vad vi inte vet.",
+        "desc": "Vi berättar om en marknad är för konkurrensutsatt, om ditt erbjudande behöver ses över, eller om din säljprocess är den verkliga flaskhalsen. Vi är inte här för att ta din budget och försvinna."
+      },
+      {
+        "title": "Integritetssäker by design.",
+        "desc": "Vi verkar på schweiziska, europeiska och amerikanska marknader. Samtyckesmedveten arkitektur är ingen eftertanke — det är hur vi bygger varje tratt."
+      },
+      {
+        "title": "Operatörer, inte teoretiker.",
+        "desc": "Varje system vi rekommenderar har vi byggt och driftsatt för verkliga kunder. Vi konsulterar inte i teorin. Vi bygger och förvaltar den operativa infrastrukturen."
+      }
+    ],
+    "ctaTitle": "Redo att prata?",
+    "ctaDesc": "Boka en kostnadsfri trattgranskning så visar vi dig exakt vad vi skulle åtgärda och i vilken ordning — innan du förbinder dig till något.",
+    "ctaButton": "Boka din kostnadsfria granskning"
+  },
+  "contactPage": {
+    "eyebrow": "Kontakta oss",
+    "title": "Låt oss prata system.",
+    "subtitlePrefix": "Använd formuläret nedan för allmänna förfrågningar. Om du vill ha en strukturerad genomgång av din funnel, använd sidan ",
+    "subtitleLink": "Boka revision",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "E-post",
+      "phoneLabel": "Telefon & plats",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Svarstid",
+      "responseValue": "Inom 1 arbetsdag",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Namn",
+      "namePh": "Jane Smith",
+      "email": "E-post",
+      "emailPh": "jane@company.com",
+      "company": "Företag",
+      "companyPh": "Acme GmbH",
+      "service": "Tjänsteintresse",
+      "serviceDefault": "Välj (valfritt)",
+      "serviceOptions": {
+        "performance": "Performance Marketing",
+        "crm": "CRM + Automatisering",
+        "reporting": "Rapportering & analys",
+        "content": "Content-funnels",
+        "audit": "Systemövergripande revision"
+      },
+      "message": "Meddelande",
+      "messagePh": "Berätta om din situation...",
+      "requiredLabel": "Obligatoriskt:",
+      "optionalLabel": "Valfritt:",
+      "privacyPrefix": "Jag har läst ",
+      "privacyLink": "integritetspolicyn",
+      "privacySuffix": " och samtycker till att mina uppgifter behandlas för att besvara denna förfrågan.",
+      "marketingText": "Jag vill gärna ta emot e-postuppdateringar och insikter från Alpine Marketing.",
+      "submit": "Skicka meddelande",
+      "validation": {
+        "name": "Namn krävs",
+        "email": "En giltig e-postadress krävs",
+        "company": "Företagsnamn krävs",
+        "message": "Meddelande krävs",
+        "consent": "Du måste godkänna för att fortsätta"
+      },
+      "toastTitle": "Meddelande mottaget",
+      "toastDesc": "Vi återkommer inom 1 arbetsdag."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Kostnadsfri trattgranskning",
+    "title": "Se exakt var ditt system läcker.",
+    "subtitle": "Under ett 30-minuters granskningssamtal går vi igenom din förvärvsstruktur och visar dig bristerna — utan att be om något i gengäld.",
+    "whatYouGetLabel": "Det här får du:",
+    "whatYouGet": [
+      "En karta över var din nuvarande tratt förlorar leads och intäkter",
+      "En ärlig bedömning av vilka brister som är mest värda att åtgärda först",
+      "En bild av hur ett systematiserat flöde skulle kunna se ut för ditt företag"
+    ],
+    "whoForLabel": "Det här är för dig som:",
+    "whoForBody": "Driver ett tjänsteföretag som genererar leads men konverterar för få. Investerar i annonsering men är osäker på vad som faktiskt ger resultat. Är ett SMB redo att bygga ett system — inte köpa ännu en taktik.",
+    "form": {
+      "fullName": "Fullständigt namn",
+      "fullNamePh": "Jane Smith",
+      "workEmail": "Jobbmejl",
+      "workEmailPh": "jane@company.com",
+      "company": "Företag",
+      "companyPh": "Acme GmbH",
+      "website": "Webbplats",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Månatliga leads (ungefär)",
+      "leadsDefault": "Välj...",
+      "leadsOptions": {
+        "lt20": "Färre än 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Största utmaning inom förvärv",
+      "challengePh": "T.ex. Vi genererar leads men konverteringen är låg och vi vet inte var de faller bort...",
+      "requiredLabel": "Obligatoriskt:",
+      "optionalLabel": "Valfritt:",
+      "privacyPrefix": "Jag har läst ",
+      "privacyLink": "integritetspolicyn",
+      "privacySuffix": " och godkänner att Alpine Marketing behandlar mina uppgifter för att besvara min förfrågan.",
+      "marketingText": "Jag vill gärna ta emot marknadsföringsuppdateringar, insikter och erbjudanden via e-post.",
+      "submit": "Begär min kostnadsfria granskning",
+      "footer": "Att skicka in formuläret innebär ingen köpförpliktelse. Du hör från oss inom 1 arbetsdag.",
+      "validation": {
+        "name": "Namn är obligatoriskt",
+        "email": "En giltig jobbmejladress krävs",
+        "company": "Företagsnamn är obligatoriskt",
+        "website": "Ange en giltig URL (inkludera https://)",
+        "monthlyLeads": "Välj ett alternativ",
+        "challenge": "Beskriv din utmaning — minst en mening",
+        "consent": "Du måste godkänna för att fortsätta"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Förfrågan mottagen.",
+    "lead": "Vi går igenom dina uppgifter och återkommer inom ",
+    "leadBold": "1 arbetsdag",
+    "leadSuffix": " för att bekräfta din audittid.",
+    "sub": "Du behöver inte göra något mer just nu. Denna förfrågan innebär inget köpåtagande.",
+    "primary": "Se kundresultat",
+    "secondary": "Tillbaka till startsidan"
+  },
+  "blogIndex": {
+    "docTitle": "Insikter & Spelböcker — Alpine Marketing",
+    "eyebrow": "Insikter & Spelböcker",
+    "title": "Fältanteckningar från maskinrummet bakom schweizisk kundanskaffning.",
+    "subtitle": "Ärliga genomgångar av vad som fungerar, vad som slösar annonsbudget och vilka verktyg vi använder för att omvandla pipelines till förutsägbar vinst. Inget fluff, inget byråspråk.",
+    "all": "Alla",
+    "empty": "Inga artiklar i den här kategorin ännu — kom tillbaka snart.",
+    "featured": "Utvald",
+    "minRead": "min läsning",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Alla artiklar",
+    "minRead": "min läsning",
+    "ctaEyebrow": "Redo att täppa till läckorna i din pipeline?",
+    "ctaTitle": "Få en kostnadsfri Pipeline Audit och se exakt var dina pengar försvinner.",
+    "ctaSub": "30 minuters samtal · ingen säljpresentation · konkreta åtgärder du kan tillämpa redan den här veckan.",
+    "ctaButton": "Boka kostnadsfri Audit",
+    "related": "Fortsätt läsa",
+    "readSuffix": "min läsning"
+  },
+  "cookieConsent": {
+    "heading": "Vi använder cookies för att förbättra din upplevelse.",
+    "bodyPrefix": "Vissa är strikt nödvändiga för att webbplatsen ska fungera. Andra — analys- och marknadsföringscookies — laddas endast med ditt samtycke. Du kan ändra dina inställningar när som helst via ",
+    "privacyChoices": "Integritetsinställningar",
+    "between": ". Se vår ",
+    "cookieNotice": "Cookiepolicy",
+    "bodySuffix": " för mer information.",
+    "acceptAll": "Acceptera alla",
+    "necessaryOnly": "Endast nödvändiga",
+    "customize": "Anpassa",
+    "customizeIntro": "Strikt nödvändiga cookies är alltid aktiva. Växla övriga nedan.",
+    "save": "Spara inställningar",
+    "back": "Tillbaka",
+    "closeAria": "Stäng och avvisa icke-nödvändiga cookies",
+    "customizeAria": "Anpassa cookieinställningar",
+    "items": {
+      "necessary": {
+        "label": "Strikt nödvändiga",
+        "desc": "Krävs för att webbplatsen ska fungera."
+      },
+      "preferences": {
+        "label": "Inställningar",
+        "desc": "Sparar dina preferenser och val."
+      },
+      "analytics": {
+        "label": "Analytics",
+        "desc": "Hjälper oss förstå hur besökare använder webbplatsen. Ingen data delas före samtycke."
+      },
+      "marketing": {
+        "label": "Marknadsföring",
+        "desc": "Används för riktad annonsering. Laddas aldrig utan ditt uttryckliga samtycke."
+      }
+    }
+  }
+}

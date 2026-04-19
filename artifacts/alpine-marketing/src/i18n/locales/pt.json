@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Agendar Auditoria Gratuita",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Saber Mais",
+    "getStarted": "Começar Agora",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "nav": {
+    "services": "Serviços",
+    "caseStudies": "Casos de Sucesso",
+    "blog": "Blog",
+    "about": "Sobre Nós",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Para PMEs e Empresas de Tecnologia na Suíça",
+    "headlineLead": "Construímos a Máquina que Transforma o Seu Investimento em Publicidade em ",
+    "headlineHighlight": "Lucro Previsível.",
+    "subheadline": "A Alpine Marketing constrói um motor de aquisição de funil completo — desde Meta & Google Ads até ao follow-up com IA e ao negócio fechado — e disponibiliza-lhe um dashboard com o seu CAC real e Lucro Bruto ao Longo da Vida.",
+    "subheadlineEmphasis": "Não cliques. Não impressões. Lucro.",
+    "primaryCta": "Obtenha a Sua Auditoria de Pipeline Gratuita",
+    "secondaryCta": "Ver Resultados de Clientes",
+    "cardTitle": "Visualizador de Pipeline — Em Direto",
+    "stats": {
+      "cac": "Redução Média de CAC",
+      "ratio": "Rácio LTGP/CAC",
+      "responseTime": "Tempo de Resposta a Leads",
+      "clients": "Clientes Suíços"
+    }
+  },
+  "problem": {
+    "eyebrow": "O Problema Central",
+    "title": "O Seu Marketing Não Está Partido. O Seu Sistema É Que Está.",
+    "subtitle": "A maioria das agências vende-lhe cliques e impressões. Mas se o seu pipeline perde clientes em cada etapa — respostas lentas, sem seguimento, zero reativação — mais tráfego significa apenas mais desperdício.",
+    "cards": {
+      "speed": {
+        "title": "O Fosso da Velocidade",
+        "desc": "Leads contactados após 5 minutos têm 21× menos probabilidade de converter. O tempo médio de resposta de uma SMB? Mais de 2 horas. Cada minuto de atraso é dinheiro a evaporar."
+      },
+      "followup": {
+        "title": "O Buraco Negro do Seguimento",
+        "desc": "dos leads nunca recebem um segundo ponto de contacto. Sem sequência de nutrição, sem SMS, sem reativação. Manifestaram interesse — e nunca mais ouviram nada."
+      },
+      "metrics": {
+        "title": "A Miragem das Métricas",
+        "valueLabel": "Visibilidade",
+        "desc": "A maioria das SMBs acompanha cliques ou \"leads gerados\" — mas não consegue responder: quanto me custa realmente cada cliente e qual é o seu lucro bruto ao longo do tempo? Sem CAC e LTGP, está a voar às cegas."
+      }
+    },
+    "leakPoints": [
+      "Resposta Lenta",
+      "Sem Nutrição",
+      "Sem Reativação",
+      "Sem Rastreamento",
+      "Receita Perdida"
+    ]
+  },
+  "system": {
+    "eyebrow": "A Abordagem Alpine",
+    "title": "Não Corrigimos Uma Coisa. Sistematizamos Tudo.",
+    "subtitle": "Seis etapas. Um motor. Cada lead acompanhado do primeiro clique ao negócio fechado.",
+    "disclaimer": "Os resultados variam consoante o mercado, a oferta, o orçamento e o processo de vendas. Os valores baseiam-se em trabalho entregue a clientes reais.",
+    "steps": {
+      "attract": {
+        "title": "Atrair",
+        "desc": "Anúncios segmentados no Meta, Google & LinkedIn. Landing pages construídas para converter, não para impressionar."
+      },
+      "capture": {
+        "title": "Capturar",
+        "desc": "Todos os leads, todas as fontes — num único CRM. Sem contactos perdidos, com atribuição completa desde o primeiro clique."
+      },
+      "route": {
+        "title": "Encaminhar & Pontuar",
+        "desc": "Leads pontuados automaticamente e enviados para o fluxo de trabalho certo em segundos — não em horas."
+      },
+      "engage": {
+        "title": "Responder em <60s",
+        "desc": "Claude AI responde 24/7, qualifica o lead e só o passa à equipa quando está pronto."
+      },
+      "nurture": {
+        "title": "Nutrir & Reativar",
+        "desc": "Sequências automatizadas por email, SMS & WhatsApp. Os leads inativos não vão para o esquecimento."
+      },
+      "measure": {
+        "title": "Medir & Melhorar",
+        "desc": "Dashboards em tempo real. CAC, LTGP, velocidade do pipeline — apenas os números que impulsionam o lucro."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "O Motor Por Detrás do Sistema",
+    "title": "Três Ferramentas. Zero Transferências Manuais. Um Sistema Unificado.",
+    "footer": "O resultado? Um sistema que trabalha enquanto dorme, escala sem contratações e fica mais inteligente a cada lead que processa.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "O CÉREBRO",
+        "desc": "Qualificação inteligente de leads e análise de intenção em tempo real. O Claude lê cada lead recebido, avalia a urgência, determina a melhor resposta e gera mensagens personalizadas com tom humano — tudo antes de a sua equipa terminar o café da manhã."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "O SISTEMA NERVOSO",
+        "desc": "O tecido conjuntivo que liga os seus anúncios, CRM, calendário e relatórios numa única pipeline automatizada. Fluxos de trabalho personalizados são acionados instantaneamente com base no comportamento do lead — sem custos de Zapier, sem soluções improvisadas."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "O CENTRO DE COMANDO",
+        "desc": "Gestão de pipeline, sequências automatizadas, marcação de reuniões e comunicação omnicanal (SMS / Email / WhatsApp) — tudo numa única plataforma que a sua equipa realmente utiliza."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "O Que Medimos de Facto",
+    "title": "Esqueça as Métricas de Vaidade. Isto é o Que Impulsiona o Crescimento.",
+    "subtitle": "Cada cliente Alpine recebe um dashboard em tempo real que acompanha os números que determinam verdadeiramente o crescimento rentável.",
+    "items": {
+      "cac": {
+        "title": "Redução de CAC",
+        "desc": "Redução média nos clientes nos primeiros 90 dias"
+      },
+      "ltgp": {
+        "title": "Melhoria de LTGP",
+        "desc": "Melhoria média com otimização de funil completo"
+      },
+      "speed": {
+        "title": "Velocidade de Resposta ao Lead",
+        "desc": "Tempo médio de primeira resposta com o nosso sistema de AI ativo"
+      },
+      "recovery": {
+        "title": "Recuperação de Pipeline",
+        "desc": "Leads inativos reativados através de campanhas automatizadas"
+      },
+      "cycle": {
+        "title": "Ciclo de Vendas",
+        "desc": "Mais rápido desde o primeiro contacto até ao negócio fechado"
+      },
+      "ratio": {
+        "title": "Rácio LTGP/CAC",
+        "desc": "Comprovado em serviços dentários, ICT e serviços profissionais"
+      }
+    },
+    "callout": {
+      "label": "Porquê LTGP e não apenas LTV?",
+      "lead": "LTV é receita. Receita não é lucro.",
+      "ltgpName": "LTGP (Lucro Bruto ao Longo da Vida do Cliente)",
+      "body": "elimina os seus custos de entrega e mostra-lhe a margem real por cliente — o que significa que é o único número capaz de revelar se o seu investimento em publicidade o está a enriquecer ou apenas a tornar mais ocupado. Construímos cada campanha em torno desse número."
+    },
+    "disclaimer": "Estes são resultados medidos em dashboards de clientes reais, não projeções."
+  },
+  "cases": {
+    "eyebrow": "Resultados Comprovados",
+    "title": "Números Reais. Clientes Reais. Lucro Real.",
+    "challenge": "Desafio",
+    "approach": "Abordagem",
+    "timeline": "Duração",
+    "results": "Resultados",
+    "dental": {
+      "badge": "Saúde / Medicina Dentária",
+      "title": "Clínica Dentária de Zurich",
+      "challenge": "Aumentar o fluxo de novos pacientes mantendo os custos de aquisição sustentáveis.",
+      "approach": "Captação de leads via Meta Ads → triagem com Claude AI → sequências de nurturing no GHL + reativação de pacientes inativos.",
+      "timeline": "3 meses",
+      "results": [
+        "166 Leads",
+        "41 Pacientes (24,7% de conversão)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (vs. 1,9:1)"
+      ],
+      "insight": "51% via Meta Ads · 49% via Reativação por AI — quase metade dos pacientes veio de leads que a clínica já havia abandonado."
+    },
+    "ict": {
+      "badge": "Tecnologia B2B",
+      "title": "Empresa Suíça de TIC",
+      "challenge": "Acelerar as vendas de software empresarial e reduzir os longos ciclos de venda.",
+      "approach": "Campanhas no LinkedIn e e-mail → qualificação com Claude AI → automação via n8n → gestão de pipeline no GHL.",
+      "timeline": "12 meses",
+      "results": [
+        "312 Leads Qualificados",
+        "67 Reuniões de Vendas (taxa de 21,5%)",
+        "Ciclo de Venda ↓38% (45→28 dias)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (vs. 2,1:1)",
+        "Impacto em receita de CHF 487K"
+      ],
+      "insight": "A qualificação automatizada eliminou 80 horas mensais de follow-up comercial manual, permitindo que os comerciais se concentrassem exclusivamente nos prospects prontos para comprar."
+    }
+  },
+  "comparison": {
+    "title": "O Que Muda Quando Sistematiza",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Processo de Vendas Manual",
+    "rows": [
+      {
+        "label": "Tempo de Resposta",
+        "ai": "Menos de 60 segundos, 24/7",
+        "manual": "Quando há disponibilidade — frequentemente horas"
+      },
+      {
+        "label": "Qualificação de Leads",
+        "ai": "Pontuação por AI, consistente, para cada lead",
+        "manual": "Subjetiva, varia consoante o comercial"
+      },
+      {
+        "label": "Escalabilidade",
+        "ai": "Aumente o volume sem aumentar a equipa",
+        "manual": "Cada novo lead = mais uma contratação"
+      },
+      {
+        "label": "Relatórios",
+        "ai": "CAC, LTGP e velocidade de pipeline em tempo real",
+        "manual": "Folhas de cálculo atualizadas quando alguém se lembra"
+      },
+      {
+        "label": "Leads Dormentes",
+        "ai": "Reativados automaticamente via campanhas",
+        "manual": "Esquecidos num cemitério de CRM"
+      },
+      {
+        "label": "Ciclo de Vendas",
+        "ai": "30-40% mais curto graças à automatização",
+        "manual": "Depende de quem estiver a vender nessa semana"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Porquê a Alpine",
+    "title": "Porquê Escolher a Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Funil Completo, Não Fragmentado",
+        "desc": "A maioria das agências optimiza um único canal. Nós sistematizamos todo o seu motor de aquisição — da primeira impressão ao lucro vitalício."
+      },
+      {
+        "title": "Métricas com Significado Real",
+        "desc": "Acompanhamos CAC e LTGP, não cliques. Saberá sempre quanto custa adquirir um cliente e quanto ele vale em lucro."
+      },
+      {
+        "title": "AI em Primeiro Lugar, Guiada por Humanos",
+        "desc": "O Claude AI trata da triagem, qualificação e resposta. A sua equipa trata das relações e do fecho."
+      },
+      {
+        "title": "Precisão Suíça, Velocidade de Startup",
+        "desc": "Infraestrutura conforme com o GDPR, relatórios transparentes, acompanhamento em tempo real — entregues com sentido de urgência."
+      },
+      {
+        "title": "Automação que se Multiplica",
+        "desc": "Cada lead torna o sistema mais inteligente. Sequências testadas em A/B e optimização contínua reduzem o seu CAC ao longo do tempo."
+      },
+      {
+        "title": "Comprovado, Não Prometido",
+        "desc": "Rácios LTGP/CAC de 3,4:1 a 4,2:1 em medicina dentária, TIC e serviços profissionais. Dashboard, não uma apresentação comercial."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "A Equipa",
+    "title": "Operadores, Não Teóricos.",
+    "subtitle": "Cada pessoa da nossa equipa constrói e gere os sistemas que vendemos. Sem gestores de conta a seguir guiões — apenas especialistas que já implementaram automações para dezenas de PMEs.",
+    "roles": {
+      "founder": "Fundador",
+      "performance": "Marketing de Performance",
+      "engineering": "Engenharia",
+      "content": "Conteúdo",
+      "creative": "Criativo",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "Funis CRM & Estratégia de Automação",
+      "performance": "Google & Meta Ads",
+      "engineering": "Desenvolvimento Web & Automação",
+      "content": "SEO & Copywriting de Conversão",
+      "creative": "Produção Fotográfica e Vídeo",
+      "motion": "Edição de Vídeo & Motion Design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Perguntas Frequentes, Respostas Directas.",
+    "items": [
+      {
+        "q": "Trabalham apenas com anúncios?",
+        "a": "Não. Os anúncios são apenas um elemento de um sistema maior. Construímos o motor de aquisição completo — tráfego pago, landing pages, configuração de CRM, encaminhamento de leads, follow-up com AI, sequências de nurturing, campanhas de reactivação e relatórios. Se o seu funil tem fugas na fase de follow-up, aumentar o investimento em anúncios apenas agrava o problema."
+      },
+      {
+        "q": "Conseguem trabalhar com o nosso CRM actual?",
+        "a": "Depende da plataforma. Operamos nativamente em GoHighLevel e conseguimos ligar-nos à maioria dos CRMs via API ou automação com n8n. Se o seu CRM suporta webhooks ou tem uma API, conseguimos integrá-lo. Se não suportar — dizemos-lho com toda a honestidade e explicamos as alternativas disponíveis."
+      },
+      {
+        "q": "Ajudam com automação e follow-up de leads?",
+        "a": "É exactamente isso que fazemos. A velocidade de resposta ao lead é uma das melhorias com maior ROI disponíveis. Os nossos Agentes Claude AI respondem em menos de 60 segundos, qualificam o lead e encaminham-no correctamente — 24/7, incluindo fins-de-semana. A sua equipa só toca em leads que estão genuinamente prontos para avançar."
+      },
+      {
+        "q": "Em que mercados trabalham?",
+        "a": "A nossa experiência principal é na Suíça, na UE e em mercados europeus transfronteiriços. Já trabalhámos com clínicas dentárias, empresas de TIC, prestadores de serviços profissionais e negócios de serviços locais. Não aceitamos qualquer tipo de negócio — na chamada de auditoria, diremos com franqueza se não somos o parceiro certo para si."
+      },
+      {
+        "q": "Como gerem a privacidade e o tracking em mercados pós-cookie?",
+        "a": "Construímos infraestruturas orientadas para o consentimento desde o início. Isso inclui gestão adequada do consentimento de cookies, estratégias de dados primários, fluxos de formulários conformes com o RGPD e tracking em CRM que não depende de cookies de terceiros. Não carregamos scripts de tracking antes do consentimento. Não utilizamos padrões obscuros."
+      },
+      {
+        "q": "O que acontece numa auditoria gratuita ao funil?",
+        "a": "Analisamos a sua configuração de aquisição actual — fontes de tráfego, landing pages, estrutura do CRM, sequências de follow-up e relatórios. Identificamos onde os leads estão a abandonar o processo e qual o valor, em termos de receita, que a correcção de cada fuga representaria. Obtém uma visão clara das lacunas do sistema antes de discutirmos uma possível colaboração."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Pronto para Corrigir o Sistema?",
+    "title": "Pare de pagar para encher um funil com fugas.",
+    "subtitle": "Marque uma auditoria gratuita e descubra onde o seu sistema de aquisição perde clientes, o que corrigir primeiro e quais os números que realmente importam.",
+    "primary": "Marque a Sua Auditoria Gratuita",
+    "secondary": "Ver os Nossos Serviços",
+    "disclaimer": "Sem compromisso. Os resultados variam consoante o mercado, a oferta, o orçamento e o processo de vendas."
+  },
+  "footer": {
+    "tagline": "Aquisição de clientes sistematizada para PMEs suíças e europeias. CAC mais baixo, pipelines mais sólidos, relatórios mais claros.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Serviços",
+      "company": "Empresa",
+      "legal": "Jurídico e Privacidade"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automação",
+      "reporting": "Relatórios e Análise",
+      "audit": "Auditoria Full-Funnel"
+    },
+    "legal": {
+      "privacy": "Aviso de Privacidade",
+      "cookies": "Aviso de Cookies",
+      "terms": "Termos de Utilização",
+      "disclaimer": "Disclaimer",
+      "accessibility": "Acessibilidade",
+      "privacyChoices": "Opções de Privacidade",
+      "dataRequests": "Pedidos de Dados",
+      "security": "Segurança e Tratamento de Dados",
+      "notice": "Aviso Legal"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Todos os direitos reservados. Zurich, Switzerland.",
+    "performanceDisclaimer": "Os resultados apresentados neste site provêm de projetos reais com clientes e não constituem qualquer garantia de resultados futuros. A performance varia consoante o mercado, a oferta, o orçamento, o processo de vendas e outros fatores fora do controlo da Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "priority": "Idiomas principais",
+    "other": "Outros idiomas da UE"
+  },
+  "servicesPage": {
+    "eyebrow": "O Que Fazemos",
+    "title": "Serviços Construídos em Torno de Sistemas, Não de Canais.",
+    "subtitle": "Não vendemos táticas isoladas. Construímos e gerimos sistemas de aquisição — desde o tráfego pago até ao cliente fechado, acompanhados em cada etapa.",
+    "cta": "Agendar uma Auditoria Gratuita ao Funil",
+    "learnMore": "Saber mais",
+    "items": {
+      "performance": {
+        "title": "Marketing de Performance",
+        "desc": "Tráfego pago no Meta, Google e LinkedIn — concebido para gerar leads qualificados, não apenas impressões. Cada campanha está ligada ao seu CRM para rastrearmos o custo por aquisição em tempo real.",
+        "outcomes": [
+          "Redução do CAC em 90 dias",
+          "Atribuição do clique ao negócio fechado",
+          "Segmentação de audiências baseada em dados reais de compra"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automação",
+        "desc": "Configuração de GoHighLevel, arquitetura de fluxos de trabalho, qualificação de leads com AI e sequências de follow-up automatizadas. O seu pipeline funciona enquanto dorme — e cada ponto de contacto é registado.",
+        "outcomes": [
+          "<60s de primeira resposta via Claude AI",
+          "Encaminhamento e pontuação automática de leads",
+          "Campanhas de reativação de leads inativos"
+        ]
+      },
+      "reporting": {
+        "title": "Relatórios & Análise",
+        "desc": "Dashboards em tempo real que mostram CAC, LTGP, taxas de conversão, velocidade de resposta ao lead e velocidade do pipeline. Reportamos o que gera lucro, não o que fica bem numa apresentação.",
+        "outcomes": [
+          "Dashboards de KPI personalizados",
+          "Acompanhamento de CAC e LTGP",
+          "Revisões de performance semanais"
+        ]
+      },
+      "content": {
+        "title": "Funis de Conteúdo",
+        "desc": "Conteúdo orientado para SEO, landing pages otimizadas para conversão e sequências de nurturing que fazem avançar os leads no funil — não apenas geram cliques.",
+        "outcomes": [
+          "Landing pages focadas na conversão",
+          "Sequências multicanal de email e SMS",
+          "Conteúdo SEO alinhado à intenção de compra"
+        ]
+      },
+      "funnel": {
+        "title": "Estratégia de Funil",
+        "desc": "Antes de construirmos seja o que for, auditamos o seu sistema atual — fontes de tráfego, estrutura do CRM, lacunas no follow-up, pontos cegos nos relatórios. Depois criamos um plano de ação que prioriza o impacto na receita.",
+        "outcomes": [
+          "Auditoria gratuita ao funil",
+          "Análise de lacunas com estimativas de impacto na receita",
+          "Plano sprint de 90 dias com prioridades definidas"
+        ]
+      },
+      "landing": {
+        "title": "Landing Pages",
+        "desc": "Landing pages de alta conversão, mobile-first, concebidas para captar leads — não para ganhar prémios de design. Com testes A/B, integradas no CRM e otimizadas para velocidade.",
+        "outcomes": [
+          "Lógica de formulários integrada no CRM",
+          "Preparadas para testes A/B",
+          "Construídas para velocidade e conversão"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Sobre a Alpine Marketing",
+    "title": "Orientada para resultados. Centrada em sistemas. Anti-métricas-de-vaidade.",
+    "subtitle": "A Alpine Marketing nasceu de uma observação simples: a maioria das PMEs não tem um problema de leads. Tem um problema de sistema. Os leads chegam e desaparecem — entre follow-ups lentos, CRMs desconectados e relatórios que mostram atividade, não lucro.",
+    "why": {
+      "title": "Por que existimos.",
+      "p1": "A maioria das agências otimiza uma parte do funil — normalmente aquela que é mais fácil de vender. Anúncios, ou conteúdo, ou «estratégia». O cliente recebe uma entrega, não um sistema funcional.",
+      "p2": "A Alpine Marketing foi fundada para resolver isso. Trabalhamos em toda a cadeia de aquisição: tráfego pago, CRM, automação, follow-up, reativação e reporting — integrados num único motor que realmente converte clientes.",
+      "p3": "Estamos sediados em Zurich e trabalhamos com empresas na Suíça, na UE e a nível internacional. Falamos de forma clara e direta, operamos em CHF e EUR, e responsabilizamo-nos pelas mesmas métricas que pedimos aos nossos clientes para valorizar."
+    },
+    "fullFunnel": {
+      "title": "O que significa pensar em funil completo.",
+      "p1": "Funil completo não é uma expressão de marketing. Significa: preocupamo-nos com o que acontece a um lead depois de preencher um formulário. Preocupamo-nos com a velocidade de contacto. Preocupamo-nos com se o CRM nutre ou esquece. Preocupamo-nos com a reativação. Preocupamo-nos com relatórios que ligam o investimento em anúncios à receita fechada.",
+      "p2": "Isto exige mais coordenação do que simplesmente gerir anúncios. Mas produz um resultado fundamentalmente diferente: CAC mais baixo, LTGP mais alto, e um sistema que cresce de forma composta em vez de estagnar."
+    },
+    "principlesTitle": "Princípios Operacionais.",
+    "principles": [
+      {
+        "title": "Medir o que importa.",
+        "desc": "CAC e LTGP. Não cliques. Não impressões. Não «notoriedade de marca». Se não está ligado ao lucro, não o otimizamos."
+      },
+      {
+        "title": "Sistemas acima de táticas.",
+        "desc": "Uma tática produz um resultado pontual. Um sistema produz resultados de forma composta. Construímos o motor, não a campanha isolada."
+      },
+      {
+        "title": "Honestos sobre o que não sabemos.",
+        "desc": "Diremos se um mercado é demasiado competitivo, se a sua oferta precisa de ser trabalhada, ou se o seu processo de vendas é o verdadeiro obstáculo. Não estamos aqui para consumir o seu orçamento e desaparecer."
+      },
+      {
+        "title": "Privacidade incorporada por design.",
+        "desc": "Operamos nos mercados suíço, europeu e norte-americano. A arquitetura de consentimento não é um pensamento tardio — é a base de cada funil que construímos."
+      },
+      {
+        "title": "Operadores, não teóricos.",
+        "desc": "Cada sistema que recomendamos, já construímos e gerimos para clientes reais. Não fazemos consultoria teórica. Construímos e gerimos a infraestrutura operacional."
+      }
+    ],
+    "ctaTitle": "Pronto para conversar?",
+    "ctaDesc": "Agende uma auditoria gratuita ao seu funil e mostraremos exatamente o que melhoraríamos e por que ordem — sem qualquer compromisso da sua parte.",
+    "ctaButton": "Agende a Sua Auditoria Gratuita"
+  },
+  "contactPage": {
+    "eyebrow": "Entre em Contacto",
+    "title": "Vamos falar de sistemas.",
+    "subtitlePrefix": "Utilize o formulário abaixo para questões gerais. Se pretende uma análise estruturada do seu funil, aceda à página ",
+    "subtitleLink": "Agendar Auditoria",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Telefone e Localização",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Tempo de resposta",
+      "responseValue": "Até 1 dia útil",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Nome",
+      "namePh": "Jane Smith",
+      "email": "Email",
+      "emailPh": "jane@empresa.com",
+      "company": "Empresa",
+      "companyPh": "Acme GmbH",
+      "service": "Serviço de interesse",
+      "serviceDefault": "Seleccionar (opcional)",
+      "serviceOptions": {
+        "performance": "Marketing de Performance",
+        "crm": "CRM + Automação",
+        "reporting": "Relatórios e Análise de Dados",
+        "content": "Funis de Conteúdo",
+        "audit": "Auditoria completa do sistema"
+      },
+      "message": "Mensagem",
+      "messagePh": "Descreva-nos a sua situação...",
+      "requiredLabel": "Obrigatório:",
+      "optionalLabel": "Opcional:",
+      "privacyPrefix": "Li a ",
+      "privacyLink": "Política de Privacidade",
+      "privacySuffix": " e consinto que as minhas informações sejam tratadas para responder a esta solicitação.",
+      "marketingText": "Gostaria de receber actualizações por email e conteúdos da Alpine Marketing.",
+      "submit": "Enviar Mensagem",
+      "validation": {
+        "name": "O nome é obrigatório",
+        "email": "É necessário um email válido",
+        "company": "O nome da empresa é obrigatório",
+        "message": "A mensagem é obrigatória",
+        "consent": "Deve aceitar para continuar"
+      },
+      "toastTitle": "Mensagem recebida",
+      "toastDesc": "Entraremos em contacto dentro de 1 dia útil."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Auditoria Gratuita ao Funil",
+    "title": "Veja exatamente onde o seu sistema perde negócio.",
+    "subtitle": "Numa chamada de auditoria de 30 minutos, analisamos a sua estratégia de aquisição e mostramos as lacunas — sem pedir nada em troca.",
+    "whatYouGetLabel": "O que recebe:",
+    "whatYouGet": [
+      "Um mapeamento de onde o seu funil atual perde leads e receita",
+      "Uma avaliação honesta sobre quais as lacunas que vale a pena corrigir primeiro",
+      "Uma visão clara de como seria um sistema automatizado para o seu negócio"
+    ],
+    "whoForLabel": "Para quem é isto:",
+    "whoForBody": "Empresas de serviços que geram leads mas convertem poucos. Empresas que investem em publicidade mas não têm certeza do que está realmente a funcionar. SMBs prontas a construir um sistema, não a comprar mais uma tática.",
+    "form": {
+      "fullName": "Nome Completo",
+      "fullNamePh": "João Silva",
+      "workEmail": "Email Profissional",
+      "workEmailPh": "joao@empresa.com",
+      "company": "Empresa",
+      "companyPh": "Acme GmbH",
+      "website": "Website",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Leads mensais (aprox.)",
+      "leadsDefault": "Selecionar...",
+      "leadsOptions": {
+        "lt20": "Menos de 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Principal desafio de aquisição",
+      "challengePh": "Ex.: Geramos leads mas a conversão é baixa e não sabemos onde é que desistem...",
+      "requiredLabel": "Obrigatório:",
+      "optionalLabel": "Opcional:",
+      "privacyPrefix": "Li o ",
+      "privacyLink": "Aviso de Privacidade",
+      "privacySuffix": " e concordo que a Alpine Marketing pode tratar os meus dados para responder ao meu pedido.",
+      "marketingText": "Gostaria de receber atualizações de marketing, insights e ofertas por email.",
+      "submit": "Solicitar a Minha Auditoria Gratuita",
+      "footer": "O envio deste formulário não implica qualquer compromisso de compra. Receberá uma resposta nossa no prazo de 1 dia útil.",
+      "validation": {
+        "name": "O nome é obrigatório",
+        "email": "É necessário um email profissional válido",
+        "company": "O nome da empresa é obrigatório",
+        "website": "Introduza um URL válido (inclua https://)",
+        "monthlyLeads": "Por favor selecione uma opção",
+        "challenge": "Por favor descreva o seu desafio — pelo menos uma frase",
+        "consent": "Deve concordar para continuar"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Pedido recebido.",
+    "lead": "Vamos analisar os seus dados e entraremos em contacto no prazo de ",
+    "leadBold": "1 dia útil",
+    "leadSuffix": " para confirmar o horário da sua auditoria.",
+    "sub": "Entretanto, não é necessária qualquer ação da sua parte. Este envio não o compromete com qualquer compra.",
+    "primary": "Ver Resultados de Clientes",
+    "secondary": "Voltar ao Início"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Notas de campo do núcleo estratégico da aquisição de clientes na Suíça.",
+    "subtitle": "Análises honestas sobre o que funciona, o que desperdiça orçamento publicitário e as ferramentas que utilizamos para transformar pipelines em lucro previsível. Sem rodeios, sem jargão de agência.",
+    "all": "Todos",
+    "empty": "Ainda não há artigos nesta categoria — volte em breve.",
+    "featured": "Destaque",
+    "minRead": "min de leitura",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Todos os Artigos",
+    "minRead": "min de leitura",
+    "ctaEyebrow": "Pronto para tapar as fugas do seu funil?",
+    "ctaTitle": "Obtenha uma Auditoria de Pipeline gratuita e descubra exactamente onde o seu dinheiro se perde.",
+    "ctaSub": "Chamada de 30 minutos · sem apresentações comerciais · soluções concretas que pode aplicar esta semana.",
+    "ctaButton": "Agendar Auditoria Gratuita",
+    "related": "Continue a Ler",
+    "readSuffix": "min de leitura"
+  },
+  "cookieConsent": {
+    "heading": "Utilizamos cookies para melhorar a sua experiência.",
+    "bodyPrefix": "Algumas são estritamente necessárias para o funcionamento do site. Outras — cookies de análise e marketing — só são carregadas com o seu consentimento. Pode alterar as suas preferências a qualquer momento através das ",
+    "privacyChoices": "Opções de Privacidade",
+    "between": ". Consulte a nossa ",
+    "cookieNotice": "Política de Cookies",
+    "bodySuffix": " para mais detalhes.",
+    "acceptAll": "Aceitar todas",
+    "necessaryOnly": "Apenas necessárias",
+    "customize": "Personalizar",
+    "customizeIntro": "Os cookies estritamente necessários estão sempre ativos. Ative ou desative os restantes abaixo.",
+    "save": "Guardar preferências",
+    "back": "Voltar",
+    "closeAria": "Fechar e rejeitar cookies não essenciais",
+    "customizeAria": "Personalizar definições de cookies",
+    "items": {
+      "necessary": {
+        "label": "Estritamente Necessários",
+        "desc": "Indispensáveis para o funcionamento do site."
+      },
+      "preferences": {
+        "label": "Preferências",
+        "desc": "Memoriza as suas definições e escolhas."
+      },
+      "analytics": {
+        "label": "Análise",
+        "desc": "Ajuda-nos a compreender como os visitantes utilizam o site. Nenhum dado é partilhado antes do seu consentimento."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "desc": "Utilizado para publicidade direcionada. Nunca carregado sem o seu consentimento explícito."
+      }
+    }
+  }
+}

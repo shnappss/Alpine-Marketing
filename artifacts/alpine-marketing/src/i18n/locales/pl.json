@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Zarezerwuj bezpłatny audyt",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Dowiedz się więcej",
+    "getStarted": "Zacznij teraz",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu"
+  },
+  "nav": {
+    "services": "Usługi",
+    "caseStudies": "Realizacje",
+    "blog": "Blog",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Dla MŚP i firm technologicznych w Szwajcarii",
+    "headlineLead": "Budujemy maszynę, która zamienia Twój budżet reklamowy w ",
+    "headlineHighlight": "przewidywalny zysk.",
+    "subheadline": "Alpine Marketing buduje kompletny silnik akwizycji — od Meta & Google Ads, przez automatyczne follow-upy oparte na AI, aż po zamkniętą sprzedaż — i dostarcza Ci dashboard z rzeczywistym CAC oraz długoterminowym zyskiem brutto.",
+    "subheadlineEmphasis": "Nie kliknięcia. Nie wyświetlenia. Zysk.",
+    "primaryCta": "Uzyskaj bezpłatny audyt pipeline'u",
+    "secondaryCta": "Zobacz wyniki klientów",
+    "cardTitle": "Wizualizator Pipeline'u — Na żywo",
+    "stats": {
+      "cac": "Śr. redukcja CAC",
+      "ratio": "Wskaźnik LTGP/CAC",
+      "responseTime": "Czas reakcji na leada",
+      "clients": "Klientów w Szwajcarii"
+    }
+  },
+  "problem": {
+    "eyebrow": "Sedno Problemu",
+    "title": "Twój marketing nie jest zepsuty. Twój system jest.",
+    "subtitle": "Większość agencji sprzedaje Ci kliknięcia i wyświetlenia. Ale jeśli Twój lejek sprzedażowy przecieka na każdym etapie — wolne odpowiedzi, brak follow-upu, zero reaktywacji — więcej ruchu oznacza tylko większe straty.",
+    "cards": {
+      "speed": {
+        "title": "Luka Czasowa",
+        "desc": "Leady, z którymi skontaktujesz się po 5 minutach, mają 21× mniejsze szanse na konwersję. Średni czas odpowiedzi MŚP? Ponad 2 godziny. Każda minuta zwłoki to pieniądze wyparowujące w powietrze."
+      },
+      "followup": {
+        "title": "Czarna Dziura Follow-Upu",
+        "desc": "leadów nigdy nie otrzymuje drugiego punktu styku. Żadnej sekwencji nurturującej, żadnego SMS-a, żadnej reaktywacji. Wyrazili zainteresowanie — i nie usłyszeli już nic."
+      },
+      "metrics": {
+        "title": "Złudzenie Metryk",
+        "valueLabel": "Widoczność",
+        "desc": "Większość MŚP śledzi kliknięcia lub „wygenerowane leady“ — ale nie potrafi odpowiedzieć: ile faktycznie kosztuje mnie każdy klient i jaki jest jego dożywotni zysk brutto? Bez CAC i LTGP działasz w ciemno."
+      }
+    },
+    "leakPoints": [
+      "Wolna Odpowiedź",
+      "Brak Nurturingu",
+      "Brak Reaktywacji",
+      "Brak Śledzenia",
+      "Utracone Przychody"
+    ]
+  },
+  "system": {
+    "eyebrow": "The Alpine Approach",
+    "title": "Nie naprawiamy jednej rzeczy. Systematyzujemy wszystko.",
+    "subtitle": "Sześć kroków. Jeden silnik. Każdy lead śledzony od pierwszego kliknięcia do zamkniętej sprzedaży.",
+    "disclaimer": "Wyniki zależą od rynku, oferty, budżetu i procesu sprzedaży. Dane oparte na zrealizowanych projektach klientów.",
+    "steps": {
+      "attract": {
+        "title": "Przyciągnij",
+        "desc": "Precyzyjne reklamy na Meta, Google i LinkedIn. Landing page'e zbudowane pod konwersję, nie pod wrażenie."
+      },
+      "capture": {
+        "title": "Przechwyć",
+        "desc": "Każdy lead, każde źródło — jeden CRM. Zero utraconych kontaktów, pełna atrybucja od pierwszego kliknięcia."
+      },
+      "route": {
+        "title": "Kieruj i oceniaj",
+        "desc": "Leady automatycznie oceniane i kierowane do właściwego workflow w sekundy — nie godziny."
+      },
+      "engage": {
+        "title": "Reaguj w <60s",
+        "desc": "Claude AI odpowiada 24/7, kwalifikuje lead i przekazuje go dalej dopiero wtedy, gdy jest gotowy."
+      },
+      "nurture": {
+        "title": "Pielęgnuj i reaktywuj",
+        "desc": "Automatyczne sekwencje przez e-mail, SMS i WhatsApp. Uśpione leady nie idą na marne."
+      },
+      "measure": {
+        "title": "Mierz i optymalizuj",
+        "desc": "Dashboardy na żywo. CAC, LTGP, prędkość pipeline'u — tylko liczby, które realnie napędzają zysk."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Silnik Napędzający System",
+    "title": "Trzy Narzędzia. Zero Ręcznych Przekazań. Jeden Zintegrowany System.",
+    "footer": "Efekt? System, który pracuje, gdy śpisz, skaluje się bez zatrudniania nowych ludzi i staje się coraz skuteczniejszy z każdym przetworzonym leadem.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agents",
+        "role": "MÓZG SYSTEMU",
+        "desc": "Inteligentna kwalifikacja leadów i analiza intencji w czasie rzeczywistym. Claude analizuje każdy przychodzący lead, ocenia pilność, dobiera optymalną odpowiedź i generuje spersonalizowane wiadomości brzmiące jak napisane przez człowieka — zanim Twój zespół zdąży wypić poranną kawę."
+      },
+      "n8n": {
+        "name": "n8n Workflow Automation",
+        "role": "UKŁAD NERWOWY",
+        "desc": "Tkanka łączna, która spaja reklamy, CRM, kalendarz i raportowanie w jeden zautomatyzowany pipeline. Niestandardowe przepływy pracy uruchamiają się natychmiastowo na podstawie zachowania leada — bez prowizji dla Zapiera, bez prowizorycznych rozwiązań."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "CENTRUM DOWODZENIA",
+        "desc": "Zarządzanie pipeline'em, zautomatyzowane sekwencje, umawianie spotkań i komunikacja wielokanałowa (SMS / Email / WhatsApp) — wszystko w jednej platformie, z której Twój zespół faktycznie korzysta."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Co Naprawdę Mierzymy",
+    "title": "Zapomnij o Pustych Metrykach. Oto Co Napędza Wzrost.",
+    "subtitle": "Każdy klient Alpine otrzymuje dashboard w czasie rzeczywistym, który śledzi liczby faktycznie decydujące o rentownym wzroście.",
+    "items": {
+      "cac": {
+        "title": "Redukcja CAC",
+        "desc": "Średnia redukcja u klientów w ciągu pierwszych 90 dni"
+      },
+      "ltgp": {
+        "title": "Poprawa LTGP",
+        "desc": "Średnia poprawa przy pełnej optymalizacji lejka sprzedażowego"
+      },
+      "speed": {
+        "title": "Czas Reakcji na Lead",
+        "desc": "Średni czas pierwszej odpowiedzi przy aktywnym systemie AI"
+      },
+      "recovery": {
+        "title": "Odzyskiwanie Pipeline'u",
+        "desc": "Uśpione leady reaktywowane przez zautomatyzowane kampanie"
+      },
+      "cycle": {
+        "title": "Cykl Sprzedaży",
+        "desc": "Szybciej od pierwszego kontaktu do zamkniętej transakcji"
+      },
+      "ratio": {
+        "title": "Wskaźnik LTGP/CAC",
+        "desc": "Potwierdzony w branży dentystycznej, ICT i usługach profesjonalnych"
+      }
+    },
+    "callout": {
+      "label": "Dlaczego LTGP, a nie samo LTV?",
+      "lead": "LTV to przychód. Przychód to nie zysk.",
+      "ltgpName": "LTGP (Lifetime Gross Profit)",
+      "body": "eliminuje koszty realizacji i pokazuje rzeczywistą marżę na każdym kliencie — co oznacza, że to jedyna liczba, która powie Ci, czy Twoje wydatki reklamowe czynią Cię bogatszym, czy tylko bardziej zapracowanym. Każdą kampanię budujemy właśnie wokół tej liczby."
+    },
+    "disclaimer": "To są zmierzone wyniki z aktywnych dashboardów klientów, nie prognozy."
+  },
+  "cases": {
+    "eyebrow": "Potwierdzone wyniki",
+    "title": "Prawdziwe liczby. Prawdziwi klienci. Realny zysk.",
+    "challenge": "Wyzwanie",
+    "approach": "Podejście",
+    "timeline": "Czas realizacji",
+    "results": "Wyniki",
+    "dental": {
+      "badge": "Ochrona zdrowia / Stomatologia",
+      "title": "Klinika stomatologiczna w Zurichu",
+      "challenge": "Rozbudowa bazy pacjentów przy jednoczesnym utrzymaniu kosztów pozyskania na akceptowalnym poziomie.",
+      "approach": "Pozyskiwanie leadów przez Meta Ads → triage z Claude AI → sekwencje pielęgnujące w GHL + reaktywacja nieaktywnych pacjentów.",
+      "timeline": "3 miesiące",
+      "results": [
+        "166 leadów",
+        "41 pacjentów (konwersja 24,7%)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (wcześniej 1,9:1)"
+      ],
+      "insight": "51% z Meta Ads · 49% z reaktywacji AI — niemal połowa pacjentów pochodziła z leadów, które klinika już dawno spisała na straty."
+    },
+    "ict": {
+      "badge": "Technologie B2B",
+      "title": "Szwajcarska firma ICT",
+      "challenge": "Przyspieszenie sprzedaży oprogramowania dla przedsiębiorstw i skrócenie długich cykli sprzedażowych.",
+      "approach": "Kampanie na LinkedIn i e-mail → kwalifikacja przez Claude AI → automatyzacja n8n → zarządzanie pipeline'em w GHL.",
+      "timeline": "12 miesięcy",
+      "results": [
+        "312 zakwalifikowanych leadów",
+        "67 spotkań sprzedażowych (wskaźnik 21,5%)",
+        "Cykl sprzedaży ↓38% (45→28 dni)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (wcześniej 2,1:1)",
+        "CHF 487K wpływu na przychody"
+      ],
+      "insight": "Automatyczna kwalifikacja wyeliminowała 80 godzin ręcznego follow-upu sprzedażowego miesięcznie — handlowcy mogli skupić się wyłącznie na prospektach gotowych do zakupu."
+    }
+  },
+  "comparison": {
+    "title": "Co się zmienia, gdy wprowadzasz system",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Ręczny proces sprzedaży",
+    "rows": [
+      {
+        "label": "Czas odpowiedzi",
+        "ai": "Poniżej 60 sekund, 24/7",
+        "manual": "Kiedy ktoś jest dostępny — często godzinami"
+      },
+      {
+        "label": "Kwalifikacja leadów",
+        "ai": "Oceniana przez AI, spójna, dla każdego leada",
+        "manual": "Subiektywna, zależna od handlowca"
+      },
+      {
+        "label": "Skalowanie",
+        "ai": "Zwiększaj wolumen bez zwiększania zespołu",
+        "manual": "Każdy nowy lead = kolejne zatrudnienie"
+      },
+      {
+        "label": "Raportowanie",
+        "ai": "CAC, LTGP i velocity pipeline w czasie rzeczywistym",
+        "manual": "Arkusze aktualizowane, gdy ktoś o tym pamięta"
+      },
+      {
+        "label": "Uśpione leady",
+        "ai": "Automatycznie reaktywowane przez kampanie",
+        "manual": "Zapomniane w cmentarzu CRM"
+      },
+      {
+        "label": "Cykl sprzedaży",
+        "ai": "Krótszy o 30–40% dzięki automatyzacji",
+        "manual": "Zależy od tego, kto akurat sprzedaje w danym tygodniu"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Dlaczego Alpine",
+    "title": "Dlaczego warto wybrać Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Pełny lejek, nie fragmenty",
+        "desc": "Większość agencji optymalizuje jeden kanał. My systematyzujemy cały Twój silnik pozyskiwania klientów — od pierwszego wrażenia po długoterminowy zysk."
+      },
+      {
+        "title": "Wskaźniki, które naprawdę znaczą",
+        "desc": "Śledzimy CAC i LTGP, nie kliknięcia. Zawsze będziesz wiedzieć, ile kosztuje pozyskanie klienta i ile przynosi zysku."
+      },
+      {
+        "title": "AI na pierwszym miejscu, człowiek przy sterze",
+        "desc": "Claude AI zajmuje się triaże'm, kwalifikacją i odpowiedziami. Twój zespół buduje relacje i domyka sprzedaż."
+      },
+      {
+        "title": "Szwajcarska precyzja, tempo startupu",
+        "desc": "Infrastruktura zgodna z GDPR, przejrzyste raportowanie, śledzenie w czasie rzeczywistym — dostarczane bez zbędnej zwłoki."
+      },
+      {
+        "title": "Automatyzacja, która się kumuluje",
+        "desc": "Każdy lead sprawia, że system staje się mądrzejszy. Sekwencje testowane metodą A/B i ciągła optymalizacja obniżają Twój CAC z biegiem czasu."
+      },
+      {
+        "title": "Udowodnione, nie obiecane",
+        "desc": "Wskaźniki LTGP/CAC na poziomie 3,4:1 do 4,2:1 w branżach stomatologicznej, ICT i usług profesjonalnych. Dashboard, nie prezentacja sprzedażowa."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Zespół",
+    "title": "Praktycy, nie teoretycy.",
+    "subtitle": "Każdy członek naszego zespołu buduje i obsługuje systemy, które sprzedajemy. Żadnych account managerów czytających ze skryptów — tylko specjaliści, którzy wdrożyli automatyzacje dla dziesiątek firm z sektora SMB.",
+    "roles": {
+      "founder": "Założyciel",
+      "performance": "Performance Marketing",
+      "engineering": "Inżynieria",
+      "content": "Content",
+      "creative": "Kreacja",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "Lejki CRM i strategia automatyzacji",
+      "performance": "Reklamy Google i Meta",
+      "engineering": "Tworzenie stron i automatyzacja",
+      "content": "SEO i copywriting nastawiony na konwersję",
+      "creative": "Produkcja foto i wideo",
+      "motion": "Montaż wideo i motion design"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Częste pytania, konkretne odpowiedzi.",
+    "items": [
+      {
+        "q": "Czy zajmujecie się tylko reklamami?",
+        "a": "Nie. Reklamy to jeden z elementów systemu. Budujemy kompletny silnik pozyskiwania klientów — płatny ruch, strony docelowe, konfigurację CRM, routing leadów, obsługę przez AI, sekwencje pielęgnacyjne, kampanie reaktywacyjne i raportowanie. Jeśli Twój lejek traci leady na etapie follow-upu, zwiększanie budżetu reklamowego tylko pogłębia ten problem."
+      },
+      {
+        "q": "Czy możecie pracować z naszym obecnym CRM?",
+        "a": "To zależy od platformy. Natively pracujemy w GoHighLevel i możemy połączyć się z większością systemów CRM przez API lub automatyzację n8n. Jeśli Twój CRM obsługuje webhooki lub posiada API — integracja jest możliwa. Jeśli nie — powiemy Ci o tym wprost i wyjaśnimy dostępne opcje."
+      },
+      {
+        "q": "Czy pomagacie z automatyzacją i follow-upem leadów?",
+        "a": "To jest właśnie sedno tego, co robimy. Szybkość reakcji na leada to jedna z poprawek o najwyższym ROI. Nasze Agenty Claude AI odpowiadają w ciągu 60 sekund, kwalifikują lead i kierują go we właściwe miejsce — 24/7, również w weekendy. Twój zespół zajmuje się wyłącznie leadami, które są faktycznie gotowe do rozmowy."
+      },
+      {
+        "q": "Na jakich rynkach działacie?",
+        "a": "Nasze główne doświadczenie obejmuje Szwajcarię, rynki unijne oraz transgraniczne rynki europejskie. Pracowaliśmy z klinikami dentystycznymi, firmami ICT, kancelariami i firmami świadczącymi usługi lokalne. Nie przyjmujemy każdego klienta — podczas rozmowy audytowej powiemy Ci wprost, jeśli nie jesteśmy dla Ciebie odpowiednim partnerem."
+      },
+      {
+        "q": "Jak radzicie sobie z prywatnością i śledzeniem na rynkach post-cookie?",
+        "a": "Budujemy infrastrukturę uwzględniającą zgodę użytkownika od samego początku. Oznacza to właściwe zarządzanie zgodami na cookies, strategie oparte na danych własnych, przepływy formularzy zgodne z GDPR oraz śledzenie w CRM niezależne od plików cookie stron trzecich. Nie ładujemy skryptów śledzących przed uzyskaniem zgody. Nie stosujemy dark patterns."
+      },
+      {
+        "q": "Co obejmuje bezpłatny audyt lejka?",
+        "a": "Analizujemy Twój obecny system pozyskiwania klientów — źródła ruchu, strony docelowe, strukturę CRM, sekwencje follow-up i raportowanie. Identyfikujemy miejsca, w których leady wypadają z lejka, i szacujemy, ile przychodów można odzyskać przez usunięcie każdego przecieku. Zanim porozmawiamy o współpracy, otrzymujesz pełny obraz luk w systemie."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Gotowy, żeby naprawić system?",
+    "title": "Przestań płacić za wypełnianie dziurawego lejka.",
+    "subtitle": "Zarezerwuj bezpłatny audyt i dowiedz się, gdzie przecieka Twój system pozyskiwania klientów, co naprawić w pierwszej kolejności i które liczby naprawdę mają znaczenie.",
+    "primary": "Zarezerwuj bezpłatny audyt",
+    "secondary": "Zobacz nasze usługi",
+    "disclaimer": "Żadnych zobowiązań. Wyniki zależą od rynku, oferty, budżetu i procesu sprzedaży."
+  },
+  "footer": {
+    "tagline": "Systematyczne pozyskiwanie klientów dla szwajcarskich i europejskich firm z sektora SMB. Niższy CAC, silniejsze pipeline'y, przejrzystszy reporting.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Usługi",
+      "company": "Firma",
+      "legal": "Prawo i prywatność"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + Automatyzacja",
+      "reporting": "Raportowanie i analityka",
+      "audit": "Full-Funnel Audit"
+    },
+    "legal": {
+      "privacy": "Polityka prywatności",
+      "cookies": "Polityka cookies",
+      "terms": "Warunki użytkowania",
+      "disclaimer": "Zastrzeżenie prawne",
+      "accessibility": "Dostępność",
+      "privacyChoices": "Ustawienia prywatności",
+      "dataRequests": "Wnioski dotyczące danych",
+      "security": "Bezpieczeństwo i przetwarzanie danych",
+      "notice": "Nota prawna"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Wszelkie prawa zastrzeżone. Zurich, Switzerland.",
+    "performanceDisclaimer": "Wyniki prezentowane na tej stronie pochodzą z rzeczywistych współprac z klientami i nie stanowią gwarancji przyszłych rezultatów. Osiągane efekty zależą od rynku, oferty, budżetu, procesu sprzedaży oraz innych czynników pozostających poza kontrolą Alpine Marketing."
+  },
+  "languageSwitcher": {
+    "label": "Język",
+    "priority": "Języki podstawowe",
+    "other": "Inne języki UE"
+  },
+  "servicesPage": {
+    "eyebrow": "Co robimy",
+    "title": "Usługi zbudowane wokół systemów, nie kanałów.",
+    "subtitle": "Nie sprzedajemy pojedynczych taktyk. Budujemy i prowadzimy systemy pozyskiwania klientów — od płatnego ruchu do zamkniętej transakcji, śledzone na każdym etapie.",
+    "cta": "Zarezerwuj bezpłatny audyt lejka",
+    "learnMore": "Dowiedz się więcej",
+    "items": {
+      "performance": {
+        "title": "Performance Marketing",
+        "desc": "Płatny ruch na Meta, Google i LinkedIn — zaprojektowany tak, by generować wykwalifikowane leady, nie tylko wyświetlenia. Każda kampania jest połączona z Twoim CRM, dzięki czemu śledzimy koszt pozyskania klienta w czasie rzeczywistym.",
+        "outcomes": [
+          "Niższy CAC w ciągu 90 dni",
+          "Atrybucja od kliknięcia do zamkniętej transakcji",
+          "Targetowanie odbiorców oparte na rzeczywistych danych zakupowych"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatyzacja",
+        "desc": "Konfiguracja GoHighLevel, architektura przepływów pracy, kwalifikacja leadów przez AI i zautomatyzowane sekwencje follow-up. Twój pipeline działa, gdy śpisz — a każdy punkt kontaktu jest śledzony.",
+        "outcomes": [
+          "<60s pierwsza odpowiedź przez Claude AI",
+          "Automatyczne routowanie i scoring leadów",
+          "Kampanie reaktywacji uśpionych leadów"
+        ]
+      },
+      "reporting": {
+        "title": "Raportowanie i analityka",
+        "desc": "Dashboardy w czasie rzeczywistym pokazujące CAC, LTGP, współczynniki konwersji, czas reakcji na leada i prędkość pipeline'u. Raportujemy to, co napędza zysk — nie to, co dobrze wygląda w prezentacji.",
+        "outcomes": [
+          "Niestandardowe dashboardy KPI",
+          "Śledzenie CAC i LTGP",
+          "Tygodniowe przeglądy wyników"
+        ]
+      },
+      "content": {
+        "title": "Lejki contentowe",
+        "desc": "Treści oparte na SEO, strony docelowe zoptymalizowane pod konwersję i sekwencje nurturujące, które przeprowadzają leady przez lejek — nie tylko generują kliknięcia.",
+        "outcomes": [
+          "Strony docelowe skoncentrowane na konwersji",
+          "Wieloetapowe sekwencje e-mail i SMS",
+          "Treści SEO dopasowane do intencji zakupowej"
+        ]
+      },
+      "funnel": {
+        "title": "Strategia lejka",
+        "desc": "Zanim cokolwiek zbudujemy, przeprowadzamy audyt Twojego obecnego systemu — źródła ruchu, struktura CRM, luki w follow-up, martwe punkty raportowania. Następnie tworzymy plan działania, który priorytetyzuje wpływ na przychody.",
+        "outcomes": [
+          "Bezpłatny audyt lejka",
+          "Analiza luk z szacunkami wpływu na przychody",
+          "Priorytetowy plan sprintu na 90 dni"
+        ]
+      },
+      "landing": {
+        "title": "Strony docelowe",
+        "desc": "Wysoko konwertujące, mobilne strony docelowe zaprojektowane do pozyskiwania leadów — nie do zdobywania nagród designerskich. Testowane A/B, zintegrowane z CRM i zbudowane z myślą o szybkości.",
+        "outcomes": [
+          "Logika formularzy zintegrowana z CRM",
+          "Gotowe do testów A/B",
+          "Zbudowane dla szybkości i konwersji"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "O Alpine Marketing",
+    "title": "Nastawieni na wyniki. Zorientowani na systemy. Bez metryk próżności.",
+    "subtitle": "Alpine Marketing powstało na bazie prostej obserwacji: większość firm z sektora SMB nie ma problemu z leadami. Ma problem z systemem. Leady pojawiają się i znikają — w powolnym follow-upie, odizolowanych CRM-ach i raportach pokazujących aktywność, nie zysk.",
+    "why": {
+      "title": "Dlaczego istniejemy.",
+      "p1": "Większość agencji optymalizuje jeden etap lejka — zazwyczaj ten, który najłatwiej im sprzedać. Reklamy, content albo „strategię“. Klient dostaje produkt do odbioru, nie działający system.",
+      "p2": "Alpine Marketing powstało, żeby to zmienić. Pracujemy na całym stosie akwizycji: płatny ruch, CRM, automatyzacja, follow-up, reaktywacja i raportowanie — połączone w jeden silnik, który naprawdę pozyskuje klientów.",
+      "p3": "Mamy siedzibę w Zurychu i współpracujemy z firmami w Szwajcarii, UE oraz na rynkach międzynarodowych. Mówimy wprost, operujemy w CHF i EUR i rozliczamy się z tych samych wskaźników, których oczekujemy od naszych klientów."
+    },
+    "fullFunnel": {
+      "title": "Co oznacza myślenie pełnolejkowe.",
+      "p1": "Full-funnel to nie hasło marketingowe. To znaczy: interesuje nas, co dzieje się z leadem po wypełnieniu formularza. Interesuje nas szybkość reakcji na leada. Interesuje nas, czy CRM pielęgnuje kontakty, czy o nich zapomina. Interesuje nas reaktywacja. Interesuje nas raportowanie łączące wydatki na reklamy z zamkniętymi przychodami.",
+      "p2": "To wymaga większej koordynacji niż samo prowadzenie kampanii. Ale przynosi fundamentalnie inny rezultat: niższy CAC, wyższy LTGP i system, który rośnie wykładniczo zamiast zatrzymywać się w miejscu."
+    },
+    "principlesTitle": "Zasady działania.",
+    "principles": [
+      {
+        "title": "Mierz to, co ma znaczenie.",
+        "desc": "CAC i LTGP. Nie kliknięcia. Nie wyświetlenia. Nie „świadomość marki“. Jeśli coś nie przekłada się na zysk, nie optymalizujemy pod to."
+      },
+      {
+        "title": "Systemy ponad taktyki.",
+        "desc": "Taktyka przynosi wynik raz. System przynosi wyniki w sposób kumulatywny. Budujemy silnik, nie pojedynczą kampanię."
+      },
+      {
+        "title": "Szczerość w tym, czego nie wiemy.",
+        "desc": "Powiemy Ci, jeśli rynek jest zbyt konkurencyjny, jeśli Twoja oferta wymaga dopracowania albo jeśli to Twój proces sprzedaży jest prawdziwym wąskim gardłem. Nie jesteśmy tu po to, żeby wziąć Twój budżet i zniknąć."
+      },
+      {
+        "title": "Prywatność wbudowana w projekt.",
+        "desc": "Działamy na rynkach szwajcarskim, unijnym i amerykańskim. Architektura uwzględniająca zgody użytkowników to nie kwestia drugorzędna — to fundament każdego budowanego przez nas lejka."
+      },
+      {
+        "title": "Praktycy, nie teoretycy.",
+        "desc": "Każdy system, który rekomendujemy, zbudowaliśmy i uruchomiliśmy dla realnych klientów. Nie doradzamy w teorii. Budujemy i zarządzamy operacyjną infrastrukturą."
+      }
+    ],
+    "ctaTitle": "Gotowy, żeby porozmawiać?",
+    "ctaDesc": "Zamów bezpłatny audyt lejka, a pokażemy Ci dokładnie, co byśmy poprawili i w jakiej kolejności — zanim zdecydujesz się na cokolwiek.",
+    "ctaButton": "Zamów bezpłatny audyt"
+  },
+  "contactPage": {
+    "eyebrow": "Skontaktuj się z nami",
+    "title": "Porozmawiajmy o systemach.",
+    "subtitlePrefix": "Skorzystaj z poniższego formularza w przypadku ogólnych zapytań. Jeśli chcesz przeprowadzić strukturalny przegląd lejka sprzedażowego, przejdź na stronę ",
+    "subtitleLink": "Zamów Audyt",
+    "subtitleSuffix": ".",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Telefon i lokalizacja",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Czas odpowiedzi",
+      "responseValue": "W ciągu 1 dnia roboczego",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Imię i nazwisko",
+      "namePh": "Jan Kowalski",
+      "email": "Email",
+      "emailPh": "jan@firma.pl",
+      "company": "Firma",
+      "companyPh": "Acme GmbH",
+      "service": "Interesująca usługa",
+      "serviceDefault": "Wybierz (opcjonalnie)",
+      "serviceOptions": {
+        "performance": "Performance Marketing",
+        "crm": "CRM + Automatyzacja",
+        "reporting": "Raportowanie i analityka",
+        "content": "Lejki contentowe",
+        "audit": "Audyt całego systemu"
+      },
+      "message": "Wiadomość",
+      "messagePh": "Opisz swoją sytuację...",
+      "requiredLabel": "Wymagane:",
+      "optionalLabel": "Opcjonalne:",
+      "privacyPrefix": "Zapoznałem/-am się z ",
+      "privacyLink": "Polityką prywatności",
+      "privacySuffix": " i wyrażam zgodę na przetwarzanie moich danych w celu udzielenia odpowiedzi na to zapytanie.",
+      "marketingText": "Chcę otrzymywać aktualizacje e-mail i materiały branżowe od Alpine Marketing.",
+      "submit": "Wyślij wiadomość",
+      "validation": {
+        "name": "Imię i nazwisko jest wymagane",
+        "email": "Wymagany jest prawidłowy adres email",
+        "company": "Nazwa firmy jest wymagana",
+        "message": "Wiadomość jest wymagana",
+        "consent": "Musisz wyrazić zgodę, aby kontynuować"
+      },
+      "toastTitle": "Wiadomość odebrana",
+      "toastDesc": "Odezwiemy się w ciągu 1 dnia roboczego."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Bezpłatny audyt lejka",
+    "title": "Sprawdź dokładnie, gdzie Twój system traci klientów.",
+    "subtitle": "Podczas 30-minutowej rozmowy audytowej analizujemy Twoją strukturę pozyskiwania klientów i wskazujemy luki — zanim poprosimy Cię o cokolwiek w zamian.",
+    "whatYouGetLabel": "Co otrzymujesz:",
+    "whatYouGet": [
+      "Mapę miejsc, w których Twój obecny lejek traci leady i przychody",
+      "Rzetelną ocenę tego, które luki warto wypełnić w pierwszej kolejności",
+      "Obraz tego, jak mógłby wyglądać zautomatyzowany silnik sprzedaży dla Twojego biznesu"
+    ],
+    "whoForLabel": "Dla kogo jest ta oferta:",
+    "whoForBody": "Firmy usługowe, które generują leady, ale konwertują zbyt mało. Firmy wydające budżet na reklamy, lecz niepewne tego, co naprawdę działa. SMBs gotowe budować system — nie kupować kolejnej taktyki.",
+    "form": {
+      "fullName": "Imię i nazwisko",
+      "fullNamePh": "Jan Kowalski",
+      "workEmail": "Służbowy adres e-mail",
+      "workEmailPh": "jan@firma.pl",
+      "company": "Firma",
+      "companyPh": "Acme GmbH",
+      "website": "Strona internetowa",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Miesięczna liczba leadów (w przybliżeniu)",
+      "leadsDefault": "Wybierz...",
+      "leadsOptions": {
+        "lt20": "Mniej niż 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Największe wyzwanie w pozyskiwaniu klientów",
+      "challengePh": "Np. Generujemy leady, ale konwersja jest niska i nie wiemy, w którym miejscu je tracimy...",
+      "requiredLabel": "Wymagane:",
+      "optionalLabel": "Opcjonalne:",
+      "privacyPrefix": "Zapoznałem/am się z ",
+      "privacyLink": "Informacją o prywatności",
+      "privacySuffix": " i wyrażam zgodę na przetwarzanie moich danych przez Alpine Marketing w celu odpowiedzi na moje zapytanie.",
+      "marketingText": "Chcę otrzymywać na e-mail aktualizacje marketingowe, porady i oferty.",
+      "submit": "Poproś o bezpłatny audyt",
+      "footer": "Wysłanie formularza nie zobowiązuje Cię do żadnego zakupu. Odezwiemy się do Ciebie w ciągu 1 dnia roboczego.",
+      "validation": {
+        "name": "Imię i nazwisko są wymagane",
+        "email": "Podaj prawidłowy służbowy adres e-mail",
+        "company": "Nazwa firmy jest wymagana",
+        "website": "Podaj prawidłowy adres URL (z https://)",
+        "monthlyLeads": "Proszę wybrać jedną opcję",
+        "challenge": "Opisz swoje wyzwanie — przynajmniej jednym zdaniem",
+        "consent": "Musisz wyrazić zgodę, aby kontynuować"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Zapytanie zostało przyjęte.",
+    "lead": "Przejrzymy Twoje dane i skontaktujemy się z Tobą w ciągu ",
+    "leadBold": "1 dnia roboczego",
+    "leadSuffix": ", aby potwierdzić termin audytu.",
+    "sub": "W międzyczasie nie musisz podejmować żadnych działań. Przesłanie formularza nie zobowiązuje Cię do żadnego zakupu.",
+    "primary": "Zobacz wyniki klientów",
+    "secondary": "Powrót do strony głównej"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Notatki z zaplecza szwajcarskiej akwizycji klientów.",
+    "subtitle": "Rzetelne analizy tego, co działa, co pochłania budżet reklamowy bez efektów i jakich narzędzi używamy, by przekształcić pipeline w przewidywalny zysk. Bez lania wody, bez agencyjnego żargonu.",
+    "all": "Wszystkie",
+    "empty": "Brak artykułów w tej kategorii — zajrzyj wkrótce.",
+    "featured": "Wyróżnione",
+    "minRead": "min czytania",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Wszystkie artykuły",
+    "minRead": "min czytania",
+    "ctaEyebrow": "Gotowy, by uszczelnić swój lejek?",
+    "ctaTitle": "Zamów bezpłatny audyt pipeline'u i sprawdź, gdzie dokładnie tracisz pieniądze.",
+    "ctaSub": "30-minutowa rozmowa · bez prezentacji handlowej · konkretne rozwiązania do wdrożenia już w tym tygodniu.",
+    "ctaButton": "Umów bezpłatny audyt",
+    "related": "Czytaj dalej",
+    "readSuffix": "min czytania"
+  },
+  "cookieConsent": {
+    "heading": "Używamy plików cookie, aby poprawić Twoje doświadczenie.",
+    "bodyPrefix": "Niektóre są niezbędne do działania strony. Inne — analityczne i marketingowe — są wczytywane wyłącznie za Twoją zgodą. Możesz zmienić swoje preferencje w dowolnym momencie, korzystając z ",
+    "privacyChoices": "Ustawień prywatności",
+    "between": ". Zobacz naszą ",
+    "cookieNotice": "Informację o plikach cookie",
+    "bodySuffix": ", aby dowiedzieć się więcej.",
+    "acceptAll": "Zaakceptuj wszystkie",
+    "necessaryOnly": "Tylko niezbędne",
+    "customize": "Dostosuj",
+    "customizeIntro": "Niezbędne pliki cookie są zawsze aktywne. Pozostałe możesz włączyć lub wyłączyć poniżej.",
+    "save": "Zapisz preferencje",
+    "back": "Wróć",
+    "closeAria": "Zamknij i odrzuć nieistotne pliki cookie",
+    "customizeAria": "Dostosuj ustawienia plików cookie",
+    "items": {
+      "necessary": {
+        "label": "Niezbędne",
+        "desc": "Wymagane do prawidłowego działania strony."
+      },
+      "preferences": {
+        "label": "Preferencje",
+        "desc": "Zapamiętuje Twoje ustawienia i wybory."
+      },
+      "analytics": {
+        "label": "Analityczne",
+        "desc": "Pomagają nam zrozumieć, jak odwiedzający korzystają ze strony. Żadne dane nie są udostępniane przed wyrażeniem zgody."
+      },
+      "marketing": {
+        "label": "Marketingowe",
+        "desc": "Wykorzystywane do reklamy ukierunkowanej. Nigdy nie są wczytywane bez Twojej wyraźnej zgody."
+      }
+    }
+  }
+}

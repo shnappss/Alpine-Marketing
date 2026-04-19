@@ -1,0 +1,619 @@
+{
+  "common": {
+    "bookAudit": "Broneeri tasuta audit",
+    "phone": "+41 79 525 55 04",
+    "learnMore": "Loe lähemalt",
+    "getStarted": "Alusta",
+    "openMenu": "Ava menüü",
+    "closeMenu": "Sulge menüü"
+  },
+  "nav": {
+    "services": "Teenused",
+    "caseStudies": "Näidislood",
+    "blog": "Blogi",
+    "about": "Meist",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Šveitsi VKE-dele ja tehnoloogiaettevõtetele",
+    "headlineLead": "Ehitame masina, mis muudab teie reklaamikulud ",
+    "headlineHighlight": "ennustatavaks kasumiks.",
+    "subheadline": "Alpine Marketing ehitab täislehtri kliendihankemootori — Meta & Google Ads'ist AI-põhise järelkontaktini ja suletud tehinguni — ning annab teile armatuurlaua, mis näitab teie tegelikku CAC-i ja eluaegset brutokasumit.",
+    "subheadlineEmphasis": "Mitte klikid. Mitte näitamised. Kasum.",
+    "primaryCta": "Saa tasuta müügitoru audit",
+    "secondaryCta": "Vaata klientide tulemusi",
+    "cardTitle": "Pipeline Visualizer — reaalajas",
+    "stats": {
+      "cac": "Keskm. CAC vähenemine",
+      "ratio": "LTGP/CAC suhtarv",
+      "responseTime": "Leadi reageerimisaeg",
+      "clients": "Šveitsi klienti"
+    }
+  },
+  "problem": {
+    "eyebrow": "Põhiprobleem",
+    "title": "Teie turundus ei ole katki. Teie süsteem on.",
+    "subtitle": "Enamik agentuuridest müüb teile klikke ja näitamisi. Aga kui teie müügitoru lekib igas etapis — aeglased vastused, järelkontakti puudumine, null reaktiveerimist — tähendab suurem liiklus lihtsalt suuremat raiskamist.",
+    "cards": {
+      "speed": {
+        "title": "Kiiruse lõhe",
+        "desc": "Liidid, kellega võetakse ühendust pärast 5 minutit, konverteeruvad 21× väiksema tõenäosusega. Keskmine SMB vastamisaeg? Üle 2 tunni. Iga viivitusminut on aurustuvat raha."
+      },
+      "followup": {
+        "title": "Järelkontakti must auk",
+        "desc": "liididest ei saa kunagi teist kontaktpunkti. Ei kasvatussekventsi, ei SMS-i, ei reaktiveerimist. Nad väljendasid huvi — ja ei kuulnud midagi tagasi."
+      },
+      "metrics": {
+        "title": "Mõõdikute illusioon",
+        "valueLabel": "Nähtavus",
+        "desc": "Enamik SMB-sid jälgib klikke või „genereeritud liide“ — kuid ei suuda vastata: mida iga klient tegelikult maksab ja milline on nende eluaegne kogutulu? Ilma CAC ja LTGP-ta lendad pimesi."
+      }
+    },
+    "leakPoints": [
+      "Aeglane vastus",
+      "Kasvatuse puudumine",
+      "Reaktiveerimata",
+      "Jälgimine puudub",
+      "Kaotatud tulu"
+    ]
+  },
+  "system": {
+    "eyebrow": "Alpine'i lähenemine",
+    "title": "Me ei paranda ühte asja. Me süstematiseerime kõik.",
+    "subtitle": "Kuus sammu. Üks mootor. Iga müügivihje jälgitav esimesest klikist suletud tehinguni.",
+    "disclaimer": "Tulemused sõltuvad turust, pakkumisest, eelarvest ja müügiprotsessist. Näitajad põhinevad teostatud klienditöödel.",
+    "steps": {
+      "attract": {
+        "title": "Meelita",
+        "desc": "Sihitud reklaamid Meta, Google & LinkedIn platvormidel. Maandumislehed, mis on ehitatud konverteerima, mitte muljet avaldama."
+      },
+      "capture": {
+        "title": "Kogu",
+        "desc": "Iga müügivihje, iga allikas — üks CRM. Ühtki kontakti ei lähe kaduma, täielik atributsioon esimesest klikist."
+      },
+      "route": {
+        "title": "Suuna & Skoreeri",
+        "desc": "Müügivihjed skooritakse automaatselt ja saadetakse sekunditega õigesse töövoogu — mitte tundidega."
+      },
+      "engage": {
+        "title": "Kaasa <60s jooksul",
+        "desc": "Claude AI vastab 24/7, kvalifitseerib müügivihje ja annab selle üle alles siis, kui nad on valmis."
+      },
+      "nurture": {
+        "title": "Kasvatа & Reaktiveeri",
+        "desc": "Automatiseeritud järjestused e-posti, SMS-i & WhatsAppi kaudu. Uinuvad müügivihjed ei lähe raisku."
+      },
+      "measure": {
+        "title": "Mõõda & Paranda",
+        "desc": "Reaalajas töölauad. CAC, LTGP, pipeline'i kiirus — ainult need numbrid, mis kasumit suurendavad."
+      }
+    }
+  },
+  "techStack": {
+    "eyebrow": "Mootor Kapoti All",
+    "title": "Kolm Tööriista. Null Käsitsi Üleminekut. Üks Ühtne Süsteem.",
+    "footer": "Tulemus? Süsteem, mis töötab siis, kui sina magad, kasvab ilma uusi töötajaid palkamata ja muutub iga töödeldud liidiga targemaks.",
+    "tools": {
+      "claude": {
+        "name": "Claude AI Agendid",
+        "role": "AJU",
+        "desc": "Intelligentne liidide kvalifitseerimine ja reaalajas kavatsuste analüüs. Claude loeb iga saabuvat liidi, hindab kiireloomulisust, määrab parima vastuse ja genereerib personaliseeritud, inimlikud sõnumid — kõik enne, kui su tiim oma hommikukohvi ära joob."
+      },
+      "n8n": {
+        "name": "n8n Töövoo Automatiseerimine",
+        "role": "NÄRVISÜSTEEM",
+        "desc": "Ühendav kude, mis seob sinu reklaamid, CRM-i, kalendri ja aruandluse ühtseks automatiseeritud torujuhtmeks. Kohandatud töövood käivituvad koheselt liidi käitumise põhjal — ilma lisatasude ja ajutiste lahendusteta."
+      },
+      "ghl": {
+        "name": "GoHighLevel CRM",
+        "role": "JUHTIMISKESKUS",
+        "desc": "Torujuhtme haldus, automatiseeritud järjestused, kohtumiste broneerimine ja omnikanali suhtlus (SMS / e-post / WhatsApp) — kõik ühel platvormil, mida su tiim tegelikult kasutab."
+      }
+    }
+  },
+  "metrics": {
+    "eyebrow": "Mida Me Tegelikult Mõõdame",
+    "title": "Unusta tühised mõõdikud. Siin on see, mis tegelikult kasvu tagab.",
+    "subtitle": "Iga Alpine'i klient saab reaalajas armatuurlaua, mis jälgib numbreid, mis tegelikult määravad kasumlikku kasvu.",
+    "items": {
+      "cac": {
+        "title": "CAC vähenemine",
+        "desc": "Keskmine vähenemine klientide lõikes esimese 90 päeva jooksul"
+      },
+      "ltgp": {
+        "title": "LTGP paranemine",
+        "desc": "Keskmine paranemine täieliku lehtri optimeerimisega"
+      },
+      "speed": {
+        "title": "Reageerimiskiirus",
+        "desc": "Keskmine esimese vastuse aeg meie AI süsteemi kasutamisel"
+      },
+      "recovery": {
+        "title": "Müügitoru taastamine",
+        "desc": "Passiivsed müügivihjed taasaktiveeritud automatiseeritud kampaaniate kaudu"
+      },
+      "cycle": {
+        "title": "Müügitsükkel",
+        "desc": "Kiirem esimesest kontaktist tehingu sõlmimiseni"
+      },
+      "ratio": {
+        "title": "LTGP/CAC suhtarv",
+        "desc": "Tõestatud hambaravi, IKT ja kutseteenuste valdkonnas"
+      }
+    },
+    "callout": {
+      "label": "Miks LTGP ja mitte lihtsalt LTV?",
+      "lead": "LTV on käive. Käive ei ole kasum.",
+      "ltgpName": "LTGP (eluaegne brutokasum)",
+      "body": "eemaldab teie teenuse osutamise kulud ja näitab teile tegelikku marginaali kliendi kohta — mis tähendab, et see on ainus number, mis ütleb teile, kas teie reklaamikulutused muudavad teid rikkamaks või lihtsalt hõivamaks. Me ehitame iga kampaania selle numbri ümber."
+    },
+    "disclaimer": "Need on mõõdetud tulemused reaalajas klientide armatuurlaudadelt, mitte prognoosid."
+  },
+  "cases": {
+    "eyebrow": "Tõestatud tulemused",
+    "title": "Pärisarvud. Päris kliendid. Päris kasum.",
+    "challenge": "Väljakutse",
+    "approach": "Lähenemine",
+    "timeline": "Ajakava",
+    "results": "Tulemused",
+    "dental": {
+      "badge": "Tervishoid / Hambaravi",
+      "title": "Zürichi Hambaravikliinik",
+      "challenge": "Kasvatada patsientide voogu, hoides samal ajal hankimiskulud jätkusuutlikul tasemel.",
+      "approach": "Meta Ads liidide kogumine → Claude AI triaaž → GHL kasvatusjärjestused + uinuvate patsientide reaktiveerimine.",
+      "timeline": "3 kuud",
+      "results": [
+        "166 liidi",
+        "41 patsienti (24,7% konversioon)",
+        "CAC ↓29% (CHF 241 → CHF 171)",
+        "LTGP/CAC 3,4:1 (varasem 1,9:1)"
+      ],
+      "insight": "51% Meta Ads'ist · 49% AI Reaktiveerimisest — ligi pooled patsiendid tulid liididest, kellest kliinik oli juba loobunud."
+    },
+    "ict": {
+      "badge": "B2B Tehnoloogia",
+      "title": "Šveitsi IKT-ettevõte",
+      "challenge": "Kiirendada ettevõttetarkvara müüki ja lühendada pikki müügitsükleid.",
+      "approach": "LinkedIn-i ja e-posti kampaaniad → Claude AI kvalifitseerimine → n8n automatiseerimine → GHL torustiku haldus.",
+      "timeline": "12 kuud",
+      "results": [
+        "312 kvalifitseeritud liidi",
+        "67 müügikoosolekut (21,5% määr)",
+        "Müügitsükkel ↓38% (45→28 päeva)",
+        "CAC ↓35% (CHF 580→CHF 377)",
+        "LTGP/CAC 4,2:1 (varasem 2,1:1)",
+        "CHF 487K tulumõju"
+      ],
+      "insight": "Automatiseeritud kvalifitseerimine elimineeri 80 tundi käsitsi müügijärelkäimist kuus, võimaldades esindajatel keskenduda ainult ostuvalmis potentsiaalsetele klientidele."
+    }
+  },
+  "comparison": {
+    "title": "Mis muutub, kui süstematiseerite",
+    "engineLabel": "Alpine AI Engine",
+    "manualLabel": "Käsitsi müügiprotsess",
+    "rows": [
+      {
+        "label": "Reageerimisaeg",
+        "ai": "Alla 60 sekundi, 24/7",
+        "manual": "Kui keegi on saadaval — sageli tunde hiljem"
+      },
+      {
+        "label": "Liidide kvalifitseerimine",
+        "ai": "AI-hinnanguga, järjepidev, iga liid",
+        "manual": "Subjektiivne, sõltub müügiesindajast"
+      },
+      {
+        "label": "Skaleeritavus",
+        "ai": "Suurendage mahtu ilma töötajaid juurde palkamata",
+        "manual": "Iga uus liid = uus töölevõtt"
+      },
+      {
+        "label": "Aruandlus",
+        "ai": "Reaalajas CAC, LTGP, müügitoru kiirus",
+        "manual": "Tabelid uuendatakse siis, kui keegi meelde tuleb"
+      },
+      {
+        "label": "Uinunud liidid",
+        "ai": "Automaatselt reaktiveeritud kampaaniate kaudu",
+        "manual": "Unustatud CRM-i surnuaeda"
+      },
+      {
+        "label": "Müügitsükkel",
+        "ai": "30–40% lühem tänu automatiseerimisele",
+        "manual": "Sõltub sellest, kes sel nädalal müüb"
+      }
+    ]
+  },
+  "whyAlpine": {
+    "eyebrow": "Miks Alpine",
+    "title": "Miks valida Alpine Marketing?",
+    "cards": [
+      {
+        "title": "Täielik lehtri, mitte killustatud lähenemine",
+        "desc": "Enamik agentuurе optimeerib üht kanalit. Meie süstematiseerime teie kogu kliendihankimise mootori — esimesest kokkupuutest kuni eluaegse kasumini."
+      },
+      {
+        "title": "Mõõdikud, mis tegelikult loevad",
+        "desc": "Jälgime CAC-i ja LTGP-d, mitte klikke. Teil on alati selge ülevaade, kui palju klient maksab ja kui palju tulu ta toob."
+      },
+      {
+        "title": "AI-esikohaga, inimese juhitud",
+        "desc": "Claude AI haldab triaaži, kvalifitseerimist ja vastamist. Teie meeskond hoiab suhteid ja sõlmib tehinguid."
+      },
+      {
+        "title": "Šveitsi täpsus, idufirma kiirus",
+        "desc": "GDPR-nõuetele vastav infrastruktuur, läbipaistev aruandlus, reaalajas jälgimine — kõik toimetatud kiireloomuliselt."
+      },
+      {
+        "title": "Automatiseerimine, mis akumuleerub",
+        "desc": "Iga lead muudab süsteemi targemaks. A/B-testitud järjestused ja pidev optimeerimine vähendavad teie CAC-i aja jooksul."
+      },
+      {
+        "title": "Tõestatud, mitte lubatud",
+        "desc": "LTGP/CAC suhtarvud 3,4:1 kuni 4,2:1 hambaravi, IKT ja professionaalsete teenuste valdkonnas. Juhtimislaud, mitte müügiesitlus."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Meeskond",
+    "title": "Praktikud, mitte teoreetikud.",
+    "subtitle": "Iga meeskonnaliige ehitab ja haldab süsteeme, mida me müüme. Siin pole kontohaldureid, kes skripte loevad — ainult spetsialistid, kes on kümnete SMB-de jaoks automatiseerimislahendusi juurutanud.",
+    "roles": {
+      "founder": "Asutaja",
+      "performance": "Performance-turundus",
+      "engineering": "Inseneeria",
+      "content": "Sisu",
+      "creative": "Loovus",
+      "motion": "Motion"
+    },
+    "specialties": {
+      "founder": "CRM lehtrid ja automatiseerimistrateegia",
+      "performance": "Google'i ja Meta reklaamid",
+      "engineering": "Veebiarendus ja automatiseerimine",
+      "content": "SEO ja konverteeriv sisukirjutamine",
+      "creative": "Foto- ja videotootmine",
+      "motion": "Videomontaaž ja motion-disain"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Sagedased küsimused, selged vastused.",
+    "items": [
+      {
+        "q": "Kas te tegelete ainult reklaamidega?",
+        "a": "Ei. Reklaamid on üks osa süsteemist. Me ehitame tervikliku klientide hankimise masina — tasuline liiklus, maandumislehed, CRM-i seadistus, liidide suunamine, AI-põhine järelkontakt, kasvatusahelad, taasaktiveerimiskampaaniad ja aruandlus. Kui teie lehter lekib järelkontakti etapis, suurendab lisakulutamine reklaamile vaid lekkimist."
+      },
+      {
+        "q": "Kas saate töötada meie olemasoleva CRM-iga?",
+        "a": "See sõltub platvormist. Me töötame natiivselt GoHighLevel'is ja saame ühenduda enamiku CRM-idega API või n8n automatiseerimise kaudu. Kui teie CRM toetab webhookide või omab API-t, saame selle integreerida. Kui ei toeta — ütleme teile ausalt ja selgitame võimalused."
+      },
+      {
+        "q": "Kas te aitate automatiseerimise ja liidide järelkontaktiga?",
+        "a": "See ongi meie töö tuum. Kiirus liidini on üks kõrgeima ROI-ga parandusi, mis on üldse võimalik. Meie Claude AI agendid vastavad 60 sekundi jooksul, kvalifitseerivad liidi ja suunavad selle õigesti — 24/7, kaasa arvatud nädalavahetustel. Teie meeskond puudutab ainult liide, kes on tegelikult valmis."
+      },
+      {
+        "q": "Millistel turgudel te tegutsete?",
+        "a": "Meie peamine kogemus on Šveitsis, EL-is ja piiriülestes Euroopa turgudes. Oleme töötanud hambakliinikute, IKT-ettevõtete, professionaalsete teenusepakkujate ja kohalike teenindusettevõtetega. Me ei võta vastu iga ettevõtet — auditikõne käigus ütleme teile ausalt, kui me pole sobiv partner."
+      },
+      {
+        "q": "Kuidas käsitlete privaatsust ja jälgimist küpsisevabadel turgudel?",
+        "a": "Ehitame nõusolekupõhise taristu algusest peale. See tähendab korralikku küpsiste nõusoleku haldust, esmaosaliste andmete strateegiaid, GDPR-nõuetele vastavaid vorme ja CRM-jälgimist, mis ei sõltu kolmanda osapoole küpsistest. Me ei laadi jälgimisskripte enne nõusolekut. Me ei kasuta manipulatiivseid võtteid."
+      },
+      {
+        "q": "Mis toimub tasuta leitriauditi käigus?",
+        "a": "Vaatame üle teie praeguse klientide hankimise seadistuse — liiklusallikad, maandumislehed, CRM-i struktuur, järelkontakti ahelad, aruandlus. Selgitame välja, kus liidid välja kukuvad, ja mida iga lekke parandamine tähendaks tuluna. Saate selge pildi süsteemi puudujääkidest enne, kui räägime koostööst."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Valmis süsteemi parandama?",
+    "title": "Lõpeta katki lekkiva lehtriku eest maksmine.",
+    "subtitle": "Broneeri tasuta audit ja vaata, kust sinu klientide hankimise süsteem lekkib, mida esmalt parandada ja millised numbrid tegelikult loevad.",
+    "primary": "Broneeri tasuta audit",
+    "secondary": "Vaata meie teenuseid",
+    "disclaimer": "Kohustusi pole. Tulemused varieeruvad turu, pakkumise, eelarve ja müügiprotsessi järgi."
+  },
+  "footer": {
+    "tagline": "Süstematiseeritud kliendihange Šveitsi ja Euroopa SMB-dele. Madalam CAC, tugevamad müügitorud, selgem aruandlus.",
+    "company": "Siladii Alpine Marketing",
+    "city": "Zurich, Switzerland",
+    "headings": {
+      "services": "Teenused",
+      "company": "Ettevõte",
+      "legal": "Õiguslik teave & privaatsus"
+    },
+    "services": {
+      "performance": "Performance Marketing",
+      "crm": "CRM + automatiseerimine",
+      "reporting": "Aruandlus & analüütika",
+      "audit": "Täisfunneli audit"
+    },
+    "legal": {
+      "privacy": "Privaatsusteatis",
+      "cookies": "Küpsiste teatis",
+      "terms": "Kasutustingimused",
+      "disclaimer": "Vastutusest loobumine",
+      "accessibility": "Juurdepääsetavus",
+      "privacyChoices": "Privaatsusvalikud",
+      "dataRequests": "Andmetaotlused",
+      "security": "Turvalisus & andmetöötlus",
+      "notice": "Õiguslik teatis"
+    },
+    "copyright": "© 2026 Siladii Alpine Marketing. Kõik õigused kaitstud. Zurich, Switzerland.",
+    "performanceDisclaimer": "Sellel saidil esitatud tulemused pärinevad tegelikest kliendiprojektidest ega ole tulevaste tulemuste garantii. Tulemuslikkus varieerub sõltuvalt turust, pakkumisest, eelarvest, müügiprotsessist ja muudest teguritest, mis ei allu Alpine Marketing'i kontrollile."
+  },
+  "languageSwitcher": {
+    "label": "Keel",
+    "priority": "Põhikeeled",
+    "other": "Muud EL-i keeled"
+  },
+  "servicesPage": {
+    "eyebrow": "Mida Me Teeme",
+    "title": "Teenused, mis on ehitatud süsteemide, mitte kanalite ümber.",
+    "subtitle": "Me ei müü üksikuid taktikaid. Me ehitame ja haldame kliendihankimise süsteeme — tasulisest liiklusest suletud tehinguni, jälgituna igas etapis.",
+    "cta": "Broneeri tasuta lehtri audit",
+    "learnMore": "Loe lähemalt",
+    "items": {
+      "performance": {
+        "title": "Tulemuslikkuse turundus",
+        "desc": "Tasuline liiklus Meta, Google ja LinkedIn platvormidel — ehitatud kvalifitseeritud müügivihjete genereerimiseks, mitte pelgalt näitamiste saamiseks. Iga kampaania on ühendatud teie CRM-iga, et saaksime tehingukulusid reaalajas jälgida.",
+        "outcomes": [
+          "Madalam CAC 90 päeva jooksul",
+          "Atributsioon klikist suletud tehinguni",
+          "Sihtrühma suunamine tegelike ostuandmete põhjal"
+        ]
+      },
+      "crm": {
+        "title": "CRM + Automatiseerimine",
+        "desc": "GoHighLevel seadistamine, töövoo arhitektuur, AI-põhine müügivihjete kvalifitseerimine ja automatiseeritud järelkontakti järjestused. Teie müügitoru töötab ka siis, kui te magate — ja iga kontaktpunkt on jälgitud.",
+        "outcomes": [
+          "<60s esmane vastus Claude AI kaudu",
+          "Automatiseeritud müügivihjete suunamine ja hindamine",
+          "Passiivsete müügivihjete taasaktiveerimise kampaaniad"
+        ]
+      },
+      "reporting": {
+        "title": "Aruandlus ja analüütika",
+        "desc": "Reaalajas juhtpaneelid, mis näitavad CAC-i, LTGP-d, konversioonimäärasid, reageerimiskiirust ja müügitoru tempot. Me raporteerime sellest, mis teenib kasumit — mitte sellest, mis esitluses hästi välja näeb.",
+        "outcomes": [
+          "Kohandatud KPI juhtpaneelid",
+          "CAC ja LTGP jälgimine",
+          "Iganädalased tulemuslikkuse ülevaated"
+        ]
+      },
+      "content": {
+        "title": "Sisu lehtrid",
+        "desc": "SEO-põhine sisu, konversioonile optimeeritud sihtlehed ja kasvatamisjärjestused, mis juhivad müügivihjeid läbi lehtri — mitte ei hangi lihtsalt klikke.",
+        "outcomes": [
+          "Konversioonile suunatud sihtlehed",
+          "Mitmeastmelised e-posti ja SMS-järjestused",
+          "SEO-sisu, mis vastab ostukavatsusele"
+        ]
+      },
+      "funnel": {
+        "title": "Lehtristrateegia",
+        "desc": "Enne kui midagi ehitame, auditeerime teie praegust süsteemi — liiklusallikad, CRM-i struktuur, järelkontakti lüngad, aruandluse pimedas laigud. Seejärel koostame teekaardi, mis seab esikohale tulu mõju.",
+        "outcomes": [
+          "Tasuta lehtri audit",
+          "Lünkade analüüs koos tulu mõju hinnangutega",
+          "Prioritiseeritud 90-päevane sprindi plaan"
+        ]
+      },
+      "landing": {
+        "title": "Sihtlehed",
+        "desc": "Kõrge konversiooniga, mobiilile esmased sihtlehed, mis on loodud müügivihjete kogumiseks — mitte disainiauhindade võitmiseks. A/B testitud, CRM-iga ühendatud ja kiiruse jaoks ehitatud.",
+        "outcomes": [
+          "CRM-iga integreeritud vormiloogika",
+          "A/B testimiseks valmis",
+          "Ehitatud kiiruse ja konversiooni jaoks"
+        ]
+      }
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Alpine Marketingust",
+    "title": "Äriliselt mõtlev. Süsteemidele orienteeritud. Tühimõõdikute vastu.",
+    "subtitle": "Alpine Marketing rajati lihtsale tähelepanekule: enamikul VKEdel pole liidide probleem. Neil on süsteemi probleem. Liidid tulevad sisse ja kaovad — aeglase järelkontakti, ühendamata CRM-ide ja aruandluse taha, mis näitab tegevust, mitte kasumit.",
+    "why": {
+      "title": "Miks me eksisteerime.",
+      "p1": "Enamik agentuure optimeerib ainult ühte lehtri osa — tavaliselt seda, mida neil on mugav müüa. Reklaame, sisu või „strateegiat“. Klient saab tarnitava, mitte töötava süsteemi.",
+      "p2": "Alpine Marketing asutati selle parandamiseks. Me töötame kogu omandamispinuna: tasuline liiklus, CRM, automatiseerimine, järelkontakt, reaktiveerimine ja aruandlus — ühendatud üheks mootoriks, mis tegelikult toob kliente.",
+      "p3": "Asume Zurichis ja töötame ettevõtetega Šveitsis, ELis ja rahvusvaheliselt. Räägime selget keelt, tegutseme CHF-is ja EUR-is ning võtame endale vastutuse samade mõõdikute eest, mida palume oma klientidel jälgida."
+    },
+    "fullFunnel": {
+      "title": "Mida tähendab täislehtri mõtlemine.",
+      "p1": "Täislehtri lähenemine ei ole turundusfraaas. See tähendab: meid huvitab, mis juhtub liidiga pärast vormi täitmist. Meid huvitab liidini jõudmise kiirus. Meid huvitab, kas CRM kasvatab liide või unustab need. Meid huvitab reaktiveerimine. Meid huvitab aruandlus, mis ühendab reklaamikulud suletud tuluga.",
+      "p2": "See nõuab rohkem koordineerimist kui lihtsalt reklaamide käitamine. Kuid see annab põhimõtteliselt erineva tulemuse: madalama CAC, kõrgema LTGP ja süsteemi, mis kasvab liitumisefektiga selle asemel, et tasanduks."
+    },
+    "principlesTitle": "Töö põhimõtted.",
+    "principles": [
+      {
+        "title": "Mõõda seda, mis loeb.",
+        "desc": "CAC ja LTGP. Mitte klikid. Mitte näitamised. Mitte „brändi teadlikkus“. Kui see ei ole seotud kasumiga, me ei optimeeri selle jaoks."
+      },
+      {
+        "title": "Süsteemid taktikate asemel.",
+        "desc": "Taktika annab tulemuse ühe korra. Süsteem annab tulemusi liituvalt. Me ehitame mootori, mitte üksiku kampaania."
+      },
+      {
+        "title": "Ausad selle suhtes, mida me ei tea.",
+        "desc": "Me ütleme teile, kui turg on liiga konkurentsitihe, kui teie pakkumine vajab tööd või kui teie müügiprotsess on tegelik kitsaskoht. Me pole siin selleks, et teie eelarve võtta ja kaduda."
+      },
+      {
+        "title": "Privaatsust arvestav disain.",
+        "desc": "Me tegutseme Šveitsi, ELi ja USA turgudel. Nõusolekuteadlik arhitektuur ei ole järelmõte — see on see, kuidas me iga lehtrit ehitame."
+      },
+      {
+        "title": "Operaatorid, mitte teoreetikud.",
+        "desc": "Iga süsteem, mida soovitame, oleme ehitanud ja käitanud päris klientide jaoks. Me ei konsulteeri teooria üle. Me ehitame ja haldame operatiivset infrastruktuuri."
+      }
+    ],
+    "ctaTitle": "Valmis rääkima?",
+    "ctaDesc": "Broneeri tasuta lehtri audit ja me näitame teile täpselt, mida me parandaksime ja millises järjekorras — enne kui te millekski kohustute.",
+    "ctaButton": "Broneeri tasuta audit"
+  },
+  "contactPage": {
+    "eyebrow": "Võtke meiega ühendust",
+    "title": "Räägime süsteemidest.",
+    "subtitlePrefix": "Kasutage allolevat vormi üldiste päringute jaoks. Kui soovite struktureeritud lehtri ülevaadet, kasutage ",
+    "subtitleLink": "Auditi broneerimine",
+    "subtitleSuffix": " lehekülge.",
+    "info": {
+      "emailLabel": "E-post",
+      "phoneLabel": "Telefon ja asukoht",
+      "city": "Zurich, Switzerland",
+      "responseLabel": "Vastamisaeg",
+      "responseValue": "1 tööpäeva jooksul",
+      "responseSub": "Siladii Alpine Marketing"
+    },
+    "form": {
+      "name": "Nimi",
+      "namePh": "Jane Smith",
+      "email": "E-post",
+      "emailPh": "jane@company.com",
+      "company": "Ettevõte",
+      "companyPh": "Acme GmbH",
+      "service": "Teenuse huvi",
+      "serviceDefault": "Vali (valikuline)",
+      "serviceOptions": {
+        "performance": "Tulemuslikkuse turundus",
+        "crm": "CRM + automatiseerimine",
+        "reporting": "Aruandlus ja analüütika",
+        "content": "Sisulehtrid",
+        "audit": "Täissüsteemi audit"
+      },
+      "message": "Sõnum",
+      "messagePh": "Rääkige meile oma olukorrast...",
+      "requiredLabel": "Kohustuslik:",
+      "optionalLabel": "Valikuline:",
+      "privacyPrefix": "Olen tutvunud ",
+      "privacyLink": "privaatsusteatisega",
+      "privacySuffix": " ja nõustun, et minu andmeid töödeldakse sellele päringule vastamiseks.",
+      "marketingText": "Soovin saada Alpine Marketingilt e-posti teel uuendusi ja teadmisi.",
+      "submit": "Saada sõnum",
+      "validation": {
+        "name": "Nimi on kohustuslik",
+        "email": "Kehtiv e-posti aadress on kohustuslik",
+        "company": "Ettevõtte nimi on kohustuslik",
+        "message": "Sõnum on kohustuslik",
+        "consent": "Jätkamiseks peate nõustuma"
+      },
+      "toastTitle": "Sõnum on kätte saadud",
+      "toastDesc": "Võtame teiega ühendust 1 tööpäeva jooksul."
+    }
+  },
+  "bookAuditPage": {
+    "eyebrow": "Tasuta lehtri audit",
+    "title": "Vaadake täpselt, kust teie süsteem lekib.",
+    "subtitle": "30-minutilise auditi kõne jooksul vaatame üle teie kliendihankimise seadistuse ja näitame teile kitsaskohad — ilma et küsiksime midagi vastu.",
+    "whatYouGetLabel": "Mida saate:",
+    "whatYouGet": [
+      "Kaart sellest, kus teie praegune lehter kaotab liide ja tulu",
+      "Aus hinnang selle kohta, milliseid kitsaskohti tasub esmalt kõrvaldada",
+      "Arusaam sellest, milline näeks välja süstematiseeritud mootor teie äri jaoks"
+    ],
+    "whoForLabel": "Kellele see mõeldud on:",
+    "whoForBody": "Teenindusettevõtetele, kes genereerivad liide, kuid konverteerivad liiga vähe. Ettevõtetele, kes kulutavad reklaamile, kuid pole kindlad, mis tegelikult toimib. SMB-dele, kes on valmis ehitama süsteemi, mitte ostma veel üht taktikat.",
+    "form": {
+      "fullName": "Täisnimi",
+      "fullNamePh": "Jane Smith",
+      "workEmail": "Töö e-post",
+      "workEmailPh": "jane@company.com",
+      "company": "Ettevõte",
+      "companyPh": "Acme GmbH",
+      "website": "Veebisait",
+      "websitePh": "https://acme.com",
+      "monthlyLeads": "Igakuised liidid (ligikaudu)",
+      "leadsDefault": "Valige...",
+      "leadsOptions": {
+        "lt20": "Vähem kui 20",
+        "20to100": "20–100",
+        "100to500": "100–500",
+        "500plus": "500+"
+      },
+      "challenge": "Suurim kliendihankimise väljakutse",
+      "challengePh": "Nt. Genereerime liide, kuid konversioon on madal ja me ei tea, kus nad välja langevad...",
+      "requiredLabel": "Kohustuslik:",
+      "optionalLabel": "Valikuline:",
+      "privacyPrefix": "Olen lugenud ",
+      "privacyLink": "Privaatsusteatist",
+      "privacySuffix": " ja nõustun, et Alpine Marketing võib minu teavet töödelda, et vastata minu päringule.",
+      "marketingText": "Soovin saada e-posti teel turunduslikke uuendusi, ülevaateid ja pakkumisi.",
+      "submit": "Taotle tasuta auditit",
+      "footer": "Selle vormi esitamine ei kohusta teid ühtegi ostu tegema. Võtame teiega ühendust ühe tööpäeva jooksul.",
+      "validation": {
+        "name": "Nimi on kohustuslik",
+        "email": "Kehtiv töö e-posti aadress on kohustuslik",
+        "company": "Ettevõtte nimi on kohustuslik",
+        "website": "Sisestage kehtiv URL (lisage https://)",
+        "monthlyLeads": "Palun valige üks variant",
+        "challenge": "Palun kirjeldage oma väljakutset — vähemalt ühe lausega",
+        "consent": "Jätkamiseks peate nõustuma"
+      }
+    }
+  },
+  "thankYouPage": {
+    "title": "Päring on vastu võetud.",
+    "lead": "Vaatame teie andmed üle ja võtame teiega ühendust ",
+    "leadBold": "1 tööpäeva jooksul",
+    "leadSuffix": ", et kinnitada auditi aeg.",
+    "sub": "Vahepeal ei pea te midagi tegema. See esitamine ei kohusta teid ühtegi ostu sooritama.",
+    "primary": "Vaata klientide tulemusi",
+    "secondary": "Tagasi avalehele"
+  },
+  "blogIndex": {
+    "docTitle": "Insights & Playbooks — Alpine Marketing",
+    "eyebrow": "Insights & Playbooks",
+    "title": "Välimärkmed Šveitsi kliendihankimise mootoriruumist.",
+    "subtitle": "Ausad ülevaated sellest, mis toimib, mis raiskab reklaamieelarvet ja milliste tööriistadega muudame müügitorud prognoositavaks kasumiks. Ilma udujututa, ilma agentuurižargoonita.",
+    "all": "Kõik",
+    "empty": "Selles kategoorias pole veel artikleid — tule varsti tagasi.",
+    "featured": "Esiletõstetud",
+    "minRead": "min lugemine",
+    "min": "min"
+  },
+  "blogPost": {
+    "back": "Kõik artiklid",
+    "minRead": "min lugemine",
+    "ctaEyebrow": "Valmis oma lekkiva toru parandama?",
+    "ctaTitle": "Hangi tasuta Pipeline'i audit ja vaata täpselt, kust raha kaob.",
+    "ctaSub": "30-minutiline kõne · esitlust pole · konkreetsed lahendused, mida saad juba sel nädalal rakendada.",
+    "ctaButton": "Broneeri tasuta audit",
+    "related": "Jätka lugemist",
+    "readSuffix": "min lugemine"
+  },
+  "cookieConsent": {
+    "heading": "Kasutame küpsiseid teie kasutuskogemuse parandamiseks.",
+    "bodyPrefix": "Mõned küpsised on saidi toimimiseks hädavajalikud. Teised — analüütika- ja turundusküpsised — laaditakse ainult teie nõusolekul. Saate oma eelistusi igal ajal muuta, kasutades ",
+    "privacyChoices": "Privaatsusvalikuid",
+    "between": ". Vaadake meie ",
+    "cookieNotice": "Küpsiseteadet",
+    "bodySuffix": " üksikasjade saamiseks.",
+    "acceptAll": "Nõustun kõigiga",
+    "necessaryOnly": "Ainult vajalikud",
+    "customize": "Kohanda",
+    "customizeIntro": "Hädavajalikud küpsised on alati aktiivsed. Ülejäänud saate allpool sisse või välja lülitada.",
+    "save": "Salvesta eelistused",
+    "back": "Tagasi",
+    "closeAria": "Sulge ja keeldu mittevajalikest küpsistest",
+    "customizeAria": "Kohanda küpsise seadeid",
+    "items": {
+      "necessary": {
+        "label": "Hädavajalikud",
+        "desc": "Vajalikud saidi toimimiseks."
+      },
+      "preferences": {
+        "label": "Eelistused",
+        "desc": "Meeldejätab teie seaded ja valikud."
+      },
+      "analytics": {
+        "label": "Analüütika",
+        "desc": "Aitab meil mõista, kuidas külastajad saiti kasutavad. Andmeid ei jagata enne nõusoleku andmist."
+      },
+      "marketing": {
+        "label": "Turundus",
+        "desc": "Kasutatakse sihtotstarbelise reklaami jaoks. Ei laadita kunagi ilma teie selgesõnalise nõusolekuta."
+      }
+    }
+  }
+}
