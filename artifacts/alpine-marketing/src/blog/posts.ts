@@ -1,20 +1,15 @@
 import type { BlogPost, BlogPostMeta } from "./types";
 import DentalPatients2026, {
   meta as dentalPatients2026Meta,
+  getLocalizedMeta as dentalPatients2026LocalizedMeta,
 } from "./posts/dental-patients-2026";
 
-/**
- * Registry of all blog posts.
- *
- * To publish a new post:
- *   1. Create `src/blog/posts/<slug>.tsx`
- *   2. Export a `meta: BlogPostMeta` and a default `Post` component
- *   3. Import and add it to the `POSTS` array below (newest first)
- *
- * The post will automatically appear on /blog and at /blog/<slug>.
- */
 export const POSTS: BlogPost[] = [
-  { meta: dentalPatients2026Meta, Content: DentalPatients2026 },
+  {
+    meta: dentalPatients2026Meta,
+    Content: DentalPatients2026,
+    getLocalizedMeta: dentalPatients2026LocalizedMeta,
+  },
 ];
 
 export const POSTS_META: BlogPostMeta[] = POSTS.map((p) => p.meta);
@@ -23,14 +18,24 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
   return POSTS.find((p) => p.meta.slug === slug);
 }
 
-export function getRelatedPosts(slug: string, limit = 3): BlogPostMeta[] {
+export function getPostsMeta(lang: string | undefined): BlogPostMeta[] {
+  return POSTS.map((p) => (p.getLocalizedMeta ? p.getLocalizedMeta(lang) : p.meta));
+}
+
+export function getLocalizedPostMeta(post: BlogPost, lang: string | undefined): BlogPostMeta {
+  return post.getLocalizedMeta ? post.getLocalizedMeta(lang) : post.meta;
+}
+
+export function getRelatedPosts(slug: string, lang: string | undefined, limit = 3): BlogPostMeta[] {
   const current = getPostBySlug(slug);
-  if (!current) return POSTS_META.slice(0, limit);
-  return POSTS_META
+  const all = getPostsMeta(lang);
+  if (!current) return all.slice(0, limit);
+  const currentMeta = getLocalizedPostMeta(current, lang);
+  return all
     .filter((p) => p.slug !== slug)
     .sort((a, b) => {
-      const aSameCat = a.category === current.meta.category ? 1 : 0;
-      const bSameCat = b.category === current.meta.category ? 1 : 0;
+      const aSameCat = a.category === currentMeta.category ? 1 : 0;
+      const bSameCat = b.category === currentMeta.category ? 1 : 0;
       return bSameCat - aSameCat;
     })
     .slice(0, limit);

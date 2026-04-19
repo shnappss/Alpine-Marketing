@@ -23,4 +23,5 @@ export interface BlogPostMeta {
 export interface BlogPost {
   meta: BlogPostMeta;
   Content: ComponentType;
+  getLocalizedMeta?: (lang: string | undefined) => BlogPostMeta;
 }

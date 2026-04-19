@@ -5,7 +5,7 @@ import { ArrowRight, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import { POSTS_META } from "@/blog/posts";
+import { getPostsMeta } from "@/blog/posts";
 import type { BlogCategory } from "@/blog/types";
 
 const CYAN = "#0891b2";
@@ -13,8 +13,10 @@ const CYAN = "#0891b2";
 const ALL = "All" as const;
 
 export default function BlogIndexPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [active, setActive] = useState<BlogCategory | typeof ALL>(ALL);
+  const lang = i18n.resolvedLanguage;
+  const postsMeta = useMemo(() => getPostsMeta(lang), [lang]);
 
   useEffect(() => {
     const prev = document.title;
@@ -24,13 +26,13 @@ export default function BlogIndexPage() {
 
   const categories = useMemo(() => {
     const set = new Set<BlogCategory>();
-    POSTS_META.forEach((p) => set.add(p.category));
+    postsMeta.forEach((p) => set.add(p.category));
     return [ALL, ...Array.from(set)] as const;
-  }, []);
+  }, [postsMeta]);
 
   const filtered = useMemo(
-    () => (active === ALL ? POSTS_META : POSTS_META.filter((p) => p.category === active)),
-    [active]
+    () => (active === ALL ? postsMeta : postsMeta.filter((p) => p.category === active)),
+    [active, postsMeta]
   );
 
   const [featured, ...rest] = filtered;
