@@ -615,5 +615,24 @@
         "desc": "Slouží k cílenému inzerování. Nikdy nejsou načítány bez vašeho výslovného souhlasu."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Bezplatný 30minutový discovery call",
+    "title": "Vyberte si čas. Zmapujeme váš pipeline.",
+    "subtitle": "Žádný prodejní tlak. Žádné závazky. Během 30 minut provedeme audit vašeho aktuálního systému získávání zákazníků, přesně identifikujeme, kde uniká revenue, a ukážeme vám, jak může vypadat funkční pipeline pro vaše podnikání — bez ohledu na to, zda s námi budete spolupracovat.",
+    "benefitsLabel": "Za 30 minut získáte:",
+    "benefits": [
+      "Kompletní mapování a ohodnocení vašeho funnelu",
+      "Identifikaci 2–3 největších míst, kde uniká revenue",
+      "Živý odhad CAC + LTGP pro vaše podnikání",
+      "Konkrétní akční plán — bez jakýchkoli závazků"
+    ],
+    "trust": [
+      "Bez závazků",
+      "Zoom nebo telefon — dle vašeho výběru",
+      "Každý týden je k dispozici omezený počet míst"
+    ],
+    "social": "Důvěřují nám švýcarské SMB firmy i technologické společnosti v Zurich, Basel a Bern.",
+    "calendarTitle": "Rezervujte si discovery call"
   }
 }

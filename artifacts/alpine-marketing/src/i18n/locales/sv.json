@@ -615,5 +615,24 @@
         "desc": "Används för riktad annonsering. Laddas aldrig utan ditt uttryckliga samtycke."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Kostnadsfritt 30-minuterssamtal",
+    "title": "Välj en tid. Vi kartlägger din pipeline.",
+    "subtitle": "Ingen säljpitch. Inget tryck. På 30 minuter granskar vi ditt nuvarande förvärvsystem, identifierar exakt var intäkter läcker och visar hur en optimerad pipeline ser ut för just ditt företag — oavsett om du väljer att arbeta med oss eller inte.",
+    "benefitsLabel": "Efter 30 minuter lämnar du mötet med:",
+    "benefits": [
+      "Din hela funnel kartlagd och utvärderad",
+      "De 2–3 största intäktsläckorna identifierade",
+      "En live-uppskattning av CAC + LTGP för ditt företag",
+      "En konkret handlingsplan — helt utan förpliktelser"
+    ],
+    "trust": [
+      "Inget åtagande krävs",
+      "Zoom eller telefon — du väljer",
+      "Begränsat antal platser varje vecka"
+    ],
+    "social": "Betrodd av schweiziska SMB-företag och techbolag i Zurich, Basel och Bern.",
+    "calendarTitle": "Boka ditt Discovery Call"
   }
 }

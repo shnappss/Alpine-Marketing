@@ -615,5 +615,24 @@
         "desc": "Naudojama tikslinei reklamai. Niekada neįkeliama be jūsų aiškaus sutikimo."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Nemokamas 30 minučių konsultacinis skambutis",
+    "title": "Pasirinkite laiką. Sukursime jūsų pardavimų sistemą.",
+    "subtitle": "Jokio pardavimo. Jokio spaudimo. Per 30 minučių peržiūrėsime jūsų esamą klientų pritraukimo sistemą, tiksliai nustatysime, kur nuteka pajamos, ir parodysime, kaip turėtų atrodyti veikianti sistema jūsų verslui — nepriklausomai nuo to, ar dirbsite su mumis.",
+    "benefitsLabel": "Per 30 minučių gausite:",
+    "benefits": [
+      "Visą jūsų pardavimų piltuvėlį — sudarytą ir įvertintą",
+      "2–3 didžiausias pajamų nutekėjimo vietas — aiškiai identifikuotas",
+      "Realų CAC + LTGP įvertinimą jūsų verslui",
+      "Konkretų veiksmų planą — be jokių įsipareigojimų"
+    ],
+    "trust": [
+      "Jokie įsipareigojimai nereikalingi",
+      "Zoom arba telefonu — jūsų pasirinkimas",
+      "Kas savaitę — ribotas vietų skaičius"
+    ],
+    "social": "Pasitiki Šveicarijos SMB įmonės ir technologijų bendrovės iš Zurich, Basel ir Bern.",
+    "calendarTitle": "Rezervuokite konsultacinį skambutį"
   }
 }

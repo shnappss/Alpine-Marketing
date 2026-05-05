@@ -615,5 +615,24 @@
         "desc": "Gebruikt voor gerichte advertenties. Nooit geladen zonder uw uitdrukkelijke toestemming."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Gratis kennismakingsgesprek van 30 minuten",
+    "title": "Kies een moment. We brengen uw pipeline in kaart.",
+    "subtitle": "Geen verkooppraatje. Geen druk. In 30 minuten auditen we uw huidige acquisitiesysteem, identificeren we precies waar omzet verloren gaat, en laten we zien hoe een gezonde pipeline er voor uw bedrijf uitziet — of u nu met ons samenwerkt of niet.",
+    "benefitsLabel": "Na 30 minuten gaat u weg met:",
+    "benefits": [
+      "Uw volledige funnel in kaart gebracht en beoordeeld",
+      "De 2–3 grootste oorzaken van omzetverlies geïdentificeerd",
+      "Een live CAC + LTGP-schatting voor uw bedrijf",
+      "Een concreet actieplan — geheel vrijblijvend"
+    ],
+    "trust": [
+      "Geen verplichtingen",
+      "Zoom of telefoon — uw keuze",
+      "Beperkt aantal plekken per week"
+    ],
+    "social": "Vertrouwd door Zwitserse SMB's en techbedrijven in Zurich, Basel en Bern.",
+    "calendarTitle": "Boek uw kennismakingsgesprek"
   }
 }

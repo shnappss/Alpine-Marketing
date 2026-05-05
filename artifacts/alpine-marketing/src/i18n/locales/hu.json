@@ -615,5 +615,24 @@
         "desc": "Célzott hirdetésekhez használjuk. Soha nem töltődik be az Ön kifejezett beleegyezése nélkül."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Ingyenes 30 perces felfedező hívás",
+    "title": "Válasszon időpontot. Térképezzük fel értékesítési csatornáját.",
+    "subtitle": "Sem értékesítési nyomás, sem kötelezettségvállalás. 30 perc alatt feltérképezzük jelenlegi ügyfélszerzési rendszerét, megtaláljuk a pontosan azokat a helyeket, ahol bevétele elszivárog, és megmutatjuk, milyen egy optimálisan működő pipeline az Ön vállalkozásában — függetlenül attól, hogy velünk dolgozik-e tovább.",
+    "benefitsLabel": "30 perc alatt a következőket kapja meg:",
+    "benefits": [
+      "Teljes értékesítési tölcsérének feltérképezése és értékelése",
+      "A 2–3 legnagyobb bevételkiesési pont azonosítása",
+      "Élő CAC + LTGP becslés az Ön vállalkozására szabva",
+      "Konkrét cselekvési terv — kötelezettségek nélkül"
+    ],
+    "trust": [
+      "Semmilyen elköteleződés nem szükséges",
+      "Zoom vagy telefon — az Ön döntése",
+      "Heti korlátozott számú időpont áll rendelkezésre"
+    ],
+    "social": "Svájci kkv-k és technológiai vállalatok bíznak bennünk Zurich, Basel és Bern területén.",
+    "calendarTitle": "Foglalja le felfedező hívását"
   }
 }

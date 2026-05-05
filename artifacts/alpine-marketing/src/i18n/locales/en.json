@@ -615,5 +615,24 @@
         "desc": "Used for targeted advertising. Never loaded without your explicit consent."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Free 30-Minute Discovery Call",
+    "title": "Pick a Time. Let's Map Your Pipeline.",
+    "subtitle": "No pitch. No pressure. In 30 minutes we'll audit your current acquisition system, find exactly where revenue is leaking, and show you what a fixed pipeline looks like for your business — whether you work with us or not.",
+    "benefitsLabel": "In 30 minutes you'll walk away with:",
+    "benefits": [
+      "Your full funnel mapped and scored",
+      "The 2–3 biggest revenue leak points identified",
+      "A live CAC + LTGP estimate for your business",
+      "A concrete action plan — no strings attached"
+    ],
+    "trust": [
+      "No commitment required",
+      "Zoom or phone — your choice",
+      "Limited spots available each week"
+    ],
+    "social": "Trusted by Swiss SMBs and tech companies across Zurich, Basel and Bern.",
+    "calendarTitle": "Book Your Discovery Call"
   }
 }

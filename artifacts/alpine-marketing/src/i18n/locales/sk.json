@@ -615,5 +615,24 @@
         "desc": "Používané na cielenú reklamu. Nikdy sa nenačítavajú bez vášho výslovného súhlasu."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Bezplatný 30-minútový Discovery Call",
+    "title": "Vyberte si čas. Zmapujeme váš pipeline.",
+    "subtitle": "Žiadny predajný tlak. Žiadne záväzky. Za 30 minút zrevidujeme váš aktuálny akvizičný systém, presne identifikujeme, kde unikajú tržby, a ukážeme vám, ako môže vyzerať funkčný pipeline pre vaše podnikanie — bez ohľadu na to, či s nami budete spolupracovať.",
+    "benefitsLabel": "Po 30 minútach odídete s:",
+    "benefits": [
+      "Kompletne zmapovaným a ohodnoteným funnelom",
+      "Identifikovanými 2–3 najväčšími úniku tržieb",
+      "Živým odhadom CAC + LTGP pre vaše podnikanie",
+      "Konkrétnym akčným plánom — bez akýchkoľvek záväzkov"
+    ],
+    "trust": [
+      "Bez záväzkov",
+      "Zoom alebo telefón — vaša voľba",
+      "Každý týždeň obmedzený počet miest"
+    ],
+    "social": "Dôverujú nám švajčiarske SMB firmy a technologické spoločnosti v Zurichu, Baseli a Berne.",
+    "calendarTitle": "Rezervujte si Discovery Call"
   }
 }

@@ -615,5 +615,24 @@
         "desc": "Usato per pubblicità mirata. Mai caricato senza il tuo consenso esplicito."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Chiamata Conoscitiva Gratuita di 30 Minuti",
+    "title": "Scegli un Orario. Costruiamo Insieme la Tua Pipeline.",
+    "subtitle": "Niente pitch. Niente pressioni. In 30 minuti analizzeremo il tuo sistema di acquisizione attuale, individueremo esattamente dove stai perdendo fatturato e ti mostreremo come appare una pipeline ottimizzata per il tuo business — che tu lavori con noi o meno.",
+    "benefitsLabel": "In 30 minuti porterai a casa:",
+    "benefits": [
+      "Il tuo funnel completo mappato e valutato",
+      "I 2–3 principali punti di perdita di fatturato identificati",
+      "Una stima live di CAC + LTGP per il tuo business",
+      "Un piano d'azione concreto — senza alcun vincolo"
+    ],
+    "trust": [
+      "Nessun impegno richiesto",
+      "Zoom o telefono — scegli tu",
+      "Posti limitati disponibili ogni settimana"
+    ],
+    "social": "Scelto da SMB svizzere e aziende tech a Zurich, Basel e Bern.",
+    "calendarTitle": "Prenota la Tua Chiamata Conoscitiva"
   }
 }

@@ -615,5 +615,24 @@
         "desc": "Úsáidtear é d'fhógraíocht spriocdhírithe. Ní luchtaítear riamh é gan do thoiliú sainráite."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Glao Fionnachtana Saor in Aisce — 30 Nóiméad",
+    "title": "Roghnaigh Am. Léarscáilfimid Do Phíblíne.",
+    "subtitle": "Gan caint díolacháin. Gan brú. I gceann 30 nóiméad déanfaimid iniúchadh ar do chóras fála reatha, aimseoimid go díreach cá bhfuil an t-ioncam ag sceith, agus taispeánfaimid cad a bhreathnaíonn píblíne deasaithe cosúil léi do d'fhiontar — cibé acu an n-oibríonn tú linn nó nach n-oibríonn.",
+    "benefitsLabel": "I gceann 30 nóiméad beidh na nithe seo agat:",
+    "benefits": [
+      "Do thólán iomlán léarscáilte agus scóraithe",
+      "Na 2–3 pointí sceitheadh ioncaim is mó sainaitheanta",
+      "Meastachán beo CAC + LTGP do d'fhiontar",
+      "Plean gnímh soiléir — gan aon choinníoll"
+    ],
+    "trust": [
+      "Gan gealltanas de dhíth",
+      "Zoom nó fón — do rogha féin",
+      "Sliotáin teoranta ar fáil gach seachtain"
+    ],
+    "social": "Iontaofa ag SMBanna agus cuideachtaí teicneolaíochta na hEilvéise ar fud Zurich, Basel agus Bern.",
+    "calendarTitle": "Áirigh Do Ghlao Fionnachtana"
   }
 }

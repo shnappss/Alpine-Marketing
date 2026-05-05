@@ -615,5 +615,24 @@
         "desc": "Izmantots mērķtiecīgai reklamēšanai. Nekad netiek ielādēts bez jūsu skaidras piekrišanas."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Bezmaksas 30 minūšu atklāšanas zvans",
+    "title": "Izvēlies laiku. Izplānojam tavu pārdošanas piltuvē.",
+    "subtitle": "Bez pārdošanas taktikas. Bez spiediena. 30 minūtēs auditēsim tavu esošo klientu piesaistes sistēmu, precīzi noteikšim, kur tiek zaudēti ieņēmumi, un parādīsim, kā varētu izskatīties optimizēta pārdošanas sistēma tavam uzņēmumam — neatkarīgi no tā, vai strādāsim kopā vai nē.",
+    "benefitsLabel": "30 minūšu laikā tu iegūsi:",
+    "benefits": [
+      "Pilnīgi kartētu un novērtētu pārdošanas piltuvē",
+      "2–3 lielākos ieņēmumu zudumu punktus identificētus",
+      "Reālu CAC + LTGP aprēķinu tavam uzņēmumam",
+      "Konkrētu rīcības plānu — bez jebkādām saistībām"
+    ],
+    "trust": [
+      "Nav nepieciešamas nekādas saistības",
+      "Zoom vai telefons — tava izvēle",
+      "Katru nedēļu pieejams ierobežots vietu skaits"
+    ],
+    "social": "Uzticēts Šveices SMB uzņēmumiem un tehnoloģiju kompānijām Zurich, Basel un Bern.",
+    "calendarTitle": "Rezervē savu atklāšanas zvanu"
   }
 }

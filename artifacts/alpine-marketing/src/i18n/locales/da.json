@@ -615,5 +615,24 @@
         "desc": "Bruges til målrettet annoncering. Indlæses aldrig uden dit udtrykkelige samtykke."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Gratis 30-minutters opdagelsessamtale",
+    "title": "Vælg et tidspunkt. Lad os kortlægge din pipeline.",
+    "subtitle": "Ingen salgstale. Intet pres. På 30 minutter gennemgår vi dit nuværende kundeakvireringssystem, finder præcist hvor omsætningen lækker, og viser dig, hvordan en optimeret pipeline ser ud for din virksomhed — uanset om du arbejder med os eller ej.",
+    "benefitsLabel": "På 30 minutter får du:",
+    "benefits": [
+      "Din fulde salgstragt kortlagt og vurderet",
+      "De 2–3 største omsætningslækager identificeret",
+      "Et live CAC + LTGP-estimat for din virksomhed",
+      "En konkret handlingsplan — helt uforpligtende"
+    ],
+    "trust": [
+      "Ingen forpligtelse påkrævet",
+      "Zoom eller telefon — dit valg",
+      "Begrænsede pladser tilgængelige hver uge"
+    ],
+    "social": "Betroet af schweiziske SMB-virksomheder og tech-selskaber i Zurich, Basel og Bern.",
+    "calendarTitle": "Book din opdagelsessamtale"
   }
 }

@@ -615,5 +615,24 @@
         "desc": "Użat għar-reklamar immirat. Qatt ma jintgħabbi mingħajr il-kunsens espliċitu tiegħek."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Telefonata ta' Skoperta b'Xejn – 30 Minuta",
+    "title": "Agħżel il-Ħin. Nimmappjaw il-Pipeline Tiegħek.",
+    "subtitle": "L-ebda bejgħ. L-ebda pressjoni. F'30 minuta nwettqu awditu tas-sistema ta' akkwiżizzjoni attwali tiegħek, nidentifikaw eżattament fejn qed titlef id-dħul, u nuruk kif tidher pipeline ffissata għan-negozju tiegħek — kemm jekk taħdem magħna kif ukoll jekk le.",
+    "benefitsLabel": "F'30 minuta toħroġ b'dawn:",
+    "benefits": [
+      "Il-funnel kollu tiegħek imappjat u evalwat",
+      "Il-2–3 punti ewlenin fejn qed titlef id-dħul identifikati",
+      "Stima ħajja ta' CAC + LTGP għan-negozju tiegħek",
+      "Pjan ta' azzjoni konkret — mingħajr obbligi"
+    ],
+    "trust": [
+      "Ma hemm bżonn l-ebda impenn",
+      "Zoom jew telefown — l-għażla tiegħek",
+      "Postijiet limitati disponibbli kull ġimgħa"
+    ],
+    "social": "Fdati mis-SMBs u l-kumpaniji tat-teknoloġija Żvizzeri fi Zurich, Basel u Bern.",
+    "calendarTitle": "Ibbukkja t-Telefonata ta' Skoperta Tiegħek"
   }
 }

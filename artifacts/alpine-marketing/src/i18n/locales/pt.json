@@ -615,5 +615,24 @@
         "desc": "Utilizado para publicidade direcionada. Nunca carregado sem o seu consentimento explícito."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Chamada de Diagnóstico Gratuita de 30 Minutos",
+    "title": "Escolha um Horário. Vamos Mapear o Seu Pipeline.",
+    "subtitle": "Sem discurso de vendas. Sem pressão. Em 30 minutos auditamos o seu sistema de aquisição atual, identificamos exatamente onde está a perder receita e mostramos como seria um pipeline otimizado para o seu negócio — independentemente de trabalhar connosco ou não.",
+    "benefitsLabel": "Em 30 minutos ficará com:",
+    "benefits": [
+      "O seu funil completo mapeado e avaliado",
+      "Os 2–3 maiores pontos de fuga de receita identificados",
+      "Uma estimativa em tempo real de CAC + LTGP para o seu negócio",
+      "Um plano de ação concreto — sem compromissos"
+    ],
+    "trust": [
+      "Sem qualquer compromisso",
+      "Zoom ou telefone — à sua escolha",
+      "Vagas limitadas por semana"
+    ],
+    "social": "Escolhida por PMEs e empresas tecnológicas suíças em Zurich, Basel e Bern.",
+    "calendarTitle": "Agende a Sua Chamada de Diagnóstico"
   }
 }

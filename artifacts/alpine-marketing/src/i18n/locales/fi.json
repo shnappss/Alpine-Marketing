@@ -615,5 +615,24 @@
         "desc": "Käytetään kohdennettuun mainontaan. Ei koskaan ladata ilman nimenomaista suostumustasi."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Maksuton 30 minuutin kartoituspuhelu",
+    "title": "Valitse aika. Rakennetaan myyntiputkesi yhdessä.",
+    "subtitle": "Ei myyntipuhetta. Ei paineita. 30 minuutissa auditoimme nykyisen asiakashankintajärjestelmäsi, löydämme tarkasti kohdat joista tulot vuotavat, ja näytämme miltä toimiva myyntiputki näyttää juuri sinun liiketoiminnassasi — riippumatta siitä, teemmekö yhteistyötä vai emme.",
+    "benefitsLabel": "30 minuutin jälkeen sinulla on:",
+    "benefits": [
+      "Koko myyntifunnelisi kartoitettuna ja pisteytettynä",
+      "2–3 suurinta tulovuotokohtaa tunnistettuna",
+      "Reaaliaikainen CAC + LTGP -arvio liiketoiminnallesi",
+      "Konkreettinen toimintasuunnitelma — ilman sitoumuksia"
+    ],
+    "trust": [
+      "Ei sitoutumisvelvoitetta",
+      "Zoom tai puhelin — sinä valitset",
+      "Rajoitettu määrä aikoja viikossa"
+    ],
+    "social": "Luotettu kumppani sveitsiläisille pk-yrityksille ja teknologiayhtiöille Zürichissä, Baselissa ja Bernissä.",
+    "calendarTitle": "Varaa kartoituspuhelusi"
   }
 }

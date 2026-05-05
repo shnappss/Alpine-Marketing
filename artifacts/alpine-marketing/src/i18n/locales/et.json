@@ -615,5 +615,24 @@
         "desc": "Kasutatakse sihtotstarbelise reklaami jaoks. Ei laadita kunagi ilma teie selgesõnalise nõusolekuta."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Tasuta 30-minutiline avastuskõne",
+    "title": "Vali sobiv aeg. Kaardistame su müügitoru.",
+    "subtitle": "Ilma müügikõne ja surveta. 30 minutiga auditeerime su praeguse kliendihankesüsteemi, tuvastame täpselt, kus tulu lekkib, ning näitame, milline näeb välja toimiv müügitoru sinu äri jaoks — olenemata sellest, kas töötad meiega edasi või mitte.",
+    "benefitsLabel": "30 minutiga saad kaasa:",
+    "benefits": [
+      "Sinu täieliku müügilehtri kaardistuse ja hinnangu",
+      "2–3 suurima tululekkepunkti tuvastamise",
+      "Reaalaja CAC + LTGP hinnangu sinu äri kohta",
+      "Konkreetse tegevusplaani — kohustuseta"
+    ],
+    "trust": [
+      "Kohustusi ei nõuta",
+      "Zoom või telefon — sinu valik",
+      "Piiratud arv kohti nädalas"
+    ],
+    "social": "Usaldatud Šveitsi SMB-de ja tehnoloogiaettevõtete poolt Zürichis, Baselis ja Bernis.",
+    "calendarTitle": "Broneeri oma avastuskõne"
   }
 }

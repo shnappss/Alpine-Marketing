@@ -615,5 +615,24 @@
         "desc": "Utilizate pentru publicitate direcționată. Nu sunt niciodată încărcate fără consimțământul dvs. explicit."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Consultație Gratuită de 30 de Minute",
+    "title": "Alege un Moment. Hai să-ți Cartografiem Pipeline-ul.",
+    "subtitle": "Fără pitch. Fără presiune. În 30 de minute îți audităm sistemul actual de achiziție, identificăm exact unde pierzi venituri și îți arătăm cum arată un pipeline optimizat pentru afacerea ta — indiferent dacă lucrezi cu noi sau nu.",
+    "benefitsLabel": "În 30 de minute pleci cu:",
+    "benefits": [
+      "Întregul tău funnel cartografiat și evaluat",
+      "Cele 2–3 puncte majore de pierdere a veniturilor identificate",
+      "O estimare live CAC + LTGP pentru afacerea ta",
+      "Un plan concret de acțiune — fără nicio obligație"
+    ],
+    "trust": [
+      "Fără niciun angajament",
+      "Zoom sau telefon — tu alegi",
+      "Locuri limitate disponibile în fiecare săptămână"
+    ],
+    "social": "Ales de SMB-uri elvețiene și companii tech din Zurich, Basel și Bern.",
+    "calendarTitle": "Rezervă Consultația de Descoperire"
   }
 }

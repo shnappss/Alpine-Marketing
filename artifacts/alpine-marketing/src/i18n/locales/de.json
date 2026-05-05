@@ -615,5 +615,24 @@
         "desc": "Wird für gezielte Werbung genutzt. Wird nie ohne ausdrückliche Zustimmung geladen."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Kostenloses 30-minütiges Erstgespräch",
+    "title": "Termin wählen. Pipeline analysieren.",
+    "subtitle": "Kein Verkaufsgespräch. Kein Druck. In 30 Minuten analysieren wir Ihr aktuelles Akquisitionssystem, identifizieren genau, wo Umsatz verloren geht, und zeigen Ihnen, wie eine optimierte Pipeline für Ihr Unternehmen aussieht – unabhängig davon, ob Sie mit uns zusammenarbeiten oder nicht.",
+    "benefitsLabel": "Nach 30 Minuten nehmen Sie mit:",
+    "benefits": [
+      "Ihren vollständigen Funnel – strukturiert und bewertet",
+      "Die 2–3 grössten Schwachstellen in Ihrer Umsatzgenerierung",
+      "Eine Live-Schätzung Ihres CAC + LTGP für Ihr Unternehmen",
+      "Einen konkreten Massnahmenplan – ohne jegliche Verpflichtung"
+    ],
+    "trust": [
+      "Keine Verpflichtung erforderlich",
+      "Zoom oder Telefon – ganz nach Ihren Wünschen",
+      "Begrenzte Plätze pro Woche verfügbar"
+    ],
+    "social": "Vertraut von Schweizer KMUs und Technologieunternehmen in Zurich, Basel und Bern.",
+    "calendarTitle": "Discovery Call buchen"
   }
 }

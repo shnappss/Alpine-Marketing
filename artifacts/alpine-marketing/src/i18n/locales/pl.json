@@ -615,5 +615,24 @@
         "desc": "Wykorzystywane do reklamy ukierunkowanej. Nigdy nie są wczytywane bez Twojej wyraźnej zgody."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Bezpłatna 30-minutowa rozmowa odkrywcza",
+    "title": "Wybierz termin. Zmapujemy Twój lejek sprzedażowy.",
+    "subtitle": "Żadnej sprzedaży. Żadnej presji. W ciągu 30 minut przeprowadzimy audyt Twojego obecnego systemu pozyskiwania klientów, znajdziemy dokładnie miejsca, w których tracisz przychody, i pokażemy, jak powinien wyglądać sprawny lejek w Twojej firmie — niezależnie od tego, czy zdecydujesz się z nami współpracować.",
+    "benefitsLabel": "Po 30 minutach wyjdziesz z:",
+    "benefits": [
+      "Pełną mapą i oceną Twojego lejka",
+      "Zidentyfikowanymi 2–3 największymi punktami utraty przychodów",
+      "Szacunkami CAC i LTGP wyliczonymi dla Twojej firmy",
+      "Konkretnym planem działania — bez żadnych zobowiązań"
+    ],
+    "trust": [
+      "Bez żadnych zobowiązań",
+      "Zoom lub telefon — Twój wybór",
+      "Ograniczona liczba miejsc w każdym tygodniu"
+    ],
+    "social": "Zaufały nam szwajcarskie SMB i firmy technologiczne z Zurich, Basel i Bern.",
+    "calendarTitle": "Zarezerwuj rozmowę odkrywczą"
   }
 }

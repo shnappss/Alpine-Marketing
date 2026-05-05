@@ -615,5 +615,24 @@
         "desc": "Se utilizan para publicidad segmentada. Nunca se cargan sin tu consentimiento explícito."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Llamada de descubrimiento gratuita de 30 minutos",
+    "title": "Elige tu horario. Trazamos juntos tu pipeline.",
+    "subtitle": "Sin discursos. Sin presión. En 30 minutos auditaremos tu sistema de captación actual, identificaremos exactamente dónde se está perdiendo ingresos y te mostraremos cómo sería un pipeline optimizado para tu negocio — lo trabajes con nosotros o no.",
+    "benefitsLabel": "En 30 minutos te llevarás:",
+    "benefits": [
+      "Tu funnel completo mapeado y evaluado",
+      "Los 2–3 principales puntos de fuga de ingresos identificados",
+      "Una estimación real de CAC + LTGP para tu negocio",
+      "Un plan de acción concreto — sin ningún compromiso"
+    ],
+    "trust": [
+      "Sin compromiso alguno",
+      "Por Zoom o teléfono — tú eliges",
+      "Plazas limitadas cada semana"
+    ],
+    "social": "La confianza de pymes y empresas tecnológicas suizas en Zurich, Basel y Bern.",
+    "calendarTitle": "Reserva tu llamada de descubrimiento"
   }
 }

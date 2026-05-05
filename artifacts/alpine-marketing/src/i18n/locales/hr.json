@@ -615,5 +615,24 @@
         "desc": "Koristi se za ciljano oglašavanje. Nikada se ne učitava bez vašeg izričitog pristanka."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Besplatni 30-minutni otkrivački poziv",
+    "title": "Odaberite termin. Zajedno mapiramo vaš pipeline.",
+    "subtitle": "Bez prodajnog govora. Bez pritiska. U 30 minuta analizirat ćemo vaš trenutni sustav akvizicije, pronaći točno gdje curi prihod i pokazati vam kako izgleda ispravan pipeline za vaše poslovanje — bez obzira surađujete li s nama ili ne.",
+    "benefitsLabel": "U 30 minuta dobit ćete:",
+    "benefits": [
+      "Potpuno mapiran i ocijenjen vaš prodajni lijevak",
+      "Identificirana 2–3 najveća mjesta gubitka prihoda",
+      "Procjena CAC + LTGP uživo za vaše poslovanje",
+      "Konkretan akcijski plan — bez ikakvih obveza"
+    ],
+    "trust": [
+      "Bez obveza",
+      "Zoom ili telefon — vaš izbor",
+      "Ograničen broj mjesta svaki tjedan"
+    ],
+    "social": "Povjerenje švicarskih SMB tvrtki i tech kompanija diljem Züricha, Basela i Berna.",
+    "calendarTitle": "Rezervirajte vaš otkrivački poziv"
   }
 }

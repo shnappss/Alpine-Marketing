@@ -615,5 +615,24 @@
         "desc": "Utilisé pour la publicité ciblée. Jamais chargé sans votre consentement explicite."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Appel découverte gratuit — 30 minutes",
+    "title": "Choisissez un créneau. Cartographions votre pipeline ensemble.",
+    "subtitle": "Pas de discours commercial. Pas de pression. En 30 minutes, nous auditons votre système d'acquisition actuel, identifions précisément où votre chiffre d'affaires fuit, et vous montrons à quoi ressemblerait un pipeline optimisé pour votre entreprise — que vous travailliez avec nous ou non.",
+    "benefitsLabel": "En 30 minutes, vous repartez avec :",
+    "benefits": [
+      "Votre entonnoir complet cartographié et évalué",
+      "Les 2–3 principales fuites de revenus identifiées",
+      "Une estimation live de votre CAC + LTGP",
+      "Un plan d'action concret — sans aucun engagement"
+    ],
+    "trust": [
+      "Aucun engagement requis",
+      "Zoom ou téléphone — à votre convenance",
+      "Places limitées chaque semaine"
+    ],
+    "social": "La confiance des PME suisses et des entreprises tech à Zurich, Basel et Bern.",
+    "calendarTitle": "Réservez votre appel découverte"
   }
 }

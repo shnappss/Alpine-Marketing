@@ -615,5 +615,24 @@
         "desc": "Uporabljeni za ciljno oglaševanje. Nikoli se ne naložijo brez vašega izrecnega soglasja."
       }
     }
+  },
+  "booking": {
+    "eyebrow": "Brezplačni 30-minutni odkrivni klic",
+    "title": "Izberite termin. Skupaj načrtujmo vaš prodajni lijak.",
+    "subtitle": "Brez prodajnih govorov. Brez pritiska. V 30 minutah bomo pregledali vaš trenutni sistem pridobivanja strank, natančno identificirali, kje izgubljate prihodke, in vam pokazali, kako bi izgledal optimiziran prodajni lijak za vaše podjetje — ne glede na to, ali sodelujete z nami ali ne.",
+    "benefitsLabel": "Po 30 minutah boste odnesli s seboj:",
+    "benefits": [
+      "Celoten lijak vizualno načrtovan in ocenjen",
+      "Identificirane 2–3 največje točke uhajanja prihodkov",
+      "Živo oceno CAC + LTGP za vaše podjetje",
+      "Konkreten akcijski načrt — brez obveznosti"
+    ],
+    "trust": [
+      "Brez kakršnih koli obveznosti",
+      "Zoom ali telefon — vaša izbira",
+      "Vsak teden je na voljo omejeno število terminov"
+    ],
+    "social": "Zaupajo nam švicarsko SMB podjetja in tehnološka podjetja v Zurichu, Baslu in Bernu.",
+    "calendarTitle": "Rezervirajte odkrivni klic"
   }
 }

@@ -9,6 +9,7 @@ import FAQSection from "../components/FAQSection";
 import ComparisonSection from "../components/ComparisonSection";
 import WhyAlpineSection from "../components/WhyAlpineSection";
 import TeamSection from "../components/TeamSection";
+import CalendarSection from "../components/CalendarSection";
 import FinalCTASection from "../components/FinalCTASection";
 import Footer from "../components/Footer";
 
@@ -27,6 +28,7 @@ export default function Home() {
         <WhyAlpineSection />
         <TeamSection />
         <FAQSection />
+        <CalendarSection />
         <FinalCTASection />
       </main>
       <Footer />
