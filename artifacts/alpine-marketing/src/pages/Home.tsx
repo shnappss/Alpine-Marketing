@@ -24,11 +24,11 @@ export default function Home() {
         <TechStackSection />
         <MetricsSection />
         <CaseStudiesSection />
+        <CalendarSection />
         <ComparisonSection />
         <WhyAlpineSection />
         <TeamSection />
         <FAQSection />
-        <CalendarSection />
         <FinalCTASection />
       </main>
       <Footer />

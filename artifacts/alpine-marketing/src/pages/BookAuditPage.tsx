@@ -1,217 +1,167 @@
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
-import { sendWebhook } from "../lib/webhook";
-import { CheckCircle2, ArrowRight } from "lucide-react";
+import { CheckCircle2, Clock, Video, Zap } from "lucide-react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../components/ui/form";
-import { Input } from "../components/ui/input";
-import { Textarea } from "../components/ui/textarea";
-import { Button } from "../components/ui/button";
+import { sendWebhook } from "../lib/webhook";
+
+const CALENDAR_SRC =
+  "https://app.inflowave.io/book/f910d8c6-bf13-422c-a58a-810e0205f50c/discovery-call";
+
+const TRUST_ICONS = [Clock, Video, Zap];
 
 export default function BookAuditPage() {
   const { t } = useTranslation();
-  const [, navigate] = useLocation();
-
-  const formSchema = z.object({
-    name: z.string().min(2, t("bookAuditPage.form.validation.name")),
-    email: z.string().email(t("bookAuditPage.form.validation.email")),
-    company: z.string().min(2, t("bookAuditPage.form.validation.company")),
-    website: z.string().url(t("bookAuditPage.form.validation.website")).optional().or(z.literal("")),
-    monthlyLeads: z.string().min(1, t("bookAuditPage.form.validation.monthlyLeads")),
-    challenge: z.string().min(20, t("bookAuditPage.form.validation.challenge")),
-    privacyConsent: z.boolean().refine(v => v === true, t("bookAuditPage.form.validation.consent")),
-    marketingConsent: z.boolean().optional(),
-  });
-
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      name: "", email: "", company: "", website: "",
-      monthlyLeads: "", challenge: "",
-      privacyConsent: false, marketingConsent: false,
-    },
-  });
-
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    sendWebhook({ form: "book-audit", ...values });
-    navigate("/thank-you");
-  }
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   const whatYouGet = t("bookAuditPage.whatYouGet", { returnObjects: true }) as string[];
+  const trust = t("booking.trust", { returnObjects: true }) as string[];
+
+  useEffect(() => {
+    function handleMessage(event: MessageEvent) {
+      if (!event.origin.includes("inflowave.io")) return;
+      const data =
+        typeof event.data === "string"
+          ? (() => { try { return JSON.parse(event.data); } catch { return null; } })()
+          : event.data;
+      if (!data) return;
+      const isBooking =
+        data.type === "booking" ||
+        data.event === "booking_confirmed" ||
+        data.event === "appointment_scheduled" ||
+        data.status === "booked" ||
+        JSON.stringify(data).toLowerCase().includes("booked") ||
+        JSON.stringify(data).toLowerCase().includes("confirmed");
+
+      if (isBooking) {
+        sendWebhook({
+          form: "book-audit-calendar",
+          event: "appointment_booked",
+          raw: data,
+          notifyEmail: "roman@alpinemarketing.ch",
+        });
+      }
+    }
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
+  }, []);
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col font-sans">
       <Nav />
-      <main className="flex-1 pt-28 pb-20">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-5xl mx-auto">
+      <main className="flex-1 pt-24 pb-20 relative overflow-hidden">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-primary/10 rounded-full blur-[140px] pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-[400px] h-[300px] bg-secondary/8 rounded-full blur-[100px] pointer-events-none" />
 
-            <div>
-              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block"
-              >
-                {t("bookAuditPage.eyebrow")}
-              </motion.p>
-              <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
-                className="text-4xl md:text-5xl font-bold mb-6"
-              >
-                {t("bookAuditPage.title")}
-              </motion.h1>
-              <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
-                className="text-muted-foreground text-lg mb-8 leading-relaxed"
-              >
-                {t("bookAuditPage.subtitle")}
-              </motion.p>
+        <div className="max-w-7xl mx-auto px-5 md:px-8 relative z-10">
 
-              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
-                className="space-y-4 mb-10"
-              >
-                <p className="text-sm font-bold uppercase tracking-wider text-muted-foreground">{t("bookAuditPage.whatYouGetLabel")}</p>
-                {whatYouGet.map((item, i) => (
-                  <div key={i} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
-                    <p className="text-white/80 text-sm">{item}</p>
-                  </div>
-                ))}
-              </motion.div>
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <motion.p
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="inline-block text-primary font-bold tracking-widest text-xs uppercase mb-5 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10"
+            >
+              {t("bookAuditPage.eyebrow")}
+            </motion.p>
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="text-4xl md:text-5xl font-extrabold mb-5 leading-[1.1]"
+            >
+              {t("booking.title")}
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="text-lg text-muted-foreground leading-relaxed"
+            >
+              {t("bookAuditPage.subtitle")}
+            </motion.p>
+          </div>
 
-              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}
-                className="bg-card border border-white/8 rounded-xl p-6"
-              >
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
+
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.2 }}
+              className="lg:col-span-2 space-y-8"
+            >
+              <div className="bg-card border border-white/8 rounded-2xl p-7">
+                <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-5">
+                  {t("bookAuditPage.whatYouGetLabel")}
+                </p>
+                <ul className="space-y-4">
+                  {whatYouGet.map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                      <span className="text-white/85 text-sm leading-snug">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="space-y-3">
+                {trust.map((item, i) => {
+                  const Icon = TRUST_ICONS[i] ?? Clock;
+                  return (
+                    <div key={i} className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/8 flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-4 h-4 text-primary" />
+                      </div>
+                      <span className="text-sm text-muted-foreground">{item}</span>
+                    </div>
+                  );
+                })}
+              </div>
+
+              <div className="bg-card border border-white/8 rounded-2xl p-6">
                 <p className="text-sm font-semibold text-white mb-2">{t("bookAuditPage.whoForLabel")}</p>
                 <p className="text-sm text-muted-foreground leading-relaxed">{t("bookAuditPage.whoForBody")}</p>
-              </motion.div>
-            </div>
+              </div>
 
-            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }}
-              className="bg-card border border-white/10 rounded-2xl p-8 md:p-10"
+              <div className="border-t border-white/8 pt-6">
+                <p className="text-xs text-muted-foreground leading-relaxed">
+                  {t("booking.social")}
+                </p>
+                <div className="flex items-center gap-1 mt-3">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-4 h-4 fill-amber-400" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                  <span className="text-xs text-muted-foreground ml-2">5.0 · Swiss clients</span>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.3 }}
+              className="lg:col-span-3"
             >
-              <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5" noValidate>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <FormField control={form.control} name="name" render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>{t("bookAuditPage.form.fullName")} *</FormLabel>
-                        <FormControl><Input placeholder={t("bookAuditPage.form.fullNamePh")} {...field} className="bg-background border-white/10" /></FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )} />
-                    <FormField control={form.control} name="email" render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>{t("bookAuditPage.form.workEmail")} *</FormLabel>
-                        <FormControl><Input placeholder={t("bookAuditPage.form.workEmailPh")} {...field} className="bg-background border-white/10" /></FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )} />
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <FormField control={form.control} name="company" render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>{t("bookAuditPage.form.company")} *</FormLabel>
-                        <FormControl><Input placeholder={t("bookAuditPage.form.companyPh")} {...field} className="bg-background border-white/10" /></FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )} />
-                    <FormField control={form.control} name="website" render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>{t("bookAuditPage.form.website")}</FormLabel>
-                        <FormControl><Input placeholder={t("bookAuditPage.form.websitePh")} {...field} className="bg-background border-white/10" /></FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )} />
-                  </div>
-
-                  <FormField control={form.control} name="monthlyLeads" render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>{t("bookAuditPage.form.monthlyLeads")} *</FormLabel>
-                      <FormControl>
-                        <select
-                          {...field}
-                          className="w-full h-10 px-3 rounded-md bg-background border border-white/10 text-sm text-white focus:outline-none focus:ring-1 focus:ring-primary"
-                        >
-                          <option value="">{t("bookAuditPage.form.leadsDefault")}</option>
-                          <option value="<20">{t("bookAuditPage.form.leadsOptions.lt20")}</option>
-                          <option value="20-100">{t("bookAuditPage.form.leadsOptions.20to100")}</option>
-                          <option value="100-500">{t("bookAuditPage.form.leadsOptions.100to500")}</option>
-                          <option value="500+">{t("bookAuditPage.form.leadsOptions.500plus")}</option>
-                        </select>
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )} />
-
-                  <FormField control={form.control} name="challenge" render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>{t("bookAuditPage.form.challenge")} *</FormLabel>
-                      <FormControl>
-                        <Textarea
-                          placeholder={t("bookAuditPage.form.challengePh")}
-                          className="min-h-[90px] bg-background border-white/10"
-                          {...field}
-                        />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )} />
-
-                  <FormField control={form.control} name="privacyConsent" render={({ field }) => (
-                    <FormItem>
-                      <div className="flex items-start gap-3">
-                        <input
-                          type="checkbox"
-                          id="privacy-consent"
-                          checked={field.value}
-                          onChange={e => field.onChange(e.target.checked)}
-                          className="mt-1 accent-primary flex-shrink-0"
-                        />
-                        <label htmlFor="privacy-consent" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
-                          <span className="text-white font-medium">{t("bookAuditPage.form.requiredLabel")} </span>
-                          {t("bookAuditPage.form.privacyPrefix")}
-                          <a href="/legal/privacy" target="_blank" rel="noopener" className="text-primary underline">{t("bookAuditPage.form.privacyLink")}</a>
-                          {t("bookAuditPage.form.privacySuffix")}
-                        </label>
-                      </div>
-                      <FormMessage />
-                    </FormItem>
-                  )} />
-
-                  <FormField control={form.control} name="marketingConsent" render={({ field }) => (
-                    <FormItem>
-                      <div className="flex items-start gap-3">
-                        <input
-                          type="checkbox"
-                          id="marketing-consent"
-                          checked={!!field.value}
-                          onChange={e => field.onChange(e.target.checked)}
-                          className="mt-1 accent-primary flex-shrink-0"
-                        />
-                        <label htmlFor="marketing-consent" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
-                          <span className="text-white/60">{t("bookAuditPage.form.optionalLabel")} </span>
-                          {t("bookAuditPage.form.marketingText")}
-                        </label>
-                      </div>
-                    </FormItem>
-                  )} />
-
-                  <Button
-                    type="submit"
-                    className="w-full h-12 text-base font-bold bg-primary hover:bg-primary/90 text-white shadow-[0_0_20px_rgba(8,145,178,0.3)] transition-all"
-                    data-testid="button-submit-audit"
-                  >
-                    {t("bookAuditPage.form.submit")} <ArrowRight className="ml-2 w-4 h-4" />
-                  </Button>
-
-                  <p className="text-[11px] text-muted-foreground text-center">
-                    {t("bookAuditPage.form.footer")}
-                  </p>
-                </form>
-              </Form>
+              <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(8,145,178,0.15)] bg-card">
+                <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
+                <div className="px-6 py-4 border-b border-white/8 flex items-center gap-2">
+                  <div className="w-2.5 h-2.5 rounded-full bg-red-500/70" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-amber-500/70" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-secondary/70" />
+                  <span className="ml-3 text-xs text-muted-foreground font-medium">
+                    {t("booking.calendarTitle")}
+                  </span>
+                </div>
+                <iframe
+                  ref={iframeRef}
+                  src={CALENDAR_SRC}
+                  style={{ width: "100%", height: "720px", border: "none" }}
+                  title={t("booking.calendarTitle")}
+                  loading="eager"
+                />
+              </div>
             </motion.div>
 
           </div>
