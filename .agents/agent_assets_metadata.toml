@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "S1yEDP8igA3R3fbe-RQo1"
+uri = "file://attached_assets/webhook-toast.jpeg"
+type = "image"
+title = "Success toast after form submit"
+
+[[outputs]]
+id = "LaAWPOBnj_3anOwEOINfF"
+uri = "file://attached_assets/webhook-console.jpeg"
+type = "image"
+title = "Browser console — webhook logs"

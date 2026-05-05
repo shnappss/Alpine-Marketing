@@ -1,10 +1,27 @@
-const WEBHOOK_URL =
-  "https://api.inflowave.io/api/workflows/webhook/db26ab29-82d7-4cc8-94c4-f7c41c8f76fc";
+const PROXY_URL = "/api/webhook/contact";
 
 export function sendWebhook(payload: Record<string, unknown>): void {
-  fetch(WEBHOOK_URL, {
+  const body = JSON.stringify({
+    ...payload,
+    source: "alpine-marketing-website",
+    submittedAt: new Date().toISOString(),
+  });
+  console.log("[Alpine] Sending webhook →", PROXY_URL, JSON.parse(body));
+  fetch(PROXY_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ ...payload, source: "alpine-marketing-website", submittedAt: new Date().toISOString() }),
-  }).catch(() => {});
+    body,
+  })
+    .then(async (res) => {
+      const text = await res.text();
+      console.log(
+        "[Alpine] Webhook response ←",
+        res.status,
+        res.ok ? "OK" : "ERROR",
+        text
+      );
+    })
+    .catch((err) => {
+      console.error("[Alpine] Webhook network error ←", err);
+    });
 }
