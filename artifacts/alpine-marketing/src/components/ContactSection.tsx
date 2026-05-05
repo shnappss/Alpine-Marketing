@@ -8,6 +8,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
+import { sendWebhook } from "../lib/webhook";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name is required"),
@@ -29,6 +30,7 @@ export default function ContactSection() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
+    sendWebhook({ form: "home-contact", ...values });
     toast({
       title: "Request Received",
       description: "We'll be in touch within 24 hours to schedule your audit.",

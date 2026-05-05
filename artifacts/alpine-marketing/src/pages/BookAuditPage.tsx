@@ -4,6 +4,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
+import { sendWebhook } from "../lib/webhook";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -36,7 +37,8 @@ export default function BookAuditPage() {
     },
   });
 
-  function onSubmit() {
+  function onSubmit(values: z.infer<typeof formSchema>) {
+    sendWebhook({ form: "book-audit", ...values });
     navigate("/thank-you");
   }
 

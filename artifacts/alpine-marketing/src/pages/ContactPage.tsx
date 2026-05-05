@@ -4,6 +4,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslation } from "react-i18next";
 import { useToast } from "../hooks/use-toast";
+import { sendWebhook } from "../lib/webhook";
 import { Mail, MapPin, Clock, ArrowRight } from "lucide-react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -31,7 +32,8 @@ export default function ContactPage() {
     defaultValues: { name: "", email: "", company: "", serviceInterest: "", message: "", privacyConsent: false, marketingConsent: false },
   });
 
-  function onSubmit() {
+  function onSubmit(values: z.infer<typeof formSchema>) {
+    sendWebhook({ form: "contact-page", ...values });
     toast({ title: t("contactPage.form.toastTitle"), description: t("contactPage.form.toastDesc") });
     form.reset();
   }
