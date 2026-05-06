@@ -455,7 +455,7 @@
   "contactPage": {
     "eyebrow": "Kapcsolatfelvétel",
     "title": "Beszéljük meg a rendszereket.",
-    "subtitlePrefix": "Általános megkeresésekhez használja az alábbi űrlapot. Ha strukturált tölcsér-átvizsgálást szeretne, látogasson el az ",
+    "subtitlePrefix": "Általános megkeresésekhez használja az alábbi űrlapot. Ha strukturált tölcsér-átvizsgálást szeretne, látogasson a ",
     "subtitleLink": "Audit Foglalása",
     "subtitleSuffix": " oldalra.",
     "info": {
@@ -468,19 +468,21 @@
     },
     "form": {
       "name": "Név",
-      "namePh": "Jane Smith",
+      "namePh": "Kiss Anna",
       "email": "E-mail",
-      "emailPh": "jane@company.com",
+      "emailPh": "anna@ceg.hu",
       "company": "Cég",
       "companyPh": "Acme GmbH",
+      "phone": "Telefonszám",
+      "phonePh": "+41 79 000 00 00",
       "service": "Érdeklődési terület",
       "serviceDefault": "Válasszon (opcionális)",
       "serviceOptions": {
-        "performance": "Teljesítménymarketing",
+        "performance": "Performance Marketing",
         "crm": "CRM + Automatizálás",
         "reporting": "Riportálás és analitika",
-        "content": "Tartalmi tölcsérek",
-        "audit": "Teljes rendszerátvizsgálás"
+        "content": "Tartalomtölcsérek",
+        "audit": "Teljes rendszeraudit"
       },
       "message": "Üzenet",
       "messagePh": "Meséljen a helyzetéről...",
@@ -488,13 +490,14 @@
       "optionalLabel": "Opcionális:",
       "privacyPrefix": "Elolvastam az ",
       "privacyLink": "Adatvédelmi tájékoztatót",
-      "privacySuffix": " és hozzájárulok adataim feldolgozásához a megkeresésem megválaszolása céljából.",
+      "privacySuffix": ", és hozzájárulok adataim kezeléséhez a megkeresésem megválaszolása céljából.",
       "marketingText": "Szeretnék e-mailes frissítéseket és szakmai betekintőket kapni az Alpine Marketingtől.",
       "submit": "Üzenet küldése",
       "validation": {
         "name": "A név megadása kötelező",
         "email": "Érvényes e-mail cím megadása kötelező",
         "company": "A cégnév megadása kötelező",
+        "phone": "A telefonszám megadása kötelező",
         "message": "Az üzenet megadása kötelező",
         "consent": "A folytatáshoz el kell fogadnia a feltételeket"
       },

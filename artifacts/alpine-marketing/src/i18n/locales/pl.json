@@ -455,11 +455,11 @@
   "contactPage": {
     "eyebrow": "Skontaktuj się z nami",
     "title": "Porozmawiajmy o systemach.",
-    "subtitlePrefix": "Skorzystaj z poniższego formularza w przypadku ogólnych zapytań. Jeśli chcesz przeprowadzić strukturalny przegląd lejka sprzedażowego, przejdź na stronę ",
-    "subtitleLink": "Zamów Audyt",
+    "subtitlePrefix": "Skorzystaj z poniższego formularza w przypadku ogólnych zapytań. Jeśli chcesz przeprowadzić szczegółowy przegląd lejka, odwiedź stronę ",
+    "subtitleLink": "Zamów audyt",
     "subtitleSuffix": ".",
     "info": {
-      "emailLabel": "Email",
+      "emailLabel": "E-mail",
       "phoneLabel": "Telefon i lokalizacja",
       "city": "Zurich, Switzerland",
       "responseLabel": "Czas odpowiedzi",
@@ -469,10 +469,12 @@
     "form": {
       "name": "Imię i nazwisko",
       "namePh": "Jan Kowalski",
-      "email": "Email",
+      "email": "E-mail",
       "emailPh": "jan@firma.pl",
       "company": "Firma",
       "companyPh": "Acme GmbH",
+      "phone": "Numer telefonu",
+      "phonePh": "+41 79 000 00 00",
       "service": "Interesująca usługa",
       "serviceDefault": "Wybierz (opcjonalnie)",
       "serviceOptions": {
@@ -480,7 +482,7 @@
         "crm": "CRM + Automatyzacja",
         "reporting": "Raportowanie i analityka",
         "content": "Lejki contentowe",
-        "audit": "Audyt całego systemu"
+        "audit": "Pełny audyt systemu"
       },
       "message": "Wiadomość",
       "messagePh": "Opisz swoją sytuację...",
@@ -489,17 +491,18 @@
       "privacyPrefix": "Zapoznałem/-am się z ",
       "privacyLink": "Polityką prywatności",
       "privacySuffix": " i wyrażam zgodę na przetwarzanie moich danych w celu udzielenia odpowiedzi na to zapytanie.",
-      "marketingText": "Chcę otrzymywać aktualizacje e-mail i materiały branżowe od Alpine Marketing.",
+      "marketingText": "Chcę otrzymywać e-maile z aktualnościami i wskazówkami od Alpine Marketing.",
       "submit": "Wyślij wiadomość",
       "validation": {
         "name": "Imię i nazwisko jest wymagane",
-        "email": "Wymagany jest prawidłowy adres email",
+        "email": "Wymagany prawidłowy adres e-mail",
         "company": "Nazwa firmy jest wymagana",
+        "phone": "Numer telefonu jest wymagany",
         "message": "Wiadomość jest wymagana",
         "consent": "Musisz wyrazić zgodę, aby kontynuować"
       },
       "toastTitle": "Wiadomość odebrana",
-      "toastDesc": "Odezwiemy się w ciągu 1 dnia roboczego."
+      "toastDesc": "Skontaktujemy się z Tobą w ciągu 1 dnia roboczego."
     }
   },
   "bookAuditPage": {

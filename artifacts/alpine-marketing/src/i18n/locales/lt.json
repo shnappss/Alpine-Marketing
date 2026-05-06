@@ -455,9 +455,9 @@
   "contactPage": {
     "eyebrow": "Susisiekite",
     "title": "Pakalbėkime apie sistemas.",
-    "subtitlePrefix": "Bendriems klausimams naudokite žemiau esančią formą. Jei norite struktūrizuoto pardavimo piltuvėlio audito, naudokite ",
-    "subtitleLink": "Audito užsakymo",
-    "subtitleSuffix": " puslapį.",
+    "subtitlePrefix": "Bendriems klausimams naudokite žemiau esančią formą. Jei norite struktūrizuotos pardavimo piltuvo apžvalgos, apsilankykite ",
+    "subtitleLink": "Užsakyti auditą",
+    "subtitleSuffix": " puslapyje.",
     "info": {
       "emailLabel": "El. paštas",
       "phoneLabel": "Telefonas ir vieta",
@@ -473,13 +473,15 @@
       "emailPh": "jane@company.com",
       "company": "Įmonė",
       "companyPh": "Acme GmbH",
-      "service": "Domina paslauga",
-      "serviceDefault": "Pasirinkti (neprivaloma)",
+      "phone": "Telefono numeris",
+      "phonePh": "+41 79 000 00 00",
+      "service": "Dominanti paslauga",
+      "serviceDefault": "Pasirinkite (neprivaloma)",
       "serviceOptions": {
         "performance": "Efektyvumo rinkodara",
-        "crm": "CRM + Automatizavimas",
+        "crm": "CRM + automatizavimas",
         "reporting": "Ataskaitų teikimas ir analizė",
-        "content": "Turinio piltuvėliai",
+        "content": "Turinio piltuvai",
         "audit": "Visos sistemos auditas"
       },
       "message": "Žinutė",
@@ -488,18 +490,19 @@
       "optionalLabel": "Neprivaloma:",
       "privacyPrefix": "Perskaičiau ",
       "privacyLink": "Privatumo pranešimą",
-      "privacySuffix": " ir sutinku, kad mano informacija būtų tvarkoma siekiant atsakyti į šį užklausą.",
-      "marketingText": "Norėčiau gauti el. paštu Alpine Marketing naujienas ir įžvalgas.",
+      "privacySuffix": " ir sutinku, kad mano duomenys būtų tvarkomi siekiant atsakyti į šį užklausimą.",
+      "marketingText": "Norėčiau gauti el. paštu Alpine Marketing naujienlaiškinius atnaujinimus ir įžvalgas.",
       "submit": "Siųsti žinutę",
       "validation": {
         "name": "Vardas yra privalomas",
         "email": "Reikalingas galiojantis el. pašto adresas",
         "company": "Įmonės pavadinimas yra privalomas",
+        "phone": "Telefono numeris yra privalomas",
         "message": "Žinutė yra privaloma",
         "consent": "Norėdami tęsti, turite sutikti"
       },
       "toastTitle": "Žinutė gauta",
-      "toastDesc": "Susisieksime su jumis per 1 darbo dieną."
+      "toastDesc": "Susisieksime per 1 darbo dieną."
     }
   },
   "bookAuditPage": {

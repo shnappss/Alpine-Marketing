@@ -453,11 +453,11 @@
     "ctaButton": "Boek uw gratis audit"
   },
   "contactPage": {
-    "eyebrow": "Neem Contact Op",
-    "title": "Laten we het over systemen hebben.",
-    "subtitlePrefix": "Gebruik het onderstaande formulier voor algemene vragen. Wilt u een gestructureerde funnel review, gebruik dan de ",
+    "eyebrow": "Neem contact op",
+    "title": "Laten we praten over systemen.",
+    "subtitlePrefix": "Gebruik het formulier hieronder voor algemene vragen. Wilt u een gestructureerde funnelanalyse? Ga dan naar de pagina ",
     "subtitleLink": "Audit Boeken",
-    "subtitleSuffix": " pagina.",
+    "subtitleSuffix": ".",
     "info": {
       "emailLabel": "E-mail",
       "phoneLabel": "Telefoon & Locatie",
@@ -473,6 +473,8 @@
       "emailPh": "jane@company.com",
       "company": "Bedrijf",
       "companyPh": "Acme GmbH",
+      "phone": "Telefoonnummer",
+      "phonePh": "+41 79 000 00 00",
       "service": "Interesse in dienst",
       "serviceDefault": "Selecteer (optioneel)",
       "serviceOptions": {
@@ -480,7 +482,7 @@
         "crm": "CRM + Automatisering",
         "reporting": "Rapportage & Analyse",
         "content": "Content Funnels",
-        "audit": "Volledig systeemaudit"
+        "audit": "Volledige systeemaudit"
       },
       "message": "Bericht",
       "messagePh": "Vertel ons over uw situatie...",
@@ -488,15 +490,16 @@
       "optionalLabel": "Optioneel:",
       "privacyPrefix": "Ik heb de ",
       "privacyLink": "Privacyverklaring",
-      "privacySuffix": " gelezen en geef toestemming voor de verwerking van mijn gegevens om op deze aanvraag te reageren.",
+      "privacySuffix": " gelezen en geef toestemming voor de verwerking van mijn gegevens om deze aanvraag te beantwoorden.",
       "marketingText": "Ik ontvang graag e-mailupdates en inzichten van Alpine Marketing.",
-      "submit": "Bericht Verzenden",
+      "submit": "Bericht verzenden",
       "validation": {
         "name": "Naam is verplicht",
         "email": "Een geldig e-mailadres is verplicht",
         "company": "Bedrijfsnaam is verplicht",
+        "phone": "Telefoonnummer is verplicht",
         "message": "Bericht is verplicht",
-        "consent": "U dient akkoord te gaan om door te gaan"
+        "consent": "U moet akkoord gaan om door te gaan"
       },
       "toastTitle": "Bericht ontvangen",
       "toastDesc": "We nemen binnen 1 werkdag contact met u op."

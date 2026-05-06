@@ -455,14 +455,14 @@
   "contactPage": {
     "eyebrow": "Ota yhteyttä",
     "title": "Puhutaan järjestelmistä.",
-    "subtitlePrefix": "Käytä alla olevaa lomaketta yleisiin tiedusteluihin. Jos haluat jäsennellyn suppila-arvion, siirry ",
+    "subtitlePrefix": "Käytä alla olevaa lomaketta yleisiin tiedusteluihin. Jos haluat perusteellisen myyntiputken arvioinnin, siirry ",
     "subtitleLink": "Varaa auditointi",
     "subtitleSuffix": " -sivulle.",
     "info": {
       "emailLabel": "Sähköposti",
-      "phoneLabel": "Puhelin & Sijainti",
+      "phoneLabel": "Puhelin ja sijainti",
       "city": "Zurich, Switzerland",
-      "responseLabel": "Vasteaika",
+      "responseLabel": "Vastausaika",
       "responseValue": "1 arkipäivän kuluessa",
       "responseSub": "Siladii Alpine Marketing"
     },
@@ -473,13 +473,15 @@
       "emailPh": "jane@company.com",
       "company": "Yritys",
       "companyPh": "Acme GmbH",
+      "phone": "Puhelinnumero",
+      "phonePh": "+41 79 000 00 00",
       "service": "Palvelukiinnostus",
       "serviceDefault": "Valitse (valinnainen)",
       "serviceOptions": {
         "performance": "Performance Marketing",
-        "crm": "CRM + Automaatio",
-        "reporting": "Raportointi & Analytiikka",
-        "content": "Sisältösuppiloita",
+        "crm": "CRM + automaatio",
+        "reporting": "Raportointi ja analytiikka",
+        "content": "Sisältöpohjainen myyntiputki",
         "audit": "Koko järjestelmän auditointi"
       },
       "message": "Viesti",
@@ -489,17 +491,18 @@
       "privacyPrefix": "Olen lukenut ",
       "privacyLink": "tietosuojaselosteen",
       "privacySuffix": " ja annan suostumukseni tietojeni käsittelyyn tähän tiedusteluun vastaamiseksi.",
-      "marketingText": "Haluan vastaanottaa sähköpostipäivityksiä ja näkemyksiä Alpine Marketingilta.",
+      "marketingText": "Haluan vastaanottaa sähköpostiviestejä ja näkemyksiä Alpine Marketingilta.",
       "submit": "Lähetä viesti",
       "validation": {
         "name": "Nimi on pakollinen",
         "email": "Kelvollinen sähköpostiosoite on pakollinen",
         "company": "Yrityksen nimi on pakollinen",
+        "phone": "Puhelinnumero on pakollinen",
         "message": "Viesti on pakollinen",
         "consent": "Sinun on hyväksyttävä jatkaaksesi"
       },
       "toastTitle": "Viesti vastaanotettu",
-      "toastDesc": "Otamme yhteyttä 1 arkipäivän kuluessa."
+      "toastDesc": "Olemme yhteydessä 1 arkipäivän kuluessa."
     }
   },
   "bookAuditPage": {

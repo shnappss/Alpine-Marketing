@@ -454,7 +454,7 @@
   },
   "contactPage": {
     "eyebrow": "Ikkuntattjana",
-    "title": "Ejja nitħaddtu dwar is-sistemi.",
+    "title": "Ejja nitkellmu dwar is-sistemi.",
     "subtitlePrefix": "Uża l-formola hawn taħt għal mistoqsijiet ġenerali. Jekk tixtieq reviżjoni strutturata tal-funnel, uża l-paġna ",
     "subtitleLink": "Book Audit",
     "subtitleSuffix": ".",
@@ -462,8 +462,8 @@
       "emailLabel": "Email",
       "phoneLabel": "Telefon u Lokazzjoni",
       "city": "Zurich, Switzerland",
-      "responseLabel": "Żmien ta' risposta",
-      "responseValue": "Fi żmien jum ta' xogħol wieħed",
+      "responseLabel": "Ħin ta' risposta",
+      "responseValue": "Fi żmien 1 jum tax-xogħol",
       "responseSub": "Siladii Alpine Marketing"
     },
     "form": {
@@ -473,33 +473,36 @@
       "emailPh": "jane@company.com",
       "company": "Kumpanija",
       "companyPh": "Acme GmbH",
-      "service": "Servizz ta' interess",
+      "phone": "Numru tat-Telefon",
+      "phonePh": "+41 79 000 00 00",
+      "service": "Interess fis-servizz",
       "serviceDefault": "Agħżel (fakultattiv)",
       "serviceOptions": {
         "performance": "Performance Marketing",
         "crm": "CRM + Awtomazzjoni",
-        "reporting": "Rapportar u Analitiċi",
+        "reporting": "Rappurtar u Analitiċi",
         "content": "Content Funnels",
         "audit": "Awditu sħiħ tas-sistema"
       },
       "message": "Messaġġ",
-      "messagePh": "Għidilna dwar is-sitwazzjoni tiegħek...",
+      "messagePh": "Qillna dwar is-sitwazzjoni tiegħek...",
       "requiredLabel": "Meħtieġ:",
       "optionalLabel": "Fakultattiv:",
       "privacyPrefix": "Qrajt l-",
       "privacyLink": "Avviż tal-Privatezza",
-      "privacySuffix": " u nagħti l-kunsens tiegħi biex l-informazzjoni tiegħi tiġi pproċessata biex wieġbu għal din l-mistoqsija.",
-      "marketingText": "Nixtieq nirċievi aġġornamenti u tagħrif bl-email mingħand Alpine Marketing.",
+      "privacySuffix": " u nagħti l-kunsens tiegħi għall-ipproċessar tal-informazzjoni tiegħi biex jiġi mwieġeb dan it-talba.",
+      "marketingText": "Nixtieq nirċievi aġġornamenti u għarfien permezz tal-email minn Alpine Marketing.",
       "submit": "Ibgħat il-Messaġġ",
       "validation": {
         "name": "L-isem huwa meħtieġ",
-        "email": "Indirizz email validu huwa meħtieġ",
+        "email": "Email valida hija meħtieġa",
         "company": "L-isem tal-kumpanija huwa meħtieġ",
+        "phone": "In-numru tat-telefon huwa meħtieġ",
         "message": "Il-messaġġ huwa meħtieġ",
-        "consent": "Għandek taqbel biex tkompli"
+        "consent": "Trid taqbel biex tkompli"
       },
       "toastTitle": "Messaġġ irċevut",
-      "toastDesc": "Ser nikkuntattjawk fi żmien jum ta' xogħol wieħed."
+      "toastDesc": "Ser inkuntattjawk fi żmien 1 jum tax-xogħol."
     }
   },
   "bookAuditPage": {

@@ -456,23 +456,25 @@
     "eyebrow": "Contactați-ne",
     "title": "Să vorbim despre sisteme.",
     "subtitlePrefix": "Folosiți formularul de mai jos pentru întrebări generale. Dacă doriți o analiză structurată a pâlniei de vânzări, accesați pagina ",
-    "subtitleLink": "Rezervați Auditul",
+    "subtitleLink": "Programează Audit",
     "subtitleSuffix": ".",
     "info": {
       "emailLabel": "Email",
-      "phoneLabel": "Telefon și locație",
+      "phoneLabel": "Telefon & Locație",
       "city": "Zurich, Switzerland",
       "responseLabel": "Timp de răspuns",
-      "responseValue": "În termen de 1 zi lucrătoare",
+      "responseValue": "În decurs de 1 zi lucrătoare",
       "responseSub": "Siladii Alpine Marketing"
     },
     "form": {
       "name": "Nume",
-      "namePh": "Jane Smith",
+      "namePh": "Ion Popescu",
       "email": "Email",
-      "emailPh": "jane@company.com",
+      "emailPh": "ion@companie.com",
       "company": "Companie",
       "companyPh": "Acme GmbH",
+      "phone": "Număr de telefon",
+      "phonePh": "+41 79 000 00 00",
       "service": "Serviciu de interes",
       "serviceDefault": "Selectați (opțional)",
       "serviceOptions": {
@@ -483,23 +485,24 @@
         "audit": "Audit complet al sistemului"
       },
       "message": "Mesaj",
-      "messagePh": "Descrieți-ne situația dvs....",
+      "messagePh": "Spuneți-ne despre situația dvs....",
       "requiredLabel": "Obligatoriu:",
       "optionalLabel": "Opțional:",
       "privacyPrefix": "Am citit ",
-      "privacyLink": "Politica de confidențialitate",
-      "privacySuffix": " și îmi exprim consimțământul pentru procesarea datelor mele în scopul răspunderii la această solicitare.",
-      "marketingText": "Doresc să primesc actualizări și informații prin email de la Alpine Marketing.",
-      "submit": "Trimiteți mesajul",
+      "privacyLink": "Nota de confidențialitate",
+      "privacySuffix": " și îmi exprim acordul ca informațiile mele să fie prelucrate în scopul răspunsului la această solicitare.",
+      "marketingText": "Doresc să primesc actualizări și informații utile prin email de la Alpine Marketing.",
+      "submit": "Trimite mesajul",
       "validation": {
         "name": "Numele este obligatoriu",
         "email": "Este necesar un email valid",
         "company": "Numele companiei este obligatoriu",
+        "phone": "Numărul de telefon este obligatoriu",
         "message": "Mesajul este obligatoriu",
         "consent": "Trebuie să fiți de acord pentru a continua"
       },
       "toastTitle": "Mesaj primit",
-      "toastDesc": "Vă vom contacta în termen de 1 zi lucrătoare."
+      "toastDesc": "Vă vom contacta în decurs de 1 zi lucrătoare."
     }
   },
   "bookAuditPage": {

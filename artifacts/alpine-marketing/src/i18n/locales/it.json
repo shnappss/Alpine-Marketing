@@ -453,15 +453,15 @@
     "ctaButton": "Prenota il tuo audit gratuito"
   },
   "contactPage": {
-    "eyebrow": "Mettiti in contatto",
+    "eyebrow": "Contattaci",
     "title": "Parliamo di sistemi.",
-    "subtitlePrefix": "Usa il modulo per richieste generiche. Per una revisione strutturata del funnel, usa la pagina ",
-    "subtitleLink": "Prenota audit",
+    "subtitlePrefix": "Usa il modulo sottostante per richieste generali. Per una revisione strutturata del funnel, visita la pagina ",
+    "subtitleLink": "Prenota un Audit",
     "subtitleSuffix": ".",
     "info": {
-      "emailLabel": "E-mail",
-      "phoneLabel": "Telefono e sede",
-      "city": "Zurigo, Svizzera",
+      "emailLabel": "Email",
+      "phoneLabel": "Telefono e Sede",
+      "city": "Zurich, Switzerland",
       "responseLabel": "Tempo di risposta",
       "responseValue": "Entro 1 giorno lavorativo",
       "responseSub": "Siladii Alpine Marketing"
@@ -469,17 +469,19 @@
     "form": {
       "name": "Nome",
       "namePh": "Mario Rossi",
-      "email": "E-mail",
-      "emailPh": "mario@azienda.ch",
+      "email": "Email",
+      "emailPh": "mario@azienda.com",
       "company": "Azienda",
-      "companyPh": "Acme SA",
+      "companyPh": "Acme GmbH",
+      "phone": "Numero di telefono",
+      "phonePh": "+41 79 000 00 00",
       "service": "Servizio di interesse",
       "serviceDefault": "Seleziona (opzionale)",
       "serviceOptions": {
         "performance": "Performance Marketing",
-        "crm": "CRM + Automation",
+        "crm": "CRM + Automazione",
         "reporting": "Reporting & Analytics",
-        "content": "Funnel di contenuto",
+        "content": "Content Funnel",
         "audit": "Audit completo del sistema"
       },
       "message": "Messaggio",
@@ -487,19 +489,20 @@
       "requiredLabel": "Obbligatorio:",
       "optionalLabel": "Opzionale:",
       "privacyPrefix": "Ho letto l'",
-      "privacyLink": "Informativa sulla privacy",
+      "privacyLink": "Informativa sulla Privacy",
       "privacySuffix": " e acconsento al trattamento dei miei dati per rispondere a questa richiesta.",
-      "marketingText": "Vorrei ricevere aggiornamenti e insight via e-mail da Alpine Marketing.",
-      "submit": "Invia messaggio",
+      "marketingText": "Desidero ricevere aggiornamenti e approfondimenti via email da Alpine Marketing.",
+      "submit": "Invia Messaggio",
       "validation": {
         "name": "Il nome è obbligatorio",
-        "email": "E-mail valida obbligatoria",
+        "email": "Inserisci un'email valida",
         "company": "Il nome dell'azienda è obbligatorio",
+        "phone": "Il numero di telefono è obbligatorio",
         "message": "Il messaggio è obbligatorio",
-        "consent": "Devi acconsentire per continuare"
+        "consent": "Devi accettare per continuare"
       },
       "toastTitle": "Messaggio ricevuto",
-      "toastDesc": "Ti rispondiamo entro 1 giorno lavorativo."
+      "toastDesc": "Ti risponderemo entro 1 giorno lavorativo."
     }
   },
   "bookAuditPage": {

@@ -453,16 +453,16 @@
     "ctaButton": "Broneeri tasuta audit"
   },
   "contactPage": {
-    "eyebrow": "Võtke meiega ühendust",
+    "eyebrow": "Võtke ühendust",
     "title": "Räägime süsteemidest.",
-    "subtitlePrefix": "Kasutage allolevat vormi üldiste päringute jaoks. Kui soovite struktureeritud lehtri ülevaadet, kasutage ",
+    "subtitlePrefix": "Kasutage allolevat vormi üldiste päringute jaoks. Kui soovite struktureeritud lehtri ülevaatust, kasutage ",
     "subtitleLink": "Auditi broneerimine",
     "subtitleSuffix": " lehekülge.",
     "info": {
       "emailLabel": "E-post",
       "phoneLabel": "Telefon ja asukoht",
       "city": "Zurich, Switzerland",
-      "responseLabel": "Vastamisaeg",
+      "responseLabel": "Vastamise aeg",
       "responseValue": "1 tööpäeva jooksul",
       "responseSub": "Siladii Alpine Marketing"
     },
@@ -473,6 +473,8 @@
       "emailPh": "jane@company.com",
       "company": "Ettevõte",
       "companyPh": "Acme GmbH",
+      "phone": "Telefoninumber",
+      "phonePh": "+41 79 000 00 00",
       "service": "Teenuse huvi",
       "serviceDefault": "Vali (valikuline)",
       "serviceOptions": {
@@ -487,18 +489,19 @@
       "requiredLabel": "Kohustuslik:",
       "optionalLabel": "Valikuline:",
       "privacyPrefix": "Olen tutvunud ",
-      "privacyLink": "privaatsusteatisega",
-      "privacySuffix": " ja nõustun, et minu andmeid töödeldakse sellele päringule vastamiseks.",
-      "marketingText": "Soovin saada Alpine Marketingilt e-posti teel uuendusi ja teadmisi.",
+      "privacyLink": "Privaatsusteatisega",
+      "privacySuffix": " ja nõustun oma andmete töötlemisega selle päringu vastamiseks.",
+      "marketingText": "Soovin saada e-posti teel uuendusi ja teadmisi Alpine Marketingilt.",
       "submit": "Saada sõnum",
       "validation": {
         "name": "Nimi on kohustuslik",
         "email": "Kehtiv e-posti aadress on kohustuslik",
         "company": "Ettevõtte nimi on kohustuslik",
+        "phone": "Telefoninumber on kohustuslik",
         "message": "Sõnum on kohustuslik",
         "consent": "Jätkamiseks peate nõustuma"
       },
-      "toastTitle": "Sõnum on kätte saadud",
+      "toastTitle": "Sõnum vastu võetud",
       "toastDesc": "Võtame teiega ühendust 1 tööpäeva jooksul."
     }
   },

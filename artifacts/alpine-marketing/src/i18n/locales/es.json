@@ -453,9 +453,9 @@
     "ctaButton": "Reserva tu auditoría gratuita"
   },
   "contactPage": {
-    "eyebrow": "Contacta con nosotros",
+    "eyebrow": "Contáctanos",
     "title": "Hablemos de sistemas.",
-    "subtitlePrefix": "Utiliza el formulario a continuación para consultas generales. Si deseas una revisión estructurada de tu embudo, visita la página ",
+    "subtitlePrefix": "Usa el formulario para consultas generales. Si deseas una revisión estructurada de tu embudo, visita la página ",
     "subtitleLink": "Reservar Auditoría",
     "subtitleSuffix": ".",
     "info": {
@@ -470,9 +470,11 @@
       "name": "Nombre",
       "namePh": "Jane Smith",
       "email": "Email",
-      "emailPh": "jane@company.com",
+      "emailPh": "jane@empresa.com",
       "company": "Empresa",
       "companyPh": "Acme GmbH",
+      "phone": "Número de teléfono",
+      "phonePh": "+41 79 000 00 00",
       "service": "Servicio de interés",
       "serviceDefault": "Seleccionar (opcional)",
       "serviceOptions": {
@@ -488,13 +490,14 @@
       "optionalLabel": "Opcional:",
       "privacyPrefix": "He leído el ",
       "privacyLink": "Aviso de privacidad",
-      "privacySuffix": " y doy mi consentimiento para que mis datos sean tratados con el fin de responder a esta consulta.",
-      "marketingText": "Me gustaría recibir actualizaciones e información por email de Alpine Marketing.",
+      "privacySuffix": " y consiento que mis datos sean tratados para responder a esta consulta.",
+      "marketingText": "Me gustaría recibir actualizaciones e insights por email de Alpine Marketing.",
       "submit": "Enviar mensaje",
       "validation": {
         "name": "El nombre es obligatorio",
         "email": "Se requiere un email válido",
         "company": "El nombre de la empresa es obligatorio",
+        "phone": "El número de teléfono es obligatorio",
         "message": "El mensaje es obligatorio",
         "consent": "Debes aceptar para continuar"
       },

@@ -453,53 +453,56 @@
     "ctaButton": "Rezervē savu bezmaksas auditu"
   },
   "contactPage": {
-    "eyebrow": "Sazinieties ar mums",
+    "eyebrow": "Sazinies ar mums",
     "title": "Parunāsim par sistēmām.",
-    "subtitlePrefix": "Izmantojiet zemāk esošo formu vispārīgiem jautājumiem. Ja vēlaties strukturētu piltuvju pārskatu, izmantojiet ",
+    "subtitlePrefix": "Vispārīgiem jautājumiem izmanto zemāk esošo formu. Ja vēlies strukturētu piltuvju analīzi, apmeklē lapu ",
     "subtitleLink": "Rezervēt auditu",
-    "subtitleSuffix": " lapu.",
+    "subtitleSuffix": ".",
     "info": {
       "emailLabel": "E-pasts",
       "phoneLabel": "Tālrunis un atrašanās vieta",
       "city": "Zurich, Switzerland",
       "responseLabel": "Atbildes laiks",
-      "responseValue": "Vienas darba dienas laikā",
+      "responseValue": "1 darba dienas laikā",
       "responseSub": "Siladii Alpine Marketing"
     },
     "form": {
       "name": "Vārds",
-      "namePh": "Jane Smith",
+      "namePh": "Jana Bērziņa",
       "email": "E-pasts",
-      "emailPh": "jane@company.com",
+      "emailPh": "jana@uznemums.lv",
       "company": "Uzņēmums",
       "companyPh": "Acme GmbH",
-      "service": "Pakalpojumu interese",
+      "phone": "Tālruņa numurs",
+      "phonePh": "+41 79 000 00 00",
+      "service": "Interesējošais pakalpojums",
       "serviceDefault": "Izvēlēties (neobligāti)",
       "serviceOptions": {
-        "performance": "Efektivitātes mārketings",
-        "crm": "CRM + Automatizācija",
+        "performance": "Veiktspējas mārketings",
+        "crm": "CRM + automatizācija",
         "reporting": "Pārskati un analītika",
         "content": "Satura piltuves",
-        "audit": "Pilnas sistēmas audits"
+        "audit": "Pilna sistēmas revīzija"
       },
       "message": "Ziņojums",
-      "messagePh": "Pastāstiet mums par savu situāciju...",
+      "messagePh": "Pastāsti mums par savu situāciju...",
       "requiredLabel": "Obligāti:",
       "optionalLabel": "Neobligāti:",
       "privacyPrefix": "Esmu izlasījis(-usi) ",
       "privacyLink": "Privātuma paziņojumu",
       "privacySuffix": " un piekrītu savu datu apstrādei, lai atbildētu uz šo pieprasījumu.",
-      "marketingText": "Vēlos saņemt e-pasta atjauninājumus un ieskatus no Alpine Marketing.",
+      "marketingText": "Vēlos saņemt e-pasta jaunumus un ieskatus no Alpine Marketing.",
       "submit": "Nosūtīt ziņojumu",
       "validation": {
         "name": "Vārds ir obligāts",
         "email": "Nepieciešams derīgs e-pasta adrese",
         "company": "Uzņēmuma nosaukums ir obligāts",
+        "phone": "Tālruņa numurs ir obligāts",
         "message": "Ziņojums ir obligāts",
-        "consent": "Lai turpinātu, jums jāpiekrīt"
+        "consent": "Lai turpinātu, jāpiekrīt noteikumiem"
       },
       "toastTitle": "Ziņojums saņemts",
-      "toastDesc": "Mēs sazināsimies ar jums vienas darba dienas laikā."
+      "toastDesc": "Mēs sazināsimies 1 darba dienas laikā."
     }
   },
   "bookAuditPage": {

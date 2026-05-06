@@ -454,13 +454,13 @@
   },
   "contactPage": {
     "eyebrow": "Kontaktujte nás",
-    "title": "Pojďme mluvit o systémech.",
-    "subtitlePrefix": "Pro obecné dotazy použijte níže uvedený formulář. Pokud máte zájem o strukturovaný přehled funnelu, přejděte na stránku ",
-    "subtitleLink": "Objednat audit",
+    "title": "Pojďme si promluvit o systémech.",
+    "subtitlePrefix": "Pro obecné dotazy použijte níže uvedený formulář. Pokud máte zájem o strukturovaný přehled vašeho funnelu, přejděte na stránku ",
+    "subtitleLink": "Rezervovat audit",
     "subtitleSuffix": ".",
     "info": {
       "emailLabel": "E-mail",
-      "phoneLabel": "Telefon a poloha",
+      "phoneLabel": "Telefon a lokalita",
       "city": "Zurich, Switzerland",
       "responseLabel": "Doba odpovědi",
       "responseValue": "Do 1 pracovního dne",
@@ -473,14 +473,16 @@
       "emailPh": "jana@firma.cz",
       "company": "Společnost",
       "companyPh": "Acme GmbH",
+      "phone": "Telefonní číslo",
+      "phonePh": "+41 79 000 00 00",
       "service": "Zájem o službu",
       "serviceDefault": "Vyberte (volitelné)",
       "serviceOptions": {
         "performance": "Performance Marketing",
-        "crm": "CRM + automatizace",
+        "crm": "CRM + Automatizace",
         "reporting": "Reporting a analytika",
         "content": "Obsahové funnely",
-        "audit": "Audit celého systému"
+        "audit": "Komplexní systémový audit"
       },
       "message": "Zpráva",
       "messagePh": "Popište nám vaši situaci...",
@@ -488,15 +490,16 @@
       "optionalLabel": "Volitelné:",
       "privacyPrefix": "Přečetl/a jsem si ",
       "privacyLink": "Zásady ochrany osobních údajů",
-      "privacySuffix": " a souhlasím se zpracováním mých údajů za účelem zodpovězení tohoto dotazu.",
-      "marketingText": "Chci dostávat e-mailové novinky a tipy od Alpine Marketing.",
+      "privacySuffix": " a souhlasím se zpracováním mých údajů za účelem odpovědi na tento dotaz.",
+      "marketingText": "Chci dostávat e-mailové novinky a odborné poznatky od Alpine Marketing.",
       "submit": "Odeslat zprávu",
       "validation": {
         "name": "Jméno je povinné",
-        "email": "Zadejte platný e-mail",
+        "email": "Zadejte platnou e-mailovou adresu",
         "company": "Název společnosti je povinný",
+        "phone": "Telefonní číslo je povinné",
         "message": "Zpráva je povinná",
-        "consent": "Pro pokračování musíte souhlasit"
+        "consent": "Pro pokračování je nutný váš souhlas"
       },
       "toastTitle": "Zpráva přijata",
       "toastDesc": "Ozveme se vám do 1 pracovního dne."

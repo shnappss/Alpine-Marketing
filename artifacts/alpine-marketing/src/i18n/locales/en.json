@@ -473,6 +473,8 @@
       "emailPh": "jane@company.com",
       "company": "Company",
       "companyPh": "Acme GmbH",
+      "phone": "Phone Number",
+      "phonePh": "+41 79 000 00 00",
       "service": "Service interest",
       "serviceDefault": "Select (optional)",
       "serviceOptions": {
@@ -495,6 +497,7 @@
         "name": "Name is required",
         "email": "Valid email is required",
         "company": "Company name is required",
+        "phone": "Phone number is required",
         "message": "Message is required",
         "consent": "You must agree to continue"
       },

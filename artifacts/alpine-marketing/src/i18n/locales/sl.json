@@ -462,44 +462,47 @@
       "emailLabel": "E-pošta",
       "phoneLabel": "Telefon in lokacija",
       "city": "Zurich, Switzerland",
-      "responseLabel": "Čas odziva",
-      "responseValue": "V 1 delovnem dnevu",
+      "responseLabel": "Odzivni čas",
+      "responseValue": "V roku 1 delovnega dne",
       "responseSub": "Siladii Alpine Marketing"
     },
     "form": {
       "name": "Ime",
-      "namePh": "Ana Novak",
+      "namePh": "Jana Novak",
       "email": "E-pošta",
-      "emailPh": "ana@podjetje.com",
+      "emailPh": "jana@podjetje.com",
       "company": "Podjetje",
       "companyPh": "Acme GmbH",
+      "phone": "Telefonska številka",
+      "phonePh": "+41 79 000 00 00",
       "service": "Področje zanimanja",
       "serviceDefault": "Izberite (neobvezno)",
       "serviceOptions": {
-        "performance": "Oglaševanje z merljivimi rezultati",
+        "performance": "Oglaševanje z meritvami učinkovitosti",
         "crm": "CRM + Avtomatizacija",
         "reporting": "Poročanje in analitika",
         "content": "Vsebinski lijaki",
         "audit": "Celostna sistemska revizija"
       },
       "message": "Sporočilo",
-      "messagePh": "Opišite nam vašo situacijo...",
+      "messagePh": "Opišite nam svojo situacijo ...",
       "requiredLabel": "Obvezno:",
       "optionalLabel": "Neobvezno:",
       "privacyPrefix": "Prebral/-a sem ",
       "privacyLink": "Obvestilo o zasebnosti",
-      "privacySuffix": " in soglašam z obdelavo mojih podatkov za namen odgovora na to povpraševanje.",
+      "privacySuffix": " in soglašam z obdelavo svojih podatkov za namene odgovora na to povpraševanje.",
       "marketingText": "Želim prejemati e-poštne novosti in strokovne vpoglede Alpine Marketing.",
       "submit": "Pošlji sporočilo",
       "validation": {
         "name": "Ime je obvezno",
-        "email": "Vnesti morate veljavni e-poštni naslov",
-        "company": "Naziv podjetja je obvezen",
+        "email": "Vnesite veljavni e-poštni naslov",
+        "company": "Ime podjetja je obvezno",
+        "phone": "Telefonska številka je obvezna",
         "message": "Sporočilo je obvezno",
         "consent": "Za nadaljevanje morate podati soglasje"
       },
       "toastTitle": "Sporočilo prejeto",
-      "toastDesc": "Odgovorili vam bomo v 1 delovnem dnevu."
+      "toastDesc": "Javili se vam bomo v roku 1 delovnega dne."
     }
   },
   "bookAuditPage": {

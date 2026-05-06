@@ -459,20 +459,22 @@
     "subtitleLink": "Rezervirajte reviziju",
     "subtitleSuffix": ".",
     "info": {
-      "emailLabel": "E-pošta",
+      "emailLabel": "E-mail",
       "phoneLabel": "Telefon i lokacija",
-      "city": "Zurich, Switzerland",
+      "city": "Zurich, Švicarska",
       "responseLabel": "Vrijeme odgovora",
-      "responseValue": "U roku od 1 radnog dana",
+      "responseValue": "Unutar 1 radnog dana",
       "responseSub": "Siladii Alpine Marketing"
     },
     "form": {
       "name": "Ime",
-      "namePh": "Jane Smith",
-      "email": "E-pošta",
-      "emailPh": "jane@company.com",
+      "namePh": "Ana Horvat",
+      "email": "E-mail",
+      "emailPh": "ana@tvrtka.com",
       "company": "Tvrtka",
       "companyPh": "Acme GmbH",
+      "phone": "Broj telefona",
+      "phonePh": "+41 79 000 00 00",
       "service": "Područje interesa",
       "serviceDefault": "Odaberite (neobavezno)",
       "serviceOptions": {
@@ -480,7 +482,7 @@
         "crm": "CRM + Automatizacija",
         "reporting": "Izvještavanje i analitika",
         "content": "Content lijevci",
-        "audit": "Kompletna revizija sustava"
+        "audit": "Cjelovita revizija sustava"
       },
       "message": "Poruka",
       "messagePh": "Opišite nam svoju situaciju...",
@@ -488,18 +490,19 @@
       "optionalLabel": "Neobavezno:",
       "privacyPrefix": "Pročitao/la sam ",
       "privacyLink": "Obavijest o privatnosti",
-      "privacySuffix": " i dajem suglasnost za obradu svojih podataka u svrhu odgovora na ovaj upit.",
-      "marketingText": "Želim primati e-mail obavijesti i uvide od Alpine Marketing.",
-      "submit": "Pošalji poruku",
+      "privacySuffix": " i pristajem na obradu mojih podataka u svrhu odgovora na ovaj upit.",
+      "marketingText": "Želim primati e-mail novosti i uvide od Alpine Marketing.",
+      "submit": "Pošaljite poruku",
       "validation": {
         "name": "Ime je obavezno",
-        "email": "Potrebna je ispravna e-mail adresa",
+        "email": "Potrebna je valjana e-mail adresa",
         "company": "Naziv tvrtke je obavezan",
+        "phone": "Broj telefona je obavezan",
         "message": "Poruka je obavezna",
-        "consent": "Morate se složiti kako biste nastavili"
+        "consent": "Morate prihvatiti uvjete za nastavak"
       },
       "toastTitle": "Poruka primljena",
-      "toastDesc": "Javit ćemo vam se u roku od 1 radnog dana."
+      "toastDesc": "Javit ćemo vam se unutar 1 radnog dana."
     }
   },
   "bookAuditPage": {

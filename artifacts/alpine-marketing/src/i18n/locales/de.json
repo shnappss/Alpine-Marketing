@@ -454,8 +454,8 @@
   },
   "contactPage": {
     "eyebrow": "Kontakt aufnehmen",
-    "title": "Reden wir über Systeme.",
-    "subtitlePrefix": "Nutzen Sie das Formular für allgemeine Anfragen. Für eine strukturierte Funnel-Analyse nutzen Sie die Seite ",
+    "title": "Sprechen wir über Systeme.",
+    "subtitlePrefix": "Nutzen Sie das Formular unten für allgemeine Anfragen. Für eine strukturierte Funnel-Analyse besuchen Sie die Seite ",
     "subtitleLink": "Audit buchen",
     "subtitleSuffix": ".",
     "info": {
@@ -463,43 +463,46 @@
       "phoneLabel": "Telefon & Standort",
       "city": "Zürich, Schweiz",
       "responseLabel": "Antwortzeit",
-      "responseValue": "Innerhalb 1 Arbeitstag",
+      "responseValue": "Innerhalb von 1 Werktag",
       "responseSub": "Siladii Alpine Marketing"
     },
     "form": {
       "name": "Name",
-      "namePh": "Maria Müller",
+      "namePh": "Max Mustermann",
       "email": "E-Mail",
-      "emailPh": "maria@firma.ch",
+      "emailPh": "max@firma.ch",
       "company": "Unternehmen",
       "companyPh": "Acme GmbH",
-      "service": "Interesse an Leistung",
+      "phone": "Telefonnummer",
+      "phonePh": "+41 79 000 00 00",
+      "service": "Leistungsbereich",
       "serviceDefault": "Auswählen (optional)",
       "serviceOptions": {
         "performance": "Performance Marketing",
-        "crm": "CRM + Automation",
+        "crm": "CRM + Automatisierung",
         "reporting": "Reporting & Analytics",
         "content": "Content-Funnels",
-        "audit": "Full-System-Audit"
+        "audit": "Systemweites Audit"
       },
       "message": "Nachricht",
-      "messagePh": "Erzählen Sie uns von Ihrer Situation...",
-      "requiredLabel": "Pflicht:",
+      "messagePh": "Beschreiben Sie uns Ihre Situation…",
+      "requiredLabel": "Pflichtfelder:",
       "optionalLabel": "Optional:",
       "privacyPrefix": "Ich habe die ",
       "privacyLink": "Datenschutzerklärung",
-      "privacySuffix": " gelesen und stimme der Verarbeitung meiner Daten zur Beantwortung dieser Anfrage zu.",
+      "privacySuffix": " gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung dieser Anfrage zu.",
       "marketingText": "Ich möchte E-Mail-Updates und Insights von Alpine Marketing erhalten.",
       "submit": "Nachricht senden",
       "validation": {
         "name": "Name ist erforderlich",
-        "email": "Gültige E-Mail erforderlich",
-        "company": "Firmenname erforderlich",
-        "message": "Nachricht erforderlich",
-        "consent": "Sie müssen zustimmen, um fortzufahren"
+        "email": "Eine gültige E-Mail-Adresse ist erforderlich",
+        "company": "Unternehmensname ist erforderlich",
+        "phone": "Telefonnummer ist erforderlich",
+        "message": "Nachricht ist erforderlich",
+        "consent": "Bitte stimmen Sie zu, um fortzufahren"
       },
       "toastTitle": "Nachricht erhalten",
-      "toastDesc": "Wir melden uns innerhalb 1 Arbeitstag."
+      "toastDesc": "Wir melden uns innerhalb von 1 Werktag bei Ihnen."
     }
   },
   "bookAuditPage": {

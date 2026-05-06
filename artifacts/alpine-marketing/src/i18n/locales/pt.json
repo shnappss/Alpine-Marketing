@@ -453,14 +453,14 @@
     "ctaButton": "Agende a Sua Auditoria Gratuita"
   },
   "contactPage": {
-    "eyebrow": "Entre em Contacto",
+    "eyebrow": "Contacte-nos",
     "title": "Vamos falar de sistemas.",
     "subtitlePrefix": "Utilize o formulário abaixo para questões gerais. Se pretende uma análise estruturada do seu funil, aceda à página ",
     "subtitleLink": "Agendar Auditoria",
     "subtitleSuffix": ".",
     "info": {
       "emailLabel": "Email",
-      "phoneLabel": "Telefone e Localização",
+      "phoneLabel": "Telefone & Localização",
       "city": "Zurich, Switzerland",
       "responseLabel": "Tempo de resposta",
       "responseValue": "Até 1 dia útil",
@@ -468,38 +468,41 @@
     },
     "form": {
       "name": "Nome",
-      "namePh": "Jane Smith",
+      "namePh": "Maria Silva",
       "email": "Email",
-      "emailPh": "jane@empresa.com",
+      "emailPh": "maria@empresa.com",
       "company": "Empresa",
       "companyPh": "Acme GmbH",
+      "phone": "Número de Telefone",
+      "phonePh": "+41 79 000 00 00",
       "service": "Serviço de interesse",
-      "serviceDefault": "Seleccionar (opcional)",
+      "serviceDefault": "Selecionar (opcional)",
       "serviceOptions": {
         "performance": "Marketing de Performance",
         "crm": "CRM + Automação",
-        "reporting": "Relatórios e Análise de Dados",
+        "reporting": "Relatórios & Análise",
         "content": "Funis de Conteúdo",
         "audit": "Auditoria completa do sistema"
       },
       "message": "Mensagem",
-      "messagePh": "Descreva-nos a sua situação...",
+      "messagePh": "Descreva a sua situação...",
       "requiredLabel": "Obrigatório:",
       "optionalLabel": "Opcional:",
       "privacyPrefix": "Li a ",
       "privacyLink": "Política de Privacidade",
-      "privacySuffix": " e consinto que as minhas informações sejam tratadas para responder a esta solicitação.",
-      "marketingText": "Gostaria de receber actualizações por email e conteúdos da Alpine Marketing.",
+      "privacySuffix": " e consinto que os meus dados sejam tratados para responder a esta solicitação.",
+      "marketingText": "Gostaria de receber atualizações e informações por email da Alpine Marketing.",
       "submit": "Enviar Mensagem",
       "validation": {
         "name": "O nome é obrigatório",
         "email": "É necessário um email válido",
         "company": "O nome da empresa é obrigatório",
+        "phone": "O número de telefone é obrigatório",
         "message": "A mensagem é obrigatória",
         "consent": "Deve aceitar para continuar"
       },
       "toastTitle": "Mensagem recebida",
-      "toastDesc": "Entraremos em contacto dentro de 1 dia útil."
+      "toastDesc": "Entraremos em contacto no prazo de 1 dia útil."
     }
   },
   "bookAuditPage": {

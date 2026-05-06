@@ -14,6 +14,7 @@ const formSchema = z.object({
   name: z.string().min(2, "Name is required"),
   email: z.string().email("Valid email is required"),
   company: z.string().min(2, "Company name is required"),
+  phone: z.string().min(7, "Phone number is required"),
   challenge: z.string().min(10, "Please describe your challenge briefly"),
 });
 
@@ -25,6 +26,7 @@ export default function ContactSection() {
       name: "",
       email: "",
       company: "",
+      phone: "",
       challenge: "",
     },
   });
@@ -124,6 +126,20 @@ export default function ContactSection() {
                     <FormLabel>Company Name</FormLabel>
                     <FormControl>
                       <Input placeholder="Acme Corp" {...field} className="bg-background border-white/10" data-testid="input-company" />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="phone"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Phone Number</FormLabel>
+                    <FormControl>
+                      <Input type="tel" placeholder="+41 79 000 00 00" {...field} className="bg-background border-white/10" data-testid="input-phone" />
                     </FormControl>
                     <FormMessage />
                   </FormItem>

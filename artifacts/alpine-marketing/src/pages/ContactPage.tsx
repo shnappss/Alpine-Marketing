@@ -21,6 +21,7 @@ export default function ContactPage() {
     name: z.string().min(2, t("contactPage.form.validation.name")),
     email: z.string().email(t("contactPage.form.validation.email")),
     company: z.string().min(2, t("contactPage.form.validation.company")),
+    phone: z.string().min(7, t("contactPage.form.validation.phone")),
     serviceInterest: z.string().optional(),
     message: z.string().min(10, t("contactPage.form.validation.message")),
     privacyConsent: z.boolean().refine(v => v === true, t("contactPage.form.validation.consent")),
@@ -29,7 +30,7 @@ export default function ContactPage() {
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    defaultValues: { name: "", email: "", company: "", serviceInterest: "", message: "", privacyConsent: false, marketingConsent: false },
+    defaultValues: { name: "", email: "", company: "", phone: "", serviceInterest: "", message: "", privacyConsent: false, marketingConsent: false },
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
@@ -119,6 +120,11 @@ export default function ContactPage() {
                   <FormField control={form.control} name="company" render={({ field }) => (
                     <FormItem><FormLabel>{t("contactPage.form.company")} *</FormLabel>
                       <FormControl><Input placeholder={t("contactPage.form.companyPh")} {...field} className="bg-background border-white/10" /></FormControl>
+                      <FormMessage /></FormItem>
+                  )} />
+                  <FormField control={form.control} name="phone" render={({ field }) => (
+                    <FormItem><FormLabel>{t("contactPage.form.phone")} *</FormLabel>
+                      <FormControl><Input type="tel" placeholder={t("contactPage.form.phonePh")} {...field} className="bg-background border-white/10" /></FormControl>
                       <FormMessage /></FormItem>
                   )} />
                   <FormField control={form.control} name="serviceInterest" render={({ field }) => (
