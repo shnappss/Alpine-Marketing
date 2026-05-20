@@ -27,7 +27,7 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - `src/components/ComparisonSection.tsx` — AI vs Manual comparison
 - `src/components/WhyAlpineSection.tsx` — 6-card differentiator grid
 - `src/components/TeamSection.tsx` — Team section with photo
-- `src/components/ContactSection.tsx` — CTA + contact form
+- `src/components/CalendarSection.tsx` — Inflowave calendar embed for discovery call booking (id="book-call")
 - `src/components/Footer.tsx` — Footer with logo, links
 - `src/hooks/useCountUp.ts` — Framer Motion count-up hook
 
