@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import LegalPageTemplate from "../../components/LegalPageTemplate";
+import { Link } from "wouter";
 
 const CONSENT_KEY = "am_cookie_consent";
 const CONSENT_VER = "1.0";
@@ -107,7 +108,7 @@ export default function PrivacyChoicesPage() {
       <h2>Data Rights</h2>
       <p>
         To exercise any of your privacy rights (access, deletion, correction, portability, objection), visit our{" "}
-        <a href="/legal/data-requests">Data Requests</a> page or email <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>.
+        <Link href="/legal/data-requests">Data Requests</Link> page or email <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>.
       </p>
     </LegalPageTemplate>
   );

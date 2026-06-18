@@ -79,7 +79,7 @@ export default function Nav() {
                 : "text-white/55 hover:text-white/90";
               const activeCls = useLight ? "text-zinc-900" : "text-white";
               return (
-                <a
+                <Link
                   key={link.name}
                   href={link.href}
                   data-testid={`link-${link.name.toLowerCase().replace(/\s+/g, "-")}`}
@@ -96,7 +96,7 @@ export default function Nav() {
                     }`}
                   />
                   <span className="relative">{link.name}</span>
-                </a>
+                </Link>
               );
             })}
           </nav>
@@ -151,14 +151,14 @@ export default function Nav() {
             >
               <div className="max-w-7xl mx-auto px-5 py-5 flex flex-col gap-1">
                 {PRIMARY_LINKS.map((link) => (
-                  <a
+                  <Link
                     key={link.name}
                     href={link.href}
                     className="px-4 py-3 text-[15px] font-medium text-white/60 hover:text-white rounded-lg hover:bg-white/[0.05] transition-all"
                     onClick={() => setMobileOpen(false)}
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 ))}
                 <div className="mt-3 pt-3 border-t border-white/[0.07] flex items-center justify-between gap-3">
                   <LanguageSwitcher variant="dark" />

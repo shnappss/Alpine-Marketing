@@ -48,6 +48,7 @@ export default function ServicesPage() {
               return (
                 <motion.div
                   key={svc.slug}
+                  id={svc.slug}
                   initial={{ opacity: 0, y: 24 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 + i * 0.08 }}
@@ -67,7 +68,7 @@ export default function ServicesPage() {
                     ))}
                   </ul>
                   <Link
-                    href={`/services/${svc.slug}`}
+                    href={`/services#${svc.slug}`}
                     className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary group-hover:gap-3 transition-all"
                   >
                     {t("servicesPage.learnMore")} <ArrowRight className="w-4 h-4" />

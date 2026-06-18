@@ -1,4 +1,5 @@
 import LegalPageTemplate from "../../components/LegalPageTemplate";
+import { Link } from "wouter";
 
 export default function LegalNoticePage() {
   return (
@@ -41,7 +42,7 @@ export default function LegalNoticePage() {
 
       <h2>Disclaimer of Liability</h2>
       <p>
-        Despite careful control of content, Alpine Marketing assumes no liability for the content of external links. The operators of linked sites are solely responsible for their content. For further details, see our <a href="/legal/disclaimer">Disclaimer</a>.
+        Despite careful control of content, Alpine Marketing assumes no liability for the content of external links. The operators of linked sites are solely responsible for their content. For further details, see our <Link href="/legal/disclaimer">Disclaimer</Link>.
       </p>
 
       <h2>Jurisdiction</h2>

@@ -85,14 +85,14 @@ export default function HeroSection() {
               {t("hero.primaryCta")}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
-            <a href="/#results"
+            <Link href="/#results"
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-[15px] transition-all duration-200"
               style={{ color: "rgba(255,255,255,0.55)", border: "1px solid rgba(255,255,255,0.1)",
                        fontFamily: "'Space Grotesk', sans-serif" }}
               data-testid="button-hero-secondary">
               {t("hero.secondaryCta")}
               <ChevronDown className="w-4 h-4" />
-            </a>
+            </Link>
           </motion.div>
 
           {/* Trust strip */}

@@ -1,4 +1,5 @@
 import LegalPageTemplate from "../../components/LegalPageTemplate";
+import { Link } from "wouter";
 
 export default function PrivacyPage() {
   return (
@@ -65,7 +66,7 @@ export default function PrivacyPage() {
         Depending on your jurisdiction, you may have the right to: access your personal data; correct inaccurate data; request deletion ("right to be forgotten"); object to processing; restrict processing; data portability; and withdraw consent at any time without affecting the lawfulness of prior processing.
       </p>
       <p>
-        To exercise your rights, visit our <a href="/legal/data-requests">Data Requests</a> page or email <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>. We will respond within 30 days.
+        To exercise your rights, visit our <Link href="/legal/data-requests">Data Requests</Link> page or email <a href="mailto:roman@alpinemarketing.ch">roman@alpinemarketing.ch</a>. We will respond within 30 days.
       </p>
 
       <h2>8. Complaints</h2>

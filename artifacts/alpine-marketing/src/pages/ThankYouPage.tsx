@@ -25,7 +25,7 @@ export default function ThankYouPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/case-studies"
+                href="/#results"
                 className="inline-flex items-center gap-2 px-8 py-3.5 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-all"
               >
                 {t("thankYouPage.primary")} <ArrowRight className="w-4 h-4" />

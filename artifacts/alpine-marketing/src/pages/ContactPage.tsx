@@ -12,6 +12,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
 import { Button } from "../components/ui/button";
+import { Link } from "wouter";
 
 export default function ContactPage() {
   const { t } = useTranslation();
@@ -60,7 +61,7 @@ export default function ContactPage() {
               className="text-muted-foreground text-lg"
             >
               {t("contactPage.subtitlePrefix")}
-              <a href="/book-audit" className="text-primary underline">{t("contactPage.subtitleLink")}</a>
+              <Link href="/book-audit" className="text-primary underline">{t("contactPage.subtitleLink")}</Link>
               {t("contactPage.subtitleSuffix")}
             </motion.p>
           </div>
@@ -156,7 +157,7 @@ export default function ContactPage() {
                         <label htmlFor="pc" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
                           <span className="text-white font-medium">{t("contactPage.form.requiredLabel")} </span>
                           {t("contactPage.form.privacyPrefix")}
-                          <a href="/legal/privacy" className="text-primary underline">{t("contactPage.form.privacyLink")}</a>
+                          <Link href="/legal/privacy" className="text-primary underline">{t("contactPage.form.privacyLink")}</Link>
                           {t("contactPage.form.privacySuffix")}
                         </label>
                       </div>

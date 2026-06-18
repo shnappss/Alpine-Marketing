@@ -1,4 +1,5 @@
 import LegalPageTemplate from "../../components/LegalPageTemplate";
+import { Link } from "wouter";
 
 export default function TermsPage() {
   return (
@@ -24,7 +25,7 @@ export default function TermsPage() {
 
       <h2>4. Informational Nature of Content</h2>
       <p>
-        The content on this site is provided for informational and marketing purposes only. Nothing here constitutes legal, tax, financial, or professional advice. See our <a href="/legal/disclaimer">Disclaimer</a> for further details.
+        The content on this site is provided for informational and marketing purposes only. Nothing here constitutes legal, tax, financial, or professional advice. See our <Link href="/legal/disclaimer">Disclaimer</Link> for further details.
       </p>
 
       <h2>5. Enquiries and Bookings</h2>
