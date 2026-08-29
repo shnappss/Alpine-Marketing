@@ -26,7 +26,7 @@ export default function ProblemSection() {
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
-  };
+  } as const;
 
   return (
     <section id="problem" className="py-24 bg-background relative overflow-hidden" ref={ref}>

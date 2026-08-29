@@ -24,6 +24,7 @@ export default function BlogPostPage() {
       document.title = `${meta.title} — Alpine Marketing`;
       return () => { document.title = prev; };
     }
+    return undefined;
   }, [post, lang]);
 
   if (!post) return <NotFound />;
